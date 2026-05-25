@@ -132,7 +132,7 @@ export default function Footer() {
               {products.map((product, index) => (
                 <div
                   key={index}
-                  className="group flex items-start gap-[10px] text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                  className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#ff5e14]"
                 >
                   <FlaskConical
                     size={15}
@@ -161,7 +161,7 @@ export default function Footer() {
                   <MapPin size={18} />
                 </div>
 
-                <p className="text-[15px] leading-[28px] text-white/65">
+                <p className="text-[15px] leading-[28px] text-white">
                   Corechem Corporation
                   <br />
                   Global Chemical Supply Solutions
@@ -177,7 +177,7 @@ export default function Footer() {
 
                 <a
                   href="tel:+919818544039"
-                  className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                  className="text-[15px] text-white transition-all duration-300 hover:text-[#ff5e14]"
                 >
                   +91 98185 44039
                 </a>
