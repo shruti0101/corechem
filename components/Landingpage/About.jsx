@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function AboutUsSection() {
   return (
     <section className="relative w-full py-7 bg-white overflow-hidden">
-      <div className="mx-auto w-full px-10  flex items-center">
+      <div className="mx-auto w-full px-15  grid grid-cols-2 flex items-center">
         
         {/* ================= LEFT SIDE ================= */}
         <div className="relative">
@@ -14,7 +14,7 @@ export default function AboutUsSection() {
     
 
           {/* IMAGE CONTAINER */}
-          <div className="relative  w-[650px] h-[785px]">
+          <div className="relative  w-[700px] h-[785px]">
             
             {/* MAIN IMAGE */}
             <Image
@@ -30,7 +30,7 @@ export default function AboutUsSection() {
             <div className="absolute left-0 bottom-0 w-[528px] h-[171px] bg-[#111111] z-20 flex items-center">
               
               {/* CONTENT */}
-              <div className="flex items-center pl-[71px]">
+              <div className="flex items-center ">
                 
                 {/* ICON */}
                 <div className="relative w-[70px] h-[70px] mr-[34px]">
@@ -58,7 +58,7 @@ Trusted Titanium Dioxide Supplier
         </div>
 
         {/* ================= RIGHT SIDE ================= */}
-        <div className="relative pt-[6px] pl-[46px] mt-10">
+        <div className="relative pt-[6px]  mt-10">
           
           {/* SMALL HEADING */}
           <div className="flex items-center mt-[2px]">
@@ -144,10 +144,10 @@ Our extensive supply network and quality assurance processes allow us to serve c
         </div>
 
         <a
-          href="tel:+919999999999"
+          href="tel:+919818544039"
           className="text-[#1f2d3d] text-[20px] font-[700] hover:text-[#ff5e14] transition-all"
         >
-          +91 99999 99999
+          +919818544039
         </a>
       </div>
 
@@ -172,10 +172,10 @@ Our extensive supply network and quality assurance processes allow us to serve c
         </div>
 
         <a
-          href="mailto:info@sangamplastic.com"
+          href="mailto:corechemcorporation@gmail.com"
           className="text-[#1f2d3d] text-[20px] font-[700] hover:text-[#ff5e14] transition-all"
         >
-          info@sangamplastic.com
+          corechemcorporation@gmail.com
         </a>
       </div>
     </div>

@@ -1,7 +1,7 @@
 // components/Navbar.tsx
 
 "use client";
-
+import Image from "next/image";
 import {
   ChevronDown,
   Mail,
@@ -35,7 +35,7 @@ export default function Navbar() {
               <Mail className="mr-[25px] h-[15px] w-[15px] text-[#ff5e14]" />
 
               <span className="text-[15px] font-[700] tracking-[-0.2px]">
-                needhelp@company.com
+                corechemcorporation@gmail.com
               </span>
             </div>
 
@@ -47,7 +47,7 @@ export default function Navbar() {
               <MapPin className="mr-[11px] h-[15px] w-[15px] text-[#ff5e14]" />
 
               <span className="text-[15px] font-[700] tracking-[-0.2px]">
-                123 Broklyn New Street, USA
+              Delhi, India
               </span>
             </div>
           </div>
@@ -95,32 +95,12 @@ export default function Navbar() {
           }}
         />
 
-        <div className="relative z-10 flex h-full items-center justify-between pl-[90px] pr-[100px]">
+        <div className="relative z-10 flex h-full items-center justify-between pl-[60px] pr-[100px]">
           {/* LOGO */}
           <div className="flex items-center">
-            {/* ICON */}
-            <div className="relative mr-[18px] h-[58px] w-[58px]">
-              {/* OUTER */}
-              <div className="absolute inset-0 rounded-full border-[4px] border-[#ff5e14]" />
+    <Image className="mb-15" src="/logoo.png" alt="Logo" width={140} height={40} />
 
-              {/* INNER */}
-              <div className="absolute left-1/2 top-1/2 h-[28px] w-[28px] -translate-x-1/2 -translate-y-1/2 rounded-full border-[4px] border-[#ff5e14]" />
-
-              {/* HELMET */}
-              <div className="absolute left-1/2 top-[-1px] h-[20px] w-[36px] -translate-x-1/2 rounded-t-full border-l-[4px] border-r-[4px] border-t-[4px] border-[#ff5e14]" />
-
-              {/* CENTER LINE */}
-              <div className="absolute left-1/2 top-[14px] h-[28px] w-[4px] -translate-x-1/2 bg-[#ff5e14]" />
-
-              {/* BOTTOM LINE */}
-              <div className="absolute bottom-[5px] left-1/2 h-[4px] w-[24px] -translate-x-1/2 bg-[#ff5e14]" />
-            </div>
-
-
-            {/* LOGO TEXT */}
-            <h1 className="text-[33px] font-[800] tracking-[-1.4px]  text-[#1d2b3a]">
-              Congin<span className="text-[#ff5e14]">.</span>
-            </h1>
+          
           </div>
 
           {/* NAV LINKS */}
@@ -159,7 +139,7 @@ export default function Navbar() {
               </p>
 
               <h3 className="text-[17px] font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a]">
-                +99123568000
+                +919818544039
               </h3>
             </div>
           </div>

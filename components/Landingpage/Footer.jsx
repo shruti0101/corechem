@@ -176,10 +176,10 @@ export default function Footer() {
                 </div>
 
                 <a
-                  href="tel:+919999999999"
+                  href="tel:+919818544039"
                   className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
                 >
-                  +91 99999 99999
+                  +91 98185 44039
                 </a>
               </div>
 
@@ -191,10 +191,10 @@ export default function Footer() {
                 </div>
 
                 <a
-                  href="mailto:info@corechemcorp.com"
+                  href="mailto:corechemcorporation@gmail.com"
                   className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
                 >
-                  info@corechemcorp.com
+                 corechemcorporation@gmail.com
                 </a>
               </div>
             </div>

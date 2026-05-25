@@ -15,25 +15,25 @@ const products = [
   {
     title: "Titanium Dioxide",
     desc: "Premium quality titanium dioxide for plastics, paints and industrial coating applications.",
-    image: "/prod1.webp",
+    image: "/pro1.jpeg",
   },
 
   {
     title: "Color Pigment",
     desc: "High-performance color pigments with superior brightness and durability.",
-    image: "/prod2.webp",
+    image: "/pro2.jpeg",
   },
 
   {
     title: "Calcium Carbonate",
     desc: "Industrial-grade calcium carbonate powder for rubber, paper and plastics.",
-    image: "/prod1.webp",
+    image: "/pro1.jpeg",
   },
 
   {
     title: "Optical Brighter",
     desc: "Advanced optical brighteners for enhanced whiteness and finishing quality.",
-    image: "/prod2.webp",
+    image: "/pro2.jpeg",
   },
 ];
 

@@ -94,32 +94,34 @@ export default function IndustrialServicesSection() {
         backgroundImage: "url('/bg-parallax.webp')",
       }}
     >
-      {/* DARK OVERLAY */}
- 
+   
 
+     
+
+      <div className="absolute right-[-150px] bottom-[80px] h-[350px] w-[350px] rounded-full bg-[#ff5e14]/10 blur-[120px]" />
 
       {/* RIGHT ORANGE BAR */}
       <div className="absolute right-0 bottom-[25px] h-[60px] w-[8px] bg-[#ff5e14]" />
 
       {/* CONTENT */}
-      <div className="relative z-10 mx-auto max-w-[1600px] px-5">
+      <div className="relative z-10 mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8 xl:px-10">
         
         {/* HEADING */}
         <div className="text-center">
           
           {/* SMALL TITLE */}
           <div className="flex items-center justify-center gap-[10px]">
-            <span className="text-[#ff5e14] text-[22px] leading-none">
+            <span className="text-[#ff5e14] text-[20px] sm:text-[22px] leading-none">
               /
             </span>
 
-            <span className="uppercase tracking-[2.8px] text-[14px] font-[700] text-white/90">
+            <span className="uppercase tracking-[2.4px] sm:tracking-[2.8px] text-[12px] sm:text-[14px] font-[700] text-white/90">
               Our corechem categories
             </span>
           </div>
 
           {/* MAIN TITLE */}
-          <h2 className="mt-[20px] text-white text-[40px] leading-[55px] sm:text-[48px] sm:leading-[58px] lg:text-[60px] lg:leading-[75px] font-[800] tracking-[-1.5px]">
+          <h2 className="mt-[18px] text-white text-[30px] leading-[42px] sm:text-[42px] sm:leading-[56px] lg:text-[60px] lg:leading-[75px] font-[800] tracking-[-1.5px]">
             We Provide Best Quality
             <br />
             Industrial Services
@@ -127,7 +129,7 @@ export default function IndustrialServicesSection() {
         </div>
 
         {/* SWIPER */}
-        <div className="mt-[53px]">
+        <div className="mt-[45px] sm:mt-[53px]">
           <Swiper
             modules={[Autoplay, Pagination]}
             spaceBetween={24}
@@ -168,10 +170,13 @@ export default function IndustrialServicesSection() {
               return (
                 <SwiperSlide key={index}>
                   
-                  <div className="group relative overflow-hidden bg-black transition-all duration-500 hover:-translate-y-3">
+                  <div className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
                     
+                    {/* TOP GLOW */}
+                    <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#ff5e14] transition-all duration-700 group-hover:w-full" />
+
                     {/* IMAGE */}
-                    <div className="relative h-[280px] overflow-hidden">
+                    <div className="relative h-[240px] sm:h-[260px] lg:h-[280px] overflow-hidden">
                       <Image
                         src={service.image}
                         alt={service.title}
@@ -179,13 +184,15 @@ export default function IndustrialServicesSection() {
                         className="object-cover transition-all duration-700 group-hover:scale-110"
                       />
 
+                      {/* IMAGE OVERLAY */}
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
                     </div>
 
                     {/* CONTENT */}
-                    <div className="relative bg-black px-[24px] pb-[42px] pt-[52px] text-center">
+                    <div className="relative bg-[#0d0d0d] px-[20px] sm:px-[24px] pb-[36px] sm:pb-[42px] pt-[48px] sm:pt-[52px] text-center">
                       
                       {/* ICON */}
-                      <div className="absolute left-1/2 top-0 flex h-[62px] w-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#ff5e14] shadow-[0_15px_35px_rgba(255,94,20,0.4)] transition-all duration-500 group-hover:rotate-[360deg]">
+                      <div className="absolute left-1/2 top-0 flex h-[58px] w-[58px] sm:h-[62px] sm:w-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#ff5e14] shadow-[0_15px_35px_rgba(255,94,20,0.4)] transition-all duration-700 group-hover:rotate-[360deg] group-hover:scale-110">
                         <Icon
                           size={26}
                           strokeWidth={2}
@@ -194,18 +201,18 @@ export default function IndustrialServicesSection() {
                       </div>
 
                       {/* TITLE */}
-                      <h3 className="text-white text-[22px] leading-[32px] font-[700] min-h-[65px]">
+                      <h3 className="text-white text-[20px] sm:text-[22px] leading-[30px] sm:leading-[32px] font-[700] min-h-[65px]">
                         {service.title}
                       </h3>
 
                       {/* DESCRIPTION */}
-                      <p className="mt-[18px] text-white text-[16px] leading-[31px] font-[400]">
+                      <p className="mt-[15px] sm:mt-[18px] text-white/80 text-[15px] sm:text-[16px] leading-[28px] sm:leading-[31px] font-[400]">
                         {service.desc}
                       </p>
                     </div>
 
                     {/* BORDER */}
-                    <div className="absolute inset-0 border border-transparent group-hover:border-[#ff5e14]/70 transition-all duration-500" />
+                    <div className="absolute inset-0 border border-white/5 group-hover:border-[#ff5e14]/70 transition-all duration-500" />
                   </div>
                 </SwiperSlide>
               );
@@ -223,15 +230,16 @@ export default function IndustrialServicesSection() {
         .industrialSwiper .swiper-pagination-bullet {
           width: 12px;
           height: 12px;
-          background: rgba(255, 255, 255, 0.4);
+          background: rgba(255, 255, 255, 0.35);
           opacity: 1;
-          transition: all 0.3s ease;
+          transition: all 0.35s ease;
         }
 
         .industrialSwiper .swiper-pagination-bullet-active {
           width: 34px;
           border-radius: 999px;
           background: #ff5e14;
+          box-shadow: 0 0 18px rgba(255, 94, 20, 0.7);
         }
       `}</style>
     </section>
