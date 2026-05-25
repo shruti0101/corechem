@@ -1,0 +1,253 @@
+"use client";
+
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import {
+  PhoneCall,
+  Mail,
+  MapPin,
+  ArrowUpRight,
+  FlaskConical,
+  Facebook,
+  Instagram,
+  Linkedin,
+  ChevronRight,
+} from "lucide-react";
+
+const quickLinks = [
+  { name: "About Us", href: "/about" },
+  { name: "Our Products", href: "/products" },
+  { name: "Industries We Serve", href: "/industries" },
+  { name: "Contact Us", href: "/contact" },
+  { name: "Sitemap", href: "/sitemap" },
+];
+
+const products = [
+  "Titanium Dioxide",
+  "Titanium Dioxide Rutile",
+  "Titanium Dioxide Anatase",
+  "Color Pigment",
+  "Lithopone",
+  "Optical Brightener",
+];
+
+export default function Footer() {
+  return (
+    <footer className="relative overflow-hidden bg-[#0f1720] text-white">
+      
+      {/* TOP GRADIENT LINE */}
+      <div className="h-[4px] w-full bg-gradient-to-r from-[#ff5e14] via-[#ff7a3c] to-[#ff5e14]" />
+
+      {/* BACKGROUND */}
+      <div
+        className="absolute inset-0  bg-center bg-cover  pointer-events-none"
+        style={{
+          backgroundImage: "url(/imgi_120_footer_bg.webp)"
+           
+        }}
+      />
+
+      {/* GLOW */}
+     
+      {/* MAIN */}
+      <div className="relative z-10 mx-auto max-w-[1380px] px-5 py-[45px]">
+        
+        {/* TOP GRID */}
+        <div className="grid gap-[50px] border-b border-white/10 pb-[55px] lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
+          
+          {/* ABOUT */}
+          <div>
+            
+            {/* LOGO */}
+            <Link href="/" className="inline-block">
+              <Image
+                src="/logo.png"
+                alt="Corechem Corporation"
+                width={190}
+                height={60}
+                className="h-auto w-auto object-contain"
+              />
+            </Link>
+
+            {/* DESC */}
+            <p className="mt-[28px] max-w-[420px] text-[15px] leading-[31px] text-white/65">
+              Corechem Corporation is a trusted Titanium Dioxide Supplier
+              delivering premium-quality TiO₂ solutions for paints, coatings,
+              plastics, inks, rubber, paper, cosmetics, and industrial
+              manufacturing applications worldwide.
+            </p>
+
+            {/* SOCIAL */}
+            <div className="mt-[28px] flex items-center gap-[12px]">
+              
+              {[Facebook, Instagram, Linkedin].map((Icon, index) => (
+                <a
+                  key={index}
+                  href="#"
+                  className="flex h-[42px] w-[42px] items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-white/70 transition-all duration-300 hover:border-[#ff5e14] hover:bg-[#ff5e14] hover:text-white"
+                >
+                  <Icon size={18} strokeWidth={2} />
+                </a>
+              ))}
+            </div>
+          </div>
+
+          {/* QUICK LINKS */}
+          <div>
+            
+            <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
+              Quick Links
+            </h3>
+
+            <div className="mt-[28px] space-y-[16px]">
+              
+              {quickLinks.map((link, index) => (
+                <Link
+                  key={index}
+                  href={link.href}
+                  className="group flex items-center gap-[10px] text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                >
+                  <ChevronRight
+                    size={16}
+                    className="transition-all duration-300 group-hover:translate-x-[3px]"
+                  />
+
+                  {link.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          {/* PRODUCTS */}
+          <div>
+            
+            <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
+              Our Products
+            </h3>
+
+            <div className="mt-[28px] space-y-[16px]">
+              
+              {products.map((product, index) => (
+                <div
+                  key={index}
+                  className="group flex items-start gap-[10px] text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                >
+                  <FlaskConical
+                    size={15}
+                    className="mt-[4px] transition-all duration-300 group-hover:rotate-12"
+                  />
+
+                  <span>{product}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* CONTACT */}
+          <div>
+            
+            <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
+              Contact Information
+            </h3>
+
+            <div className="mt-[28px] space-y-[22px]">
+              
+              {/* ADDRESS */}
+              <div className="flex items-start gap-[14px]">
+                
+                <div className="flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full bg-[#ff5e14]/10 text-[#ff5e14]">
+                  <MapPin size={18} />
+                </div>
+
+                <p className="text-[15px] leading-[28px] text-white/65">
+                  Corechem Corporation
+                  <br />
+                  Global Chemical Supply Solutions
+                </p>
+              </div>
+
+              {/* PHONE */}
+              <div className="flex items-center gap-[14px]">
+                
+                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#ff5e14]/10 text-[#ff5e14]">
+                  <PhoneCall size={17} />
+                </div>
+
+                <a
+                  href="tel:+919999999999"
+                  className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                >
+                  +91 99999 99999
+                </a>
+              </div>
+
+              {/* EMAIL */}
+              <div className="flex items-center gap-[14px]">
+                
+                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#ff5e14]/10 text-[#ff5e14]">
+                  <Mail size={17} />
+                </div>
+
+                <a
+                  href="mailto:info@corechemcorp.com"
+                  className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                >
+                  info@corechemcorp.com
+                </a>
+              </div>
+            </div>
+
+            {/* CTA */}
+            <button className="group mt-[34px] flex h-[58px] items-center gap-[12px] rounded-full bg-[#ff5e14] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
+              
+              Get Bulk Pricing
+
+              <ArrowUpRight
+                size={18}
+                className="transition-all duration-300 group-hover:rotate-45"
+              />
+            </button>
+          </div>
+        </div>
+
+        {/* BOTTOM */}
+        <div className="flex flex-col gap-[16px] pt-[28px] text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
+          
+          <p className="text-[14px] text-white/45">
+            © 2026 Corechem Corporation. All Rights Reserved.
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-[18px] text-[14px] text-white/45 lg:justify-end">
+            
+            <Link
+              href="/privacy-policy"
+              className="transition-all duration-300 hover:text-[#ff5e14]"
+            >
+              Privacy Policy
+            </Link>
+
+            <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
+
+            <Link
+              href="/terms-conditions"
+              className="transition-all duration-300 hover:text-[#ff5e14]"
+            >
+              Terms & Conditions
+            </Link>
+
+            <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
+
+            <p>
+              Designed by{" "}
+              <span className="text-[#ff5e14]">
+                Promozione Branding Pvt. Ltd.
+              </span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
