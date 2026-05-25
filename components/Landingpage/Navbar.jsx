@@ -17,7 +17,7 @@ export default function Navbar() {
   return (
     <header className="w-full overflow-hidden font-sans">
       {/* ================= TOP BAR ================= */}
-      <div className="relative flex h-[53px] w-full">
+      <div className="relative flex h-[45px] w-full">
         {/* EMPTY LEFT SPACE */}
         <div className="w-[238px] bg-transparent" />
 
