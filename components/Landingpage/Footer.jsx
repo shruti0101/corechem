@@ -65,9 +65,9 @@ export default function Footer() {
               <Image
                 src="/logoo.png"
                 alt="Corechem Corporation"
-                width={100}
-                height={60}
-                className="h-auto w-auto object-contain"
+                width={180}
+                height={120}
+                className=" object-contain bg-white rounded-md p-2"
               />
             </Link>
 
