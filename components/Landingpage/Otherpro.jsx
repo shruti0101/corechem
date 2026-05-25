@@ -75,28 +75,27 @@ export default function ProductShowcaseSection() {
             </span>
 
             <span className="uppercase tracking-[1px] text-[15px] font-[500] text-[#ff0000]">
-              Services
+              Our Products
             </span>
           </div>
 
-          {/* MAIN TITLE */}
-          <h2 className="mt-[26px] text-[#1d1d1d] text-[56px] leading-[72px] font-[700] tracking-[-2px]">
-            Providing
-            <br />
-            solutions of
-            <br />
-            every kind
-          </h2>
+      {/* MAIN TITLE */}
+<h2 className="mt-[26px] text-[#1d1d1d] text-[56px] leading-[72px] font-[700] tracking-[-2px]">
 
-          {/* DESC */}
-          <p className="mt-[34px] max-w-[340px] text-[#666] text-[18px] leading-[46px] font-[400]">
-            Engines prime movers and exhaust gas turbochargers.
-          </p>
+ Titanium
 
-          {/* CTA */}
-          <button className="group mt-[34px] border-b border-[#444] pb-[6px] text-[#444] text-[16px] font-[600] uppercase tracking-[-0.2px] transition-all duration-300 hover:text-[#ff0000] hover:border-[#ff0000]">
-            Start Your Next Gain Project
-          </button>
+  Dioxide solutions
+</h2>
+
+{/* DESC */}
+<p className="mt-[34px] max-w-[340px] text-[#666] text-[18px] leading-[46px] font-[400]">
+  High-performance TiO₂ products for paints, plastics, coatings, inks, rubber, and industrial manufacturing applications worldwide.
+</p>
+
+{/* CTA */}
+<button className="group mt-[34px] border-b border-[#444] pb-[6px] text-[#444] text-[16px] font-[600] uppercase tracking-[-0.2px] transition-all duration-300 hover:text-[#ff5e14] hover:border-[#ff5e14]">
+  Explore Industrial Solutions
+</button>
 
           {/* NAVIGATION */}
           <div className="mt-[62px] flex items-center gap-[18px]">
