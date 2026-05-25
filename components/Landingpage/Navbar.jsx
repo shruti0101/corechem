@@ -24,43 +24,43 @@ export default function Navbar() {
         {/* BLACK BAR */}
         <div
           className="relative flex h-full flex-1 items-center justify-between bg-[#111117] "
-          style={{
-   clipPath: "polygon(0 0, 100% 0, 98% 100%, 3% 100%)"
-          }}
+         
         >
-          {/* LEFT INFO */}
-          <div className="flex items-center text-white">
-            {/* EMAIL */}
-            <div className="flex items-center">
-              <Mail className="mr-[25px] h-[15px] w-[15px] text-[#ff5e14]" />
+        
+        {/* LEFT INFO */}
+<div className="flex flex-col sm:flex-row sm:items-center gap-3 sm:gap-0 text-white">
+  
+  {/* EMAIL */}
+  <div className="flex items-center min-w-0">
+    <Mail className="mr-3 ml-5 h-[15px] w-[15px] shrink-0 text-[#ff5e14]" />
 
-              <span className="text-[15px] font-[700] tracking-[-0.2px]">
-                corechemcorporation@gmail.com
-              </span>
-            </div>
+    <span className="text-[13px] sm:text-[15px] font-[600] break-all sm:break-normal">
+      corechemcorporation@gmail.com
+    </span>
+  </div>
 
-            {/* DIVIDER */}
-            <div className="mx-[34px] h-[18px] w-[1px] bg-white/10" />
+  {/* DIVIDER */}
+  <div className="hidden sm:block mx-[24px] lg:mx-[34px] h-[30px] w-[1px] bg-white/60" />
 
-            {/* ADDRESS */}
-            <div className="flex items-center">
-              <MapPin className="mr-[11px] h-[15px] w-[15px] text-[#ff5e14]" />
+  {/* ADDRESS */}
+  <div className="flex items-center">
+    <MapPin className="mr-3 h-[15px] w-[15px] shrink-0 text-[#ff5e14]" />
 
-              <span className="text-[15px] font-[700] tracking-[-0.2px]">
-              Delhi, India
-              </span>
-            </div>
-          </div>
+    <span className="text-[13px] sm:text-[15px] font-[600]">
+      Delhi, India
+    </span>
+  </div>
+</div>
 
           {/* SOCIALS */}
-          <div className="mr-[515px] flex items-center gap-[27px] text-[#8c8e97]">
-            <Twitter className="h-[14px] w-[14px]" strokeWidth={2.5} />
+          <div className="mr-[515px] flex items-center gap-[27px] text-white">
+            <Twitter className="h-[16px] w-[16px]" strokeWidth={2.5} />
 
-            <Facebook className="h-[14px] w-[14px]" strokeWidth={2.5} />
+            <Facebook className="h-[16px] w-[16px]" strokeWidth={2.5} />
 
-            <FaPinterestP className="text-[13px]" />
+            <FaPinterestP className="text-[16px]" />
 
-            <Instagram className="h-[14px] w-[14px]" strokeWidth={2.5} />
+            <Instagram className="h-[16px] w-[16px]" strokeWidth={2.5} />
           </div>
         </div>
 
@@ -81,21 +81,17 @@ export default function Navbar() {
       <div className="relative h-[100px] w-full bg-[#f3f3f5]">
         {/* WHITE LEFT SHAPE */}
         <div
-          className="absolute left-0 top-0 h-full w-[330px] bg-white"
-          style={{
-            clipPath: "polygon(0 0, 84% 0, 100% 100%, 0 100%)",
-          }}
+          className="absolute left-0 top-0 h-full w-[240px] bg-white"
+        
         />
 
         {/* RIGHT LIGHT SHAPE NEAR PHONE */}
         <div
           className="absolute right-[345px] top-0 h-full w-[50px] bg-[#f3f3f5]"
-          style={{
-            clipPath: "polygon(0 0, 84% 0, 100% 100%, 0 100%)",
-          }}
+         
         />
 
-        <div className="relative z-10 flex h-full items-center justify-between pl-[60px] pr-[100px]">
+        <div className="relative z-10 flex h-full items-center justify-between pl-[60px] pr-[150px]">
           {/* LOGO */}
           <div className="flex items-center">
     <Image className="mb-15" src="/logoo.png" alt="Logo" width={140} height={40} />

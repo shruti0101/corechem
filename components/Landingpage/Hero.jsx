@@ -14,8 +14,10 @@ import "swiper/css/pagination";
 export default function Hero() {
   // Desktop banners
   const desktopBanners = [
+      "/banner2.webp",
+      "/banner3.webp",
     "/banner1.webp",
-    "/banner2.webp",
+  
   ];
 
   // Mobile banners
