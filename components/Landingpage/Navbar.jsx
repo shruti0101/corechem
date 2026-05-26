@@ -44,11 +44,11 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="relative z-[999999] w-full overflow-visible font-sans">
+    <header className="relative z-[999999] w-full overflow-visible font-sans bg-orange-50">
       {/* TOP BAR */}
       <div className="relative flex h-[45px] w-full">
         {/* EMPTY LEFT SPACE */}
-        <div className="w-[238px] bg-transparent" />
+        <div className="w-[180px] bg-transparent" />
 
         {/* BLACK BAR */}
         <div className="relative flex h-full flex-1 items-center justify-between bg-[#111117]">
@@ -143,17 +143,17 @@ export default function Navbar() {
       {/* MAIN NAVBAR */}
       <div className="relative z-[999999] min-h-[100px] w-full overflow-visible bg-[#f3f3f5]">
         {/* LEFT WHITE BG */}
-        <div className="absolute left-0 top-0 h-full w-[240px] bg-white" />
+        <div className="absolute left-0 top-0 h-full w-[180px] bg-orange-50" />
 
         {/* RIGHT SHAPE */}
         <div className="absolute right-[345px] top-0 h-full w-[50px] " />
 
-        <div className="relative z-[999999] flex h-[100px] items-center justify-between pl-[60px] pr-[150px]">
+        <div className="relative z-[999999] flex h-[100px] items-center justify-between pl-[30px] pr-[150px]">
           {/* LOGO */}
           <div className="flex items-center ">
             <Link href="/">
               <Image
-                className="cursor-pointer mb-11 "
+                className="cursor-pointer mb-11 bg-orange-50"
                 src="/logoo.png"
                 alt="Logo"
                 width={140}
