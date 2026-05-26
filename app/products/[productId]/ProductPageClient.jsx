@@ -7,7 +7,7 @@ import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
 
-import Enquiry from "@/components/Enquiry";
+// import Enquiry from "@/components/Enquiry";
 
 import {
   ShieldCheck,
@@ -114,7 +114,7 @@ export default function ProductPage({ params }) {
             {/* BUTTONS */}
             <div className="mt-10 flex flex-wrap gap-4">
               <button
-                onClick={() => setIsFormOpen(true)}
+                // onClick={() => setIsFormOpen(true)}
                 className="group inline-flex items-center gap-2 rounded-xl bg-[#ff5e14] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
               >
                 Request Quote
@@ -391,12 +391,12 @@ export default function ProductPage({ params }) {
 
 
       {/* ENQUIRY MODAL */}
-      {isFormOpen && (
+      {/* {isFormOpen && (
         <Enquiry
           isOpen={isFormOpen}
           onClose={() => setIsFormOpen(false)}
         />
-      )}
+      )} */}
     </>
   );
 }
