@@ -115,7 +115,7 @@ export default function ProductPage({ params }) {
             <div className="mt-10 flex flex-wrap gap-4">
               <button
                 // onClick={() => setIsFormOpen(true)}
-                className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312] capitalize"
+                className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e5b712] capitalize"
               >
                get instant price
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
