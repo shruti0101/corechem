@@ -5,13 +5,10 @@ import Image from "next/image";
 export default function IndustrialCTA() {
   return (
     <section className="w-full overflow-hidden">
-      
       {/* MAIN WRAPPER */}
       <div className="relative flex h-[265px] w-full flex-col lg:flex-row">
-        
         {/* LEFT ORANGE SIDE */}
-        <div className="relative flex w-full items-center bg-[#ff5e14] px-[35px] py-[50px] sm:px-[60px] md:px-[90px] lg:w-[64.5%]">
-          
+        <div className="relative flex w-full items-center bg-[#BE8220] px-[35px] py-[50px] sm:px-[60px] md:px-[90px] lg:w-[64.5%]">
           {/* TITLE */}
           <h2 className="max-w-[720px] text-white text-[38px] leading-[52px] sm:text-[52px] sm:leading-[68px] lg:text-[58px] lg:leading-[72px] font-[700] tracking-[-2px]">
             Contact to Expertise in the
@@ -21,7 +18,6 @@ export default function IndustrialCTA() {
 
           {/* CENTER CIRCLE ICON */}
           <div className="absolute right-[-58px] top-1/2 z-20 hidden h-[118px] w-[118px] -translate-y-1/2 items-center justify-center rounded-full border-[8px] border-white bg-[#111111] lg:flex">
-            
             {/* YOUR SVG ICON */}
             <img
               src="/icons/industry-icon.svg"
@@ -33,7 +29,6 @@ export default function IndustrialCTA() {
 
         {/* RIGHT IMAGE SIDE */}
         <div className="relative h-[265px] w-full lg:w-[35.5%]">
-          
           <Image
             src="/images/cta-worker.jpg"
             alt="workers"

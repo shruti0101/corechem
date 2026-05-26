@@ -62,36 +62,29 @@ export default function FAQSection() {
 
   return (
     <section className="relative overflow-hidden bg-[#f7f7f7] py-[40px] ">
-      
       {/* BACKGROUND */}
-      <div className="absolute right-[-120px] top-[120px] h-[320px] w-[320px] rounded-full bg-[#ff5e14]/5 blur-[90px]" />
+      <div className="absolute right-[-120px] top-[120px] h-[320px] w-[320px] rounded-full bg-[#BE8220]/5 blur-[90px]" />
 
       <div className="absolute left-[-100px] bottom-[0px] h-[260px] w-[260px] rounded-full bg-[#111827]/[0.03] blur-[80px]" />
 
       {/* CONTAINER */}
       <div className="mx-auto max-w-[1280px] px-4">
-        
         {/* TOP HEADER */}
         <div className="text-center">
-          
           {/* SMALL TITLE */}
-          <span className="inline-block text-[13px] font-[700] uppercase tracking-[1.8px] text-[#ff5e14]">
+          <span className="inline-block text-[13px] font-[700] uppercase tracking-[1.8px] text-[#BE8220]">
             Frequently Asked Questions
           </span>
 
           {/* TITLE */}
           <h2 className="mx-auto mt-[10px] max-w-[820px] text-[#16171b] text-[34px] leading-[46px] sm:text-[46px] sm:leading-[58px] font-[700] tracking-[-1.5px]">
-            Common Questions About Our
-         
-            Titanium Dioxide Supply Solutions
+            Common Questions About Our Titanium Dioxide Supply Solutions
           </h2>
         </div>
 
         {/* FAQ WRAPPER */}
         <div className="mx-auto mt-[15px] max-w-[1050px]">
-          
           <div className="space-y-[16px]">
-            
             {faqs.map((faq, index) => {
               const isActive = activeIndex === index;
 
@@ -100,23 +93,19 @@ export default function FAQSection() {
                   key={index}
                   className={`overflow-hidden rounded-[10px] border transition-all duration-300 ${
                     isActive
-                      ? "border-[#ff5e14]/30 bg-white shadow-[0_15px_45px_rgba(0,0,0,0.05)]"
+                      ? "border-[#BE8220]/30 bg-white shadow-[0_15px_45px_rgba(0,0,0,0.05)]"
                       : "border-[#e7e7e7] bg-white"
                   }`}
                 >
-                  
                   {/* QUESTION */}
                   <button
                     onClick={() => toggleFAQ(index)}
                     className="flex w-full items-center justify-between gap-[20px] px-[24px] py-[24px] text-left transition-all duration-300 hover:bg-[#fafafa]"
                   >
-                    
                     {/* TEXT */}
                     <h3
                       className={`text-[18px] leading-[30px] font-[600] transition-all duration-300 sm:text-[20px] ${
-                        isActive
-                          ? "text-[#ff5e14]"
-                          : "text-[#16171b]"
+                        isActive ? "text-[#BE8220]" : "text-[#16171b]"
                       }`}
                     >
                       {faq.question}
@@ -126,7 +115,7 @@ export default function FAQSection() {
                     <div
                       className={`flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full transition-all duration-300 ${
                         isActive
-                          ? "bg-[#ff5e14] text-white"
+                          ? "bg-[#BE8220] text-white"
                           : "bg-[#f4f4f4] text-[#16171b]"
                       }`}
                     >
@@ -147,9 +136,7 @@ export default function FAQSection() {
                     }`}
                   >
                     <div className="overflow-hidden">
-                      
                       <div className="border-t border-[#f1f1f1] px-[24px] pb-[24px] pt-[20px]">
-                        
                         <p className="max-w-[920px] text-[#666666] text-[16px] leading-[32px] sm:text-[17px]">
                           {faq.answer}
                         </p>

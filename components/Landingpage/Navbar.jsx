@@ -55,11 +55,11 @@ export default function Navbar() {
           <div className="flex flex-col gap-3 text-white sm:flex-row sm:items-center sm:gap-0">
             {/* EMAIL */}
             <div className="flex min-w-0 items-center">
-              <Mail className="mr-3 ml-5 h-[15px] w-[15px] shrink-0 text-[#ff5e14]" />
+              <Mail className="mr-3 ml-5 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
 
               <a
                 href="mailto:corechemcorporation@gmail.com"
-                className="text-[13px] font-[600] break-all transition hover:text-[#ff5e14] sm:text-[15px] sm:break-normal"
+                className="text-[13px] font-[600] break-all transition hover:text-[#BE8220] sm:text-[15px] sm:break-normal"
               >
                 corechemcorporation@gmail.com
               </a>
@@ -70,7 +70,7 @@ export default function Navbar() {
 
             {/* ADDRESS */}
             <div className="flex items-center">
-              <MapPin className="mr-3 h-[15px] w-[15px] shrink-0 text-[#ff5e14]" />
+              <MapPin className="mr-3 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
 
               <span className="text-[13px] font-[600] sm:text-[15px]">
                 Delhi, India
@@ -83,7 +83,7 @@ export default function Navbar() {
             <a
               href="https://twitter.com"
               target="_blank"
-              className="transition hover:text-[#ff5e14]"
+              className="transition hover:text-[#BE8220]"
             >
               <Twitter className="h-[16px] w-[16px]" strokeWidth={2.5} />
             </a>
@@ -91,7 +91,7 @@ export default function Navbar() {
             <a
               href="https://facebook.com"
               target="_blank"
-              className="transition hover:text-[#ff5e14]"
+              className="transition hover:text-[#BE8220]"
             >
               <Facebook className="h-[16px] w-[16px]" strokeWidth={2.5} />
             </a>
@@ -99,7 +99,7 @@ export default function Navbar() {
             <a
               href="https://pinterest.com"
               target="_blank"
-              className="transition hover:text-[#ff5e14]"
+              className="transition hover:text-[#D5B052]"
             >
               <FaPinterestP className="text-[16px]" />
             </a>
@@ -107,7 +107,7 @@ export default function Navbar() {
             <a
               href="https://instagram.com"
               target="_blank"
-              className="transition hover:text-[#ff5e14]"
+              className="transition hover:text-[#D5B052]"
             >
               <Instagram className="h-[16px] w-[16px]" strokeWidth={2.5} />
             </a>
@@ -116,15 +116,12 @@ export default function Navbar() {
 
         {/* ORANGE BUTTON */}
         <div
-          className="absolute right-0 top-0 flex h-[53px] w-[420px] items-center justify-center bg-[#ff5e14]"
+          className="absolute right-0 top-0 flex h-[53px] w-[420px] items-center justify-center bg-[#BE8220]"
           style={{
             clipPath: "polygon(8% 0, 100% 0, 100% 100%, 0% 100%)",
           }}
         >
-          <Link
-            href="/contact"
-            className="text-[16px] font-[800] text-white"
-          >
+          <Link href="/contact" className="text-[16px] font-[800] text-white">
             Get a Free Quote
           </Link>
         </div>
@@ -136,96 +133,91 @@ export default function Navbar() {
         <div className="absolute left-0 top-0 h-full w-[240px] bg-white" />
 
         {/* RIGHT SHAPE */}
-        <div className="absolute right-[345px] top-0 h-full w-[50px] bg-[#f3f3f5]" />
+        <div className="absolute right-[345px] top-0 h-full w-[50px] " />
 
         <div className="relative z-[999999] flex h-[100px] items-center justify-between pl-[60px] pr-[150px]">
           {/* LOGO */}
-          <div className="flex items-center">
+          <div className="flex items-center ">
             <Link href="/">
               <Image
-                className="cursor-pointer mb-11"
+                className="cursor-pointer mb-11 "
                 src="/logoo.png"
                 alt="Logo"
-                width={140}
+                width={155}
                 height={60}
               />
             </Link>
           </div>
 
-
-
-         {/* NAVIGATION */}
-<nav className="ml-[40px] flex items-center gap-[55px] overflow-visible">
-  
-  {/* HOME */}
-  <Link
-    href="/"
-    className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#ff5e14] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#ff5e14] after:transition-all hover:after:w-full"
-  >
-    Home
-  </Link>
-
-  {/* ABOUT */}
-  <Link
-    href="/about"
-    className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#ff5e14] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#ff5e14] after:transition-all hover:after:w-full"
-  >
-    About Us
-  </Link>
-
-  {/* PRODUCTS DROPDOWN */}
-  <div className="group relative flex h-[100px] items-center">
-    {/* BUTTON */}
-    <button className="flex items-center gap-2 text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#ff5e14]">
-      Our Products
-
-      <ChevronDown className="h-5 w-5 transition duration-300 group-hover:rotate-180" />
-    </button>
-
-    {/* DROPDOWN */}
-    <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[390px] translate-y-3 rounded-[24px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-      
-      {/* INNER */}
-      <div className="max-h-[500px] overflow-y-auto p-5">
-        {categories?.map((category) => (
-          <div
-            key={category.id}
-            className="mb-2 border-b border-gray-100 pb-5 last:border-none"
-          >
-            {/* CATEGORY */}
+          {/* NAVIGATION */}
+          <nav className="ml-[40px] flex items-center gap-[55px] overflow-visible">
+            {/* HOME */}
             <Link
-              href={`/categories/${category.id}`}
-              className="block text-[18px] font-bold text-[#0f172a] transition hover:translate-x-1 hover:text-[#ff5e14]"
+              href="/"
+              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
             >
-              {category.name}
+              Home
             </Link>
-          </div>
-        ))}
-      </div>
-    </div>
-  </div>
 
-  {/* ARTICLES */}
-  <Link
-    href="/articles"
-    className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#ff5e14] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#ff5e14] after:transition-all hover:after:w-full"
-  >
-    Articles & Resources
-  </Link>
+            {/* ABOUT */}
+            <Link
+              href="/about"
+              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
+            >
+              About Us
+            </Link>
 
-  {/* CONTACT */}
-  <Link
-    href="/contact"
-    className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#ff5e14] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#ff5e14] after:transition-all hover:after:w-full"
-  >
-    Contact Us
-  </Link>
-</nav>
+            {/* PRODUCTS DROPDOWN */}
+            <div className="group relative flex h-[100px] items-center">
+              {/* BUTTON */}
+              <button className="flex items-center gap-2 text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220]">
+                Our Products
+                <ChevronDown className="h-5 w-5 transition duration-300 group-hover:rotate-180" />
+              </button>
+
+              {/* DROPDOWN */}
+              <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[390px] translate-y-3 rounded-[24px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+                {/* INNER */}
+                <div className="max-h-[500px] overflow-y-auto p-5">
+                  {categories?.map((category) => (
+                    <div
+                      key={category.id}
+                      className="mb-2 border-b border-gray-100 pb-5 last:border-none"
+                    >
+                      {/* CATEGORY */}
+                      <Link
+                        href={`/categories/${category.id}`}
+                        className="block text-[18px] font-bold text-[#0f172a] transition hover:translate-x-1 hover:text-[#BE8220]"
+                      >
+                        {category.name}
+                      </Link>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+
+            {/* ARTICLES */}
+            <Link
+              href="/articles"
+              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
+            >
+              Articles & Resources
+            </Link>
+
+            {/* CONTACT */}
+            <Link
+              href="/contact"
+              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
+            >
+              Contact Us
+            </Link>
+          </nav>
 
           {/* PHONE */}
           <div className="relative z-20 flex items-center bg-[#f3f3f5] pl-[36px]">
             {/* ICON */}
-            <div className="mr-[16px] flex h-[58px] w-[58px] items-center justify-center rounded-full bg-[#ff5e14]">
+            <div className="mr-[16px] flex h-[58px] w-[58px] items-center justify-center rounded-full bg-[#BE8220]">
               <Phone className="h-[21px] w-[21px] text-white" />
             </div>
 
@@ -237,7 +229,7 @@ export default function Navbar() {
 
               <a
                 href="tel:+919818544039"
-                className="text-[17px] font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a] transition hover:text-[#ff5e14]"
+                className="text-[17px] font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a] transition hover:text-[#BE8220]"
               >
                 +91 9818544039
               </a>

@@ -7,7 +7,7 @@ import {
   WalletCards,
   BriefcaseBusiness,
   PackageCheck,
- Headset,
+  Headset,
 } from "lucide-react";
 
 const features = [
@@ -51,48 +51,38 @@ const features = [
 export default function WhyChooseSection() {
   return (
     <section className="bg-[#f7f7f7] py-[50px] ">
-      
       <div className="mx-auto max-w-[1320px] ">
-        
         <div className="grid items-start gap-[45px] lg:grid-cols-[1fr_520px]">
-          
           {/* LEFT SIDE */}
           <div>
-            
             {/* SMALL TITLE */}
-            <span className="text-[13px] font-[700] uppercase tracking-[1.5px] text-[#ff5e14]">
+            <span className="text-[13px] font-[700] uppercase tracking-[1.5px] text-[#BE8220]">
               Why Choose Us
             </span>
 
             {/* MAIN TITLE */}
             <h2 className="mt-[10px] max-w-[760px] text-[#16171b] text-[34px] leading-[46px]  sm:leading-[54px] font-[700] tracking-[-1.5px]">
-              Why Choose Corechem Corporation as a Trusted Titanium Dioxide Supplier?
+              Why Choose Corechem Corporation as a Trusted Titanium Dioxide
+              Supplier?
             </h2>
 
             {/* FEATURES */}
             <div className="mt-[38px] grid gap-[18px]">
-              
               {features.map((item, index) => {
                 const Icon = item.icon;
 
                 return (
                   <div
                     key={index}
-                    className="group flex gap-[18px] rounded-[8px] border border-[#e8e8e8] bg-white p-[22px] transition-all duration-300 hover:border-[#ff5e14]/30 hover:shadow-[0_12px_35px_rgba(0,0,0,0.05)]"
+                    className="group flex gap-[18px] rounded-[8px] border border-[#e8e8e8] bg-white p-[22px] transition-all duration-300 hover:border-[#BE8220]/30 hover:shadow-[0_12px_35px_rgba(0,0,0,0.05)]"
                   >
-                    
                     {/* ICON */}
-                    <div className="flex h-[62px] w-[62px] min-w-[62px] items-center justify-center rounded-[8px] bg-[#ff5e14]">
-                      <Icon
-                        size={28}
-                        strokeWidth={2}
-                        className="text-white"
-                      />
+                    <div className="flex h-[62px] w-[62px] min-w-[62px] items-center justify-center rounded-[8px] bg-[#BE8220]">
+                      <Icon size={28} strokeWidth={2} className="text-white" />
                     </div>
 
                     {/* CONTENT */}
                     <div>
-                      
                       {/* TITLE */}
                       <h3 className="text-[#16171b] text-[20px] leading-[30px] font-[700]">
                         {item.title}
@@ -111,9 +101,7 @@ export default function WhyChooseSection() {
 
           {/* RIGHT SIDE */}
           <div className="sticky top-[50px]">
-            
             <div className="relative overflow-hidden rounded-[10px]">
-              
               {/* IMAGE */}
               <div className="relative h-[720px] w-full">
                 <Image
@@ -129,8 +117,7 @@ export default function WhyChooseSection() {
 
               {/* EXPERIENCE CARD */}
               <div className="absolute bottom-[25px] left-[25px] rounded-[8px] bg-white px-[24px] py-[20px] shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
-                
-                <h4 className="text-[#ff5e14] text-[38px] leading-none font-[700]">
+                <h4 className="text-[#BE8220] text-[38px] leading-none font-[700]">
                   15+
                 </h4>
 

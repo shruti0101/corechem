@@ -50,23 +50,19 @@ const testimonials = [
 export default function TestimonialSection() {
   return (
     <section className="relative overflow-hidden bg-white py-[50px] ">
-      
       {/* LEFT TOP CIRCLE */}
       <div className="absolute left-[-38px] top-[48px] h-[74px] w-[74px] rounded-full border border-[#d8d8d8]" />
 
       {/* ORANGE DOT */}
-      <div className="absolute left-[0px] top-[75px] h-[5px] w-[5px] rounded-full bg-[#ff5e14]" />
+      <div className="absolute left-[0px] top-[75px] h-[5px] w-[5px] rounded-full bg-[#BE8220]" />
 
       {/* CONTAINER */}
       <div className="mx-auto max-w-[1580px] px-5">
-        
         {/* TOP HEADER */}
         <div className="flex flex-col gap-[30px] lg:flex-row lg:items-start lg:justify-between">
-          
           {/* LEFT */}
           <div>
-            
-            <span className="uppercase tracking-[1px] text-[14px] font-[700] text-[#ff5e14]">
+            <span className="uppercase tracking-[1px] text-[14px] font-[700] text-[#BE8220]">
               Testimonials
             </span>
 
@@ -79,12 +75,11 @@ export default function TestimonialSection() {
 
           {/* NAVIGATION */}
           <div className="flex items-center gap-[14px]">
-            
-            <button className="testimonial-prev flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-white text-[#16171b] transition-all duration-300 hover:border-[#ff5e14] hover:bg-[#ff5e14] hover:text-white">
+            <button className="testimonial-prev flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-white text-[#16171b] transition-all duration-300 hover:border-[#BE8220] hover:bg-[#BE8220] hover:text-white">
               ←
             </button>
 
-            <button className="testimonial-next flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-[#ff5e14] text-white transition-all duration-300 hover:bg-[#16171b]">
+            <button className="testimonial-next flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-[#BE8220] text-white transition-all duration-300 hover:bg-[#16171b]">
               →
             </button>
           </div>
@@ -92,7 +87,6 @@ export default function TestimonialSection() {
 
         {/* SLIDER */}
         <div className="mt-[35px]">
-          
           <Swiper
             modules={[Navigation, Autoplay]}
             spaceBetween={28}
@@ -120,20 +114,13 @@ export default function TestimonialSection() {
           >
             {testimonials.map((item, index) => (
               <SwiperSlide key={index}>
-                
                 <div className="group relative overflow-hidden rounded-[2px] border border-[#ebebeb] bg-[#F5F5F5] px-[36px] pb-[14px] pt-[18px] transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_18px_50px_rgba(0,0,0,0.06)]">
-                  
                   {/* TOP INFO */}
                   <div className="flex items-start justify-between gap-[16px]">
-                    
                     {/* LEFT */}
                     <div className="flex items-start gap-[18px]">
-                      
-                   
-
                       {/* INFO */}
                       <div className="pt-[2px]">
-                        
                         <h3 className="text-[#16171b] text-[20px] leading-none font-[700]">
                           {item.name}
                         </h3>
@@ -143,8 +130,6 @@ export default function TestimonialSection() {
                         </p>
                       </div>
                     </div>
-
-                   
                   </div>
 
                   {/* REVIEW */}
@@ -157,21 +142,20 @@ export default function TestimonialSection() {
 
                   {/* FOOTER */}
                   <div className="mt-[28px] flex items-center justify-between">
-                    
                     {/* STARS */}
-                    <div className="flex items-center gap-[4px] text-[#ff5e14]">
+                    <div className="flex items-center gap-[4px] text-[#BE8220]">
                       {[1, 2, 3, 4, 5].map((star) => (
                         <Star
                           key={star}
                           size={18}
-                          fill="#ff5e14"
+                          fill="#BE8220"
                           strokeWidth={1.5}
                         />
                       ))}
                     </div>
 
                     {/* QUOTE ICON */}
-                    <div className="text-[#d8d8d8] transition-all duration-300 group-hover:text-[#ff5e14]/30">
+                    <div className="text-[#d8d8d8] transition-all duration-300 group-hover:text-[#BE8220]/30">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="72"

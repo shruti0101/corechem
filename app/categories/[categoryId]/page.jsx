@@ -37,7 +37,7 @@ export default function CategoryPage({ params }) {
         className="w-full bg-cover bg-center h-[50vh]  relative"
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
-          <h2 className=" text-emerald-700 bg-white p-3 text-2xl md:text-6xl font-bold z-10">
+          <h2 className=" text-[#BE8220] bg-white p-3 text-2xl md:text-6xl font-bold z-10">
             {category.name}
           </h2>
         </div>
@@ -52,7 +52,7 @@ export default function CategoryPage({ params }) {
             <Link
               key={product.id}
               href={`/products/${product.id}`}
-              className="border rounded-lg bg-emerald-50 shadow-md p-4 hover:shadow-lg transition"
+              className="border rounded-lg bg-[#BE8220]/10 shadow-md p-4 hover:shadow-lg transition"
             >
               <div className="w-full  h-75 relative rounded-md overflow-hidden">
                 <Image
@@ -60,7 +60,7 @@ export default function CategoryPage({ params }) {
                   alt={product.image[0]?.alt || product.name}
                   title={product.name}
                   fill
-                  className="object-cover "
+                  className="object-cover"
                   unoptimized
                 />
               </div>

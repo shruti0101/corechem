@@ -46,7 +46,7 @@ export default function AboutUsSection() {
             </div>
 
             {/* ORANGE STRIP */}
-            <div className="absolute top-0 right-0 w-[10px] h-full bg-[#ff5e14]" />
+            <div className="absolute top-0 right-0 w-[10px] h-full bg-[#BE8220]" />
           </div>
         </div>
       </div>
@@ -56,7 +56,7 @@ export default function AboutUsSection() {
         
         {/* SMALL TITLE */}
         <div className="flex items-center gap-2">
-          <span className="text-[#ff5e14] text-[26px] leading-none">
+          <span className="text-[#BE8220] text-[26px] leading-none">
             /
           </span>
 
@@ -66,20 +66,19 @@ export default function AboutUsSection() {
         </div>
 
         {/* MAIN HEADING */}
-        <h2 className="mt-4 text-[32px] z-50 sm:text-[42px] lg:text-[52px] leading-[1.15] font-[800] text-[#111111] max-w-[700px]">
+        <h2 className="mt-2 text-[32px] z-50 sm:text-[52px] ">
           Trusted Titanium Dioxide Supplier
         </h2>
 
         {/* DESCRIPTION */}
-        <p className="mt-6 text-[15px] sm:text-[17px] lg:text-[18px] leading-[30px] text-black text-justify">
+        <p className="mt-3 text-[15px] sm:text-[17px] lg:text-[18px] leading-[30px] text-black text-justify">
           At Corechem Corporation, we specialize in supplying high-quality
           Titanium Dioxide products to businesses across multiple industries.
           As a leading Titanium Dioxide Supplier, our mission is to provide
           reliable chemical solutions that meet international quality
           standards while ensuring consistent supply and customer-focused
           service.
-          <br />
-          <br />
+        
           As an experienced Titanium Dioxide Supplier, we understand the
           importance of product purity, color stability, dispersion
           performance, and cost efficiency. We work closely with
@@ -102,7 +101,7 @@ export default function AboutUsSection() {
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-4">
               
-              <div className="min-w-[22px] h-[22px] rounded-full bg-[#ff5e14] flex items-center justify-center mt-[3px]">
+              <div className="min-w-[22px] h-[22px] rounded-full bg-[#BE8220] flex items-center justify-center mt-[3px]">
                 <Check
                   size={12}
                   className="text-white"
@@ -125,7 +124,7 @@ export default function AboutUsSection() {
             
             {/* PHONE */}
             <div className="flex items-center gap-4">
-              <div className="w-[46px] h-[46px] rounded-full bg-[#ff5e14] flex items-center justify-center shrink-0">
+              <div className="w-[46px] h-[46px] rounded-full bg-[#BE8220] flex items-center justify-center shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -145,7 +144,7 @@ export default function AboutUsSection() {
 
               <a
                 href="tel:+919818544039"
-                className="text-[18px] sm:text-[20px] font-[700] text-[#1f2d3d] hover:text-[#ff5e14] transition"
+                className="text-[18px] sm:text-[20px] font-[700] text-[#1f2d3d] hover:text-[#BE8220] transition"
               >
                 +91 9818544039
               </a>
@@ -153,7 +152,7 @@ export default function AboutUsSection() {
 
             {/* EMAIL */}
             <div className="flex items-center gap-4 mt-5">
-              <div className="w-[46px] h-[46px] rounded-full bg-[#ff5e14] flex items-center justify-center shrink-0">
+              <div className="w-[46px] h-[46px] rounded-full bg-[#BE8220] flex items-center justify-center shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -173,14 +172,14 @@ export default function AboutUsSection() {
 
               <a
                 href="mailto:corechemcorporation@gmail.com"
-                className="text-[15px] sm:text-[18px] font-[700] text-[#1f2d3d] hover:text-[#ff5e14] transition break-all"
+                className="text-[15px] sm:text-[18px] font-[700] text-[#1f2d3d] hover:text-[#BE8220] transition break-all"
               >
                 corechemcorporation@gmail.com
               </a>
             </div>
 
             {/* BUTTON */}
-            <button className="group relative mt-8 h-[65px] w-[220px] overflow-hidden bg-[#ff5e14] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03]">
+            <button className="group relative mt-8 h-[65px] w-[220px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03]">
               
               <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
 
@@ -197,7 +196,7 @@ export default function AboutUsSection() {
                   strokeWidth="2.5"
                   strokeLinecap="round"
                   strokeLinejoin="round"
-                  className="transition-transform duration-300 group-hover:translate-x-[6px]"
+                  className="transition-transform duration-300 group-hover:translate-x-[6px]hidden md:block"
                 >
                   <path d="M5 12h14" />
                   <path d="m12 5 7 7-7 7" />
@@ -209,7 +208,7 @@ export default function AboutUsSection() {
           {/* EXPERIENCE BOX */}
           <div className="w-full sm:w-[270px] h-[220px] bg-[#f3f3f5] flex flex-col items-center justify-center px-6">
             
-            <h4 className="text-[#ff5e14] text-[55px] leading-none font-[800]">
+            <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
               20+
             </h4>
 

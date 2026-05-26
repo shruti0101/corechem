@@ -10,7 +10,6 @@ export default function HighQualityCTA() {
     <section className="relative w-full  mx-auto overflow-hidden rounded-md">
       <Reveal>
         <div className="grid grid-cols-1 md:grid-cols-[420px_1fr] items-stretch">
-
           {/* LEFT IMAGE */}
           <div className="relative h-[220px] sm:h-[260px] md:h-auto w-full">
             <Image
@@ -23,8 +22,7 @@ export default function HighQualityCTA() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div className="relative bg-[#ff5e14]/70 flex items-center">
-
+          <div className="relative bg-[#BE8220]/70 flex items-center">
             {/* Dot Pattern Overlay */}
             <div
               className="absolute inset-0 opacity-40 pointer-events-none"
@@ -36,46 +34,43 @@ export default function HighQualityCTA() {
             />
 
             <div className="relative w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-16 py-8 md:py-10  flex flex-col md:flex-row items-start md:items-center justify-between gap-8">
-
               {/* TEXT */}
               <div className="max-w-2xl">
                 <h2 className="text-white text-[28px] md:text-[40px]   font-bold leading-tight mb-4">
-             Looking for a Reliable Titanium Dioxide Supplier?
+                  Looking for a Reliable Titanium Dioxide Supplier?
                 </h2>
 
                 <p className="text-white text-sm sm:text-base  leading-relaxed">
-                Corechem Corporation provides premium-quality Titanium Dioxide solutions for multiple industrial applications with reliable supply, competitive pricing, and consistent product quality.
-Partner with us for dependable TiO₂ products and expert support tailored to your business needs.
-
+                  Corechem Corporation provides premium-quality Titanium Dioxide
+                  solutions for multiple industrial applications with reliable
+                  supply, competitive pricing, and consistent product quality.
+                  Partner with us for dependable TiO₂ products and expert
+                  support tailored to your business needs.
                 </p>
               </div>
 
               {/* BUTTON */}
               <Link href="/products">
-              
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="relative flex items-center justify-center md:justify-start gap-2 bg-white text-black px-6 py-3 sm:py-4 rounded-xl font-medium overflow-hidden w-full md:w-auto"
-              >
-                <span className="relative z-10">
-                  Explore Our Range
-                </span>
-                <ArrowRight size={18} />
+                <motion.button
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                  className="relative flex items-center justify-center md:justify-start gap-2 bg-white text-black px-6 py-3 sm:py-4 rounded-xl font-medium overflow-hidden w-full md:w-auto"
+                >
+                  <span className="relative z-10">Explore Our Range</span>
+                  <ArrowRight size={18} />
 
-                {/* Shine Effect */}
-                <motion.div
-                  animate={{ x: ["-100%", "200%"] }}
-                  transition={{
-                    repeat: Infinity,
-                    duration: 2,
-                    ease: "linear",
-                  }}
-                  className="absolute top-0 left-0 w-1/2 h-full bg-orange-600/40 skew-x-12"
-                />
-              </motion.button>
+                  {/* Shine Effect */}
+                  <motion.div
+                    animate={{ x: ["-100%", "200%"] }}
+                    transition={{
+                      repeat: Infinity,
+                      duration: 2,
+                      ease: "linear",
+                    }}
+                    className="absolute top-0 left-0 w-1/2 h-full bg-orange-600/40 skew-x-12"
+                  />
+                </motion.button>
               </Link>
-
             </div>
           </div>
         </div>

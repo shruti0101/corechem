@@ -3,13 +3,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-import {
-  Phone,
-  Mail,
-  MapPin,
-  ArrowRight,
-  Send,
-} from "lucide-react";
+import { Phone, Mail, MapPin, ArrowRight, Send } from "lucide-react";
 
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
@@ -42,7 +36,7 @@ export default function ContactPage() {
 
       const { data } = await axios.post(
         "https://brandbnalo.com/api/form/add",
-        formData
+        formData,
       );
 
       if (data?.success) {
@@ -86,8 +80,6 @@ export default function ContactPage() {
 
         {/* CONTENT */}
         <div className="relative z-10 max-w-5xl px-6 text-center">
-         
-
           <h1 className="mt-20 text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
             Let’s Build Reliable Chemical Supply Partnerships
           </h1>
@@ -101,16 +93,15 @@ export default function ContactPage() {
           <div className="mt-10 flex flex-wrap justify-center gap-4">
             <a
               href="tel:+919818544039"
-              className="inline-flex items-center gap-2 rounded-xl bg-[#ff5e14] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
             >
               Call Now
-
               <ArrowRight className="h-5 w-5" />
             </a>
 
             <a
               href="mailto:corechemcorporation@gmail.com"
-              className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#ff5e14] hover:text-[#ff5e14]"
+              className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#BE8220] hover:text-[#BE8220]"
             >
               Send Email
             </a>
@@ -123,7 +114,7 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-3">
           {/* PHONE */}
           <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#ff5e14]">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#BE8220]">
               <Phone className="h-8 w-8" />
             </div>
 
@@ -131,13 +122,9 @@ export default function ContactPage() {
               Call Anytime
             </h3>
 
-            <p className="mt-4 text-lg text-slate-600">
-              +91 9818544039
-            </p>
+            <p className="mt-4 text-lg text-slate-600">+91 9818544039</p>
 
-            <p className="text-lg text-slate-600">
-              +91 8810422935
-            </p>
+            <p className="text-lg text-slate-600">+91 8810422935</p>
           </div>
 
           {/* EMAIL */}
@@ -157,7 +144,7 @@ export default function ContactPage() {
 
           {/* ADDRESS */}
           <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#ff5e14]">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#BE8220]">
               <MapPin className="h-8 w-8" />
             </div>
 
@@ -180,7 +167,7 @@ export default function ContactPage() {
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div className="flex flex-col justify-center">
-            <span className="font-semibold uppercase tracking-wide text-[#ff5e14]">
+            <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
               Get In Touch
             </span>
 
@@ -189,14 +176,14 @@ export default function ContactPage() {
             </h2>
 
             <p className="mt-6 text-lg leading-8 text-slate-600">
-              Our team is ready to assist you with product information,
-              pricing, bulk supply inquiries, and customized Titanium
-              Dioxide sourcing solutions.
+              Our team is ready to assist you with product information, pricing,
+              bulk supply inquiries, and customized Titanium Dioxide sourcing
+              solutions.
             </p>
 
             <div className="mt-10 space-y-6">
               <div className="flex items-start gap-4">
-                <div className="rounded-xl bg-orange-100 p-3 text-[#ff5e14]">
+                <div className="rounded-xl bg-orange-100 p-3 text-[#BE8220]">
                   <Phone className="h-6 w-6" />
                 </div>
 
@@ -205,9 +192,7 @@ export default function ContactPage() {
                     Call Support
                   </h4>
 
-                  <p className="text-slate-600">
-                    +91 9818544039
-                  </p>
+                  <p className="text-slate-600">+91 9818544039</p>
                 </div>
               </div>
 
@@ -251,7 +236,7 @@ export default function ContactPage() {
                     type="text"
                     required
                     placeholder="Full Name"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
                     value={name}
                     onChange={(e) => setName(e.target.value)}
                   />
@@ -262,7 +247,7 @@ export default function ContactPage() {
                     maxLength={10}
                     pattern="[0-9]{10}"
                     placeholder="Phone Number"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
                   />
@@ -272,29 +257,25 @@ export default function ContactPage() {
                   <input
                     type="text"
                     placeholder="City"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
                     value={place}
                     onChange={(e) => setplace(e.target.value)}
                   />
 
                   <select
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
                     value={requirement}
                     onChange={(e) => setRequirement(e.target.value)}
                   >
                     <option value="">Select Product</option>
 
-                    <option value="Titanium Dioxide">
-                      Titanium Dioxide
-                    </option>
+                    <option value="Titanium Dioxide">Titanium Dioxide</option>
 
                     <option value="Industrial Chemicals">
                       Industrial Chemicals
                     </option>
 
-                    <option value="Bulk Supply">
-                      Bulk Supply Solutions
-                    </option>
+                    <option value="Bulk Supply">Bulk Supply Solutions</option>
                   </select>
                 </div>
 
@@ -302,7 +283,7 @@ export default function ContactPage() {
                   type="email"
                   required
                   placeholder="Email Address"
-                  className="h-14 w-full rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                  className="h-14 w-full rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                 />
@@ -310,7 +291,7 @@ export default function ContactPage() {
                 <textarea
                   rows={5}
                   placeholder="Write your message..."
-                  className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-4 outline-none transition focus:border-[#ff5e14]"
+                  className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-4 outline-none transition focus:border-[#BE8220]"
                   value={message}
                   onChange={(e) => setMessage(e.target.value)}
                 />
@@ -318,7 +299,7 @@ export default function ContactPage() {
                 <button
                   type="submit"
                   disabled={loading}
-                  className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#ff5e14] px-6 font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
+                  className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#BE8220] px-6 font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
                 >
                   {loading ? "Submitting..." : "Submit Inquiry"}
 

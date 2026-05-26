@@ -98,10 +98,10 @@ export default function IndustrialServicesSection() {
 
      
 
-      <div className="absolute right-[-150px] bottom-[80px] h-[350px] w-[350px] rounded-full bg-[#ff5e14]/10 blur-[120px]" />
+      <div className="absolute right-[-150px] bottom-[80px] h-[350px] w-[350px] rounded-full bg-[#BE8220]/10 blur-[120px]" />
 
       {/* RIGHT ORANGE BAR */}
-      <div className="absolute right-0 bottom-[25px] h-[60px] w-[8px] bg-[#ff5e14]" />
+      <div className="absolute right-0 bottom-[25px] h-[60px] w-[8px] bg-[#BE8220]" />
 
       {/* CONTENT */}
       <div className="relative z-10 mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8 xl:px-10">
@@ -111,7 +111,7 @@ export default function IndustrialServicesSection() {
           
           {/* SMALL TITLE */}
           <div className="flex items-center justify-center gap-[10px]">
-            <span className="text-[#ff5e14] text-[20px] sm:text-[22px] leading-none">
+            <span className="text-[#BE8220] text-[20px] sm:text-[22px] leading-none">
               /
             </span>
 
@@ -173,7 +173,7 @@ export default function IndustrialServicesSection() {
                   <div className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
                     
                     {/* TOP GLOW */}
-                    <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#ff5e14] transition-all duration-700 group-hover:w-full" />
+                    <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#BE8220] transition-all duration-700 group-hover:w-full" />
 
                     {/* IMAGE */}
                     <div className="relative h-[240px] sm:h-[260px] lg:h-[280px] overflow-hidden">
@@ -192,7 +192,7 @@ export default function IndustrialServicesSection() {
                     <div className="relative bg-[#0d0d0d] px-[20px] sm:px-[24px] pb-[36px] sm:pb-[42px] pt-[48px] sm:pt-[52px] text-center">
                       
                       {/* ICON */}
-                      <div className="absolute left-1/2 top-0 flex h-[58px] w-[58px] sm:h-[62px] sm:w-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#ff5e14] shadow-[0_15px_35px_rgba(255,94,20,0.4)] transition-all duration-700 group-hover:rotate-[360deg] group-hover:scale-110">
+                      <div className="absolute left-1/2 top-0 flex h-[58px] w-[58px] sm:h-[62px] sm:w-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#BE8220] shadow-[0_15px_35px_rgba(255,94,20,0.4)] transition-all duration-700 group-hover:rotate-[360deg] group-hover:scale-110">
                         <Icon
                           size={26}
                           strokeWidth={2}
@@ -212,7 +212,7 @@ export default function IndustrialServicesSection() {
                     </div>
 
                     {/* BORDER */}
-                    <div className="absolute inset-0 border border-white/5 group-hover:border-[#ff5e14]/70 transition-all duration-500" />
+                    <div className="absolute inset-0 border border-white/5 group-hover:border-[#BE8220]/70 transition-all duration-500" />
                   </div>
                 </SwiperSlide>
               );
@@ -238,7 +238,7 @@ export default function IndustrialServicesSection() {
         .industrialSwiper .swiper-pagination-bullet-active {
           width: 34px;
           border-radius: 999px;
-          background: #ff5e14;
+          background: #BE8220;
           box-shadow: 0 0 18px rgba(255, 94, 20, 0.7);
         }
       `}</style>
