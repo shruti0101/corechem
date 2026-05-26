@@ -13,6 +13,7 @@ import {
   Instagram,
   Twitter,
   ChevronDown,
+  ShieldCheck 
 } from "lucide-react";
 
 import { FaPinterestP } from "react-icons/fa";
@@ -75,6 +76,18 @@ export default function Navbar() {
               <span className="text-[13px] font-[600] sm:text-[15px]">
                 Delhi, India
               </span>
+
+                
+            </div>
+
+     <div className="mx-[24px] hidden h-[30px] w-[1px] bg-white/60 lg:mx-[34px] sm:block" />
+               <div className="flex items-center">
+              <ShieldCheck  className="mr-3 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
+ <span className="text-[13px] font-[600] sm:text-[15px] capitalize">
+               gst no. 07EOXPG8261J1Z5
+              </span>
+
+                
             </div>
           </div>
 
@@ -143,7 +156,7 @@ export default function Navbar() {
                 className="cursor-pointer mb-11 "
                 src="/logoo.png"
                 alt="Logo"
-                width={155}
+                width={140}
                 height={60}
               />
             </Link>

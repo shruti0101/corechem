@@ -105,7 +105,7 @@ export default function WhyChooseSection() {
               {/* IMAGE */}
               <div className="relative h-[720px] w-full">
                 <Image
-                  src="/Titanium-Dioxide-TiO2-Rutile-Titanium-Dioxide-Rutile-Grade.avif"
+                  src="/finalwhychoose.jpeg"
                   alt="Corechem Corporation"
                   fill
                   className="object-cover"

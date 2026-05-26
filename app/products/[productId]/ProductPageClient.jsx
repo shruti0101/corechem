@@ -83,7 +83,7 @@ export default function ProductPage({ params }) {
         className="relative  overflow-hidden bg-cover bg-center"
       >
         {/* OVERLAY */}
-        <div className="absolute inset-0 bg-white/80" />
+        <div className="absolute inset-0 bg-white/50" />
 
         {/* GRADIENT */}
         <div className="absolute inset-0 bg-gradient-to-r from-orange-100/70 via-white/40 to-blue-100/70" />
@@ -98,14 +98,14 @@ export default function ProductPage({ params }) {
           {/* LEFT */}
           <div>
             <span className="inline-flex rounded-full border border-orange-200 bg-white px-5 py-2 text-sm font-semibold text-[#BE8220] shadow-sm">
-              Premium Titanium Dioxide Supplier
+              Trusted Titanium Dioxide Supplier
             </span>
 
             <h1 className="mt-8 text-5xl font-extrabold leading-tight text-[#1e293b] ">
               {product.name}
             </h1>
 
-            <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-black md:text-xl">
               High-quality Titanium Dioxide solutions designed for industrial
               applications including paints, coatings, plastics, inks, rubber,
               paper, and manufacturing industries.
@@ -115,9 +115,9 @@ export default function ProductPage({ params }) {
             <div className="mt-10 flex flex-wrap gap-4">
               <button
                 // onClick={() => setIsFormOpen(true)}
-                className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
+                className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312] capitalize"
               >
-                Request Quote
+               get instant price
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
               </button>
 
@@ -127,7 +127,7 @@ export default function ProductPage({ params }) {
                 className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-7 py-4 font-semibold text-green-700 transition hover:bg-green-100"
               >
                 <MessageCircle className="h-5 w-5" />
-                WhatsApp Enquiry
+                WhatsApp Now
               </a>
             </div>
           </div>
@@ -139,13 +139,13 @@ export default function ProductPage({ params }) {
 
             {/* CARD */}
             <div className="relative overflow-hidden rounded-[40px] border border-white/70 bg-white/80 p-6 shadow-[0_20px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
-              <div className="relative h-[500px] overflow-hidden rounded-[28px] bg-[#f8fafc]">
+              <div className="relative h-[500px] overflow-hidden rounded-[28px] ">
                 <Image
                   src={activeImage?.src}
                   alt={activeImage?.alt}
                   fill
                   priority
-                  className="object-contain transition duration-500 hover:scale-105"
+                  className="object-cover transition duration-500 hover:scale-105"
                 />
               </div>
 
@@ -179,7 +179,7 @@ export default function ProductPage({ params }) {
              <div className="lg:sticky lg:top-24 lg:h-fit">
             <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
               {/* TOP */}
-              <div className="bg-gradient-to-r from-[#BE8220] to-orange-500 px-8 py-8 text-white">
+              <div className="bg-[#BE8220]  px-8 py-8 text-white">
                 <h3 className="text-3xl font-bold">Technical Specifications</h3>
 
                 <p className="mt-3 text-white/90">
@@ -198,7 +198,7 @@ export default function ProductPage({ params }) {
                       {spec.label}
                     </span>
 
-                    <span className="text-slate-600">{spec.value}</span>
+                    <span className="text-black">{spec.value}</span>
                   </div>
                 ))}
 
@@ -228,7 +228,7 @@ export default function ProductPage({ params }) {
               Industrial Titanium Dioxide Solutions
             </h2>
 
-            <div className="mt-10 space-y-6 text-lg leading-8 text-slate-600">
+            <div className="mt-10 space-y-6 text-lg leading-8 text-black">
               {Array.isArray(product.description) ? (
                 product.description.map((block, i) => {
                   if (block.type === "h2")
@@ -281,8 +281,8 @@ export default function ProductPage({ params }) {
     
     {/* TOP */}
     <div className="bg-gradient-to-r from-[#BE8220] to-[#d89a31] px-8 py-8 text-white">
-      <h3 className="text-3xl font-bold">
-        Send Inquiry
+      <h3 className="text-3xl font-bold capitalize">
+     get a free quote
       </h3>
 
       <p className="mt-3 text-white/90">
