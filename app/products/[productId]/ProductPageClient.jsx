@@ -1,313 +1,402 @@
 "use client";
 
 import React, { useState } from "react";
+
 import { categories } from "@/Data";
+import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
+
 import Enquiry from "@/components/Enquiry";
-import { Shield, Droplet, Dumbbell, Recycle } from "lucide-react";
+
+import {
+  ShieldCheck,
+  Droplets,
+  PackageCheck,
+  Factory,
+  Download,
+  Phone,
+  ArrowRight,
+  CheckCircle2,
+  MessageCircle,
+} from "lucide-react";
+
 import { redirect } from "next/navigation";
 
 export default function ProductPage({ params }) {
   const { productId } = React.use(params);
+
   const [isFormOpen, setIsFormOpen] = useState(false);
 
   const allProducts = categories.flatMap((c) => c.products);
+
   const product = allProducts.find((p) => p.id === productId);
 
-  const [activeImage, setActiveImage] = useState(product?.image[0]);
-  const [isZoomed, setIsZoomed] = useState(false);
-  const [origin, setOrigin] = useState("50% 50%");
+  const [activeImage, setActiveImage] = useState(product?.image?.[0]);
 
   if (!product) {
     redirect("/");
   }
 
-  const handleMouseMove = (e) => {
-    const rect = e.currentTarget.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
-    setOrigin(`${x}% ${y}%`);
-  };
-
-
   const features = [
     {
-      icon: <Shield size={38} />,
-      title: "PUNCTURE RESISTANT",
-      desc: "Triple-layered technology prevents tears from sharp construction debris.",
+      icon: <ShieldCheck size={34} />,
+      title: "High Purity",
+      desc: "Premium Titanium Dioxide products with excellent consistency and industrial-grade quality.",
     },
+
     {
-      icon: <Droplet size={38} />,
-      title: "LEAK PROOF",
-      desc: "Heat-sealed bottom reinforcement ensures zero liquid seepage.",
+      icon: <Droplets size={34} />,
+      title: "Superior Dispersion",
+      desc: "Engineered for smooth blending and reliable performance in multiple applications.",
     },
+
     {
-      icon: <Dumbbell size={38} />,
-      title: "HIGH LOAD CAPACITY",
-      desc: "Tested to withstand up to 65kg of static weight per bag.",
+      icon: <PackageCheck size={34} />,
+      title: "Reliable Supply",
+      desc: "Consistent product availability and dependable delivery for uninterrupted operations.",
     },
+
     {
-      icon: <Recycle size={38} />,
-      title: "ECO-OPTIMIZED",
-      desc: "Manufactured using 30% recycled industrial-grade polymers.",
+      icon: <Factory size={34} />,
+      title: "Industrial Performance",
+      desc: "Suitable for coatings, plastics, inks, rubber, paper, and industrial manufacturing.",
     },
   ];
-
 
   return (
     <>
       <Head>
         <title>{product.metaTitle || product.name}</title>
+
         <meta
           name="description"
           content={product.metaDescription || product.name}
         />
       </Head>
 
-      {/* ================= HERO ================= */}
+      {/* HERO SECTION */}
+      <section
+        style={{
+          backgroundImage: "url('/parallex.jpg')",
+        }}
+        className="relative h-[90vh] overflow-hidden bg-cover bg-center"
+      >
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-white/80" />
 
-      <section className="relative w-full h-[55vh] md:h-[85vh] overflow-hidden">
-        <Image
-          src="/bag/bg-other.webp"
-          alt="Garbage Bag Manufacturer"
-          fill
-          priority
-          className="object-cover"
-        />
+          {/* GRADIENT */}
+          <div className="absolute inset-0 bg-gradient-to-r from-orange-100/70 via-white/40 to-blue-100/70" />
 
-        <div className="absolute inset-0 bg-gradient-to-r from-black/50 via-black/40 to-transparent" />
+        {/* BLURS */}
+        <div className="absolute top-0 left-0 h-[400px] w-[400px] rounded-full bg-orange-200/30 blur-3xl" />
 
-        <div className="relative  z-10 flex h-full items-center max-w-7xl mx-auto px-6">
-          <div className="text-emerald-700 max-w-2xl bg-white p-5 rounded">
+        <div className="absolute bottom-0 right-0 h-[400px] w-[400px] rounded-full bg-blue-200/30 blur-3xl" />
 
+        {/* CONTENT */}
+        <div className="relative mx-auto grid max-w-7xl gap-16 px-6 py-18 lg:grid-cols-2 lg:items-center ">
+          {/* LEFT */}
+          <div>
+            <span className="inline-flex rounded-full border border-orange-200 bg-white px-5 py-2 text-sm font-semibold text-[#ff5e14] shadow-sm">
+              Premium Titanium Dioxide Supplier
+            </span>
 
-            <h1 className="text-3xl md:text-6xl font-bold leading-tight mt-3">
+            <h1 className="mt-8 text-5xl font-extrabold leading-tight text-[#1e293b] ">
               {product.name}
             </h1>
 
-            <p className="mt-4 bg-white text-yellow-500">
-              Premium Quality Disposable Garbage Bags for Commercial & Medical
-              Use
+            <p className="mt-8 max-w-2xl text-lg leading-8 text-slate-600 md:text-xl">
+              High-quality Titanium Dioxide solutions designed for industrial
+              applications including paints, coatings, plastics, inks, rubber,
+              paper, and manufacturing industries.
             </p>
-          </div>
-        </div>
-      </section>
 
-      {/* ================= PRODUCT ================= */}
-
-      <section className="px-4 md:px-16 pb-5 md:py-10 mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12 items-start">
-          {/* ===== IMAGE ===== */}
-
-          <div className="sticky md:top-24">
-            <div
-              className="bg-white/60 backdrop-blur-xl "
-            >
-              <div
-                className="relative w-full h-[400px] md:h-[600px] overflow-hidden cursor-zoom-in"
-                onMouseEnter={() => setIsZoomed(true)}
-                onMouseLeave={() => setIsZoomed(false)}
-                onMouseMove={handleMouseMove}
-              >
-                <Image
-                  src={activeImage.src}
-                  alt={activeImage.alt}
-                  fill
-                  className="object-cover transition-transform duration-300"
-                  style={{
-                    transformOrigin: origin,
-                    transform: isZoomed ? "scale(1.4)" : "scale(1)",
-                  }}
-                />
-              </div>
-
-              {/* Thumbnails */}
-              {/* 
-              <div className="flex gap-3 mt-5">
-                {product.image.map((img, i) => (
-                  <button
-                    key={i}
-                    onClick={() => setActiveImage(img)}
-                    className={`w-20 h-20 rounded-xl overflow-hidden border transition-all duration-300
-${
-  activeImage === img
-    ? "border-[#1FB79C] shadow-lg scale-105"
-    : "border-gray-200 hover:scale-105"
-}
-`}
-                  >
-                    <Image
-                      src={img.src}
-                      alt={img.alt}
-                      width={80}
-                      height={80}
-                      className="object-cover w-full h-full"
-                    />
-                  </button>
-                ))}
-              </div> */}
-            </div>
-          </div>
-
-          {/* ===== SPECIFICATIONS ===== */}
-
-          <div className=" rounded-3xl p-6 shadow-[0_10px_40px_rgba(0,0,0,0.06)]">
-            <h2 className="text-3xl font-semibold mb-6">
-              Technical Specifications
-            </h2>
-
-            <div className="space-y-4">
-              {product.specs?.map((spec, i) => (
-                <div
-                  key={i}
-                  className="flex justify-between border-b pb-3 text-gray-700"
-                >
-                  <span className="font-medium text-gray-900">
-                    {spec.label}
-                  </span>
-
-                  <span>{spec.value}</span>
-                </div>
-              ))}
-            </div>
-
-            {/* ===== CTA ===== */}
-
-            <div className="grid md:grid-cols-3 gap-4 mt-8">
+            {/* BUTTONS */}
+            <div className="mt-10 flex flex-wrap gap-4">
               <button
                 onClick={() => setIsFormOpen(true)}
-                className="py-3 rounded-xl bg-[#1FB79C] text-white 
-shadow-lg hover:shadow-xl transition-all duration-300 
-hover:-translate-y-1 font-semibold"
+                className="group inline-flex items-center gap-2 rounded-xl bg-[#ff5e14] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
               >
                 Request Quote
+
+                <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
               </button>
 
               <a
-                href={`https://wa.me/+918810422935?text=Hello I am interested in ${product.name}`}
+                href={`https://wa.me/+919818544039?text=Hello I am interested in ${product.name}`}
                 target="_blank"
-                className="py-3 text-center rounded-xl border 
-border-green-500 text-green-600 hover:bg-green-500 
-hover:text-white transition-all duration-300 font-semibold"
+                className="inline-flex items-center gap-2 rounded-xl border border-green-200 bg-green-50 px-7 py-4 font-semibold text-green-700 transition hover:bg-green-100"
               >
+                <MessageCircle className="h-5 w-5" />
                 WhatsApp Enquiry
               </a>
-
-              <a
-                href="/brochure.pdf"
-                download
-                className="py-3 text-center rounded-xl border 
-border-gray-300 hover:bg-gray-900 hover:text-white 
-transition-all duration-300 font-semibold"
-              >
-                Download Brochure
-              </a>
             </div>
           </div>
-        </div>
 
+          {/* RIGHT IMAGE */}
+          <div className="relative">
+            {/* BG EFFECT */}
+            <div className="absolute inset-0 rounded-[40px] bg-gradient-to-br from-orange-200/30 to-blue-200/30 blur-2xl" />
 
-
-
-
-
-
-
-        {isFormOpen && (
-          <Enquiry isOpen={isFormOpen} onClose={() => setIsFormOpen(false)} />
-        )}
-      </section>
-
-
-      {/* ===== DESCRIPTION ===== */}
-      <section style={{ backgroundImage: "url(/bag/descbg.png)" }} className="w-full bg-center p-7 md:p-7 bg-cover">
-
-        <div className=" mt- max-w-4xl">
-          <h2 className="text-3xl md:text-5xl font-semibold mb-3 md:mb-6">Product Overview</h2>
-
-          <div className="space-y-4 text-black leading-relaxed">
-            {Array.isArray(product.description) ? (
-              product.description.map((block, i) => {
-                if (block.type === "h2")
-                  return (
-                    <h2 key={i} className="text-2xl font-semibold mt-6">
-                      {block.text}
-                    </h2>
-                  );
-
-                if (block.type === "p")
-                  return (
-                    <p className="text-lg"
-                      key={i}
-                      dangerouslySetInnerHTML={{ __html: block.text }}
-                    />
-                  );
-
-                if (block.type === "ul")
-                  return (
-                    <ul key={i} className="space-y-3 mt-3">
-
-                      {block.items.map((item, j) => (
-                        <li
-                          key={j}
-                          className="flex items-start gap-3 text-black text-[18px] leading-relaxed"
-                        >
-
-                          <span className="material-symbols-outlined  text-[30px] mt-[2px]">
-                            eco
-                          </span>
-
-                          <span
-                            dangerouslySetInnerHTML={{ __html: item }}
-                          />
-
-                        </li>
-                      ))}
-
-                    </ul>
-                  );
-
-              })
-            ) : (
-              <p className="text-lg" dangerouslySetInnerHTML={{ __html: product.description }} />
-            )}
-          </div>
-        </div>
-      </section>
-
-
-      <section className="relative w-full overflow-hidden bg-[#07382D] py-8 md:py-18 px-6">
-
-        {/* Dotted Grid Background */}
-        <div className="absolute inset-0 bg-[radial-gradient(rgba(255,200,0,0.08)_1px,transparent_1px)] [background-size:30px_30px] opacity-20"></div>
-
-        {/* Subtle Radial Glow */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,rgba(255,200,0,0.08),transparent_70%)]"></div>
-
-        <div className="relative max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-16 text-center">
-          {features.map((item, index) => (
-            <div key={index} className="flex flex-col items-center">
-
-              {/* Icon Circle */}
-              <div className="w-20 h-20 flex items-center justify-center rounded-full border border-yellow-500/40 text-yellow-400 bg-yellow-500/5 shadow-[0_0_25px_rgba(255,200,0,0.1)]">
-                {item.icon}
+            {/* CARD */}
+            <div className="relative overflow-hidden rounded-[40px] border border-white/70 bg-white/80 p-6 shadow-[0_20px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
+              <div className="relative h-[500px] overflow-hidden rounded-[28px] bg-[#f8fafc]">
+                <Image
+                  src={activeImage?.src}
+                  alt={activeImage?.alt}
+                  fill
+                  priority
+                  className="object-contain transition duration-500 hover:scale-105"
+                />
               </div>
 
-              {/* Title */}
-              <h3 className="mt-6 text-xl tracking-[2px] font-semibold text-white">
-                {item.title}
-              </h3>
-
-              {/* Description */}
-              <p className="mt-4 text-md text-white max-w-xs leading-relaxed">
-                {item.desc}
-              </p>
+              {/* THUMBNAILS */}
+              {product.image?.length > 1 && (
+                <div className="mt-5 flex gap-4">
+                  {product.image.map((img, i) => (
+                    <button
+                      key={i}
+                      onClick={() => setActiveImage(img)}
+                      className={`overflow-hidden rounded-2xl border-2 transition ${
+                        activeImage === img
+                          ? "border-[#ff5e14]"
+                          : "border-gray-200"
+                      }`}
+                    >
+                      <Image
+                        src={img.src}
+                        alt={img.alt}
+                        width={90}
+                        height={90}
+                        className="h-[90px] w-[90px] object-cover"
+                      />
+                    </button>
+                  ))}
+                </div>
+              )}
             </div>
-          ))}
+          </div>
         </div>
       </section>
 
+      {/* PRODUCT DETAILS */}
+      <section className="relative overflow-hidden bg-[#f8fafc] py-20">
+        {/* BG */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white to-orange-50/40" />
+
+        <div className="relative mx-auto grid w-full gap-12 px-26 lg:grid-cols-[1fr_420px]">
+          {/* DESCRIPTION */}
+          <div>
+            <span className="font-semibold uppercase tracking-wide text-[#ff5e14]">
+              Product Overview
+            </span>
+
+            <h2 className="mt-4 text-4xl font-extrabold text-[#1e293b] md:text-5xl">
+              Industrial Titanium Dioxide Solutions
+            </h2>
+
+            <div className="mt-10 space-y-6 text-lg leading-8 text-slate-600">
+              {Array.isArray(product.description) ? (
+                product.description.map((block, i) => {
+                  if (block.type === "h2")
+                    return (
+                      <h2
+                        key={i}
+                        className="mt-10 text-3xl font-bold text-[#1e293b]"
+                      >
+                        {block.text}
+                      </h2>
+                    );
+
+                  if (block.type === "p")
+                    return (
+                      <p
+                        key={i}
+                        dangerouslySetInnerHTML={{
+                          __html: block.text,
+                        }}
+                      />
+                    );
+
+                  if (block.type === "ul")
+                    return (
+                      <ul key={i} className="space-y-5">
+                        {block.items.map((item, j) => (
+                          <li
+                            key={j}
+                            className="flex items-start gap-4"
+                          >
+                            <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-[#ff5e14]" />
+
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: item,
+                              }}
+                            />
+                          </li>
+                        ))}
+                      </ul>
+                    );
+                })
+              ) : (
+                <p>{product.description}</p>
+              )}
+            </div>
+          </div>
+
+          {/* SPECIFICATIONS */}
+          <div className="lg:sticky lg:top-24 lg:h-fit">
+            <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
+              {/* TOP */}
+              <div className="bg-gradient-to-r from-[#ff5e14] to-orange-500 px-8 py-8 text-white">
+                <h3 className="text-3xl font-bold">
+                  Technical Specifications
+                </h3>
+
+                <p className="mt-3 text-white/90">
+                  Product details and industrial-grade specifications.
+                </p>
+              </div>
+
+              {/* SPECS */}
+              <div className="space-y-5 p-8">
+                {product.specs?.map((spec, i) => (
+                  <div
+                    key={i}
+                    className="flex items-center justify-between border-b border-slate-100 pb-4"
+                  >
+                    <span className="font-semibold text-[#1e293b]">
+                      {spec.label}
+                    </span>
+
+                    <span className="text-slate-600">
+                      {spec.value}
+                    </span>
+                  </div>
+                ))}
+
+                {/* CTA */}
+                <div className="space-y-4 pt-6">
+                  <button
+                    onClick={() => setIsFormOpen(true)}
+                    className="flex h-14 w-full items-center justify-center rounded-xl bg-[#ff5e14] font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
+                  >
+                    Request Quote
+                  </button>
+
+                  <a
+                    href="/brochure.pdf"
+                    download
+                    className="flex h-14 w-full items-center justify-center gap-2 rounded-xl border border-slate-200 bg-white font-semibold text-slate-700 transition hover:border-[#ff5e14] hover:text-[#ff5e14]"
+                  >
+                    <Download className="h-5 w-5" />
+
+                    Download Brochure
+                  </a>
+
+                  <a
+                    href="tel:+919818544039"
+                    className="flex h-14 w-full items-center justify-center gap-2 rounded-xl border border-orange-200 bg-orange-50 font-semibold text-[#ff5e14] transition hover:bg-orange-100"
+                  >
+                    <Phone className="h-5 w-5" />
+
+                    Speak with Expert
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ {/*add related prods here  */}
+{/* RELATED PRODUCTS */}
+<section className="relative overflow-hidden bg-white py-14">
+  
+
+  <div className="relative mx-auto w-full px-20">
+    
+    {/* FIND CURRENT CATEGORY */}
+    {(() => {
+      const currentCategory = categories.find((category) =>
+        category.products.some((p) => p.id === product.id)
+      );
+
+      const relatedProducts =
+        currentCategory?.products.filter(
+          (p) => p.id !== product.id
+        ) || [];
+
+      if (relatedProducts.length === 0) return null;
+
+      return (
+        <>
+          {/* HEADER */}
+          <div className="mx-auto max-w-3xl text-center">
+            <span className="inline-flex rounded-full border border-slate-200 bg-slate-50 px-5 py-2 text-sm font-semibold uppercase tracking-[2px] text-slate-600">
+              Related Products
+            </span>
+
+            <h2 className="mt-6 text-4xl font-extrabold tracking-[-1px] text-[#0f172a] md:text-5xl">
+              Explore Similar Titanium Dioxide Products
+            </h2>
+
+          </div>
+
+          {/* PRODUCTS GRID */}
+          <div className="mt-16 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+            {relatedProducts.map((item, index) => (
+              <Link
+                key={index}
+                href={`/products/${item.id}`}
+                className="group overflow-hidden rounded-[32px] border border-slate-200 bg-white shadow-[0_10px_40px_rgba(15,23,42,0.05)] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_25px_80px_rgba(15,23,42,0.10)]"
+              >
+                {/* IMAGE */}
+                <div className="relative h-[400px] overflow-hidden bg-[#f8fafc]">
+                  <Image
+                    src={item.image?.[0]?.src}
+                    alt={item.image?.[0]?.alt}
+                    fill
+                    className="object-cover transition duration-500 group-hover:scale-105"
+                  />
+
+               
+                </div>
+
+                {/* CONTENT */}
+                <div className="p-4">
+                  <h3 className="text-2xl font-bold leading-tight text-[#0f172a] transition group-hover:text-[#ff5e14]">
+                    {item.name}
+                  </h3>
+
+                  <p className="mt-4 line-clamp-3 leading-7 text-slate-600">
+                    {item.metaDescription}
+                  </p>
+
+                  {/* BUTTON */}
+                  <div className="mt-8 inline-flex items-center gap-2 font-semibold text-[#0f172a] transition group-hover:gap-3 group-hover:text-[#ff5e14]">
+                    View Product
+
+                    <ArrowRight className="h-5 w-5" />
+                  </div>
+                </div>
+              </Link>
+            ))}
+          </div>
+        </>
+      );
+    })()}
+  </div>
+</section>
+
+
+      {/* ENQUIRY MODAL */}
+      {isFormOpen && (
+        <Enquiry
+          isOpen={isFormOpen}
+          onClose={() => setIsFormOpen(false)}
+        />
+      )}
     </>
   );
 }

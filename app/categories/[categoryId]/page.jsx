@@ -33,8 +33,8 @@ export default function CategoryPage({ params }) {
     <>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh] md:h-[90vh] relative"
+        style={{ backgroundImage: "url('/parallex.jpg')" }}
+        className="w-full bg-cover bg-center h-[50vh]  relative"
       >
         <div className="px-5 absolute inset-0 text-center flex items-center justify-center ">
           <h2 className=" text-emerald-700 bg-white p-3 text-2xl md:text-6xl font-bold z-10">

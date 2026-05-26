@@ -30,7 +30,7 @@ export default function Hero() {
     <>
       {/* HERO */}
       <section className="w-full bg-[#f7f7f7]">
-        <div className="relative h-[400px] xl:h-[100vh] w-full overflow-hidden">
+        <div className="relative h-[400px] xl:h-[100vh] w-full ">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             navigation={{

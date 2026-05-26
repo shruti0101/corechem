@@ -3,11 +3,11 @@
 import Image from "next/image";
 import { ArrowRight, ArrowLeft, ArrowUpRight } from "lucide-react";
 
-/* SWIPER */
+
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
-/* SWIPER CSS */
+
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -160,6 +160,7 @@ export default function ProductShowcaseSection() {
                       alt={item.title}
                       width={500}
                       height={350}
+                      
                       className="object-cover transition-all duration-700 group-hover:scale-110"
                     />
 

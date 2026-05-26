@@ -52,7 +52,7 @@ export default function Footer() {
       {/* GLOW */}
      
       {/* MAIN */}
-      <div className="relative z-10 mx-auto max-w-[1380px] px-5 py-[45px]">
+      <div className="relative z-10 mx-auto max-w-[1380px]  py-[35px]">
         
         {/* TOP GRID */}
         <div className="grid gap-[50px] border-b border-white/10 pb-[55px] lg:grid-cols-[1.2fr_0.8fr_0.8fr_1fr]">
@@ -72,7 +72,7 @@ export default function Footer() {
             </Link>
 
             {/* DESC */}
-            <p className="mt-[28px] max-w-[420px] text-[15px] leading-[31px] text-white/65">
+            <p className="mt-[28px] max-w-[420px] text-[15px] leading-[31px] text-white">
               Corechem Corporation is a trusted Titanium Dioxide Supplier
               delivering premium-quality TiO₂ solutions for paints, coatings,
               plastics, inks, rubber, paper, cosmetics, and industrial
@@ -107,7 +107,7 @@ export default function Footer() {
                 <Link
                   key={index}
                   href={link.href}
-                  className="group flex items-center gap-[10px] text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                  className="group flex items-center gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#ff5e14]"
                 >
                   <ChevronRight
                     size={16}
@@ -192,7 +192,7 @@ export default function Footer() {
 
                 <a
                   href="mailto:corechemcorporation@gmail.com"
-                  className="text-[15px] text-white/65 transition-all duration-300 hover:text-[#ff5e14]"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#ff5e14]"
                 >
                  corechemcorporation@gmail.com
                 </a>
@@ -215,11 +215,11 @@ export default function Footer() {
         {/* BOTTOM */}
         <div className="flex flex-col gap-[16px] pt-[28px] text-center lg:flex-row lg:items-center lg:justify-between lg:text-left">
           
-          <p className="text-[14px] text-white/45">
+          <p className="text-[14px] text-white">
             © 2026 Corechem Corporation. All Rights Reserved.
           </p>
 
-          <div className="flex flex-wrap items-center justify-center gap-[18px] text-[14px] text-white/45 lg:justify-end">
+          <div className="flex flex-wrap items-center justify-center gap-[18px] text-[14px] text-white lg:justify-end">
             
             <Link
               href="/privacy-policy"
@@ -240,10 +240,14 @@ export default function Footer() {
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 
             <p>
-              Designed by{" "}
-              <span className="text-[#ff5e14]">
-                Promozione Branding Pvt. Ltd.
-              </span>
+             Website Designed By Promozione Branding Pvt. Ltd. {"  "}
+              <a
+                href="https://promozionebranding.com/"
+                target="_blank"
+                className="text-[#ff5e14] hover:underline"
+              >
+                Website Designing Company.
+              </a>
             </p>
           </div>
         </div>

@@ -2,7 +2,14 @@
 
 import { useState } from "react";
 import axios from "axios";
-import { Phone, Mail, MapPin } from "lucide-react";
+
+import {
+  Phone,
+  Mail,
+  MapPin,
+  ArrowRight,
+  Send,
+} from "lucide-react";
 
 export default function ContactPage() {
   const [loading, setLoading] = useState(false);
@@ -17,13 +24,14 @@ export default function ContactPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
     setLoading(true);
     setStatus(null);
 
     try {
       const formData = {
-        platform: "Sangam Garbage Bag Contact Form",
-        platformEmail: "info@sangamgarbagebags.com",
+        platform: "Corechem Contact Form",
+        platformEmail: "corechemcorporation@gmail.com",
         name,
         phone,
         email,
@@ -34,27 +42,11 @@ export default function ContactPage() {
 
       const { data } = await axios.post(
         "https://brandbnalo.com/api/form/add",
-        formData,
+        formData
       );
 
       if (data?.success) {
         setStatus("success");
-
-        // const whatsappText = `Hi, I am ${name}.
-        //   Email: ${email}
-        //   Product: ${requirement}
-        //   City: ${place}
-        //   Message: ${message}
-        //   Contact: ${phone}`;
-
-        // setTimeout(() => {
-        //   window.open(
-        //     `https://wa.me/91XXXXXXXXXX?text=${encodeURIComponent(
-        //       whatsappText
-        //     )}`,
-        //     "_blank"
-        //   );
-        // }, 1000);
 
         setName("");
         setPhone("");
@@ -75,160 +67,290 @@ export default function ContactPage() {
   };
 
   return (
-    <div>
+    <div className="overflow-hidden bg-[#f8fafc]">
       {/* HERO SECTION */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full h-[55vh] md:h-[80vh] bg-cover bg-center relative flex items-center justify-center"
+        style={{ backgroundImage: "url('/parallex2.jpg')" }}
+        className="relative flex min-h-[65vh] items-center justify-center overflow-hidden bg-cover bg-center"
       >
-        <div className="absolute inset-0 bg-black/60"></div>
-        <div className="relative text-center text-white px-6">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Contact Sangam Garbage Bag Manufacturer
+        {/* OVERLAY */}
+        <div className="absolute inset-0 bg-white/35" />
+
+        {/* GRADIENT */}
+        <div className="absolute inset-0 bg-gradient-to-r from-orange-100/70 via-white/40 to-blue-100/70" />
+
+        {/* BLUR EFFECTS */}
+        <div className="absolute left-0 top-0 h-[350px] w-[350px] rounded-full bg-orange-200/40 blur-3xl" />
+
+        <div className="absolute bottom-0 right-0 h-[350px] w-[350px] rounded-full bg-blue-200/40 blur-3xl" />
+
+        {/* CONTENT */}
+        <div className="relative z-10 max-w-5xl px-6 text-center">
+         
+
+          <h1 className="mt-20 text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
+            Let’s Build Reliable Chemical Supply Partnerships
           </h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto">
-            Premium Quality Garbage Bags Manufacturer & Supplier in India
+
+          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-black md:text-xl">
+            Connect with Corechem Corporation for premium Titanium Dioxide
+            products, dependable supply solutions, and responsive customer
+            support tailored to your business.
           </p>
+
+          <div className="mt-10 flex flex-wrap justify-center gap-4">
+            <a
+              href="tel:+919818544039"
+              className="inline-flex items-center gap-2 rounded-xl bg-[#ff5e14] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
+            >
+              Call Now
+
+              <ArrowRight className="h-5 w-5" />
+            </a>
+
+            <a
+              href="mailto:corechemcorporation@gmail.com"
+              className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#ff5e14] hover:text-[#ff5e14]"
+            >
+              Send Email
+            </a>
+          </div>
         </div>
       </section>
 
-      {/* CONTACT INFO */}
-      <section className="bg-gray-100 py-10 md:py-16 px-6 md:px-20">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-9 md:mb-16">
-          {/* Phone */}
-          <div className="bg-green-700 text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
-            <Phone size={40} className="mx-auto mb-4" />
-            <h3 className="text-xl font-bold mb-2">Call Us</h3>
-            <p className="text-lg">+91-8810422935</p>
-            <p className="text-lg">+91-9810057441</p>
+      {/* CONTACT INFO CARDS */}
+      <section className="relative z-20 -mt-24 px-6">
+        <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-3">
+          {/* PHONE */}
+          <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#ff5e14]">
+              <Phone className="h-8 w-8" />
+            </div>
+
+            <h3 className="mt-6 text-2xl font-bold text-[#1e293b]">
+              Call Anytime
+            </h3>
+
+            <p className="mt-4 text-lg text-slate-600">
+              +91 9818544039
+            </p>
+
+            <p className="text-lg text-slate-600">
+              +91 8810422935
+            </p>
           </div>
 
-          {/* Email */}
-          <div className="bg-white border-2 border-green-700 p-6 md:p-8 rounded-2xl shadow-lg text-center">
-            <Mail size={40} className="mx-auto mb-4 text-green-700" />
-            <h3 className="text-xl font-bold text-green-700 mb-2">
+          {/* EMAIL */}
+          <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-blue-100 text-blue-600">
+              <Mail className="h-8 w-8" />
+            </div>
+
+            <h3 className="mt-6 text-2xl font-bold text-[#1e293b]">
               Email Address
             </h3>
-            <p className="text-gray-800 text-lg">info@polywell.co.in</p>
+
+            <p className="mt-4 break-all text-lg text-slate-600">
+              corechemcorporation@gmail.com
+            </p>
           </div>
 
-          {/* Address */}
-          <div className="bg-green-700 text-white p-6 md:p-8 rounded-2xl shadow-lg text-center">
-            <MapPin size={40} className="mx-auto mb-4" />
-            <h3 className="text-xl font-bold mb-2">Factory Address</h3>
-            <p>
-              Address - 110, Satya Bhawan, 36 Community Center, Wazirpur
-              Industrial Area, New Delhi-110052
+          {/* ADDRESS */}
+          <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#ff5e14]">
+              <MapPin className="h-8 w-8" />
+            </div>
+
+            <h3 className="mt-6 text-2xl font-bold text-[#1e293b]">
+              Office Address
+            </h3>
+
+            <p className="mt-4 text-lg leading-8 text-slate-600">
+              Delhi, India
             </p>
           </div>
         </div>
+      </section>
 
-        {/* FORM + MAP */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-          {/* FORM */}
-          <div className="bg-white p-10 rounded-2xl shadow-xl">
-            <h2 className="text-3xl font-bold mb-6 text-gray-900">
+      {/* FORM SECTION */}
+      <section className="relative py-24">
+        {/* BG */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white via-orange-50/50 to-blue-50/50" />
+
+        <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2">
+          {/* LEFT CONTENT */}
+          <div className="flex flex-col justify-center">
+            <span className="font-semibold uppercase tracking-wide text-[#ff5e14]">
+              Get In Touch
+            </span>
+
+            <h2 className="mt-4 text-4xl font-extrabold leading-tight text-[#1e293b] md:text-5xl">
               Send Us Your Requirement
             </h2>
 
-            <form className="space-y-5" onSubmit={handleSubmit}>
-              <div className="grid grid-cols-2 gap-4">
-                <input
-                  type="text"
-                  required
-                  placeholder="Full Name"
-                  className="border rounded-lg px-4 py-3 w-full"
-                  value={name}
-                  onChange={(e) => setName(e.target.value)}
-                />
+            <p className="mt-6 text-lg leading-8 text-slate-600">
+              Our team is ready to assist you with product information,
+              pricing, bulk supply inquiries, and customized Titanium
+              Dioxide sourcing solutions.
+            </p>
 
-                <input
-                  type="tel"
-                  required
-                  maxLength={10}
-                  pattern="[0-9]{10}"
-                  placeholder="Phone Number"
-                  className="border rounded-lg px-4 py-3 w-full"
-                  value={phone}
-                  onChange={(e) => setPhone(e.target.value)}
-                />
+            <div className="mt-10 space-y-6">
+              <div className="flex items-start gap-4">
+                <div className="rounded-xl bg-orange-100 p-3 text-[#ff5e14]">
+                  <Phone className="h-6 w-6" />
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-[#1e293b]">
+                    Call Support
+                  </h4>
+
+                  <p className="text-slate-600">
+                    +91 9818544039
+                  </p>
+                </div>
               </div>
 
-              <div className="grid grid-cols-2 gap-4">
+              <div className="flex items-start gap-4">
+                <div className="rounded-xl bg-blue-100 p-3 text-blue-600">
+                  <Mail className="h-6 w-6" />
+                </div>
+
+                <div>
+                  <h4 className="text-lg font-bold text-[#1e293b]">
+                    Email Address
+                  </h4>
+
+                  <p className="text-slate-600">
+                    corechemcorporation@gmail.com
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* FORM */}
+          <div className="relative overflow-hidden rounded-[36px] border border-white bg-white/50 p-8   md:p-10">
+            {/* FORM BG */}
+            <div className="absolute inset-0 bg-[url('/parallex.jpg')] bg-cover bg-center opacity-30" />
+
+            <div className="relative">
+              <div className="mb-8">
+                <h3 className="text-3xl font-bold text-[#1e293b]">
+                  Contact Form
+                </h3>
+
+                <p className="mt-2 text-slate-600">
+                  Fill out the form below and our team will contact you shortly.
+                </p>
+              </div>
+
+              <form className="space-y-5" onSubmit={handleSubmit}>
+                <div className="grid gap-4 md:grid-cols-2">
+                  <input
+                    type="text"
+                    required
+                    placeholder="Full Name"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
+                  />
+
+                  <input
+                    type="tel"
+                    required
+                    maxLength={10}
+                    pattern="[0-9]{10}"
+                    placeholder="Phone Number"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                  />
+                </div>
+
+                <div className="grid gap-4 md:grid-cols-2">
+                  <input
+                    type="text"
+                    placeholder="City"
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    value={place}
+                    onChange={(e) => setplace(e.target.value)}
+                  />
+
+                  <select
+                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                    value={requirement}
+                    onChange={(e) => setRequirement(e.target.value)}
+                  >
+                    <option value="">Select Product</option>
+
+                    <option value="Titanium Dioxide">
+                      Titanium Dioxide
+                    </option>
+
+                    <option value="Industrial Chemicals">
+                      Industrial Chemicals
+                    </option>
+
+                    <option value="Bulk Supply">
+                      Bulk Supply Solutions
+                    </option>
+                  </select>
+                </div>
+
                 <input
-                  type="text"
-                  placeholder="City"
-                  className="border rounded-lg px-4 py-3 w-full"
-                  value={place}
-                  onChange={(e) => setplace(e.target.value)}
+                  type="email"
+                  required
+                  placeholder="Email Address"
+                  className="h-14 w-full rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#ff5e14]"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
 
-                <select
-                  className="border rounded-lg px-4 py-3 w-full bg-green-700 text-white font-semibold"
-                  value={requirement}
-                  onChange={(e) => setRequirement(e.target.value)}
+                <textarea
+                  rows={5}
+                  placeholder="Write your message..."
+                  className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-4 outline-none transition focus:border-[#ff5e14]"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
+                />
+
+                <button
+                  type="submit"
+                  disabled={loading}
+                  className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#ff5e14] px-6 font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
                 >
-                  <option value="">Select Product</option>
-                  <option value="Black Garbage Bags">
-                    Biodegradable Garbage Bags
-                  </option>
-                  <option value="Green Garbage Bags">
-                    Disposable Garbage Bags
-                  </option>
-                  <option value="Biomedical Waste Bags">
-                    Biomedical garbage bags
-                  </option>
-                </select>
-              </div>
+                  {loading ? "Submitting..." : "Submit Inquiry"}
 
-              <input
-                type="email"
-                required
-                placeholder="Email Address"
-                className="border rounded-lg px-4 py-3 w-full"
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-              />
+                  {!loading && <Send className="h-5 w-5" />}
+                </button>
 
-              <textarea
-                rows={4}
-                placeholder="Message"
-                className="border rounded-lg px-4 py-3 w-full"
-                value={message}
-                onChange={(e) => setMessage(e.target.value)}
-              />
+                {status === "success" && (
+                  <p className="rounded-xl bg-green-100 px-4 py-3 font-medium text-green-700">
+                    Thank you! Our team will contact you shortly.
+                  </p>
+                )}
 
-              <button
-                type="submit"
-                disabled={loading}
-                className="bg-green-700 hover:bg-green-800 transition text-white px-6 py-3 rounded-lg font-semibold w-full"
-              >
-                {loading ? "Submitting..." : "Submit Inquiry"}
-              </button>
-
-              {status === "success" && (
-                <p className="text-green-600 font-semibold mt-2">
-                  Thank you! Our team will contact you shortly.
-                </p>
-              )}
-              {status === "error" && (
-                <p className="text-red-600 font-semibold mt-2">
-                  Something went wrong. Please try again.
-                </p>
-              )}
-            </form>
+                {status === "error" && (
+                  <p className="rounded-xl bg-red-100 px-4 py-3 font-medium text-red-700">
+                    Something went wrong. Please try again.
+                  </p>
+                )}
+              </form>
+            </div>
           </div>
+        </div>
+      </section>
 
-          {/* map */}
-          <div className="mt-5">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2351.2848900849685!2d77.1662442!3d28.702004099999993!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d0223846e0903%3A0x6b8f0fbb73c40b4c!2sSangam%20Plastic%20Industries%20Pvt.%20Ltd.!5e1!3m2!1sen!2sin!4v1771318884119!5m2!1sen!2sin"
-              allowFullScreen=""
-              loading="lazy"
-              className="w-full h-100"
-              referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+      {/* MAP */}
+      <section className="px-6 pb-24">
+        <div className="mx-auto max-w-7xl overflow-hidden rounded-[36px] border border-white shadow-[0_20px_80px_rgba(15,23,42,0.10)]">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8979660536!2d77.04417301587731!3d28.527554410966754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04709e0d7f71%3A0xf5f0f25f0db1c2f3!2sDelhi!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
+            loading="lazy"
+            className="h-[500px] w-full"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </section>
     </div>

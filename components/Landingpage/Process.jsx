@@ -177,14 +177,7 @@ export default function IndustriesWeServe() {
                       {item.desc}
                     </p>
 
-                    {/* READ MORE */}
-                    <button className="mt-[20px] inline-flex items-center gap-[10px] text-white text-[18px] font-[500] transition-all duration-300 hover:text-[#ff5e14]">
-                      Read More
-
-                      <span className="transition-all duration-300 group-hover:translate-x-[4px]">
-                        →
-                      </span>
-                    </button>
+                   
                   </div>
                 </div>
 

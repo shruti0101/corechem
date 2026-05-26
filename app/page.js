@@ -16,7 +16,7 @@ import Dedicated from "@/components/Landingpage/Dedicated";
 import Otherproduct from "@/components/Landingpage/Otherpro";
 import Parallex from "@/components/Landingpage/Parallex.jsx"
 import Loactions from "@/components/Locations";
-
+import Clientele from "@/components/Landingpage/Clientele";
 
 export default function Home() {
   return (
@@ -30,7 +30,7 @@ export default function Home() {
        <Otherproduct></Otherproduct>
       <Countup />
  
-     
+     <Clientele></Clientele>
       <Dedicated></Dedicated>
 
     <Parallex></Parallex>
