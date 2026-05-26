@@ -1,11 +1,16 @@
+// app/products/[productId]/page.jsx
+
 import { categories } from "@/Data";
+
 import ProductPageClient from "./ProductPageClient";
 
 // ✅ Dynamic metadata for each product
 export async function generateMetadata({ params }) {
-  const { productId } = params;
+  // ✅ await params
+  const { productId } = await params;
 
   const allProducts = categories.flatMap((c) => c.products);
+
   const product = allProducts.find((p) => p.id === productId);
 
   if (!product) {
@@ -17,16 +22,27 @@ export async function generateMetadata({ params }) {
 
   return {
     title: product.metaTitle || product.name,
+
     description: product.metaDescription || product.name,
+
     openGraph: {
       title: product.metaTitle || product.name,
+
       description: product.metaDescription || product.name,
-      images: [product.image],
+
+      images: [
+        {
+          url: product.image?.[0]?.src || "/og-image.jpg",
+        },
+      ],
     },
   };
 }
 
 // ✅ Render client component
-export default function Page({ params }) {
-  return <ProductPageClient params={params} />;
+export default async function Page({ params }) {
+  // ✅ await params
+  const resolvedParams = await params;
+
+  return <ProductPageClient params={resolvedParams} />;
 }
