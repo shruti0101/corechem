@@ -17,12 +17,13 @@ import Otherproduct from "@/components/Landingpage/Otherpro";
 import Parallex from "@/components/Landingpage/Parallex.jsx"
 import Loactions from "@/components/Locations";
 import Clientele from "@/components/Landingpage/Clientele";
-
+import Belowhero from "@/components/Landingpage/Belowhero"
 export default function Home() {
   return (
     <>
       {/* <Popup></Popup> */}
       <Hero />
+      <Belowhero></Belowhero>
 
       <About />
 
