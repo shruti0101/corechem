@@ -170,7 +170,7 @@ export default function IndustrialServicesSection() {
               return (
                 <SwiperSlide key={index}>
                   
-                  <div className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
+                  <div className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 h-[600px] hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
                     
                     {/* TOP GLOW */}
                     <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#BE8220] transition-all duration-700 group-hover:w-full" />

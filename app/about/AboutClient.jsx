@@ -82,13 +82,13 @@ export default function AboutPage() {
 
         <div className="absolute bottom-0 right-0 h-[400px] w-[400px] rounded-full bg-blue-200/30 blur-3xl" />
 
-        <div className="relative mx-auto max-w-7xl px-6 py-28 lg:py-36">
+        <div className="relative mx-auto max-w-7xl px-6 py-28 ">
           <div className="max-w-4xl">
             <span className="inline-flex items-center rounded-full border border-orange-200 bg-white/90 px-5 py-2 text-sm font-semibold text-[#BE8220] shadow-md backdrop-blur-md">
               Trusted Titanium Dioxide Supplier
             </span>
 
-            <h1 className="mt-8 text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
+            <h1 className="mt-8 text-5xl font-extrabold leading-tight text-[#1e293b] ">
               About{" "}
               <span className="bg-gradient-to-r from-[#BE8220] to-orange-500 bg-clip-text text-transparent">
                 Corechem
@@ -96,7 +96,7 @@ export default function AboutPage() {
               Corporation
             </h1>
 
-            <p className="mt-8 max-w-3xl text-lg leading-8 text-slate-700 md:text-xl">
+            <p className="mt-8 max-w-3xl text-lg leading-8 text-black md:text-xl">
               Corechem Corporation is a reputable Titanium Dioxide Supplier
               focused on delivering premium-quality chemical solutions for
               manufacturers across multiple industries.

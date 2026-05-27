@@ -73,12 +73,12 @@ export default function ProductShowcaseSection() {
           </div>
 
           {/* MAIN TITLE */}
-          <h2 className="mt-[26px] text-[#1d1d1d] text-[56px] leading-[72px] font-[700] tracking-[-2px]">
+          <h2 className="mt-[20px] text-[#1d1d1d] text-[46px] leading-[72px] font-[700] tracking-[-2px]">
             Titanium Dioxide solutions
           </h2>
 
           {/* DESC */}
-          <p className="mt-[34px] max-w-[340px] text-[#666] text-[18px] leading-[46px] font-[400]">
+          <p className="mt-[24px] max-w-[340px] text-black text-[18px] leading-[46px] font-[400]">
             High-performance TiO₂ products for paints, plastics, coatings, inks,
             rubber, and industrial manufacturing applications worldwide.
           </p>

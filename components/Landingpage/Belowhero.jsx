@@ -18,7 +18,7 @@ const products = [
     id: 1,
     grade: "Rutile",
     code: "ZR-965",
-    desc: "High brightness and excellent durability for various applications.",
+    desc: "High brightness and excellent durability for applications.",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export default function TitaniumSection() {
   return (
     <section className="w-full bg-white pt-10 overflow-hidden">
       <div className="w-full mx-auto px-5">
-        <div className="grid grid-cols-1 xl:grid-cols-[280px_1fr_330px] gap-5 items-start">
+        <div className="grid grid-cols-1 xl:grid-cols-[280px_1fr_300px] gap-2 items-start">
           
           {/* LEFT CONTENT */}
           <div className="pt-2">
@@ -53,19 +53,19 @@ export default function TitaniumSection() {
               <span className="absolute left-0 -bottom-2 w-[55px] h-[3px] bg-[#d39a21]"></span>
             </p>
 
-            <h2 className="mt-5 text-[30px]   font-[800] text-[#10254d]">
+            <h2 className="mt-5 text-[26px]   font-[800] text-[#10254d]">
               High Performance Titanium Oxide
          
                 
             
             </h2>
 
-            <p className="mt-2 text-black text-[15px] leading-[28px] max-w-[250px]">
+            <p className="mt-1   text-black text-[15px] leading-[28px] max-w-[250px]">
               We offer a wide range of Titanium Dioxide grades
               suitable for diverse industrial applications.
             </p>
 
-            <button className="mt-8 flex items-center gap-2 text-[#d39a21] font-[700] text-[15px] hover:gap-3 transition-all duration-300">
+            <button className="mt-4 flex items-center gap-2 text-[#d39a21] font-[700] text-[15px] hover:gap-3 transition-all duration-300">
               View All Products
               <ChevronRight className="w-4 h-4" />
             </button>
@@ -98,16 +98,16 @@ export default function TitaniumSection() {
             >
               {products.map((item) => (
                 <SwiperSlide key={item.id}>
-                  <div className="min-h-[300px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
+                  <div className="min-h-[260px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
                     
-            <div className="flex flex-row gap-2">
+            <div className="flex flex-row gap-1">
   <div className="flex  justify-center">
                       <Image
                         src="/bowl.png"
                         alt="powder"
                         width={200}
                         height={200}
-                        className="object-contain"
+                        className="object-cover"
                       />
                     </div>
 
@@ -117,11 +117,11 @@ export default function TitaniumSection() {
                         {item.grade}
                       </p>
 
-                      <h3 className="text-[#10254d] text-[30px] leading-[40px] font-[800] mt-1">
+                      <h3 className="text-[#10254d] font-bold text-[22px] mt-1">
                         {item.code}
                       </h3>
 
-                      <p className="mt-3 text-black text-[14px] leading-[24px]">
+                      <p className="mt-3 text-black text-[13px] leading-[24px]">
                         {item.desc}
                       </p>
 
@@ -142,12 +142,11 @@ export default function TitaniumSection() {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-[#07224b] rounded-[10px] p-6">
+          <div className="bg-[#07224b] rounded-[10px] p-3">
             <h3 className="text-white text-[20px] font-[800]">
               Get a Free Quote
             </h3>
 
-            <div className="w-[55px] h-[3px] bg-[#d39a21] mt-3"></div>
 
             <div className="mt-3 space-y-4">
               

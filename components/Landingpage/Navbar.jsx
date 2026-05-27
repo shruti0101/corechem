@@ -1,5 +1,6 @@
 // components/Navbar.tsx
 
+
 "use client";
 
 import Image from "next/image";
@@ -44,212 +45,197 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="relative z-[999999] w-full overflow-visible font-sans bg-orange-50">
-      {/* TOP BAR */}
-      <div className="relative flex h-[45px] w-full">
-        {/* EMPTY LEFT SPACE */}
-        <div className="w-[180px] bg-transparent" />
+<header className="relative z-[999999] w-full overflow-visible font-sans">
+  {/* TOP BAR */}
+  <div className="relative flex h-[40px] w-full bg-[#062347]">
+    {/* LEFT INFO */}
+    <div className="flex flex-1 items-center pl-[58px] text-white">
+      {/* EMAIL */}
+      <div className="flex items-center">
+        <Mail className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
 
-        {/* BLACK BAR */}
-        <div className="relative flex h-full flex-1 items-center justify-between bg-[#111117]">
-          {/* LEFT INFO */}
-          <div className="flex flex-col gap-3 text-white sm:flex-row sm:items-center sm:gap-0">
-            {/* EMAIL */}
-            <div className="flex min-w-0 items-center">
-              <Mail className="mr-3 ml-5 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
-
-              <a
-                href="mailto:corechemcorporation@gmail.com"
-                className="text-[13px] font-[600] break-all transition hover:text-[#BE8220] sm:text-[15px] sm:break-normal"
-              >
-                corechemcorporation@gmail.com
-              </a>
-            </div>
-
-            {/* DIVIDER */}
-            <div className="mx-[24px] hidden h-[30px] w-[1px] bg-white/60 lg:mx-[34px] sm:block" />
-
-            {/* ADDRESS */}
-            <div className="flex items-center">
-              <MapPin className="mr-3 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
-
-              <span className="text-[13px] font-[600] sm:text-[15px]">
-                Delhi, India
-              </span>
-
-                
-            </div>
-
-     <div className="mx-[24px] hidden h-[30px] w-[1px] bg-white/60 lg:mx-[34px] sm:block" />
-               <div className="flex items-center">
-              <ShieldCheck  className="mr-3 h-[15px] w-[15px] shrink-0 text-[#BE8220]" />
- <span className="text-[13px] font-[600] sm:text-[15px] capitalize">
-               gst no. 07EOXPG8261J1Z5
-              </span>
-
-                
-            </div>
-          </div>
-
-          {/* SOCIALS */}
-          <div className="mr-[515px] flex items-center gap-[27px] text-white">
-            <a
-              href="https://twitter.com"
-              target="_blank"
-              className="transition hover:text-[#BE8220]"
-            >
-              <Twitter className="h-[16px] w-[16px]" strokeWidth={2.5} />
-            </a>
-
-            <a
-              href="https://facebook.com"
-              target="_blank"
-              className="transition hover:text-[#BE8220]"
-            >
-              <Facebook className="h-[16px] w-[16px]" strokeWidth={2.5} />
-            </a>
-
-            <a
-              href="https://pinterest.com"
-              target="_blank"
-              className="transition hover:text-[#D5B052]"
-            >
-              <FaPinterestP className="text-[16px]" />
-            </a>
-
-            <a
-              href="https://instagram.com"
-              target="_blank"
-              className="transition hover:text-[#D5B052]"
-            >
-              <Instagram className="h-[16px] w-[16px]" strokeWidth={2.5} />
-            </a>
-          </div>
-        </div>
-
-        {/* ORANGE BUTTON */}
-        <div
-          className="absolute right-0 top-0 flex h-[53px] w-[420px] items-center justify-center bg-[#BE8220]"
-          style={{
-            clipPath: "polygon(8% 0, 100% 0, 100% 100%, 0% 100%)",
-          }}
+        <a
+          href="mailto:corechemcorporation@gmail.com"
+          className="text-[15px] font-[500] tracking-[0.2px] transition hover:text-[#c8921c]"
         >
-          <Link href="/contact" className="text-[16px] font-[800] text-white">
-            Get a Free Quote
-          </Link>
-        </div>
+          corechemcorporation@gmail.com
+        </a>
       </div>
 
-      {/* MAIN NAVBAR */}
-      <div className="relative z-[999999] min-h-[100px] w-full overflow-visible bg-[#f3f3f5]">
-        {/* LEFT WHITE BG */}
-        <div className="absolute left-0 top-0 h-full w-[180px] bg-orange-50" />
+      {/* DIVIDER */}
+      <div className="mx-[18px] h-[14px] w-[1px] bg-white" />
 
-        {/* RIGHT SHAPE */}
-        <div className="absolute right-[345px] top-0 h-full w-[50px] " />
+      {/* ADDRESS */}
+      <div className="flex items-center">
+        <MapPin className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
 
-        <div className="relative z-[999999] flex h-[100px] items-center justify-between pl-[30px] pr-[150px]">
-          {/* LOGO */}
-          <div className="flex items-center ">
-            <Link href="/">
-              <Image
-                className="cursor-pointer mb-11 bg-orange-50"
-                src="/logoo.png"
-                alt="Logo"
-                width={140}
-                height={60}
-              />
-            </Link>
-          </div>
+        <span className="text-[15px] font-[500]">
+          Delhi, India
+        </span>
+      </div>
 
-          {/* NAVIGATION */}
-          <nav className="ml-[40px] flex items-center gap-[55px] overflow-visible">
-            {/* HOME */}
-            <Link
-              href="/"
-              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
-            >
-              Home
-            </Link>
+      {/* DIVIDER */}
+      <div className="mx-[18px] h-[14px] w-[1px] bg-white" />
 
-            {/* ABOUT */}
-            <Link
-              href="/about"
-              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
-            >
-              About Us
-            </Link>
+      {/* GST */}
+      <div className="flex items-center">
+        <ShieldCheck className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
 
-            {/* PRODUCTS DROPDOWN */}
-            <div className="group relative flex h-[100px] items-center">
-              {/* BUTTON */}
-              <button className="flex items-center gap-2 text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220]">
-                Our Products
-                <ChevronDown className="h-5 w-5 transition duration-300 group-hover:rotate-180" />
-              </button>
+        <span className="text-[15px] font-[500] uppercase">
+          GST NO. 07EOXPG8261J1Z5
+        </span>
+      </div>
+    </div>
 
-              {/* DROPDOWN */}
-              <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[390px] translate-y-3 rounded-[24px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-                {/* INNER */}
-                <div className="max-h-[500px] overflow-y-auto p-5">
-                  {categories?.map((category) => (
-                    <div
-                      key={category.id}
-                      className="mb-2 border-b border-gray-100 pb-5 last:border-none"
-                    >
-                      {/* CATEGORY */}
-                      <Link
-                        href={`/categories/${category.id}`}
-                        className="block text-[18px] font-bold text-[#0f172a] transition hover:translate-x-1 hover:text-[#BE8220]"
-                      >
-                        {category.name}
-                      </Link>
-                    </div>
-                  ))}
+    {/* SOCIALS */}
+    <div className="mr-[250px] flex items-center gap-[15px] text-white">
+      <a
+        href="https://facebook.com"
+        target="_blank"
+        className="transition hover:text-[#c8921c]"
+      >
+        <Facebook className="h-[15px] w-[15px]" strokeWidth={2.3} />
+      </a>
+
+      <a
+        href="https://instagram.com"
+        target="_blank"
+        className="transition hover:text-[#c8921c]"
+      >
+        <Instagram className="h-[15px] w-[15px]" strokeWidth={2.3} />
+      </a>
+    </div>
+
+    {/* QUOTE BUTTON */}
+    <div
+      className="absolute right-0 top-0 flex h-[40px] w-[220px] items-center justify-center bg-[#c8921c]"
+      style={{
+        clipPath: "polygon(12% 0, 100% 0, 100% 100%, 0 100%)",
+      }}
+    >
+      <Link
+        href="/contact"
+        className="flex items-center gap-[6px] text-[15px] font-[700] text-white"
+      >
+        Get a Free Quote →
+
+      </Link>
+    </div>
+  </div>
+
+  {/* MAIN NAVBAR */}
+  <div className="relative z-[999999] h-[95px] w-full bg-[#f5f5f5]">
+    <div className="flex h-full items-center justify-between pl-[34px] pr-[42px]">
+      {/* LOGO */}
+      <div className="flex h-full items-center  ">
+        <Link href="/">
+          <Image
+            className="cursor-pointer object-cover"
+            src="/logo.png"
+            alt="Logo"
+            width={370}
+            height={158}
+            priority
+          />
+        </Link>
+      </div>
+
+      {/* NAVIGATION */}
+      <nav className=" flex items-center gap-[42px] overflow-visible">
+        {/* HOME */}
+        <Link
+          href="/"
+          className="relative flex items-center text-[20px] font-[700] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
+        >
+          Home
+
+      
+        </Link>
+
+        {/* ABOUT */}
+        <Link
+          href="/about"
+          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
+        >
+          About Us
+        </Link>
+
+        {/* PRODUCTS DROPDOWN */}
+        <div className="group relative flex h-[78px] items-center">
+          <button className="flex items-center gap-[4px] text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]">
+            Our Products
+
+            <ChevronDown className="h-[14px] w-[14px] transition duration-300 group-hover:rotate-180" />
+          </button>
+
+          {/* DROPDOWN */}
+          <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[390px] translate-y-3 rounded-[18px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+            <div className="max-h-[500px] overflow-y-auto p-5">
+              {categories?.map((category) => (
+                <div
+                  key={category.id}
+                  className="mb-2 border-b border-gray-100 pb-4 last:border-none"
+                >
+                  <Link
+                    href={`/categories/${category.id}`}
+                    className="block text-[15px] font-[600] text-[#0f172a] transition hover:translate-x-1 hover:text-[#c8921c]"
+                  >
+                    {category.name}
+                  </Link>
                 </div>
-              </div>
-            </div>
-
-            {/* ARTICLES */}
-            <Link
-              href="/articles"
-              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
-            >
-              Articles & Resources
-            </Link>
-
-            {/* CONTACT */}
-            <Link
-              href="/contact"
-              className="relative flex items-center text-[20px] font-[600] tracking-[-0.2px] text-black transition hover:text-[#BE8220] after:absolute after:-bottom-2 after:left-0 after:h-[2px] after:w-0 after:bg-[#BE8220] after:transition-all hover:after:w-full"
-            >
-              Contact Us
-            </Link>
-          </nav>
-
-          {/* PHONE */}
-          <div className="relative z-20 flex items-center bg-[#f3f3f5] pl-[36px]">
-            {/* ICON */}
-            <div className="mr-[16px] flex h-[58px] w-[58px] items-center justify-center rounded-full bg-[#BE8220]">
-              <Phone className="h-[21px] w-[21px] text-white" />
-            </div>
-
-            {/* TEXT */}
-            <div>
-              <p className="mb-[4px] text-[18px] font-[500] leading-none text-[#7c7f87]">
-                Call Anytime
-              </p>
-
-              <a
-                href="tel:+919818544039"
-                className="text-[17px] font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a] transition hover:text-[#BE8220]"
-              >
-                +91 9818544039
-              </a>
+              ))}
             </div>
           </div>
         </div>
+
+        {/* INDUSTRIES */}
+        <Link
+          href="/industries"
+          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
+        >
+          Industries
+        </Link>
+
+        {/* ARTICLES */}
+        <Link
+          href="/articles"
+          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
+        >
+          Articles & Resources
+        </Link>
+
+        {/* CONTACT */}
+        <Link
+          href="/contact"
+          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
+        >
+          Contact Us
+        </Link>
+      </nav>
+
+      {/* PHONE */}
+      <div className="relative z-20 flex items-center bg-[#f5f5f5] pl-[20px]">
+        {/* ICON */}
+        <div className="mr-[12px] flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#c8921c]">
+          <Phone className="h-[18px] w-[18px] text-white" />
+        </div>
+
+        {/* TEXT */}
+        <div>
+          <p className="mb-[3px] text-[15px] font-[500] leading-none text-[#7c7f87]">
+            Call Anytime
+          </p>
+
+          <a
+            href="tel:+919818544039"
+            className="text-[18px]  font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a] transition hover:text-[#c8921c]"
+          >
+            +91 9818544039
+          </a>
+        </div>
       </div>
-    </header>
+    </div>
+  </div>
+</header>
   );
 }

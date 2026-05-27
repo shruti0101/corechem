@@ -4,7 +4,7 @@ import { ArrowUpRight, CheckCircle2 } from "lucide-react";
 
 export default function TitaniumDioxideSection() {
   return (
-    <section className="relative overflow-hidden bg-[#f7f8fa] py-[60px] px-3">
+    <section className="relative overflow-hidden bg-[#f7f8fa] py-[50px] px-3">
       {/* GRID PATTERN */}
       <div className="absolute inset-0 opacity-[0.06]">
         <div

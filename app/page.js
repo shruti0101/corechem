@@ -18,12 +18,16 @@ import Parallex from "@/components/Landingpage/Parallex.jsx"
 import Loactions from "@/components/Locations";
 import Clientele from "@/components/Landingpage/Clientele";
 import Belowhero from "@/components/Landingpage/Belowhero"
+import Facilitybar from "@/components/Landingpage/Facilitybar"
+import Facilitybar2 from "@/components/Landingpage/Facilitybar2"
 export default function Home() {
   return (
     <>
       {/* <Popup></Popup> */}
       <Hero />
+      <Facilitybar></Facilitybar>
       <Belowhero></Belowhero>
+      <Facilitybar2></Facilitybar2>
 
       <About />
 

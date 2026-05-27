@@ -20,8 +20,8 @@ export default function AboutUsSection() {
             alt="About"
             fill
             priority
-            sizes="(max-width:768px) 100vw, 50vw"
-            className="object-cover"
+          
+            className="object-contain"
           />
 
           {/* BLACK CARD */}
@@ -66,12 +66,12 @@ export default function AboutUsSection() {
         </div>
 
         {/* MAIN HEADING */}
-        <h2 className="mt-2 text-[32px] z-50 sm:text-[52px] ">
+        <h2 className="mt-2 text-[32px] z-50 sm:text-[45px] ">
           Trusted Titanium Dioxide Supplier
         </h2>
 
         {/* DESCRIPTION */}
-        <p className="mt-3 text-[15px] sm:text-[17px] lg:text-[18px] leading-[30px] text-black text-justify">
+        <p className="mt-2 text-[15px] sm:text-[17px]  leading-[33px] text-black text-justify">
           At Corechem Corporation, we specialize in supplying high-quality
           Titanium Dioxide products to businesses across multiple industries.
           As a leading Titanium Dioxide Supplier, our mission is to provide
@@ -92,7 +92,7 @@ export default function AboutUsSection() {
         </p>
 
         {/* CHECKLIST */}
-        <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
+        <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
           {[
             "Trusted supplier for multiple industries.",
             "High-quality products with consistency.",
@@ -109,7 +109,7 @@ export default function AboutUsSection() {
                 />
               </div>
 
-              <p className="text-[15px] sm:text-[16px] font-[700] text-black leading-[1.6]">
+              <p className="text-[15px] sm:text-[17px] font-[700] text-black leading-[1.6]">
                 {item}
               </p>
             </div>
@@ -117,7 +117,7 @@ export default function AboutUsSection() {
         </div>
 
         {/* CONTACT + EXPERIENCE */}
-        <div className="mt-10 flex flex-col xl:flex-row items-start xl:items-center gap-8">
+        <div className="mt-5 flex flex-col xl:flex-row items-start xl:items-center gap-8">
           
           {/* LEFT */}
           <div className="flex-1">
@@ -151,7 +151,7 @@ export default function AboutUsSection() {
             </div>
 
             {/* EMAIL */}
-            <div className="flex items-center gap-4 mt-5">
+            <div className="flex items-center gap-4 mt-2">
               <div className="w-[46px] h-[46px] rounded-full bg-[#BE8220] flex items-center justify-center shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"

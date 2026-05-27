@@ -72,7 +72,7 @@ const industries = [
 
 export default function IndustriesWeServe() {
   return (
-    <section className="relative overflow-hidden bg-white py-[30px] px-10">
+    <section className="relative overflow-hidden bg-white py-[25px] px-10">
       {/* BACKGROUND GRID */}
 
       {/* CONTAINER */}
@@ -91,7 +91,7 @@ export default function IndustriesWeServe() {
             </div>
 
             {/* MAIN TITLE */}
-            <h2 className="mt-[14px] max-w-[1400px] text-[#16171b] text-[44px] leading-[56px] sm:text-[60px] sm:leading-[78px]  font-[700] ">
+            <h2 className="mt-[14px] max-w-[1400px] text-[#16171b] text-[49px] sm:leading-[78px]  font-[700] ">
               Trusted Titanium Dioxide Supplier for Diverse Industries
             </h2>
           </div>
@@ -107,7 +107,7 @@ export default function IndustriesWeServe() {
         </div>
 
         {/* INDUSTRIES GRID */}
-        <div className="mt-[40px] grid grid-cols-1 gap-[24px] md:grid-cols-2 xl:grid-cols-3">
+        <div className="mt-[30px] grid grid-cols-1 gap-[24px] md:grid-cols-2 xl:grid-cols-3">
           {industries.map((item, index) => {
             const Icon = item.icon;
 
