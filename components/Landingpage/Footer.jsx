@@ -58,9 +58,9 @@ export default function Footer() {
             {/* LOGO */}
             <Link href="/" className="inline-block">
               <Image
-                src="/logoo.png"
+                src="/logo.png"
                 alt="Corechem Corporation"
-                width={180}
+                width={330}
                 height={120}
                 className=" object-contain bg-white rounded-md p-2"
               />

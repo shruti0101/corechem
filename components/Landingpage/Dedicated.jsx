@@ -152,7 +152,7 @@ export default function TitaniumDioxideSection() {
                   {[
                     "Premium TiO₂ Quality Standards",
                     "Reliable Global Supply Chain",
-                    "Bulk & Customized Packaging",
+                    "Bulk  Packaging",
                     "Competitive Industrial Pricing",
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-[14px]">

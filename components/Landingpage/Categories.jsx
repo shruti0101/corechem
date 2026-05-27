@@ -98,10 +98,7 @@ export default function IndustrialServicesSection() {
 
      
 
-      <div className="absolute right-[-150px] bottom-[80px] h-[350px] w-[350px] rounded-full bg-[#BE8220]/10 blur-[120px]" />
 
-      {/* RIGHT ORANGE BAR */}
-      <div className="absolute right-0 bottom-[25px] h-[60px] w-[8px] bg-[#BE8220]" />
 
       {/* CONTENT */}
       <div className="relative z-10 mx-auto max-w-[1600px] px-4 sm:px-6 lg:px-8 xl:px-10">
@@ -185,7 +182,7 @@ export default function IndustrialServicesSection() {
                       />
 
                       {/* IMAGE OVERLAY */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-black/10 to-transparent" />
                     </div>
 
                     {/* CONTENT */}

@@ -15,13 +15,13 @@ export default function Client() {
         { name: "ICICI Bank", image: "/client/5.png" },
         { name: "Bandhan Bank", image: "/client/6.png" },
         { name: "Union Bank", image: "/client/7.png" },
-        { name: "Westside", image: "/client/8.png" },
+  
     ]
 
     return (
         <div className="bg-gray-50">
             <h2 className="pt-5 text-center text-red-600 md:text-5xl text-4xl font-bold">
-                Our Clients
+                Our Brands
             </h2>
 
             <Swiper
@@ -52,17 +52,14 @@ export default function Client() {
                 {clients.map((client, index) => (
                     <SwiperSlide key={index}>
                         <motion.div
-                            whileHover={{
-                                scale: 1.1,
-                                boxShadow: "0px 10px 30px rgba(0,0,0,0.15)",
-                            }}
+                          
                             transition={{ type: "spring", stiffness: 200 }}
                             className="bg-white rounded-2xl p-4 flex items-center justify-center cursor-pointer border border-gray-100"
                         >
                             <motion.img
                                 src={client.image}
                                 alt={client.name}
-                                className="h-20 md:h-34 object-contain transition duration-300"
+                                className="h-20 md:h-54 object-contain "
                                 whileHover={{ rotate: 2 }}
                             />
                         </motion.div>

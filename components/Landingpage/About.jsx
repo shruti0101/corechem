@@ -66,12 +66,12 @@ export default function AboutUsSection() {
         </div>
 
         {/* MAIN HEADING */}
-        <h2 className="mt-2 text-[32px] z-50 sm:text-[45px] ">
+        <h2 className="mt-2 text-[32px] z-50 sm:text-[40px] font-[800] ">
           Trusted Titanium Dioxide Supplier
         </h2>
 
         {/* DESCRIPTION */}
-        <p className="mt-2 text-[15px] sm:text-[17px]  leading-[33px] text-black text-justify">
+        <p className="mt-2 text-[15px] sm:text-[18px]  leading-[33px] text-black text-justify">
           At Corechem Corporation, we specialize in supplying high-quality
           Titanium Dioxide products to businesses across multiple industries.
           As a leading Titanium Dioxide Supplier, our mission is to provide
@@ -221,7 +221,7 @@ export default function AboutUsSection() {
         </div>
 
         {/* BG SHAPE */}
-        <div className="absolute right-[-120px] top-[120px] -z-10 opacity-[0.40] hidden xl:block pointer-events-none">
+        <div className="absolute right-[-120px] top-[120px] -z-10 opacity-[0.20] hidden xl:block pointer-events-none">
           <Image
             src="/gear-canvas.svg"
             alt="Gear"
