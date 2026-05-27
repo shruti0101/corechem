@@ -43,7 +43,7 @@ const products = [
 export default function TitaniumSection() {
   return (
     <section className="w-full bg-white pt-10 overflow-hidden">
-      <div className="w-full mx-auto px-10">
+      <div className="w-full mx-auto px-5">
         <div className="grid grid-cols-1 xl:grid-cols-[280px_1fr_330px] gap-5 items-start">
           
           {/* LEFT CONTENT */}
@@ -53,7 +53,7 @@ export default function TitaniumSection() {
               <span className="absolute left-0 -bottom-2 w-[55px] h-[3px] bg-[#d39a21]"></span>
             </p>
 
-            <h2 className="mt-5 text-[32px]   font-[800] text-[#10254d]">
+            <h2 className="mt-5 text-[30px]   font-[800] text-[#10254d]">
               High Performance Titanium Oxide
          
                 
@@ -90,7 +90,7 @@ export default function TitaniumSection() {
                   slidesPerView: 1.3,
                 },
                 768: {
-                  slidesPerView: 2,
+                  slidesPerView: 3,
                 },
          
               }}
@@ -98,15 +98,15 @@ export default function TitaniumSection() {
             >
               {products.map((item) => (
                 <SwiperSlide key={item.id}>
-                  <div className="min-h-[250px] bg-[#fafafa] border border-[#ececec] rounded-[10px] px-6 py-6 hover:shadow-lg transition-all duration-300">
+                  <div className="min-h-[300px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
                     
-                    {/* IMAGE */}
-                    <div className="flex justify-center">
+            <div className="flex flex-row gap-2">
+  <div className="flex  justify-center">
                       <Image
-                        src="/powder.png"
+                        src="/bowl.png"
                         alt="powder"
-                        width={120}
-                        height={120}
+                        width={200}
+                        height={200}
                         className="object-contain"
                       />
                     </div>
@@ -117,11 +117,11 @@ export default function TitaniumSection() {
                         {item.grade}
                       </p>
 
-                      <h3 className="text-[#10254d] text-[34px] leading-[40px] font-[800] mt-1">
+                      <h3 className="text-[#10254d] text-[30px] leading-[40px] font-[800] mt-1">
                         {item.code}
                       </h3>
 
-                      <p className="mt-3 text-[#6f7684] text-[14px] leading-[24px]">
+                      <p className="mt-3 text-black text-[14px] leading-[24px]">
                         {item.desc}
                       </p>
 
@@ -130,6 +130,11 @@ export default function TitaniumSection() {
                         <ChevronRight className="w-4 h-4" />
                       </button>
                     </div>
+
+            </div>
+
+
+                  
                   </div>
                 </SwiperSlide>
               ))}
@@ -137,7 +142,7 @@ export default function TitaniumSection() {
           </div>
 
           {/* RIGHT FORM */}
-          <div className="bg-[#07224b] rounded-[10px] p-3">
+          <div className="bg-[#07224b] rounded-[10px] p-6">
             <h3 className="text-white text-[20px] font-[800]">
               Get a Free Quote
             </h3>
@@ -146,13 +151,13 @@ export default function TitaniumSection() {
 
             <div className="mt-3 space-y-4">
               
-              {/* NAME */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               <div className="relative">
                 <User className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7a7a7a]" />
 
                 <input
                   type="text"
-                  placeholder="Your Name"
+                  placeholder=" Name"
                   className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
                 />
               </div>
@@ -163,9 +168,11 @@ export default function TitaniumSection() {
 
                 <input
                   type="text"
-                  placeholder="Phone Number"
+                  placeholder=" Number"
                   className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
                 />
+              </div>
+
               </div>
 
               {/* EMAIL + SELECT */}
@@ -175,13 +182,13 @@ export default function TitaniumSection() {
 
                   <input
                     type="email"
-                    placeholder="Email Address"
+                    placeholder="Email "
                     className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
                   />
                 </div>
 
                 <select className="w-full h-[52px] rounded-[5px] bg-white px-4 text-[14px] outline-none text-[#6f7684]">
-                  <option>Your Requirement</option>
+                  <option> Requirement</option>
                 </select>
               </div>
 
