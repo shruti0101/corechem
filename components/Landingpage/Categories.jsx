@@ -12,6 +12,7 @@ import {
   Sparkles,
   Circle,
 } from "lucide-react";
+import Reveal from "./Reveal";
 
 /* SWIPER */
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -88,6 +89,10 @@ const services = [
 
 export default function IndustrialServicesSection() {
   return (
+
+
+<Reveal>
+
     <section
       className="relative w-full overflow-hidden bg-cover bg-center bg-no-repeat py-[40px] "
       style={{
@@ -240,5 +245,7 @@ export default function IndustrialServicesSection() {
         }
       `}</style>
     </section>
+</Reveal>
+
   );
 }

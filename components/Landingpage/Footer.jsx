@@ -35,7 +35,7 @@ const products = [
 
 export default function Footer() {
   return (
-    <footer className="relative overflow-hidden bg-[#0f1720] text-white">
+    <footer className="relative overflow-hidden bg-[#1C293C] text-white">
       {/* TOP GRADIENT LINE */}
       <div className="h-[4px] w-full bg-gradient-to-r from-[#BE8220] via-[#ff7a3c] to-[#BE8220]" />
 

@@ -5,7 +5,7 @@ import { ArrowRight, ArrowLeft, ArrowUpRight } from "lucide-react";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
-
+import Reveal from "./Reveal";
 import "swiper/css";
 import "swiper/css/navigation";
 
@@ -37,6 +37,10 @@ const products = [
 
 export default function ProductShowcaseSection() {
   return (
+
+<Reveal>
+
+
     <section className="relative overflow-hidden bg-[#f3f3f3] py-[60px] ">
       {/* RIGHT INDUSTRIAL BG */}
       <div className="absolute right-0 bottom-0 opacity-[0.06] pointer-events-none">
@@ -183,5 +187,7 @@ export default function ProductShowcaseSection() {
         </div>
       </div>
     </section>
+</Reveal>
+
   );
 }

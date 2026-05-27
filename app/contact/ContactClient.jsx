@@ -80,32 +80,13 @@ export default function ContactPage() {
 
         {/* CONTENT */}
         <div className="relative z-10 max-w-5xl px-6 text-center">
-          <h1 className="mt-20 text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
+          <h1 className=" text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
             Let’s Build Reliable Chemical Supply Partnerships
           </h1>
 
-          <p className="mx-auto mt-8 max-w-3xl text-lg leading-8 text-black md:text-xl">
-            Connect with Corechem Corporation for premium Titanium Dioxide
-            products, dependable supply solutions, and responsive customer
-            support tailored to your business.
-          </p>
+      
 
-          <div className="mt-10 flex flex-wrap justify-center gap-4">
-            <a
-              href="tel:+919818544039"
-              className="inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e55312]"
-            >
-              Call Now
-              <ArrowRight className="h-5 w-5" />
-            </a>
-
-            <a
-              href="mailto:corechemcorporation@gmail.com"
-              className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#BE8220] hover:text-[#BE8220]"
-            >
-              Send Email
-            </a>
-          </div>
+       
         </div>
       </section>
 

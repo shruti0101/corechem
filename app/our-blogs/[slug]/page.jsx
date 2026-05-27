@@ -94,16 +94,16 @@ export default async function BlogDetail({ params }) {
   return (
     <>
      <section
-  style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-  className="relative h-[50vh] md:h-[90vh] bg-center bg-cover overflow-hidden"
+  style={{ backgroundImage: "url('/parallex.jpg')" }}
+  className="relative h-[50vh] md:h-[60vh] bg-center bg-cover overflow-hidden"
 >
   <div className="absolute inset-0 bg-black/40 z-[1]"></div>
   
         <div className="relative  z-10 flex h-full items-center justify-center max-w-6xl mx-auto px-6">
-          <div className="text-emerald-700 max-w-2xl bg-white p-2 rounded">
+          <div className="text-yellow-700 max-w-2xl bg-white p-2 rounded">
        
 
-            <h1 className="text-3xl md:text-6xl font-bold leading-tight mt-3">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight mt-3">
               {blog.title}
             </h1>
 

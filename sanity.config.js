@@ -81,14 +81,14 @@ const blog = {
 
 
 export default defineConfig({
-  name: "sangam-studio",
-  title: "sangam Studio",
+  name: "corechem",
+  title: "corechem",
   projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
   dataset: process.env.NEXT_PUBLIC_SANITY_DATASET || "production",
   apiVersion: "2024-06-01",
   basePath: "/studio",
   plugins: [structureTool(), visionTool()],
   schema: {
-    types: [blog], // ✅ Blog now includes SEO fields
+    types: [blog], //  Blog now includes SEO fields
   },
 });

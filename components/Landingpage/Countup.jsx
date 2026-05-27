@@ -22,10 +22,10 @@ export default function HighQualityCTA() {
           </div>
 
           {/* RIGHT CONTENT */}
-          <div className="relative bg-[#BE8220]/70 flex items-center">
+          <div className="relative bg-[#1C293C] flex items-center">
             {/* Dot Pattern Overlay */}
             <div
-              className="absolute inset-0 opacity-40 pointer-events-none"
+              className="absolute inset-0 opacity-20 pointer-events-none"
               style={{
                 backgroundImage:
                   "radial-gradient(circle at 20px 20px, white 2px, transparent 2px)",

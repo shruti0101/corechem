@@ -2,9 +2,13 @@
 
 import { Check } from "lucide-react";
 import Image from "next/image";
-
+import Reveal from "./Reveal";
 export default function AboutUsSection() {
   return (
+
+    <Reveal>
+
+
    <section className="relative w-full py-10  bg-white overflow-hidden">
   <div className="w-full mx-auto px-4 md:px-7 ">
     
@@ -25,7 +29,7 @@ export default function AboutUsSection() {
           />
 
           {/* BLACK CARD */}
-          <div className="absolute bottom-0 left-0 w-[92%] sm:w-[80%] bg-[#111111] px-5 sm:px-7 py-5 sm:py-7 flex items-center justify-between">
+          <div className="absolute bottom-0 left-0 w-[92%] sm:w-[80%] bg-[#1C293C] px-5 sm:px-7 py-5 sm:py-7 flex items-center justify-between">
             
             <div className="flex items-center gap-4 sm:gap-6">
               
@@ -233,5 +237,6 @@ export default function AboutUsSection() {
     </div>
   </div>
 </section>
+    </Reveal>
   );
 }

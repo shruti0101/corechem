@@ -169,7 +169,7 @@ export default function Navbar() {
           </button>
 
           {/* DROPDOWN */}
-          <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[390px] translate-y-3 rounded-[18px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
+          <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[340px] translate-y-3 rounded-[18px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
             <div className="max-h-[500px] overflow-y-auto p-5">
               {categories?.map((category) => (
                 <div
@@ -178,7 +178,7 @@ export default function Navbar() {
                 >
                   <Link
                     href={`/categories/${category.id}`}
-                    className="block text-[15px] font-[600] text-[#0f172a] transition hover:translate-x-1 hover:text-[#c8921c]"
+                    className="block text-[20px] font-[600] text-[#0f172a] transition hover:translate-x-1 hover:text-[#c8921c]"
                   >
                     {category.name}
                   </Link>
@@ -198,7 +198,7 @@ export default function Navbar() {
 
         {/* ARTICLES */}
         <Link
-          href="/articles"
+          href="/our-blogs"
           className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
         >
           Articles & Resources

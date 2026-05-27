@@ -1,9 +1,14 @@
 "use client";
 
 import { ArrowUpRight, CheckCircle2 } from "lucide-react";
-
+import Reveal from "./Reveal";
 export default function TitaniumDioxideSection() {
   return (
+
+
+<Reveal>
+
+
     <section className="relative overflow-hidden bg-[#f7f8fa] py-[50px] px-3">
       {/* GRID PATTERN */}
       <div className="absolute inset-0 opacity-[0.06]">
@@ -199,5 +204,7 @@ export default function TitaniumDioxideSection() {
         </div>
       </div>
     </section>
+</Reveal>
+
   );
 }

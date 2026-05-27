@@ -11,42 +11,41 @@ import "swiper/css/navigation";
 
 const testimonials = [
   {
-    name: "Michael Carter",
+    name: "Rahul Sharma",
     role: "Procurement Manager",
     image: "/clients/client-1.jpg",
     company: "/brand.png",
     review:
-      "Corechem Corporation consistently delivers high-quality Titanium Dioxide products with reliable supply and excellent service support.",
+      "Corechem Corporation has been a trusted partner for our raw material requirements. Their Titanium Dioxide quality is always consistent and reliable.",
   },
 
   {
-    name: "Daniel Smith",
+    name: "Amit Verma",
     role: "Operations Head",
     image: "/clients/client-2.jpg",
     company: "/brand.png",
     review:
-      "Their product consistency, competitive pricing, and responsive communication make them a dependable long-term supplier.",
+      "We are highly satisfied with their timely deliveries, competitive pricing, and professional customer support throughout every order.",
   },
 
   {
-    name: "Sophia Miller",
+    name: "Priya Mehta",
     role: "Manufacturing Director",
     image: "/clients/client-3.jpg",
     company: "/brand.png",
     review:
-      "We appreciate the timely deliveries and professional support provided by Corechem Corporation for our industrial requirements.",
+      "Their products perform exceptionally well in our manufacturing process. Corechem always ensures premium quality and smooth communication.",
   },
 
   {
-    name: "Robert Johnson",
+    name: "Sandeep Patel",
     role: "Supply Chain Head",
     image: "/clients/client-4.jpg",
     company: "/brand.png",
     review:
-      "Excellent product quality and professional service. Their team always ensures smooth communication and timely dispatches.",
+      "Excellent service and dependable product supply. The team at Corechem Corporation is responsive, professional, and easy to work with.",
   },
 ];
-
 export default function TestimonialSection() {
   return (
     <section className="relative overflow-hidden bg-white py-[50px] ">

@@ -114,7 +114,7 @@ export default function IndustriesWeServe() {
             return (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-[6px] bg-[#16171b]/85 p-[15px] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(0,0,0,0.18)]"
+                className="group relative overflow-hidden rounded-[6px] bg-[#1C293C] p-[15px] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(0,0,0,0.18)]"
               >
                 {/* BACKGROUND TEXTURE */}
                 <div className="absolute inset-0 opacity-[0.04]">

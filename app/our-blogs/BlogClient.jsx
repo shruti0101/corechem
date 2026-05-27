@@ -19,7 +19,7 @@ async function getBlogs() {
 
 export default function BlogsPage() {
   const [blogs, setBlogs] = useState([]);
-  const [visibleCount, setVisibleCount] = useState(6); // ✅ initially show 6 blogs
+  const [visibleCount, setVisibleCount] = useState(6); 
 
   useEffect(() => {
     async function fetchBlogs() {
@@ -33,12 +33,12 @@ export default function BlogsPage() {
     <>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full bg-cover h-[50vh] md:h-[90vh]  relative"
+        style={{ backgroundImage: "url('/parallex.jpg')" }}
+        className="w-full bg-cover h-[50vh] md:h-[70vh]  relative"
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="absolute inset-0 flex flex-col items-center justify-center ">
-           <p className="text-emerald-700 text-lg ">Home / Blogs</p>
+           <p className="text-yellow-700 text-lg ">Home / Blogs</p>
           <h2 className="text-white text-6xl font-bold z-10 ">
             Our Blogs
           </h2>
