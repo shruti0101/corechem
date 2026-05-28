@@ -106,9 +106,7 @@ export default function ProductPage({ params }) {
             </h1>
 
             <p className="mt-8 max-w-2xl text-lg leading-8 text-black md:text-xl">
-              High-quality Titanium Dioxide solutions designed for industrial
-              applications including paints, coatings, plastics, inks, rubber,
-              paper, and manufacturing industries.
+              {product.overview}
             </p>
 
             {/* BUTTONS */}
