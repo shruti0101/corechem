@@ -16,18 +16,18 @@ const Page = () => {
     <div>
       {/* Hero Section */}
       <section
-        style={{ backgroundImage: "url('/bag/bg-other.webp')" }}
-        className="w-full bg-cover bg-center h-[50vh]  md:h-[90vh] relative"
+        style={{ backgroundImage: "url('/parallex.jpg')" }}
+        className="w-full bg-cover bg-center h-[50vh]  md:h-[60vh] relative"
       >
         {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-green-600 bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
+          <h2 className="text-[#C8921C] bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
         </div>
       </section>
 
       {/* Products Grid */}
-      <div className="max-w-7xl px-10 py-10 mx-auto">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      <div className="w-full px-10 py-10 mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {allProducts.map((product) => (
             <Link
               key={product.id}
@@ -40,7 +40,7 @@ const Page = () => {
                 width={300}
                 height={200}
                 title={product.name} 
-                className="w-full h-70   object-contain"
+                className="w-full h-80   object-cover"
               />
               <div className="p-3">
                 <h2 className="text-lg text-center font-semibold">{product.name}</h2>

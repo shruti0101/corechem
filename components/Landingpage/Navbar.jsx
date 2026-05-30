@@ -109,10 +109,14 @@ export default function Navbar() {
             {/* PRODUCTS */}
             <div className="group relative">
 
+<Link href="/products">
+
+
               <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#c8921c]">
                 Our Products
                 <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
               </button>
+</Link>
 
               <div className="invisible absolute left-0 top-full z-[999999] mt-5 w-[350px] rounded-2xl border border-slate-200 bg-white opacity-0 shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:mt-3 group-hover:opacity-100">
 
@@ -227,10 +231,12 @@ export default function Navbar() {
           </Link>
 
           <div className="mt-6 border-t pt-5">
-
+<Link href="/products">
             <h4 className="mb-4 font-semibold">
               Our Products
             </h4>
+
+</Link>
 
             <div className="max-h-[300px] overflow-y-auto">
 

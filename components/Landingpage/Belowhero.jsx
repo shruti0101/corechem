@@ -12,13 +12,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
 import "swiper/css";
-
+import Reveal from "./Reveal";
 const products = [
   {
     id: 1,
     image:"/bowl1.webp",
     grade: "Titanium Dioxide (TiO₂) – Jihani",
-    code: "6618",
+    code: "6628",
     desc: "High brightness and excellent durability for applications.",
   },
   {
@@ -47,7 +47,7 @@ const products = [
     id: 4,
         image:"/bowl5.webp",
     grade: "Titanium Dioxide Kronos ",
-    code: "R2220",
+    code: "R-2220",
     desc: "Premium titanium dioxide with excellent opacity.",
   },
 
@@ -55,7 +55,7 @@ const products = [
     id: 4,
         image:"/bowl6.webp",
     grade: "Titanium Dioxide Kronos ",
-    code: "R2310",
+    code: "R-2310",
     desc: "Premium titanium dioxide with excellent opacity.",
   },
 
@@ -74,7 +74,9 @@ export default function TitaniumSection() {
 
     <>
     
-    
+    <Reveal>
+
+
     <section className="w-full bg-white pt-10 overflow-hidden">
       <div className="w-full mx-auto px-8">
         <div className="grid grid-cols-1 xl:grid-cols-[350px_1fr] gap-2 items-start">
@@ -131,7 +133,7 @@ export default function TitaniumSection() {
             >
               {products.map((item) => (
                 <SwiperSlide key={item.id}>
-                  <div className="min-h-[270px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
+                  <div className="h-[300px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
                     
             <div className="flex flex-row ">
   <div className="flex  justify-center">
@@ -182,6 +184,7 @@ export default function TitaniumSection() {
       
 
     </section>
+    </Reveal>
 
 
 
@@ -192,6 +195,9 @@ export default function TitaniumSection() {
 
 <section className="relative z-10 mt-8 px-4 lg:px-8">
   <div className="mx-auto w-full rounded-[28px] border border-white/20 bg-white p-4 shadow-[0_25px_80px_rgba(0,0,0,0.12)] backdrop-blur-xl lg:p-6">
+<h2 className="text-2xl md:text-4xl text-center  mb-5">Titanium Dioxide Ki Har Requirement Ka Solution Yahan Milega!</h2>
+
+<p className="mx-auto text-center mb-6 max-w-4xl">From paints and coatings to plastics, inks, and cosmetics — we supply premium-quality Titanium Dioxide for all industrial applications. Fill out the form below, and our team will contact you within 24 hours.</p>
 
     <form className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
 
