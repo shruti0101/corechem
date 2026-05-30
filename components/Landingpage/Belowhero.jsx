@@ -16,51 +16,84 @@ import "swiper/css";
 const products = [
   {
     id: 1,
-    grade: "Rutile",
-    code: "ZR-965",
+    image:"/bowl1.webp",
+    grade: "Titanium Dioxide (TiO₂) – Jihani",
+    code: "6618",
     desc: "High brightness and excellent durability for applications.",
   },
   {
     id: 2,
-    grade: "Rutile",
-    code: "NR-950",
+        image:"/bowl2.webp",
+    grade: "Titanium Dioxide (TiO₂) - Kmml",
+    code: " 822",
     desc: "Excellent dispersibility and strong hiding power.",
   },
   {
     id: 3,
-    grade: "Anatase",
-    code: "R-248",
+        image:"/bowl3.webp",
+    grade: "Titanium Dioxide (TiO₂) - Venator ",
+    code: " TR92",
     desc: "High whiteness and ideal for indoor applications.",
   },
   {
     id: 4,
-    grade: "Rutile",
-    code: "TR-900",
+        image:"/bowl4.webp",
+    grade: "Titanium Dioxide (TiO₂) - Dawn",
+    code: "2195",
+    desc: "Premium titanium dioxide with excellent opacity.",
+  },
+
+    {
+    id: 4,
+        image:"/bowl5.webp",
+    grade: "Titanium Dioxide Kronos ",
+    code: "R2220",
+    desc: "Premium titanium dioxide with excellent opacity.",
+  },
+
+    {
+    id: 4,
+        image:"/bowl6.webp",
+    grade: "Titanium Dioxide Kronos ",
+    code: "R2310",
+    desc: "Premium titanium dioxide with excellent opacity.",
+  },
+
+    {
+    id: 4,
+        image:"/BOWL7.webp",
+    grade: " Titanium dioxide 248",
+    code: "R-248",
     desc: "Premium titanium dioxide with excellent opacity.",
   },
 ];
 
 export default function TitaniumSection() {
   return (
+
+
+    <>
+    
+    
     <section className="w-full bg-white pt-10 overflow-hidden">
-      <div className="w-full mx-auto px-5">
-        <div className="grid grid-cols-1 xl:grid-cols-[280px_1fr_300px] gap-2 items-start">
+      <div className="w-full mx-auto px-8">
+        <div className="grid grid-cols-1 xl:grid-cols-[350px_1fr] gap-2 items-start">
           
           {/* LEFT CONTENT */}
-          <div className="pt-2">
+          <div className="pt-2 ">
             <p className="text-[#10254d] font-[700] uppercase text-[15px] tracking-wide relative inline-block">
               OUR PRODUCTS
               <span className="absolute left-0 -bottom-2 w-[55px] h-[3px] bg-[#d39a21]"></span>
             </p>
 
-            <h2 className="mt-5 text-[26px]   font-[800] text-[#10254d]">
-              High Performance Titanium Oxide
+            <h2 className="mt-5 text-[28px] nimate-pulse  font-[800] text-[#10254d]">
+              High Performance <br /> <span className="text-[#d39a21]">Titanium Dioxide   </span> 
          
                 
             
             </h2>
 
-            <p className="mt-1   text-black text-[15px] leading-[28px] max-w-[250px]">
+            <p className="mt-1   text-black text-[18px] leading-[28px] max-w-[250px]">
               We offer a wide range of Titanium Dioxide grades
               suitable for diverse industrial applications.
             </p>
@@ -98,15 +131,15 @@ export default function TitaniumSection() {
             >
               {products.map((item) => (
                 <SwiperSlide key={item.id}>
-                  <div className="min-h-[260px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
+                  <div className="min-h-[270px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-6 hover:shadow-lg transition-all duration-300">
                     
-            <div className="flex flex-row gap-1">
+            <div className="flex flex-row ">
   <div className="flex  justify-center">
                       <Image
-                        src="/bowl.png"
+                        src={item.image}
                         alt="powder"
-                        width={200}
-                        height={200}
+                        width={600}
+                        height={400}
                         className="object-cover"
                       />
                     </div>
@@ -117,11 +150,11 @@ export default function TitaniumSection() {
                         {item.grade}
                       </p>
 
-                      <h3 className="text-[#10254d] font-bold text-[22px] mt-1">
+                      <h3 className="text-[#10254d] font-bold text-[25px] mt-1">
                         {item.code}
                       </h3>
 
-                      <p className="mt-3 text-black text-[13px] leading-[24px]">
+                      <p className="mt-3 text-black text-[15px] leading-[24px]">
                         {item.desc}
                       </p>
 
@@ -141,65 +174,79 @@ export default function TitaniumSection() {
             </Swiper>
           </div>
 
-          {/* RIGHT FORM */}
-          <div className="bg-[#07224b] rounded-[10px] p-3">
-            <h3 className="text-white text-[20px] font-[800]">
-              Get a Free Quote
-            </h3>
-
-
-            <div className="mt-3 space-y-4">
-              
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <div className="relative">
-                <User className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7a7a7a]" />
-
-                <input
-                  type="text"
-                  placeholder=" Name"
-                  className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
-                />
-              </div>
-
-              {/* PHONE */}
-              <div className="relative">
-                <Phone className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7a7a7a]" />
-
-                <input
-                  type="text"
-                  placeholder=" Number"
-                  className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
-                />
-              </div>
-
-              </div>
-
-              {/* EMAIL + SELECT */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-                <div className="relative">
-                  <Mail className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-[#7a7a7a]" />
-
-                  <input
-                    type="email"
-                    placeholder="Email "
-                    className="w-full h-[52px] rounded-[5px] bg-white pl-12 pr-4 text-[14px] outline-none"
-                  />
-                </div>
-
-                <select className="w-full h-[52px] rounded-[5px] bg-white px-4 text-[14px] outline-none text-[#6f7684]">
-                  <option> Requirement</option>
-                </select>
-              </div>
-
-              {/* BUTTON */}
-              <button className="w-full h-[56px] rounded-[5px] bg-[#d39a21] text-white font-[700] text-[17px] flex items-center justify-center gap-2 hover:bg-[#be8a1c] transition-all duration-300">
-                Submit Inquiry
-                <ChevronRight className="w-5 h-5" />
-              </button>
-            </div>
-          </div>
         </div>
       </div>
+
+
+
+      
+
     </section>
+
+
+
+
+
+
+
+
+<section className="relative z-10 mt-8 px-4 lg:px-8">
+  <div className="mx-auto w-full rounded-[28px] border border-white/20 bg-white p-4 shadow-[0_25px_80px_rgba(0,0,0,0.12)] backdrop-blur-xl lg:p-6">
+
+    <form className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
+
+      {/* Full Name */}
+      <div>
+        <input
+          type="text"
+          placeholder="Full Name"
+          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
+        />
+      </div>
+
+      {/* Company Name */}
+      <div>
+        <input
+          type="text"
+          placeholder="Company Name"
+          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
+        />
+      </div>
+
+      {/* Email */}
+      <div>
+        <input
+          type="email"
+          placeholder="Email Address"
+          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
+        />
+      </div>
+
+      {/* Phone */}
+      <div>
+        <input
+          type="tel"
+          placeholder="Phone Number"
+          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
+        />
+      </div>
+
+      {/* Button */}
+      <button
+        type="submit"
+        className="group h-[60px] min-w-[220px] rounded-2xl bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
+      >
+        Request Quote →
+      </button>
+
+    </form>
+
+  </div>
+</section>
+
+
+
+
+    </>
   );
 }

@@ -13,7 +13,7 @@ const features = [
     id: 1,
     icon: ShieldCheck,
     title: "Premium Quality",
-    desc: "Consistent quality that\nmeets global standards.",
+    desc: "Consistent quality that meets global standards.",
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export default function FeatureStrip() {
             return (
               <div
                 key={item.id}
-                className={`relative flex items-center gap-5 px-8 py-7 min-h-[118px]
+                className={`relative flex items-center gap-5 px-4 py-7 min-h-[118px]
                 ${
                   index !== features.length - 1
                     ? "lg:border-r border-white/10"
@@ -68,13 +68,12 @@ export default function FeatureStrip() {
                   />
                 </div>
 
-                {/* CONTENT */}
-                <div>
-                  <h3 className="text-white text-[22px] leading-[24px] font-[700]">
+                {/* CONTENT */}                <div>
+                  <h3 className="text-white text-[20px] leading-[24px] font-[700]">
                     {item.title}
                   </h3>
 
-                  <p className="mt-2 text-white/75 text-[15px] leading-[24px] whitespace-pre-line font-[400]">
+                  <p className="mt-2 text-white/75 text-[14px] leading-[24px] whitespace-pre-line font-[400]">
                     {item.desc}
                   </p>
                 </div>

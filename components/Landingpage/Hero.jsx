@@ -14,9 +14,9 @@ import "swiper/css/pagination";
 export default function Hero() {
   // Desktop banners
   const desktopBanners = [
-      "/banner2.webp",
-      "/banner3.webp",
-    "/banner1.webp",
+      "/banner2.jpeg",
+      "/banner1.jpeg",
+
   
   ];
 
@@ -30,7 +30,7 @@ export default function Hero() {
     <>
       {/* HERO */}
       <section className="w-full bg-[#f7f7f7]">
-        <div className="relative h-[400px] xl:h-[100vh] w-full ">
+        <div className="relative h-[400px] xl:h-[80vh] w-full ">
           <Swiper
             modules={[Navigation, Pagination, Autoplay]}
             navigation={{

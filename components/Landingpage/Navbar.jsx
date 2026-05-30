@@ -1,8 +1,7 @@
-// components/Navbar.tsx
-
 
 "use client";
 
+import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -12,230 +11,251 @@ import {
   Phone,
   Facebook,
   Instagram,
-  Twitter,
   ChevronDown,
-  ShieldCheck 
+  ShieldCheck,
+  Menu,
+  X,
 } from "lucide-react";
-
-import { FaPinterestP } from "react-icons/fa";
 
 import { categories } from "@/Data";
 
 export default function Navbar() {
-  const navLinks = [
-    {
-      name: "Home",
-      href: "/",
-    },
-
-    {
-      name: "About Us",
-      href: "/about",
-    },
-
-    {
-      name: "Articles & Resources",
-      href: "/articles",
-    },
-
-    {
-      name: "Contact Us",
-      href: "/contact",
-    },
-  ];
+  const [mobileMenu, setMobileMenu] = useState(false);
 
   return (
-<header className="relative z-[999999] w-full overflow-visible font-sans">
-  {/* TOP BAR */}
-  <div className="relative flex h-[40px] w-full bg-[#062347]">
-    {/* LEFT INFO */}
-    <div className="flex flex-1 items-center pl-[58px] text-white">
-      {/* EMAIL */}
-      <div className="flex items-center">
-        <Mail className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
+    <header className="sticky top-0 z-[999999] w-full bg-white shadow-sm">
 
-        <a
-          href="mailto:corechemcorporation@gmail.com"
-          className="text-[15px] font-[500] tracking-[0.2px] transition hover:text-[#c8921c]"
-        >
-          corechemcorporation@gmail.com
-        </a>
-      </div>
+      {/* ================= TOP BAR ================= */}
+      <div className="hidden lg:flex h-[42px] items-center justify-between bg-[#062347] px-8 xl:px-14">
 
-      {/* DIVIDER */}
-      <div className="mx-[18px] h-[14px] w-[1px] bg-white" />
+        <div className="flex items-center gap-5 text-white text-[13px]">
 
-      {/* ADDRESS */}
-      <div className="flex items-center">
-        <MapPin className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
+          <div className="flex items-center gap-2">
+            <Mail className="h-3 w-3 text-[#c8921c]" />
+            <a href="mailto:corechemcorporation@gmail.com">
+              corechemcorporation@gmail.com
+            </a>
+          </div>
 
-        <span className="text-[15px] font-[500]">
-          Delhi, India
-        </span>
-      </div>
+          <div className="h-3 w-px bg-white/30" />
 
-      {/* DIVIDER */}
-      <div className="mx-[18px] h-[14px] w-[1px] bg-white" />
+          <div className="flex items-center gap-2">
+            <MapPin className="h-3 w-3 text-[#c8921c]" />
+            Delhi, India
+          </div>
 
-      {/* GST */}
-      <div className="flex items-center">
-        <ShieldCheck className="mr-[8px] h-[12px] w-[12px] text-[#c8921c]" />
+          <div className="h-3 w-px bg-white/30" />
 
-        <span className="text-[15px] font-[500] uppercase">
-          GST NO. 07EOXPG8261J1Z5
-        </span>
-      </div>
-    </div>
-
-    {/* SOCIALS */}
-    <div className="mr-[250px] flex items-center gap-[15px] text-white">
-      <a
-        href="https://facebook.com"
-        target="_blank"
-        className="transition hover:text-[#c8921c]"
-      >
-        <Facebook className="h-[15px] w-[15px]" strokeWidth={2.3} />
-      </a>
-
-      <a
-        href="https://instagram.com"
-        target="_blank"
-        className="transition hover:text-[#c8921c]"
-      >
-        <Instagram className="h-[15px] w-[15px]" strokeWidth={2.3} />
-      </a>
-    </div>
-
-    {/* QUOTE BUTTON */}
-    <div
-      className="absolute right-0 top-0 flex h-[40px] w-[220px] items-center justify-center bg-[#c8921c]"
-      style={{
-        clipPath: "polygon(12% 0, 100% 0, 100% 100%, 0 100%)",
-      }}
-    >
-      <Link
-        href="/contact"
-        className="flex items-center gap-[6px] text-[15px] font-[700] text-white"
-      >
-        Get a Free Quote →
-
-      </Link>
-    </div>
-  </div>
-
-  {/* MAIN NAVBAR */}
-  <div className="relative z-[999999] h-[95px] w-full bg-[#f5f5f5]">
-    <div className="flex h-full items-center justify-between pl-[34px] pr-[42px]">
-      {/* LOGO */}
-      <div className="flex h-full items-center  ">
-        <Link href="/">
-          <Image
-            className="cursor-pointer object-cover"
-            src="/logo.png"
-            alt="Logo"
-            width={370}
-            height={158}
-            priority
-          />
-        </Link>
-      </div>
-
-      {/* NAVIGATION */}
-      <nav className=" flex items-center gap-[42px] overflow-visible">
-        {/* HOME */}
-        <Link
-          href="/"
-          className="relative flex items-center text-[20px] font-[700] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
-        >
-          Home
-
-      
-        </Link>
-
-        {/* ABOUT */}
-        <Link
-          href="/about"
-          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
-        >
-          About Us
-        </Link>
-
-        {/* PRODUCTS DROPDOWN */}
-        <div className="group relative flex h-[78px] items-center">
-          <button className="flex items-center gap-[4px] text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]">
-            Our Products
-
-            <ChevronDown className="h-[14px] w-[14px] transition duration-300 group-hover:rotate-180" />
-          </button>
-
-          {/* DROPDOWN */}
-          <div className="invisible absolute left-0 top-full z-[999999] mt-0 w-[340px] translate-y-3 rounded-[18px] border border-slate-200 bg-white opacity-0 shadow-[0_20px_70px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100">
-            <div className="max-h-[500px] overflow-y-auto p-5">
-              {categories?.map((category) => (
-                <div
-                  key={category.id}
-                  className="mb-2 border-b border-gray-100 pb-4 last:border-none"
-                >
-                  <Link
-                    href={`/categories/${category.id}`}
-                    className="block text-[20px] font-[600] text-[#0f172a] transition hover:translate-x-1 hover:text-[#c8921c]"
-                  >
-                    {category.name}
-                  </Link>
-                </div>
-              ))}
-            </div>
+          <div className="flex items-center gap-2">
+            <ShieldCheck className="h-3 w-3 text-[#c8921c]" />
+            GST NO. 07EOXPG8261J1Z5
           </div>
         </div>
 
-        {/* INDUSTRIES */}
-        <Link
-          href="/industries"
-          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
-        >
-          Industries
-        </Link>
+        <div className="flex items-center gap-5 text-white">
 
-        {/* ARTICLES */}
-        <Link
-          href="/our-blogs"
-          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
-        >
-          Articles & Resources
-        </Link>
+          <a href="#">
+            <Facebook className="h-4 w-4 hover:text-[#c8921c]" />
+          </a>
 
-        {/* CONTACT */}
-        <Link
-          href="/contact"
-          className="relative flex items-center text-[20px] font-[500] tracking-[0.1px] text-black transition hover:text-[#c8921c]"
-        >
-          Contact Us
-        </Link>
-      </nav>
+          <a href="#">
+            <Instagram className="h-4 w-4 hover:text-[#c8921c]" />
+          </a>
 
-      {/* PHONE */}
-      <div className="relative z-20 flex items-center bg-[#f5f5f5] pl-[20px]">
-        {/* ICON */}
-        <div className="mr-[12px] flex h-[48px] w-[48px] items-center justify-center rounded-full bg-[#c8921c]">
-          <Phone className="h-[18px] w-[18px] text-white" />
+          <Link
+            href="/contact"
+            className="bg-[#c8921c] px-5 py-[11px] text-[13px] font-semibold text-white hover:bg-[#b88312]"
+          >
+            Get Free Quote →
+          </Link>
+
+        </div>
+      </div>
+
+      {/* ================= MAIN NAVBAR ================= */}
+      <div className="h-[85px] bg-white">
+
+        <div className="mx-auto flex h-full max-w-[1700px] items-center justify-between px-4 sm:px-6 lg:px-10">
+
+          {/* LOGO */}
+          <Link href="/" className="shrink-0">
+            <Image
+              src="/logo.png"
+              alt="Logo"
+              width={260}
+              height={100}
+              priority
+              className="h-auto w-[200px] sm:w-[220px] lg:w-[340px]"
+            />
+          </Link>
+
+          {/* DESKTOP MENU */}
+          <nav className="hidden xl:flex items-center gap-10">
+
+            <Link
+              href="/"
+              className="font-semibold text-[17px] hover:text-[#c8921c]"
+            >
+              Home
+            </Link>
+
+            <Link
+              href="/about"
+              className="font-semibold text-[17px] hover:text-[#c8921c]"
+            >
+              About Us
+            </Link>
+
+            {/* PRODUCTS */}
+            <div className="group relative">
+
+              <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#c8921c]">
+                Our Products
+                <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
+              </button>
+
+              <div className="invisible absolute left-0 top-full z-[999999] mt-5 w-[350px] rounded-2xl border border-slate-200 bg-white opacity-0 shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:mt-3 group-hover:opacity-100">
+
+                <div className="max-h-[450px] overflow-y-auto p-5">
+
+                  {categories?.map((category) => (
+                    <Link
+                      key={category.id}
+                      href={`/categories/${category.id}`}
+                      className="block border-b border-slate-100 py-3 text-[16px] font-medium text-slate-800 transition hover:translate-x-2 hover:text-[#c8921c]"
+                    >
+                      {category.name}
+                    </Link>
+                  ))}
+
+                </div>
+              </div>
+            </div>
+
+            <Link
+              href="/our-blogs"
+              className="font-semibold text-[17px] hover:text-[#c8921c]"
+            >
+              Articles & Resources
+            </Link>
+
+            <Link
+              href="/contact"
+              className="font-semibold text-[17px] hover:text-[#c8921c]"
+            >
+              Contact Us
+            </Link>
+
+          </nav>
+
+          {/* PHONE */}
+          <div className="hidden lg:flex items-center gap-3">
+
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#c8921c]">
+              <Phone className="h-5 w-5 text-white" />
+            </div>
+
+            <div>
+              <p className="text-xs text-gray-500">
+                Call Anytime
+              </p>
+
+              <a
+                href="tel:+919818544039"
+                className="font-bold text-[#062347]"
+              >
+                +91 9818544039
+              </a>
+            </div>
+          </div>
+
+          {/* MOBILE BUTTON */}
+          <button
+            onClick={() => setMobileMenu(!mobileMenu)}
+            className="xl:hidden"
+          >
+            {mobileMenu ? (
+              <X size={30} />
+            ) : (
+              <Menu size={30} />
+            )}
+          </button>
+        </div>
+      </div>
+
+      {/* ================= MOBILE MENU ================= */}
+
+      <div
+        className={`xl:hidden fixed top-0 right-0 h-screen w-[320px] bg-white shadow-2xl transition-all duration-300 z-[999999]
+        ${
+          mobileMenu
+            ? "translate-x-0"
+            : "translate-x-full"
+        }`}
+      >
+
+        <div className="flex items-center justify-between border-b p-5">
+          <h3 className="font-bold text-lg">
+            Menu
+          </h3>
+
+          <button onClick={() => setMobileMenu(false)}>
+            <X />
+          </button>
         </div>
 
-        {/* TEXT */}
-        <div>
-          <p className="mb-[3px] text-[15px] font-[500] leading-none text-[#7c7f87]">
-            Call Anytime
-          </p>
+        <div className="flex flex-col p-6">
+
+          <Link href="/" className="py-3 font-medium">
+            Home
+          </Link>
+
+          <Link href="/about" className="py-3 font-medium">
+            About Us
+          </Link>
+
+          <Link href="/industries" className="py-3 font-medium">
+            Industries
+          </Link>
+
+          <Link href="/our-blogs" className="py-3 font-medium">
+            Articles & Resources
+          </Link>
+
+          <Link href="/contact" className="py-3 font-medium">
+            Contact Us
+          </Link>
+
+          <div className="mt-6 border-t pt-5">
+
+            <h4 className="mb-4 font-semibold">
+              Our Products
+            </h4>
+
+            <div className="max-h-[300px] overflow-y-auto">
+
+              {categories?.map((category) => (
+                <Link
+                  key={category.id}
+                  href={`/categories/${category.id}`}
+                  className="block py-2 text-sm text-gray-700"
+                >
+                  {category.name}
+                </Link>
+              ))}
+            </div>
+          </div>
 
           <a
             href="tel:+919818544039"
-            className="text-[18px]  font-[800] leading-none tracking-[-0.2px] text-[#1d2b3a] transition hover:text-[#c8921c]"
+            className="mt-6 rounded-lg bg-[#c8921c] py-3 text-center font-semibold text-white"
           >
-            +91 9818544039
+            Call Now
           </a>
+
         </div>
       </div>
-    </div>
-  </div>
-</header>
+
+    </header>
   );
 }

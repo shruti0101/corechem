@@ -3,7 +3,7 @@ import Hero from "@/components/Landingpage/Hero";
 import About from "@/components/Landingpage/About";
 import Categories from "@/components/Landingpage/Categories";
 import Countup from "@/components/Landingpage/Countup";
-
+import Application from "@/components/Landingpage/Application"
 
 import Whychoose from "@/components/Landingpage/Whychoose";
 import Process from "@/components/Landingpage/Process";
@@ -27,17 +27,18 @@ export default function Home() {
       <Hero />
       <Facilitybar></Facilitybar>
       <Belowhero></Belowhero>
-      <Facilitybar2></Facilitybar2>
+    
 
       <About />
 
       <Categories />
+        <Facilitybar2></Facilitybar2>
        <Otherproduct></Otherproduct>
       <Countup />
  
      <Clientele></Clientele>
       <Dedicated></Dedicated>
-
+<Application></Application>
     <Parallex></Parallex>
       <Process></Process>
       <Whychoose />
