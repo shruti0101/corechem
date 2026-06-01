@@ -11,27 +11,56 @@ import "swiper/css/navigation";
 
 const products = [
   {
-    title: "Titanium Dioxide",
-    desc: "Premium quality titanium dioxide for plastics, paints and industrial coating applications.",
-    image: "/pro1.jpeg",
+    id: 1,
+    image:"/bowl1.webp",
+    grade: "Titanium Dioxide (TiO₂) – Jihani",
+    code: "6628",
+    desc: "High brightness and excellent durability for applications.",
+  },
+  {
+    id: 2,
+        image:"/bowl2.webp",
+    grade: "Titanium Dioxide (TiO₂) - Kmml",
+    code: " 822",
+    desc: "Excellent dispersibility and strong hiding power.",
+  },
+  {
+    id: 3,
+        image:"/bowl3.webp",
+    grade: "Titanium Dioxide (TiO₂) - Venator ",
+    code: " TR92",
+    desc: "High whiteness and ideal for indoor applications.",
+  },
+  {
+    id: 4,
+        image:"/bowl4.webp",
+    grade: "Titanium Dioxide (TiO₂) - Dawn",
+    code: "2195",
+    desc: "Premium titanium dioxide with excellent opacity.",
   },
 
-  {
-    title: "Color Pigment",
-    desc: "High-performance color pigments with superior brightness and durability.",
-    image: "/pro2.jpeg",
+    {
+    id: 4,
+        image:"/bowl5.webp",
+    grade: "Titanium Dioxide Kronos ",
+    code: "R-2220",
+    desc: "Premium titanium dioxide with excellent opacity.",
   },
 
-  {
-    title: "Calcium Carbonate",
-    desc: "Industrial-grade calcium carbonate powder for rubber, paper and plastics.",
-    image: "/pro1.jpeg",
+    {
+    id: 4,
+        image:"/bowl6.webp",
+    grade: "Titanium Dioxide Kronos ",
+    code: "R-2310",
+    desc: "Premium titanium dioxide with excellent opacity.",
   },
 
-  {
-    title: "Optical Brighter",
-    desc: "Advanced optical brighteners for enhanced whiteness and finishing quality.",
-    image: "/pro2.jpeg",
+    {
+    id: 4,
+        image:"/BOWL7.webp",
+    grade: " Titanium dioxide 248",
+    code: "R-248",
+    desc: "Premium titanium dioxide with excellent opacity.",
   },
 ];
 

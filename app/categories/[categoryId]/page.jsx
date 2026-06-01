@@ -47,7 +47,7 @@ export default function CategoryPage({ params }) {
     
 
       {/* Products Grid */}
-      <div className="p-10 max-w-7xl mx-auto">
+      <div className="p-10  mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {category.products.map((product,index) => (
             <div key={index} className="rounded-lg  transition">
@@ -66,12 +66,10 @@ export default function CategoryPage({ params }) {
     </div>
 
      <div className="flex justify-center items-center">       
-    <p className="text-[10px] text-center  p-1 w-fit rounded-4xl text-gray-700 mt-1">
-      {category.name}
-    </p>
+  
     </div>
 
-    <h2 className="mt-0 font-semibold text-lg text-center py-0.5">
+    <h2 className="mt-1 font-semibold text-lg text-center py-0.5">
       {product.name}
     </h2>
   </Link>

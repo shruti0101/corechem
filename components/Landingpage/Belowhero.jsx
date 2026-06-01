@@ -195,7 +195,7 @@ export default function TitaniumSection() {
 
 <section className="relative z-10 mt-8 px-4 lg:px-8">
   <div className="mx-auto w-full rounded-[28px] border border-white/20 bg-white p-4 shadow-[0_25px_80px_rgba(0,0,0,0.12)] backdrop-blur-xl lg:p-6">
-<h2 className="text-2xl md:text-4xl text-center  mb-5">Titanium Dioxide Ki Har Requirement Ka Solution Yahan Milega!</h2>
+<h2 className="text-2xl md:text-4xl font-bold text-center  mb-5">Titanium Dioxide Ki Har Requirement Ka Solution Yahan Milega!</h2>
 
 <p className="mx-auto text-center mb-6 max-w-4xl">From paints and coatings to plastics, inks, and cosmetics — we supply premium-quality Titanium Dioxide for all industrial applications. Fill out the form below, and our team will contact you within 24 hours.</p>
 
