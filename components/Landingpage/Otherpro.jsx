@@ -8,31 +8,47 @@ import { Navigation, Autoplay } from "swiper/modules";
 import Reveal from "./Reveal";
 import "swiper/css";
 import "swiper/css/navigation";
+import Link from "next/link";
 
 const products = [
   {
-    id: 1,
+    id: "titanium-dioxide-jinhai-r6618",
     image:"/bowl1.webp",
     grade: "Titanium Dioxide (TiO₂) – Jihani",
     code: "6628",
     desc: "High brightness and excellent durability for applications.",
   },
+    {
+    id: "kronos-titanium-dioxide",
+        image:"/bowl6.webp",
+    grade: "Titanium Dioxide Kronos ",
+    code: "R-2310",
+    desc: "Premium titanium dioxide with excellent opacity.",
+  },
   {
-    id: 2,
+    id: "titanium-dioxide-kmml-822",
         image:"/bowl2.webp",
     grade: "Titanium Dioxide (TiO₂) - Kmml",
     code: " 822",
     desc: "Excellent dispersibility and strong hiding power.",
   },
   {
-    id: 3,
+    id: "titanium-dioxide-venator-tr92",
         image:"/bowl3.webp",
     grade: "Titanium Dioxide (TiO₂) - Venator ",
     code: " TR92",
     desc: "High whiteness and ideal for indoor applications.",
   },
+  
+      {
+      id: "titanium-dioxide-kronos-r2220",
+          image:"/bowl5.webp",
+      grade: "Titanium Dioxide Kronos ",
+      code: "R-2220",
+      desc: "Premium titanium dioxide with excellent opacity.",
+    },
   {
-    id: 4,
+    id: "titanium-dioxide-dawn-r2195",
         image:"/bowl4.webp",
     grade: "Titanium Dioxide (TiO₂) - Dawn",
     code: "2195",
@@ -40,28 +56,22 @@ const products = [
   },
 
     {
-    id: 4,
-        image:"/bowl5.webp",
-    grade: "Titanium Dioxide Kronos ",
-    code: "R-2220",
-    desc: "Premium titanium dioxide with excellent opacity.",
-  },
-
-    {
-    id: 4,
+    id: "titanium-dioxide-kronos-r2310",
         image:"/bowl6.webp",
     grade: "Titanium Dioxide Kronos ",
     code: "R-2310",
     desc: "Premium titanium dioxide with excellent opacity.",
   },
+  
+  {
+  id: "titanium-dioxide-r248",
+      image:"/BOWL7.webp",
+  grade: " Titanium dioxide 248",
+  code: "R-248",
+  desc: "Premium titanium dioxide with excellent opacity.",
+},
+    
 
-    {
-    id: 4,
-        image:"/BOWL7.webp",
-    grade: " Titanium dioxide 248",
-    code: "R-248",
-    desc: "Premium titanium dioxide with excellent opacity.",
-  },
 ];
 
 export default function ProductShowcaseSection() {
@@ -177,7 +187,7 @@ export default function ProductShowcaseSection() {
                   <div className="relative h-[350px] overflow-hidden">
                     <Image
                       src={item.image}
-                      alt={item.title}
+                      alt={item.id}
                       width={500}
                       height={350}
                       className="object-cover transition-all duration-700 group-hover:scale-110"
@@ -199,7 +209,7 @@ export default function ProductShowcaseSection() {
                     </p>
 
                     {/* BOTTOM */}
-                    <div className="mt-[32px] flex items-center justify-between">
+                    <Link href={`/products/${item.id}`}  className="mt-[32px] flex items-center justify-between">
                       <button className="text-[#666] text-[16px] font-[600] transition-all duration-300 hover:text-[#BE8220]">
                         View Details
                       </button>
@@ -207,7 +217,7 @@ export default function ProductShowcaseSection() {
                       <button className="flex h-[38px] w-[38px] items-center justify-center bg-[#e9e9e9] text-[#444] transition-all duration-300 hover:bg-[#BE8220] hover:text-white">
                         <ArrowRight size={18} />
                       </button>
-                    </div>
+                    </Link>
                   </div>
                 </div>
               </SwiperSlide>

@@ -3,6 +3,7 @@
 import { Check } from "lucide-react";
 import Image from "next/image";
 import Reveal from "./Reveal";
+import Link from "next/link";
 export default function AboutUsSection() {
   return (
 
@@ -187,7 +188,7 @@ export default function AboutUsSection() {
               
               <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
 
-              <span className="relative z-10 flex items-center justify-center gap-3 h-full">
+              <Link href={"/products"} className="relative z-10 flex items-center justify-center gap-3 h-full">
                 Explore Now
 
                 <svg
@@ -205,7 +206,7 @@ export default function AboutUsSection() {
                   <path d="M5 12h14" />
                   <path d="m12 5 7 7-7 7" />
                 </svg>
-              </span>
+              </Link>
             </button>
           </div>
 

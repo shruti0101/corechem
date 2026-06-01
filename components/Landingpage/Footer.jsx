@@ -36,7 +36,7 @@ const products = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#1C293C] text-white">
-      <div className="mx-3">
+      <div className="mx-3 md:px-0">
       {/* TOP GRADIENT LINE */}
       <div className="h-[4px] w-full bg-gradient-to-r from-[#BE8220] via-[#ff7a3c] to-[#BE8220]" />
 
@@ -184,13 +184,13 @@ export default function Footer() {
             </div>
 
             {/* CTA */}
-            <button className="group mt-[34px] flex h-[58px] items-center gap-[12px] rounded-full bg-[#BE8220] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
+            <a href="https://wa.me/919818544039" className="group mt-[34px] w-fit   flex h-[58px] items-center gap-[12px] rounded-full bg-[#BE8220] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
               Get Bulk Pricing
               <ArrowUpRight
                 size={18}
                 className="transition-all duration-300 group-hover:rotate-45"
               />
-            </button>
+            </a>
           </div>
         </div>
 

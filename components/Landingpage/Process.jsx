@@ -91,19 +91,13 @@ export default function IndustriesWeServe() {
             </div>
 
             {/* MAIN TITLE */}
-            <h2 className="mt-[14px] max-w-[1400px] text-[#16171b] text-[49px] sm:leading-[78px]  font-[700] ">
+            <h2 className="mt-[14px] max-w-[1400px] text-[#16171b] text-[49px] text-center sm:leading-[78px]  font-[700] ">
               Trusted Titanium Dioxide Supplier for Diverse Industries
             </h2>
           </div>
 
           {/* BUTTON */}
-          <button className="group flex h-[78px] w-full items-center justify-center gap-[14px] border border-[#dfdfdf] bg-white px-[36px] text-[#111827] shadow-[0_10px_40px_rgba(0,0,0,0.04)] transition-all duration-300 hover:border-[#111827] hover:bg-[#111827] hover:text-white sm:w-[320px]">
-            <span className="text-[16px] font-[700]">View All Industries</span>
-
-            <span className="transition-all duration-300 group-hover:translate-x-[5px]">
-              <ArrowRight size={22} strokeWidth={2.3} />
-            </span>
-          </button>
+          
         </div>
 
         {/* INDUSTRIES GRID */}

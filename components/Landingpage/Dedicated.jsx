@@ -83,25 +83,25 @@ export default function TitaniumDioxideSection() {
             <div className="mt-[32px] flex flex-col sm:flex-row gap-[16px]">
               {/* PRIMARY BUTTON */}
               <button className="group relative inline-flex h-[62px] sm:h-[68px] w-full sm:w-auto items-center justify-center overflow-hidden rounded-full bg-[#BE8220] px-[24px] sm:px-[34px] text-white shadow-[0_20px_50px_rgba(255,94,20,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(255,94,20,0.35)]">
-                <span className="relative z-10 flex items-center gap-[14px] text-[14px] sm:text-[16px] font-[700] uppercase tracking-[1px]">
+                <a href="https://wa.me/919818544039?text=Hi%20I%20am%20interested%20in%20your%20products" className="relative z-10 flex items-center gap-[14px] text-[14px] sm:text-[16px] font-[700] uppercase tracking-[1px]">
                   Get Bulk Pricing
                   <span className="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white/20 transition-all duration-300 group-hover:rotate-45">
                     <ArrowUpRight size={18} strokeWidth={2.5} />
                   </span>
-                </span>
+                </a>
 
                 <div className="absolute inset-0 translate-y-full bg-[#111827] transition-all duration-500 group-hover:translate-y-0" />
               </button>
 
               {/* SECONDARY BUTTON */}
-              <button className="group inline-flex h-[62px] sm:h-[68px] w-full sm:w-auto items-center justify-center rounded-full border border-[#d7dce3] bg-white px-[24px] sm:px-[34px] text-[#111827] transition-all duration-500 hover:border-[#111827] hover:bg-[#111827] hover:text-white">
+              <a href="tel:+919818544039" className="group inline-flex h-[62px] sm:h-[68px] w-full sm:w-auto items-center justify-center rounded-full border border-[#d7dce3] bg-white px-[24px] sm:px-[34px] text-[#111827] transition-all duration-500 hover:border-[#111827] hover:bg-[#111827] hover:text-white">
                 <span className="flex items-center gap-[14px] text-[14px] sm:text-[16px] font-[700] uppercase tracking-[1px]">
                   Talk to Our Experts
                   <span className="transition-all duration-300 group-hover:translate-x-[4px]">
                     <ArrowUpRight size={18} strokeWidth={2.5} />
                   </span>
                 </span>
-              </button>
+              </a>
             </div>
           </div>
 

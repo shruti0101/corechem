@@ -18,9 +18,12 @@ import {
 } from "lucide-react";
 
 import { categories } from "@/Data";
+import ContactForm from "../Popup";
 
 export default function Navbar() {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  
 
   return (
     <header className="sticky top-0 z-[999999] w-full bg-white shadow-sm">
@@ -62,12 +65,12 @@ export default function Navbar() {
             <Instagram className="h-4 w-4 hover:text-[#c8921c]" />
           </a>
 
-          <Link
-            href="/contact"
-            className="bg-[#c8921c] px-5 py-[11px] text-[13px] font-semibold text-white hover:bg-[#b88312]"
-          >
-            Get Free Quote →
-          </Link>
+          <button
+  onClick={() => setIsOpen(true)}
+  className="bg-[#c8921c] px-7 py-[11px] text-[14px] font-semibold text-white hover:bg-[#b88312]"
+>
+  Get Free Quote →
+</button>
 
         </div>
       </div>
@@ -262,6 +265,7 @@ export default function Navbar() {
         </div>
       </div>
 
+{isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
     </header>
   );
 }

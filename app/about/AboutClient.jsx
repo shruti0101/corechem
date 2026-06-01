@@ -98,7 +98,7 @@ export default function AboutPage() {
 
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
         <Link
-          href="/contact"
+          href={"https://wa.me/919818544039"}
           className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#9e880b]"
         >
           Request a Quote
