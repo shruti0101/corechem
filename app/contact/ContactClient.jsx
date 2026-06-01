@@ -79,7 +79,7 @@ export default function ContactPage() {
         <div className="absolute bottom-0 right-0 h-[350px] w-[350px] rounded-full bg-blue-200/40 blur-3xl" />
 
         {/* CONTENT */}
-        <div className="relative z-10 max-w-5xl px-6 text-center">
+        <div className="relative z-10 max-w-5xl px-6 mb-10 text-center">
           <h1 className=" text-5xl font-extrabold leading-tight text-[#1e293b] md:text-7xl">
             Let’s Build Reliable Chemical Supply Partnerships
           </h1>
@@ -134,7 +134,7 @@ export default function ContactPage() {
             </h3>
 
             <p className="mt-4 text-lg leading-8 text-slate-600">
-              Delhi, India
+             Office No- 101-E, Crown Heights, Swarn Jayanti Park, Sector 10, Rohini, Delhi, 110085
             </p>
           </div>
         </div>
@@ -307,13 +307,16 @@ export default function ContactPage() {
       {/* MAP */}
       <section className="px-6 pb-24">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-[36px] border border-white shadow-[0_20px_80px_rgba(15,23,42,0.10)]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224345.8979660536!2d77.04417301587731!3d28.527554410966754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d04709e0d7f71%3A0xf5f0f25f0db1c2f3!2sDelhi!5e0!3m2!1sen!2sin!4v1710000000000!5m2!1sen!2sin"
-            loading="lazy"
-            className="h-[500px] w-full"
-            referrerPolicy="no-referrer-when-downgrade"
-          />
-        </div>
+<iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.998521230482!2d77.10934619999999!3d28.7195902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01f0efe2cef3%3A0x9440478f2a43dad6!2sCorechem%20Corporation!5e0!3m2!1sen!2sin!4v1780309132298!5m2!1sen!2sin"
+  
+  height="450"
+  style={{ border: 0 }}
+  allowFullScreen
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+  className="w-full"
+/>        </div>
       </section>
     </div>
   );

@@ -36,6 +36,7 @@ const products = [
 export default function Footer() {
   return (
     <footer className="relative overflow-hidden bg-[#1C293C] text-white">
+      <div className="mx-3">
       {/* TOP GRADIENT LINE */}
       <div className="h-[4px] w-full bg-gradient-to-r from-[#BE8220] via-[#ff7a3c] to-[#BE8220]" />
 
@@ -149,9 +150,7 @@ export default function Footer() {
                 </div>
 
                 <p className="text-[15px] leading-[28px] text-white">
-                  Corechem Corporation
-                  <br />
-                  Global Chemical Supply Solutions
+                  Office No- 101-E, Crown Heights, Swarn Jayanti Park, Sector 10, Rohini, Delhi, 110085
                 </p>
               </div>
 
@@ -232,6 +231,7 @@ export default function Footer() {
             </p>
           </div>
         </div>
+      </div>
       </div>
     </footer>
   );

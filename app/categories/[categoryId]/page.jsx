@@ -50,10 +50,10 @@ export default function CategoryPage({ params }) {
       <div className="p-10  mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {category.products.map((product,index) => (
-            <div key={index} className="rounded-lg  transition">
+            <div key={index} className="rounded-lg border  transition">
   {/* Product Link */}
   <Link href={`/products/${product.id}`}>
-    <div className="w-full border h-75 relative rounded-md overflow-hidden">
+    <div className="w-full  h-75 relative rounded-md overflow-hidden">
       <Image
         src={product.image[0]?.src || "/placeholder.png"}
         alt={product.image[0]?.alt || product.name}
@@ -75,7 +75,7 @@ export default function CategoryPage({ params }) {
   </Link>
 
   {/* WhatsApp Button */}
-  <div className="flex justify-center items-center mt-0.5">
+  <div className="flex justify-center pb-3d items-center mt-0.5">
     <a
       href={`https://wa.me/919818544039?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
         product.name

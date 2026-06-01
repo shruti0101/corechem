@@ -137,13 +137,13 @@ export default function ProductPage({ params }) {
 
             {/* CARD */}
             <div className="relative overflow-hidden rounded-[40px] border border-white/70 bg-white/80 p-6 shadow-[0_20px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
-              <div className="relative h-[500px] overflow-hidden rounded-[28px] ">
+              <div className="relative h-[400px] overflow-hidden rounded-[28px] ">
                 <Image
                   src={activeImage?.src}
                   alt={activeImage?.alt}
                   fill
                   priority
-                  className="object-cover transition duration-500 hover:scale-105"
+                  className="object-contain transition duration-500 hover:scale-105"
                 />
               </div>
 

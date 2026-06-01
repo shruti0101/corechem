@@ -1025,51 +1025,6 @@ export const categories = [
           },
 
           {
-            label: "Application",
-            value: "Masterbatch",
-          },
-
-          {
-            label: "Application",
-            value: "Paint",
-          },
-
-          {
-            label: "Application",
-            value: "Paper",
-          },
-
-          {
-            label: "Application",
-            value: "Pharmaceutical",
-          },
-
-          {
-            label: "Application",
-            value: "Plastic",
-          },
-
-          {
-            label: "Application",
-            value: "PVC",
-          },
-
-          {
-            label: "Application",
-            value: "Rubber",
-          },
-
-          {
-            label: "Application",
-            value: "Textile",
-          },
-
-          {
-            label: "Application",
-            value: "Cosmetics",
-          },
-
-          {
             label: "Packaging Size",
             value: "25 kg",
           },
@@ -8765,7 +8720,12 @@ export const categories = [
           { label: "Grade", value: "Industrial Grade" },
           { label: "Purity", value: "90%" },
         ],
-        image: [{ src: "/prod/Calcium Oxide Powder.webp", alt: "Calcium Oxide Powder" }],
+        image: [
+          {
+            src: "/prod/Calcium Oxide Powder.webp",
+            alt: "Calcium Oxide Powder",
+          },
+        ],
       },
       {
         id: "plastic-colour-masterbatch",
@@ -8836,606 +8796,608 @@ export const categories = [
           { label: "Country of Origin", value: "Made in India" },
           { label: "Color", value: "Red" },
         ],
-        image: [{ src: "/prod/Plastic Colour Masterbatch.webp", alt: "Plastic Colour Masterbatch" }],
+        image: [
+          {
+            src: "/prod/Plastic Colour MasterbatchN.webp",
+            alt: "Plastic Colour Masterbatch",
+          },
+        ],
       },
       {
-  id: "epsilon-n220-carbon-black-powder",
-
-  name: "Epsilon N220 Carbon Black Powder",
-
-  metaTitle:
-    "Epsilon N220 Carbon Black Powder Supplier in India | Carbon Black Supplier | Corechem Corporation",
-
-  metaDescription:
-    "Premium-quality Epsilon N220 Carbon Black Powder for industrial applications. Excellent black pigmentation, smooth dispersion, strong tinting strength, and stable formulation performance.",
-
-  overview:
-    "Epsilon N220 Carbon Black Powder offers excellent black pigmentation, smooth dispersion, and stable formulation performance across multiple manufacturing processes. It is widely preferred for applications requiring strong tinting strength, deep black coloration, and durable finish quality.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "The product offers excellent black pigmentation, smooth dispersion, and stable formulation performance across multiple manufacturing processes.",
-        "Designed for dependable industrial usability, the product supports reliable processing efficiency and consistent application results.",
-        "Epsilon N220 Carbon Black Powder is widely preferred for applications requiring strong tinting strength, deep black coloration, and durable finish quality.",
-        "Manufactured with advanced quality standards, the product ensures stable industrial performance and long-lasting usability.",
-        "The product supports industrial systems operating with 220 V power supply and 50 Hz frequency compatibility.",
-        "As a trusted Carbon Black Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Premium-quality N220 Carbon Black suitable for industrial manufacturing applications.",
-        "Excellent black pigmentation provides strong color consistency and enhanced finish quality.",
-        "Smooth dispersion properties support efficient industrial processing and formulation stability.",
-        "Reliable industrial performance ensures durable usability and dependable processing efficiency.",
-        "Compatible with systems operating on 220 V power supply and 50 Hz frequency.",
-        "Manufactured with dependable quality standards for stable industrial application performance.",
-        "Suitable for industrial products requiring premium-quality carbon black solutions.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Widely used in industrial manufacturing for black color enhancement and formulation stability.",
-        "Suitable for coatings, plastics, rubber, and specialty industrial applications.",
-        "Applied in industrial compounds requiring smooth processing and strong pigmentation performance.",
-        "Used in manufacturing applications demanding durable black coloration and stable usability.",
-        "Suitable for industrial products requiring dependable carbon black performance and reliability.",
-        "Used in specialty formulations for improved appearance and long-lasting finish quality.",
-        "Ideal for applications requiring premium-quality N220 Carbon Black with stable industrial performance.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose Corechem Corporation",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Corechem Corporation is a trusted Carbon Black Supplier offering premium-quality industrial chemical solutions.",
-        "We provide reliable supply of Epsilon N220 Carbon Black Powder with consistent product quality and competitive pricing.",
-        "As a leading Carbon Black Supplier in India, we ensure timely delivery and dependable logistics support.",
-        "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
-        "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
-        "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
-        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Generator Capacity",
-      value: "100 mA",
-    },
-    {
-      label: "Generator Type",
-      value: "Line Frequency",
-    },
-    {
-      label: "Tube Type",
-      value: "Stationary Anode",
-    },
-    {
-      label: "Power Supply Volts",
-      value: "220 V",
-    },
-    {
-      label: "Power Supply Frequency",
-      value: "50 Hz",
-    },
-    {
-      label: "Brand",
-      value: "Epsilon N220",
-    },
-    {
-      label: "Color",
-      value: "Black",
-    },
-  ],
-
-  image: [
-    {
-      src: "/prod/Epsilon N220 Carbon Black Powder.webp",
-      alt: "Epsilon N220 Carbon Black Powder",
-    },
-  ],
-},
-{
-  id: "calcium-oxide-powder",
-
-  name: "Calcium Oxide Powder",
-
-  metaTitle:
-    "Calcium Oxide Powder Supplier in India | Lime Powder Supplier | Corechem Corporation",
-
-  metaDescription:
-    "Premium-quality Calcium Oxide Powder with 90% purity for industrial applications. Reliable chemical stability, smooth processing, and dependable industrial performance.",
-
-  overview:
-    "Manufactured under the trusted ACI brand, the product offers dependable quality, stable formulation performance, and reliable industrial usability. With a purity level of 90%, Calcium Oxide Powder ensures consistent chemical performance for industrial applications.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview",
-    },
-
-    {
-      type: "ul",
-      items: [
-     
-        "The product is processed using high-quality industrial standards to support smooth handling and efficient processing operations.",
-        "Manufactured in fine powder form, Calcium Oxide Powder enables easy mixing and stable industrial application performance.",
-        "Supplied in loose packaging with 50 kg quantity, the product ensures convenient bulk handling, storage, and transportation.",
-        "As a trusted Lime Powder Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Premium-quality Calcium Oxide Powder suitable for industrial manufacturing applications.",
-        "Purity level of 90% ensures dependable industrial performance and stable formulation quality.",
-        "Industrial grade formulation suitable for chemical and manufacturing processes.",
-        "Fine powder form supports smooth mixing and efficient industrial processing.",
-        "Excellent chemical stability ensures reliable usability and long-lasting performance.",
-        "Loose packaging supports convenient bulk handling and industrial application usage.",
-        "Manufactured in India under trusted quality standards for stable industrial performance.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Widely used in industrial manufacturing for chemical processing and formulation enhancement.",
-        "Suitable for construction, chemical, and specialty industrial applications.",
-        "Applied in industrial compounds requiring stable calcium oxide performance and smooth processing.",
-        "Used in manufacturing applications demanding reliable chemical consistency and durable usability.",
-        "Suitable for industrial products requiring premium-quality lime powder solutions.",
-        "Used in specialty industrial formulations for improved processing efficiency and formulation stability.",
-        "Ideal for applications requiring dependable Calcium Oxide Powder with reliable industrial performance.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose Corechem Corporation",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Corechem Corporation is a trusted Lime Powder Supplier offering premium-quality industrial chemical solutions.",
-        "We provide reliable supply of Calcium Oxide Powder with consistent product quality and competitive pricing.",
-        "As a leading Lime Powder Supplier in India, we ensure timely delivery and dependable logistics support.",
-        "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
-        "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Color Pigment Supplier, and Lithopone Supplier.",
-        "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
-        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Packaging Size",
-      value: "50",
-    },
-    {
-      label: "Packaging Type",
-      value: "Loose",
-    },
-    {
-      label: "Brand",
-      value: "ACI",
-    },
-    {
-      label: "Country of Origin",
-      value: "Made in India",
-    },
-    {
-      label: "Grade",
-      value: "Industrial Grade",
-    },
-    {
-      label: "Purity",
-      value: "90%",
-    },
-  ],
-
-  image: [
-    {
-      src: "/prod/Calcium Oxide Powder.webp",
-      alt: "Calcium Oxide Powder",
-    },
-  ],
-},
-{
-  id: "plastic-color-masterbatch",
-
-  name: "Plastic Color Masterbatch",
-
-  metaTitle:
-    "Plastic Color Masterbatch Supplier in India | Color Pigment Supplier | Corechem Corporation",
-
-  metaDescription:
-    "Premium-quality Plastic Color Masterbatch for injection molding applications. Vibrant red coloration, excellent dispersion, durable color stability, and reliable industrial performance.",
-
-  overview:
-    "Manufactured using high-grade LLDPE material, the product provides excellent dispersion, vibrant coloration, and stable processing performance. The masterbatch delivers rich red color consistency, helping improve the visual appearance and finish quality of plastic products.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview",
-    },
-
-    {
-      type: "ul",
-      items: [
-    
-        "Designed in granule form, Plastic Color Masterbatch supports easy mixing and efficient industrial processing during production.",
-        "The product is widely preferred for applications requiring durable color stability, smooth processing, and reliable industrial performance.",
-        "Manufactured under the trusted Ambey brand, the product meets dependable industrial quality standards.",
-        "As a trusted Color Pigment Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Premium-quality plastic color masterbatch suitable for injection molding applications.",
-        "Manufactured using high-quality LLDPE material for dependable industrial performance.",
-        "Vibrant red coloration provides excellent visual appearance and strong color consistency.",
-        "Granule form supports smooth mixing and efficient industrial processing.",
-        "Reliable formulation stability ensures durable performance and long-lasting finish quality.",
-        "Manufactured in India with dependable quality standards and stable processing usability.",
-        "Suitable for plastic products requiring premium-quality color masterbatch solutions.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Widely used in injection molding applications for vibrant plastic color enhancement.",
-        "Suitable for plastic manufacturing requiring stable masterbatch performance and smooth processing.",
-        "Applied in industrial plastic compounds demanding strong color consistency and durability.",
-        "Used in manufacturing applications requiring premium-quality red coloration and finish quality.",
-        "Suitable for industrial plastic products requiring dependable pigment dispersion solutions.",
-        "Used in specialty plastic formulations for improved appearance and formulation stability.",
-        "Ideal for applications requiring reliable plastic masterbatch performance and long-lasting usability.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose Corechem Corporation",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Corechem Corporation is a trusted Color Pigment Supplier offering premium-quality industrial chemical solutions.",
-        "We provide reliable supply of Plastic Color Masterbatch with consistent product quality and competitive pricing.",
-        "As a leading Color Pigment Supplier in India, we ensure timely delivery and dependable logistics support.",
-        "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
-        "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Lime Powder Supplier, and Lithopone Supplier.",
-        "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
-        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Material",
-      value: "LLDPE",
-    },
-    {
-      label: "Usage/Application",
-      value: "Injection Molding",
-    },
-    {
-      label: "Brand",
-      value: "Ambey",
-    },
-    {
-      label: "Form",
-      value: "Granules",
-    },
-    {
-      label: "Country of Origin",
-      value: "Made in India",
-    },
-    {
-      label: "Color",
-      value: "Red",
-    },
-  ],
-
-  image: [
-    {
-      src: "/prod/Plastic Colour Masterbatch.webp",
-      alt: "Plastic Color Masterbatch",
-    },
-  ],
-},
-{
-  id: "pcrp-brand-swan",
-
-  name: "PCRP Brand Swan",
-
-  metaTitle:
-    "PCRP Brand Swan Supplier in India | Industrial Raw Material Supplier | Corechem Corporation",
-
-  metaDescription:
-    "Premium-quality PCRP Brand Swan industrial protein-based product for feed and industrial applications. High protein content, stable blending performance, and reliable industrial-grade quality.",
-
-  overview:
-    "The product is developed to deliver high protein content, making it suitable for feed and industrial nutritional blending purposes. It is widely used in applications where protein enrichment and formulation stability are required.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview",
-    },
-
-    {
-      type: "ul",
-      items: [
-        
-        "The product supports consistent mixing performance and reliable processing in bulk manufacturing environments.",
-        "Supplied in a 50 kg packaging size, it is suitable for large-scale industrial usage and handling.",
-        "PCRP Brand Swan is designed for dependable performance in industrial-grade formulation systems.",
-        "As a trusted Industrial Chemical and Raw Material Supplier in India, Corechem Corporation ensures consistent quality and supply reliability.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "High protein-based formulation suitable for industrial and feed applications.",
-        "Supports stable blending and uniform mixing in large-scale production.",
-        "Industrial-grade consistency ensures reliable performance across batches.",
-        "Bulk 50 kg packaging supports efficient handling and manufacturing usage.",
-        "Suitable for protein enrichment in specialized industrial formulations.",
-        "Designed for consistent quality and dependable processing stability.",
-        "Supplied under PCRP Brand Swan with reliable industrial-grade standards.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Used in industrial protein formulation and blending applications.",
-        "Suitable for feed-related manufacturing requiring protein enrichment.",
-        "Applied in bulk industrial processing requiring stable ingredient performance.",
-        "Used in nutritional formulation systems for industrial production.",
-        "Suitable for large-scale manufacturing requiring consistent raw material quality.",
-        "Used in specialty industrial blends requiring protein-based additives.",
-        "Ideal for applications where high-protein industrial inputs are required.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose Corechem Corporation",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Corechem Corporation is a trusted Industrial Raw Material Supplier offering consistent and reliable product quality.",
-        "We ensure stable supply of PCRP Brand Swan with competitive pricing and dependable availability.",
-        "As a leading supplier in India, we support timely delivery and efficient logistics services.",
-        "Our quality control processes ensure uniform product performance across all batches.",
-        "We also supply Titanium Dioxide, Calcium Carbonate, Pigments, Lime Powder, and Lithopone products.",
-        "Bulk supply capability makes us a preferred partner for industrial manufacturers.",
-        "Our focus on reliability, consistency, and long-term partnerships ensures customer satisfaction.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Usage/Application",
-      value: "Industrial",
-    },
-    {
-      label: "Speciality",
-      value: "High in Protein",
-    },
-    {
-      label: "Cuisine",
-      value: "French",
-    },
-    {
-      label: "Packaging Size",
-      value: "50 Kg",
-    },
-  ],
-
-  image: [
-    {
-      src: "/prod/PCRP Brand Swan.webp",
-      alt: "PCRP Brand Swan",
-    },
-  ],
-},
-{
-  id: "white-dolomite-powder",
-
-  name: "White Dolomite Powder",
-
-  metaTitle:
-    "White Dolomite Powder Supplier in India | Calcium Carbonate Supplier | Corechem Corporation",
-
-  metaDescription:
-    "Premium-quality White Dolomite Powder with 99% purity for industrial applications. Suitable for plastics, paints, coatings, rubber, construction materials, and specialty formulations.",
-
-  overview:
-    "White Dolomite Powder is a premium-quality industrial mineral powder widely used in various manufacturing and processing industries. The product offers excellent whiteness, fine particle structure, and stable formulation performance for industrial applications.",
-
-  description: [
-    {
-      type: "h2",
-      text: "Product Overview",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "The product offers excellent whiteness, fine particle structure, and stable formulation performance for industrial applications.",
-        "With a high purity level of 99%, White Dolomite Powder ensures consistent quality and reliable industrial performance.",
-        "Manufactured in fine powder form, it supports smooth mixing and efficient processing in industrial systems.",
-        "The product is widely used in applications requiring brightness, filler strength, and cost-effective formulation support.",
-        "Supplied in 50 kg loose packaging, it ensures easy bulk handling, storage, and transportation.",
-        "As a trusted Calcium Carbonate Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Key Features",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Premium-quality White Dolomite Powder suitable for industrial applications.",
-        "High purity level of 99% ensures stable and dependable performance.",
-        "Fine powder form supports smooth dispersion and efficient processing.",
-        "Excellent whiteness improves product appearance and formulation quality.",
-        "Technical grade material suitable for industrial manufacturing needs.",
-        "Loose packaging supports convenient bulk handling and storage.",
-        "Reliable formulation stability ensures consistent industrial usability.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Applications",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Widely used in plastic manufacturing for filler and whitening applications.",
-        "Suitable for paint and coating industries requiring improved opacity and finish quality.",
-        "Applied in rubber and industrial compounds for cost-effective formulation support.",
-        "Used in construction materials for improved strength and surface finish.",
-        "Suitable for industrial formulations requiring stable calcium-based mineral input.",
-        "Used in specialty manufacturing processes for brightness and consistency enhancement.",
-        "Ideal for applications requiring premium-quality dolomite powder with reliable performance.",
-      ],
-    },
-
-    {
-      type: "h2",
-      text: "Why Choose Corechem Corporation",
-    },
-
-    {
-      type: "ul",
-      items: [
-        "Corechem Corporation is a trusted Calcium Carbonate Supplier offering premium-quality industrial mineral solutions.",
-        "We provide reliable supply of White Dolomite Powder with consistent product quality and competitive pricing.",
-        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
-        "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
-        "We are also a trusted Titanium Dioxide Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
-        "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
-        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
-      ],
-    },
-  ],
-
-  specs: [
-    {
-      label: "Purity/Concentration",
-      value: "99%",
-    },
-    {
-      label: "Type",
-      value: "Precipitated Calcium Carbonate (PCC)",
-    },
-    {
-      label: "Packaging Size",
-      value: "50 Kg",
-    },
-    {
-      label: "Packaging Type",
-      value: "Loose",
-    },
-    {
-      label: "Usage/Application",
-      value: "Industrial",
-    },
-    {
-      label: "Grade",
-      value: "Technical Grade",
-    },
-  ],
-
-  image: [
-    {
-      src: "/prod/White Dolomite Powder.webp",
-      alt: "White Dolomite Powder",
-    },
-  ],
-},
+        id: "epsilon-n220-carbon-black-powder",
+
+        name: "Epsilon N220 Carbon Black Powder",
+
+        metaTitle:
+          "Epsilon N220 Carbon Black Powder Supplier in India | Carbon Black Supplier | Corechem Corporation",
+
+        metaDescription:
+          "Premium-quality Epsilon N220 Carbon Black Powder for industrial applications. Excellent black pigmentation, smooth dispersion, strong tinting strength, and stable formulation performance.",
+
+        overview:
+          "Epsilon N220 Carbon Black Powder offers excellent black pigmentation, smooth dispersion, and stable formulation performance across multiple manufacturing processes. It is widely preferred for applications requiring strong tinting strength, deep black coloration, and durable finish quality.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "The product offers excellent black pigmentation, smooth dispersion, and stable formulation performance across multiple manufacturing processes.",
+              "Designed for dependable industrial usability, the product supports reliable processing efficiency and consistent application results.",
+              "Epsilon N220 Carbon Black Powder is widely preferred for applications requiring strong tinting strength, deep black coloration, and durable finish quality.",
+              "Manufactured with advanced quality standards, the product ensures stable industrial performance and long-lasting usability.",
+              "The product supports industrial systems operating with 220 V power supply and 50 Hz frequency compatibility.",
+              "As a trusted Carbon Black Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Premium-quality N220 Carbon Black suitable for industrial manufacturing applications.",
+              "Excellent black pigmentation provides strong color consistency and enhanced finish quality.",
+              "Smooth dispersion properties support efficient industrial processing and formulation stability.",
+              "Reliable industrial performance ensures durable usability and dependable processing efficiency.",
+              "Compatible with systems operating on 220 V power supply and 50 Hz frequency.",
+              "Manufactured with dependable quality standards for stable industrial application performance.",
+              "Suitable for industrial products requiring premium-quality carbon black solutions.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Widely used in industrial manufacturing for black color enhancement and formulation stability.",
+              "Suitable for coatings, plastics, rubber, and specialty industrial applications.",
+              "Applied in industrial compounds requiring smooth processing and strong pigmentation performance.",
+              "Used in manufacturing applications demanding durable black coloration and stable usability.",
+              "Suitable for industrial products requiring dependable carbon black performance and reliability.",
+              "Used in specialty formulations for improved appearance and long-lasting finish quality.",
+              "Ideal for applications requiring premium-quality N220 Carbon Black with stable industrial performance.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Corechem Corporation",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Corechem Corporation is a trusted Carbon Black Supplier offering premium-quality industrial chemical solutions.",
+              "We provide reliable supply of Epsilon N220 Carbon Black Powder with consistent product quality and competitive pricing.",
+              "As a leading Carbon Black Supplier in India, we ensure timely delivery and dependable logistics support.",
+              "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
+              "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
+              "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+              "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Generator Capacity",
+            value: "100 mA",
+          },
+          {
+            label: "Generator Type",
+            value: "Line Frequency",
+          },
+          {
+            label: "Tube Type",
+            value: "Stationary Anode",
+          },
+          {
+            label: "Power Supply Volts",
+            value: "220 V",
+          },
+          {
+            label: "Power Supply Frequency",
+            value: "50 Hz",
+          },
+          {
+            label: "Brand",
+            value: "Epsilon N220",
+          },
+          {
+            label: "Color",
+            value: "Black",
+          },
+        ],
+
+        image: [
+          {
+            src: "/prod/Epsilon N220 Carbon Black Powder.webp",
+            alt: "Epsilon N220 Carbon Black Powder",
+          },
+        ],
+      },
+      {
+        id: "calcium-oxide-powder",
+
+        name: "Calcium Oxide Powder",
+
+        metaTitle:
+          "Calcium Oxide Powder Supplier in India | Lime Powder Supplier | Corechem Corporation",
+
+        metaDescription:
+          "Premium-quality Calcium Oxide Powder with 90% purity for industrial applications. Reliable chemical stability, smooth processing, and dependable industrial performance.",
+
+        overview:
+          "Manufactured under the trusted ACI brand, the product offers dependable quality, stable formulation performance, and reliable industrial usability. With a purity level of 90%, Calcium Oxide Powder ensures consistent chemical performance for industrial applications.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "The product is processed using high-quality industrial standards to support smooth handling and efficient processing operations.",
+              "Manufactured in fine powder form, Calcium Oxide Powder enables easy mixing and stable industrial application performance.",
+              "Supplied in loose packaging with 50 kg quantity, the product ensures convenient bulk handling, storage, and transportation.",
+              "As a trusted Lime Powder Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Premium-quality Calcium Oxide Powder suitable for industrial manufacturing applications.",
+              "Purity level of 90% ensures dependable industrial performance and stable formulation quality.",
+              "Industrial grade formulation suitable for chemical and manufacturing processes.",
+              "Fine powder form supports smooth mixing and efficient industrial processing.",
+              "Excellent chemical stability ensures reliable usability and long-lasting performance.",
+              "Loose packaging supports convenient bulk handling and industrial application usage.",
+              "Manufactured in India under trusted quality standards for stable industrial performance.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Widely used in industrial manufacturing for chemical processing and formulation enhancement.",
+              "Suitable for construction, chemical, and specialty industrial applications.",
+              "Applied in industrial compounds requiring stable calcium oxide performance and smooth processing.",
+              "Used in manufacturing applications demanding reliable chemical consistency and durable usability.",
+              "Suitable for industrial products requiring premium-quality lime powder solutions.",
+              "Used in specialty industrial formulations for improved processing efficiency and formulation stability.",
+              "Ideal for applications requiring dependable Calcium Oxide Powder with reliable industrial performance.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Corechem Corporation",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Corechem Corporation is a trusted Lime Powder Supplier offering premium-quality industrial chemical solutions.",
+              "We provide reliable supply of Calcium Oxide Powder with consistent product quality and competitive pricing.",
+              "As a leading Lime Powder Supplier in India, we ensure timely delivery and dependable logistics support.",
+              "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
+              "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Color Pigment Supplier, and Lithopone Supplier.",
+              "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+              "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Packaging Size",
+            value: "50",
+          },
+          {
+            label: "Packaging Type",
+            value: "Loose",
+          },
+          {
+            label: "Brand",
+            value: "ACI",
+          },
+          {
+            label: "Country of Origin",
+            value: "Made in India",
+          },
+          {
+            label: "Grade",
+            value: "Industrial Grade",
+          },
+          {
+            label: "Purity",
+            value: "90%",
+          },
+        ],
+
+        image: [
+          {
+            src: "/prod/Calcium Oxide Powder.webp",
+            alt: "Calcium Oxide Powder",
+          },
+        ],
+      },
+      {
+        id: "plastic-color-masterbatch",
+
+        name: "Plastic Color Masterbatch",
+
+        metaTitle:
+          "Plastic Color Masterbatch Supplier in India | Color Pigment Supplier | Corechem Corporation",
+
+        metaDescription:
+          "Premium-quality Plastic Color Masterbatch for injection molding applications. Vibrant red coloration, excellent dispersion, durable color stability, and reliable industrial performance.",
+
+        overview:
+          "Manufactured using high-grade LLDPE material, the product provides excellent dispersion, vibrant coloration, and stable processing performance. The masterbatch delivers rich red color consistency, helping improve the visual appearance and finish quality of plastic products.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Designed in granule form, Plastic Color Masterbatch supports easy mixing and efficient industrial processing during production.",
+              "The product is widely preferred for applications requiring durable color stability, smooth processing, and reliable industrial performance.",
+              "Manufactured under the trusted Ambey brand, the product meets dependable industrial quality standards.",
+              "As a trusted Color Pigment Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Premium-quality plastic color masterbatch suitable for injection molding applications.",
+              "Manufactured using high-quality LLDPE material for dependable industrial performance.",
+              "Vibrant red coloration provides excellent visual appearance and strong color consistency.",
+              "Granule form supports smooth mixing and efficient industrial processing.",
+              "Reliable formulation stability ensures durable performance and long-lasting finish quality.",
+              "Manufactured in India with dependable quality standards and stable processing usability.",
+              "Suitable for plastic products requiring premium-quality color masterbatch solutions.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Widely used in injection molding applications for vibrant plastic color enhancement.",
+              "Suitable for plastic manufacturing requiring stable masterbatch performance and smooth processing.",
+              "Applied in industrial plastic compounds demanding strong color consistency and durability.",
+              "Used in manufacturing applications requiring premium-quality red coloration and finish quality.",
+              "Suitable for industrial plastic products requiring dependable pigment dispersion solutions.",
+              "Used in specialty plastic formulations for improved appearance and formulation stability.",
+              "Ideal for applications requiring reliable plastic masterbatch performance and long-lasting usability.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Corechem Corporation",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Corechem Corporation is a trusted Color Pigment Supplier offering premium-quality industrial chemical solutions.",
+              "We provide reliable supply of Plastic Color Masterbatch with consistent product quality and competitive pricing.",
+              "As a leading Color Pigment Supplier in India, we ensure timely delivery and dependable logistics support.",
+              "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
+              "We are also a trusted Titanium Dioxide Supplier, Calcium Carbonate Supplier, Lime Powder Supplier, and Lithopone Supplier.",
+              "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+              "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Material",
+            value: "LLDPE",
+          },
+          {
+            label: "Usage/Application",
+            value: "Injection Molding",
+          },
+          {
+            label: "Brand",
+            value: "Ambey",
+          },
+          {
+            label: "Form",
+            value: "Granules",
+          },
+          {
+            label: "Country of Origin",
+            value: "Made in India",
+          },
+          {
+            label: "Color",
+            value: "Red",
+          },
+        ],
+
+        image: [
+          {
+            src: "/prod/Plastic Colour Masterbatch.webp",
+            alt: "Plastic Color Masterbatch",
+          },
+        ],
+      },
+      {
+        id: "pcrp-brand-swan",
+
+        name: "PCRP Brand Swan",
+
+        metaTitle:
+          "PCRP Brand Swan Supplier in India | Industrial Raw Material Supplier | Corechem Corporation",
+
+        metaDescription:
+          "Premium-quality PCRP Brand Swan industrial protein-based product for feed and industrial applications. High protein content, stable blending performance, and reliable industrial-grade quality.",
+
+        overview:
+          "The product is developed to deliver high protein content, making it suitable for feed and industrial nutritional blending purposes. It is widely used in applications where protein enrichment and formulation stability are required.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "The product supports consistent mixing performance and reliable processing in bulk manufacturing environments.",
+              "Supplied in a 50 kg packaging size, it is suitable for large-scale industrial usage and handling.",
+              "PCRP Brand Swan is designed for dependable performance in industrial-grade formulation systems.",
+              "As a trusted Industrial Chemical and Raw Material Supplier in India, Corechem Corporation ensures consistent quality and supply reliability.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "High protein-based formulation suitable for industrial and feed applications.",
+              "Supports stable blending and uniform mixing in large-scale production.",
+              "Industrial-grade consistency ensures reliable performance across batches.",
+              "Bulk 50 kg packaging supports efficient handling and manufacturing usage.",
+              "Suitable for protein enrichment in specialized industrial formulations.",
+              "Designed for consistent quality and dependable processing stability.",
+              "Supplied under PCRP Brand Swan with reliable industrial-grade standards.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Used in industrial protein formulation and blending applications.",
+              "Suitable for feed-related manufacturing requiring protein enrichment.",
+              "Applied in bulk industrial processing requiring stable ingredient performance.",
+              "Used in nutritional formulation systems for industrial production.",
+              "Suitable for large-scale manufacturing requiring consistent raw material quality.",
+              "Used in specialty industrial blends requiring protein-based additives.",
+              "Ideal for applications where high-protein industrial inputs are required.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Corechem Corporation",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Corechem Corporation is a trusted Industrial Raw Material Supplier offering consistent and reliable product quality.",
+              "We ensure stable supply of PCRP Brand Swan with competitive pricing and dependable availability.",
+              "As a leading supplier in India, we support timely delivery and efficient logistics services.",
+              "Our quality control processes ensure uniform product performance across all batches.",
+              "We also supply Titanium Dioxide, Calcium Carbonate, Pigments, Lime Powder, and Lithopone products.",
+              "Bulk supply capability makes us a preferred partner for industrial manufacturers.",
+              "Our focus on reliability, consistency, and long-term partnerships ensures customer satisfaction.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Usage/Application",
+            value: "Industrial",
+          },
+          {
+            label: "Speciality",
+            value: "High in Protein",
+          },
+          {
+            label: "Cuisine",
+            value: "French",
+          },
+          {
+            label: "Packaging Size",
+            value: "50 Kg",
+          },
+        ],
+
+        image: [
+          {
+            src: "/prod/PCRP Brand Swan.webp",
+            alt: "PCRP Brand Swan",
+          },
+        ],
+      },
+      {
+        id: "white-dolomite-powder",
+
+        name: "White Dolomite Powder",
+
+        metaTitle:
+          "White Dolomite Powder Supplier in India | Calcium Carbonate Supplier | Corechem Corporation",
+
+        metaDescription:
+          "Premium-quality White Dolomite Powder with 99% purity for industrial applications. Suitable for plastics, paints, coatings, rubber, construction materials, and specialty formulations.",
+
+        overview:
+          "White Dolomite Powder is a premium-quality industrial mineral powder widely used in various manufacturing and processing industries. The product offers excellent whiteness, fine particle structure, and stable formulation performance for industrial applications.",
+
+        description: [
+          {
+            type: "h2",
+            text: "Product Overview",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "The product offers excellent whiteness, fine particle structure, and stable formulation performance for industrial applications.",
+              "With a high purity level of 99%, White Dolomite Powder ensures consistent quality and reliable industrial performance.",
+              "Manufactured in fine powder form, it supports smooth mixing and efficient processing in industrial systems.",
+              "The product is widely used in applications requiring brightness, filler strength, and cost-effective formulation support.",
+              "Supplied in 50 kg loose packaging, it ensures easy bulk handling, storage, and transportation.",
+              "As a trusted Calcium Carbonate Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Key Features",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Premium-quality White Dolomite Powder suitable for industrial applications.",
+              "High purity level of 99% ensures stable and dependable performance.",
+              "Fine powder form supports smooth dispersion and efficient processing.",
+              "Excellent whiteness improves product appearance and formulation quality.",
+              "Technical grade material suitable for industrial manufacturing needs.",
+              "Loose packaging supports convenient bulk handling and storage.",
+              "Reliable formulation stability ensures consistent industrial usability.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Applications",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Widely used in plastic manufacturing for filler and whitening applications.",
+              "Suitable for paint and coating industries requiring improved opacity and finish quality.",
+              "Applied in rubber and industrial compounds for cost-effective formulation support.",
+              "Used in construction materials for improved strength and surface finish.",
+              "Suitable for industrial formulations requiring stable calcium-based mineral input.",
+              "Used in specialty manufacturing processes for brightness and consistency enhancement.",
+              "Ideal for applications requiring premium-quality dolomite powder with reliable performance.",
+            ],
+          },
+
+          {
+            type: "h2",
+            text: "Why Choose Corechem Corporation",
+          },
+
+          {
+            type: "ul",
+            items: [
+              "Corechem Corporation is a trusted Calcium Carbonate Supplier offering premium-quality industrial mineral solutions.",
+              "We provide reliable supply of White Dolomite Powder with consistent product quality and competitive pricing.",
+              "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+              "Our strict quality assurance standards help maintain stable product performance and customer satisfaction.",
+              "We are also a trusted Titanium Dioxide Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
+              "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+              "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+            ],
+          },
+        ],
+
+        specs: [
+          {
+            label: "Purity/Concentration",
+            value: "99%",
+          },
+          {
+            label: "Type",
+            value: "Precipitated Calcium Carbonate (PCC)",
+          },
+          {
+            label: "Packaging Size",
+            value: "50 Kg",
+          },
+          {
+            label: "Packaging Type",
+            value: "Loose",
+          },
+          {
+            label: "Usage/Application",
+            value: "Industrial",
+          },
+          {
+            label: "Grade",
+            value: "Technical Grade",
+          },
+        ],
+
+        image: [
+          {
+            src: "/prod/White Dolomite PowderN.webp",
+            alt: "White Dolomite Powder",
+          },
+        ],
+      },
     ],
   },
 ];
