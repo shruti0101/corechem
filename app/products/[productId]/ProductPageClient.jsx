@@ -111,13 +111,14 @@ export default function ProductPage({ params }) {
 
             {/* BUTTONS */}
             <div className="mt-10 flex flex-wrap gap-4">
-              <button
+              <a
+              href="tel:+919818544039"
                 // onClick={() => setIsFormOpen(true)}
                 className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e5b712] capitalize"
               >
                get instant price
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
-              </button>
+              </a>
 
               <a
                 href={`https://wa.me/+919818544039?text=Hello I am interested in ${product.name}`}
@@ -357,7 +358,7 @@ export default function ProductPage({ params }) {
         {/* EXTRA BUTTONS */}
         <div className="grid grid-cols-2 gap-4 pt-2">
           <a
-            href="/brochure.pdf"
+            href="/CC catalogue 2_compressed.pdff"
             download
             className="flex h-13 items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
           >
@@ -393,8 +394,9 @@ export default function ProductPage({ params }) {
             );
 
             const relatedProducts =
-              currentCategory?.products.filter((p) => p.id !== product.id) ||
-              [];
+  currentCategory?.products
+    .filter((p) => p.id !== product.id)
+    .slice(0, 6) || [];
 
             if (relatedProducts.length === 0) return null;
 
