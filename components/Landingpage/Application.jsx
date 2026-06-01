@@ -51,19 +51,19 @@ const industries = [
 
 export default function IndustriesSection() {
   return (
-    <section className="relative overflow-hidden bg-[#faf8f3] py-10">
+    <section className="relative overflow-hidden bg-blue-200 py-10">
       {/* Background Decoration */}
       <div className="absolute top-0 left-0 h-96 w-96 rounded-full bg-[#C8921C]/10 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-[#C8921C]/10 blur-3xl" />
 
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Header */}
-        <div className="mx-auto mb-5 max-w-3xl text-center">
+        <div className="mx-auto mb-5 max-w-5xl text-center">
           <span className="inline-flex items-center rounded-full bg-[#C8921C]/10 px-5 py-2 text-sm font-semibold text-[#C8921C]">
            Applications of Titanium Dioxide
           </span>
 
-          <h2 className="mt-3 text-4xl font-bold text-slate-900 md:text-5xl">
+          <h2 className="mt-3 text-4xl font-bold md:whitespace-nowrap text-slate-900 md:text-5xl">
             Delivering Excellence Across Industries
           </h2>
 
@@ -91,7 +91,7 @@ export default function IndustriesSection() {
                 <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-3xl bg-[#C8921C]/10">
                   <Icon
                     size={38}
-                    className="text-[#C8921C]"
+                    className="text-blue-300"
                   />
                 </div>
 
@@ -106,7 +106,7 @@ export default function IndustriesSection() {
 <Link href="">
 
 
-                <button className="flex items-center gap-2 font-semibold text-[#C8921C] transition-all duration-300 group-hover:gap-4">
+                <button className="flex items-center gap-2 font-semibold text-black transition-all duration-300 group-hover:gap-4">
                   Explore Industry
                   <ArrowRight size={18} />
                 </button>
