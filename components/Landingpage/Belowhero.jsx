@@ -89,7 +89,7 @@ export default function TitaniumSection() {
 
     <section className="w-full bg-white pt-10 overflow-hidden">
       <div className="w-full mx-auto px-8">
-        <div className="grid grid-cols-1 xl:grid-cols-[350px_1fr] gap-2 items-start">
+        <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] xl:grid-cols-[350px_1fr] gap-2 items-start">
           
           {/* LEFT CONTENT */}
           <div className="pt-2 ">
@@ -135,7 +135,7 @@ export default function TitaniumSection() {
                   slidesPerView: 1.3,
                 },
                 768: {
-                  slidesPerView: 3,
+                  slidesPerView: 2,
                 },
          
               }}
@@ -209,10 +209,10 @@ export default function TitaniumSection() {
 
 <p className="mx-auto text-center mb-6 max-w-4xl">From paints and coatings to plastics, inks, and cosmetics — we supply premium-quality Titanium Dioxide for all industrial applications. Fill out the form below, and our team will contact you within 24 hours.</p>
 
-    <form className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
+    <form className="">
 
       {/* Full Name */}
-      <div>
+      <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">      <div>
         <input
           type="text"
           placeholder="Full Name"
@@ -247,13 +247,24 @@ export default function TitaniumSection() {
         />
       </div>
 
-      {/* Button */}
-      <button
+       <button
         type="submit"
-        className="group h-[60px] min-w-[220px] rounded-2xl bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
+        className="group h-[60px] min-w-[220px] rounded-2xl hidden xl:block bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
       >
         Request Quote →
       </button>
+      </div>
+
+
+      {/* Button */}
+      <div className=" hidden lg:block lg:flex xl:hidden  mt-3 justify-center items-center">      <button
+        type="submit"
+        className="group h-[60px] min-w-[420px] rounded-2xl bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
+      >
+        Request Quote →
+      </button>
+      </div>
+
 
     </form>
 

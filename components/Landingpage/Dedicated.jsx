@@ -108,7 +108,7 @@ export default function TitaniumDioxideSection() {
           {/* RIGHT PREMIUM CARD */}
           <div
             style={{ backgroundImage: "url(/leading.webp)" }}
-            className="relative min-h-[620px] sm:min-h-[720px] w-full overflow-hidden rounded-[30px] bg-cover bg-center"
+            className="relative min-h-[590px]  w-full overflow-hidden rounded-[30px] bg-cover bg-center"
           >
             {/* GRADIENT OVERLAY */}
             <div className="absolute inset-0 bg-gradient-to-br from-[#111827]/90 via-[#111827]/75 to-[#BE8220]/50" />

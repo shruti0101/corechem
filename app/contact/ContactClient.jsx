@@ -196,111 +196,116 @@ export default function ContactPage() {
           </div>
 
           {/* FORM */}
-          <div className="relative overflow-hidden rounded-[36px] border border-white bg-white/50 p-8   md:p-10">
-            {/* FORM BG */}
-            <div className="absolute inset-0 bg-[url('/parallex.jpg')] bg-cover bg-center opacity-30" />
+          <div className="relative overflow-hidden rounded-[24px] md:rounded-[36px] border border-white bg-white/50 p-5 md:p-10">
+  
+  {/* BG */}
+  <div className="absolute inset-0 bg-[url('/parallex.jpg')] bg-cover bg-center opacity-30" />
 
-            <div className="relative">
-              <div className="mb-8">
-                <h3 className="text-3xl font-bold text-[#1e293b]">
-                  Contact Form
-                </h3>
+  <div className="relative">
 
-                <p className="mt-2 text-slate-600">
-                  Fill out the form below and our team will contact you shortly.
-                </p>
-              </div>
+    {/* HEADER */}  
+    <div className="mb-6 md:mb-8 text-center md:text-left">
+      <h3 className="text-2xl md:text-3xl font-bold text-[#1e293b]">
+        Contact Form
+      </h3>
 
-              <form className="space-y-5" onSubmit={handleSubmit}>
-                <div className="grid gap-4 md:grid-cols-2">
-                  <input
-                    type="text"
-                    required
-                    placeholder="Full Name"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
-                    value={name}
-                    onChange={(e) => setName(e.target.value)}
-                  />
+      <p className="mt-2 text-sm md:text-base text-slate-600">
+        Fill out the form below and our team will contact you shortly.
+      </p>
+    </div>
 
-                  <input
-                    type="tel"
-                    required
-                    maxLength={10}
-                    pattern="[0-9]{10}"
-                    placeholder="Phone Number"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
-                    value={phone}
-                    onChange={(e) => setPhone(e.target.value)}
-                  />
-                </div>
+    <form className="space-y-4 md:space-y-5" onSubmit={handleSubmit}>
 
-                <div className="grid gap-4 md:grid-cols-2">
-                  <input
-                    type="text"
-                    placeholder="City"
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
-                    value={place}
-                    onChange={(e) => setplace(e.target.value)}
-                  />
+      {/* NAME + PHONE */}
+      <div className="grid gap-3 md:gap-4 md:grid-cols-2">
+        <input
+          type="text"
+          required
+          placeholder="Full Name"
+          className="h-12 md:h-14 rounded-xl border border-slate-200 bg-white px-4 md:px-5 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+        />
 
-                  <select
-                    className="h-14 rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
-                    value={requirement}
-                    onChange={(e) => setRequirement(e.target.value)}
-                  >
-                    <option value="">Select Product</option>
+        <input
+          type="tel"
+          required
+          maxLength={10}
+          pattern="[0-9]{10}"
+          placeholder="Phone Number"
+          className="h-12 md:h-14 rounded-xl border border-slate-200 bg-white px-4 md:px-5 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+          value={phone}
+          onChange={(e) => setPhone(e.target.value)}
+        />
+      </div>
 
-                    <option value="Titanium Dioxide">Titanium Dioxide</option>
+      {/* CITY + PRODUCT */}
+      <div className="grid gap-3 md:gap-4 md:grid-cols-2">
+        <input
+          type="text"
+          placeholder="City"
+          className="h-12 md:h-14 rounded-xl border border-slate-200 bg-white px-4 md:px-5 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+          value={place}
+          onChange={(e) => setplace(e.target.value)}
+        />
 
-                    <option value="Industrial Chemicals">
-                      Industrial Chemicals
-                    </option>
+        <select
+          className="h-12 md:h-14 rounded-xl border border-slate-200 bg-white px-4 md:px-5 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+          value={requirement}
+          onChange={(e) => setRequirement(e.target.value)}
+        >
+          <option value="">Select Product</option>
+          <option value="Titanium Dioxide">Titanium Dioxide</option>
+          <option value="Industrial Chemicals">Industrial Chemicals</option>
+          <option value="Bulk Supply">Bulk Supply Solutions</option>
+        </select>
+      </div>
 
-                    <option value="Bulk Supply">Bulk Supply Solutions</option>
-                  </select>
-                </div>
+      {/* EMAIL */}
+      <input
+        type="email"
+        required
+        placeholder="Email Address"
+        className="h-12 md:h-14 w-full rounded-xl border border-slate-200 bg-white px-4 md:px-5 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
 
-                <input
-                  type="email"
-                  required
-                  placeholder="Email Address"
-                  className="h-14 w-full rounded-xl border border-slate-200 bg-white px-5 outline-none transition focus:border-[#BE8220]"
-                  value={email}
-                  onChange={(e) => setEmail(e.target.value)}
-                />
+      {/* MESSAGE */}
+      <textarea
+        rows={4}
+        placeholder="Write your message..."
+        className="w-full rounded-2xl border border-slate-200 bg-white px-4 md:px-5 py-3 md:py-4 text-sm md:text-base outline-none transition focus:border-[#BE8220]"
+        value={message}
+        onChange={(e) => setMessage(e.target.value)}
+      />
 
-                <textarea
-                  rows={5}
-                  placeholder="Write your message..."
-                  className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-4 outline-none transition focus:border-[#BE8220]"
-                  value={message}
-                  onChange={(e) => setMessage(e.target.value)}
-                />
+      {/* BUTTON */}
+      <button
+        type="submit"
+        disabled={loading}
+        className="inline-flex h-12 md:h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#BE8220] px-6 text-sm md:text-base font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
+      >
+        {loading ? "Submitting..." : "Submit Inquiry"}
+        {!loading && <Send className="h-5 w-5" />}
+      </button>
 
-                <button
-                  type="submit"
-                  disabled={loading}
-                  className="inline-flex h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#BE8220] px-6 font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
-                >
-                  {loading ? "Submitting..." : "Submit Inquiry"}
+      {/* STATUS */}
+      {status === "success" && (
+        <p className="rounded-xl bg-green-100 px-4 py-3 text-sm md:text-base font-medium text-green-700">
+          Thank you! Our team will contact you shortly.
+        </p>
+      )}
 
-                  {!loading && <Send className="h-5 w-5" />}
-                </button>
+      {status === "error" && (
+        <p className="rounded-xl bg-red-100 px-4 py-3 text-sm md:text-base font-medium text-red-700">
+          Something went wrong. Please try again.
+        </p>
+      )}
 
-                {status === "success" && (
-                  <p className="rounded-xl bg-green-100 px-4 py-3 font-medium text-green-700">
-                    Thank you! Our team will contact you shortly.
-                  </p>
-                )}
-
-                {status === "error" && (
-                  <p className="rounded-xl bg-red-100 px-4 py-3 font-medium text-red-700">
-                    Something went wrong. Please try again.
-                  </p>
-                )}
-              </form>
-            </div>
-          </div>
+    </form>
+  </div>
+</div>
         </div>
       </section>
 

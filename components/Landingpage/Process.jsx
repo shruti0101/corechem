@@ -63,16 +63,12 @@ const industries = [
     icon: Building2,
   },
 
-  {
-    title: "Adhesives & Sealants Industry",
-    desc: "Corechem Corporation supplies TiO₂ solutions that improve product appearance, consistency, and performance in adhesive and sealant formulations.",
-    icon: Wrench,
-  },
+  
 ];
 
 export default function IndustriesWeServe() {
   return (
-    <section className="relative overflow-hidden bg-white py-[25px] px-10">
+    <section className="relative overflow-hidden bg-white py-[25px] px-3 md:px-10">
       {/* BACKGROUND GRID */}
 
       {/* CONTAINER */}
@@ -85,14 +81,15 @@ export default function IndustriesWeServe() {
             <div className="flex items-center gap-[12px]">
               <span className="text-[#BE8220] text-[22px] leading-none">»</span>
 
-              <span className="uppercase tracking-[2px] text-[14px] font-[700] text-[#BE8220]">
+              <span className="uppercase tracking-[2px] text-[14px] text-center font-[700] text-[#BE8220]">
                 Industries We Serve
               </span>
             </div>
 
             {/* MAIN TITLE */}
-            <h2 className="mt-[14px] max-w-[1400px] text-[#16171b] text-[49px] text-center sm:leading-[78px]  font-[700] ">
-              Trusted Titanium Dioxide Supplier for Diverse Industries
+            <h2 className="mt-[14px]  max-w-[1400px]  text-[#16171b]  text-lg md:text-[49px] text-center sm:leading-[78px]  font-[700] ">
+              Trusted Titanium Dioxide Supplier
+               for Diverse Industries
             </h2>
           </div>
 

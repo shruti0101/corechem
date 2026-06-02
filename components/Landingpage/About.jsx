@@ -10,18 +10,18 @@ export default function AboutUsSection() {
     <Reveal>
 
 
-   <section className="relative w-full py-10  bg-white overflow-hidden">
+   <section className="relative w-full pb-5 pt-4 md:pt-9  bg-white overflow-hidden">
   <div className="w-full mx-auto px-4 md:px-7 ">
     
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-14  items-center">
+    <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-14  items-center">
       
       {/* ================= LEFT IMAGE SECTION ================= */}
       <div className="relative w-full">
         
         {/* MAIN IMAGE */}
-        <div className="relative w-full h-[420px] sm:h-[550px] lg:h-[720px] overflow-hidden rounded-[6px]">
+        <div className="relative w-full h-[370px]  lg:h-[720px]  xl:h-[720px] overflow-hidden rounded-[6px]">
           <Image
-            src="/about.png"
+            src="/bannerimg.webp"
             alt="About"
             fill
             priority
@@ -53,76 +53,10 @@ export default function AboutUsSection() {
             {/* ORANGE STRIP */}
             <div className="absolute top-0 right-0 w-[10px] h-full bg-[#BE8220]" />
           </div>
+
+          
         </div>
-      </div>
-
-      {/* ================= RIGHT CONTENT ================= */}
-      <div className="relative z-10">
-        
-        {/* SMALL TITLE */}
-        <div className="flex items-center gap-2">
-          <span className="text-[#BE8220] text-[26px] leading-none">
-            /
-          </span>
-
-          <span className="uppercase tracking-[2px] text-[13px] sm:text-[15px] font-[700] text-[#707070]">
-            About Corechem Corporation
-          </span>
-        </div>
-
-        {/* MAIN HEADING */}
-        <h2 className="mt-2 text-[32px] z-50 sm:text-[40px] font-[800] ">
-          Trusted Titanium Dioxide Supplier
-        </h2>
-
-        {/* DESCRIPTION */}
-        <p className="mt-2 text-[15px] sm:text-[18px]  leading-[33px] text-black text-justify">
-          At Corechem Corporation, we specialize in supplying high-quality
-          Titanium Dioxide products to businesses across multiple industries.
-          As a leading Titanium Dioxide Supplier, our mission is to provide
-          reliable chemical solutions that meet international quality
-          standards while ensuring consistent supply and customer-focused
-          service.
-        
-          As an experienced Titanium Dioxide Supplier, we understand the
-          importance of product purity, color stability, dispersion
-          performance, and cost efficiency. We work closely with
-          manufacturers, distributors, and industrial clients to deliver
-          tailored solutions that meet specific production requirements.
-          <br />
-          <br />
-          Our extensive supply network and quality assurance processes allow
-          us to serve customers efficiently with timely deliveries and
-          dependable support.
-        </p>
-
-        {/* CHECKLIST */}
-        <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
-          {[
-            "Trusted supplier for multiple industries.",
-            "High-quality products with consistency.",
-            "Reliable supply and timely delivery.",
-            "Competitive pricing and support.",
-          ].map((item, index) => (
-            <div key={index} className="flex items-start gap-4">
-              
-              <div className="min-w-[22px] h-[22px] rounded-full bg-[#BE8220] flex items-center justify-center mt-[3px]">
-                <Check
-                  size={12}
-                  className="text-white"
-                  strokeWidth={3.5}
-                />
-              </div>
-
-              <p className="text-[15px] sm:text-[17px] font-[700] text-black leading-[1.6]">
-                {item}
-              </p>
-            </div>
-          ))}
-        </div>
-
-        {/* CONTACT + EXPERIENCE */}
-        <div className="mt-5 flex flex-col xl:flex-row items-start xl:items-center gap-8">
+        <div className="mt-5 flex flex-row xl:flex-row items-start xl:items-center gap-8">
           
           {/* LEFT */}
           <div className="flex-1">
@@ -211,7 +145,7 @@ export default function AboutUsSection() {
           </div>
 
           {/* EXPERIENCE BOX */}
-          <div className="w-full sm:w-[270px] h-[220px] bg-[#f3f3f5] flex flex-col items-center justify-center px-6">
+          <div className="w-full hidden md:flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  md:flex-col items-center justify-center px-6">
             
             <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
               20+
@@ -224,6 +158,87 @@ export default function AboutUsSection() {
             </p>
           </div>
         </div>
+      </div>
+
+      {/* ================= RIGHT CONTENT ================= */}
+      <div className="relative z-10">
+        
+        {/* SMALL TITLE */}
+        <div className="flex items-center gap-2">
+          <span className="text-[#BE8220] text-[26px] leading-none">
+            /
+          </span>
+
+          <span className="uppercase tracking-[2px] text-[13px] sm:text-[15px] font-[700] text-[#707070]">
+            About Corechem Corporation
+          </span>
+        </div>
+
+        {/* MAIN HEADING */}
+        <h2 className="mt-2 text-[32px] z-50 sm:text-[40px] font-[800] ">
+          Trusted Titanium Dioxide Supplier
+        </h2>
+
+        {/* DESCRIPTION */}
+        <p className="mt-2 text-[15px] sm:text-[18px]  md:leading-[33px] text-black text-justify">
+          At Corechem Corporation, we specialize in supplying high-quality
+          Titanium Dioxide products to businesses across multiple industries.
+          As a leading Titanium Dioxide Supplier, our mission is to provide
+          reliable chemical solutions that meet international quality
+          standards while ensuring consistent supply and customer-focused
+          service.
+        
+          As an experienced Titanium Dioxide Supplier, we understand the
+          importance of product purity, color stability, dispersion
+          performance, and cost efficiency. We work closely with
+          manufacturers, distributors, and industrial clients to deliver
+          tailored solutions that meet specific production requirements.
+          <br />
+          <br />
+          Our extensive supply network and quality assurance processes allow
+          us to serve customers efficiently with timely deliveries and
+          dependable support.
+        </p>
+
+        {/* CHECKLIST */}
+        <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
+          {[
+            "Trusted supplier for multiple industries.",
+            "High-quality products with consistency.",
+            "Reliable supply and timely delivery.",
+            "Competitive pricing and support.",
+          ].map((item, index) => (
+            <div key={index} className="flex items-start gap-4">
+              
+              <div className="min-w-[22px] h-[22px] rounded-full bg-[#BE8220] flex items-center justify-center mt-[3px]">
+                <Check
+                  size={12}
+                  className="text-white"
+                  strokeWidth={3.5}
+                />
+              </div>
+
+              <p className="text-[15px] sm:text-[17px] font-[700] text-black leading-[1.6]">
+                {item}
+              </p>
+            </div>
+          ))}
+        </div>
+        <div className="w-full md:hidden mt-5 flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  flex-col items-center justify-center px-6">
+            
+            <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
+              20+
+            </h4>
+
+            <p className="mt-4 text-center text-[#243447] text-[19px] leading-[30px] font-[500]">
+              Years of Working
+              <br />
+              Experience
+            </p>
+          </div>
+
+        {/* CONTACT + EXPERIENCE */}
+        
 
         {/* BG SHAPE */}
         <div className="absolute right-[-120px] top-[120px] -z-10 opacity-[0.20] hidden xl:block pointer-events-none">

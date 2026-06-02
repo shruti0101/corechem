@@ -17,11 +17,10 @@ import {
 } from "lucide-react";
 
 const quickLinks = [
-  { name: "About Us", href: "/about" },
-  { name: "Our Products", href: "/products" },
-  { name: "Industries We Serve", href: "/industries" },
-  { name: "Contact Us", href: "/contact" },
-  { name: "Sitemap", href: "/sitemap" },
+  { name: "About Us", href: "#about" },
+  { name: "Our Products", href: "#products" },
+  { name: "Industries We Serve", href: "#industries" },
+  { name: "Contact Us", href: "#contact" },
 ];
 
 const products = [
@@ -76,7 +75,7 @@ export default function Footer() {
             </p>
 
             {/* SOCIAL */}
-            c
+            
           </div>
 
           {/* QUICK LINKS */}

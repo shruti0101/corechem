@@ -61,7 +61,7 @@ export default function FAQSection() {
   };
 
   return (
-    <section className="relative overflow-hidden bg-[#f7f7f7] py-[40px] ">
+    <section className="relative overflow-hidden bg-[#f7f7f7] py-[30px] md:py-[40px] ">
       {/* BACKGROUND */}
       <div className="absolute right-[-120px] top-[120px] h-[320px] w-[320px] rounded-full bg-[#BE8220]/5 blur-[90px]" />
 

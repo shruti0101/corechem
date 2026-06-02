@@ -20,7 +20,7 @@ import {
 import { categories } from "@/Data";
 import ContactForm from "../Popup";
 
-export default function Navbar() {
+export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
   
@@ -57,7 +57,13 @@ export default function Navbar() {
 
         <div className="flex items-center gap-5 text-white">
 
-          
+          <a href="#">
+            <Facebook className="h-4 w-4 hover:text-[#c8921c]" />
+          </a>
+
+          <a href="#">
+            <Instagram className="h-4 w-4 hover:text-[#c8921c]" />
+          </a>
 
           <button
   onClick={() => setIsOpen(true)}
@@ -90,14 +96,14 @@ export default function Navbar() {
           <nav className="hidden xl:flex items-center gap-10">
 
             <Link
-              href="/"
+              href="#home"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               Home
             </Link>
 
             <Link
-              href="/about"
+              href="#about"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               About Us
@@ -106,42 +112,26 @@ export default function Navbar() {
             {/* PRODUCTS */}
             <div className="group relative">
 
-<Link href="/products">
+<Link href="#products">
 
 
               <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#c8921c]">
                 Our Products
-                <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
               </button>
 </Link>
 
-              <div className="invisible absolute left-0 top-full z-[999999] mt-5 w-[350px] rounded-2xl border border-slate-200 bg-white opacity-0 shadow-[0_20px_60px_rgba(0,0,0,0.15)] transition-all duration-300 group-hover:visible group-hover:mt-3 group-hover:opacity-100">
-
-                <div className="max-h-[450px] overflow-y-auto p-5">
-
-                  {categories?.map((category) => (
-                    <Link
-                      key={category.id}
-                      href={`/categories/${category.id}`}
-                      className="block border-b border-slate-100 py-3 text-[16px] font-medium text-slate-800 transition hover:translate-x-2 hover:text-[#c8921c]"
-                    >
-                      {category.name}
-                    </Link>
-                  ))}
-
-                </div>
-              </div>
+              
             </div>
 
-            <Link
+            {/* <Link
               href="/our-blogs"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               Articles & Resources
-            </Link>
+            </Link> */}
 
             <Link
-              href="/contact"
+              href="#contact"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               Contact Us
@@ -150,7 +140,7 @@ export default function Navbar() {
           </nav>
 
           {/* PHONE */}
-          <div className="hidden lg:ml-90 xl:ml-0 lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3">
 
             <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#c8921c]">
               <Phone className="h-5 w-5 text-white" />

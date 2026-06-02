@@ -178,7 +178,7 @@ export default function IndustrialServicesSection() {
                     <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#BE8220] transition-all duration-700 group-hover:w-full" />
 
                     {/* IMAGE */}
-                    <div className="relative h-[240px] sm:h-[260px] lg:h-[280px] overflow-hidden">
+                    <div className="relative h-[240px]  lg:h-[280px] overflow-hidden">
                       <Image
                         src={service.image}
                         alt={service.title}
@@ -191,7 +191,7 @@ export default function IndustrialServicesSection() {
                     </div>
 
                     {/* CONTENT */}
-                    <div className="relative bg-[#0d0d0d] px-[20px] sm:px-[24px] pb-[36px] sm:pb-[42px] pt-[48px] sm:pt-[52px] text-center">
+                    <div className="relative bg-[#0d0d0d] px-[20px] sm:px-[24px] md:pb-[16px] sm:pb-[42px] pt-[48px] sm:pt-[52px] text-center">
                       
                       {/* ICON */}
                       <div className="absolute left-1/2 top-0 flex h-[58px] w-[58px] sm:h-[62px] sm:w-[62px] -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-[#BE8220] shadow-[0_15px_35px_rgba(255,94,20,0.4)] transition-all duration-700 group-hover:rotate-[360deg] group-hover:scale-110">

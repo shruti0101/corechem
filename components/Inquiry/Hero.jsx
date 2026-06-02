@@ -22,9 +22,8 @@ export default function Hero() {
 
   // Mobile banners
   const mobileBanners = [
-    
-    "/corechem banner2.webp",
-    "/corechem banner1.webp",
+    "/banner/mob1.png",
+    "/banner/mob2.png",
   ];
 
   return (

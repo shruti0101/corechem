@@ -56,7 +56,7 @@ const Page = () => {
       </div>
     </Link>
 
-    <div className="px-3 pb-3 mt-auto">
+    <div className="px-3 pb-3! mt-auto">
       <a
         href={`https://wa.me/919818544039?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
           product.name

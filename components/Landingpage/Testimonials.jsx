@@ -48,7 +48,7 @@ const testimonials = [
 ];
 export default function TestimonialSection() {
   return (
-    <section className="relative overflow-hidden bg-white py-[50px] ">
+    <section className="relative overflow-hidden bg-white py-5 md:py-[50px] ">
       {/* LEFT TOP CIRCLE */}
       <div className="absolute left-[-38px] top-[48px] h-[74px] w-[74px] rounded-full border border-[#d8d8d8]" />
 
@@ -132,7 +132,7 @@ export default function TestimonialSection() {
                   </div>
 
                   {/* REVIEW */}
-                  <p className="mt-[34px] text-[#666666] text-[18px] leading-[38px] font-[400]">
+                  <p className="mt-[30px] md:mt-[34px] text-[#666666] text-[18px] md:leading-[38px] font-[400]">
                     {item.review}
                   </p>
 
@@ -140,7 +140,7 @@ export default function TestimonialSection() {
                   <div className="mt-[34px] h-[1px] w-full bg-[#ebebeb]" />
 
                   {/* FOOTER */}
-                  <div className="mt-[28px] flex items-center justify-between">
+                  <div className="mt-[20px] md:mt-[28px] flex items-center justify-between">
                     {/* STARS */}
                     <div className="flex items-center gap-[4px] text-[#BE8220]">
                       {[1, 2, 3, 4, 5].map((star) => (

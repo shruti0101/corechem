@@ -80,7 +80,7 @@ export default function ProductShowcaseSection() {
 <Reveal>
 
 
-    <section className="relative overflow-hidden bg-[#f3f3f3] py-[60px] ">
+    <section className="relative overflow-hidden bg-[#f3f3f3] py-5 md:py-[60px] lg:py-20 ">
       {/* RIGHT INDUSTRIAL BG */}
       <div className="absolute right-0 bottom-0 opacity-[0.06] pointer-events-none">
         <Image
@@ -98,7 +98,7 @@ export default function ProductShowcaseSection() {
       </button>
 
       {/* BOTTOM SCROLL BUTTON */}
-      <button className="absolute bottom-[42px] right-[28px] z-20 flex h-[64px] w-[64px] items-center justify-center bg-[#ff0000] text-white transition-all duration-300 hover:scale-105">
+      <button className="absolute hidden md:flex bottom-[42px] right-[28px] z-20  h-[64px] w-[64px] items-center justify-center bg-[#ff0000] text-white transition-all duration-300 hover:scale-105">
         <ArrowUpRight size={26} strokeWidth={2.8} />
       </button>
 
@@ -116,12 +116,12 @@ export default function ProductShowcaseSection() {
           </div>
 
           {/* MAIN TITLE */}
-          <h2 className="mt-[20px] text-[#1d1d1d] text-[46px] leading-[72px] font-[700] tracking-[-2px]">
+          <h2 className="mt-[10px] md:mt-[20px] text-[#1d1d1d] text-[38px] md:text-[46px] md:leading-[72px] font-[700] tracking-[-2px]">
             Titanium Dioxide solutions
           </h2>
 
           {/* DESC */}
-          <p className="mt-[24px] max-w-[340px] text-black text-[18px] leading-[46px] font-[400]">
+          <p className="mt-12px md:mt-[24px] max-w-[340px] text-black text-[18px] md:leading-[46px] font-[400]">
             High-performance TiO₂ products for paints, plastics, coatings, inks,
             rubber, and industrial manufacturing applications worldwide.
           </p>
@@ -132,7 +132,7 @@ export default function ProductShowcaseSection() {
           </button>
 
           {/* NAVIGATION */}
-          <div className="mt-[62px] flex items-center gap-[18px]">
+          <div className="mt-[32px] md:mt-[62px] flex items-center gap-[18px]">
             {/* PREV */}
             <button className="product-prev flex h-[50px] w-[50px] items-center justify-center border border-[#dddddd] bg-transparent text-[#555] transition-all duration-300 hover:bg-[#111] hover:text-white">
               <ArrowLeft size={22} />

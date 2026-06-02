@@ -72,7 +72,7 @@ export default function AboutPage() {
         Trusted Titanium Dioxide Supplier
       </span>
 
-      <h2 className="mt-3 text-5xl font-extrabold leading-tight text-[#1e293b]">
+      <h2 className="mt-3 text-3xl md:text-5xl font-extrabold leading-tight text-[#1e293b]">
         About{" "}
         <span className="bg-gradient-to-r from-[#BE8220] to-orange-500 bg-clip-text text-transparent">
           Corechem
@@ -80,7 +80,7 @@ export default function AboutPage() {
         Corporation
       </h2>
 
-      <h2 className="mt-4 text-4xl font-bold leading-tight md:text-5xl">
+      <h2 className="mt-4 text-3xl font-bold leading-tight md:text-5xl">
         Reputable Supplier of Titanium Dioxide for Various Industries
       </h2>
 
@@ -117,7 +117,7 @@ export default function AboutPage() {
 </section>
 
       <main className="overflow-hidden bg-[#f8fafc] text-[#1e293b]">
-        <section className="mx-auto px-25 py-15">
+        <section className="mx-auto px-3 py-8  md:px-25 md:py-15">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <div>
               <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
@@ -145,7 +145,7 @@ We work hard to establish successful relationships within various industries by 
               <div className="relative rounded-[32px] border border-white bg-white/90 p-10 shadow-[0_20px_80px_rgba(15,23,42,0.08)] backdrop-blur-xl">
                 <div className="grid grid-cols-2 gap-6">
                   {[
-                    ["10+", "Industries Served"],
+                    ["20+", "Industries Served"],
                     ["100%", "Quality Commitment"],
                     ["24/7", "Customer Support"],
                     ["Global", "Supply Network"],
@@ -171,12 +171,12 @@ We work hard to establish successful relationships within various industries by 
           <Otherpro></Otherpro>
          
 
-        <section className="mx-auto  px-20 py-18">
+        <section className="mx-auto px-4 py-7  md:px-20 md:py-18">
           <div className="grid gap-10 lg:grid-cols-2">
             <div className="rounded-[30px] border border-orange-100 bg-gradient-to-br from-orange-50 to-white p-10 shadow-sm">
               <h2 className="text-4xl font-bold">Our Mission</h2>
 
-              <p className="mt-6 text-lg leading-8 text-slate-600">
+              <p className="mt-6 text-md md:text-lg leading-8 text-slate-600">
                The mission of Corechem Corporation is to deliver high-quality Titanium Dioxide materials and reliable chemical supplies, addressing the changing demands of the industry. As Titanium Dioxide Supplier, our objective is to provide quality products, reliable services, competitive pricing, and customer-oriented assistance for manufacturers in different industries.
 Our objective is to create long-lasting partnerships through integrity, professionalism, and prompt customer service, assisting manufacturers to ensure smooth operation process through our quality products and professional services.
 
@@ -191,13 +191,13 @@ Our objective is to create long-lasting partnerships through integrity, professi
             <div className="rounded-[30px] border border-blue-100 bg-gradient-to-br from-blue-50 to-white p-10 shadow-sm">
               <h2 className="text-4xl font-bold">Our Vision</h2>
 
-              <p className="mt-6 text-lg leading-8 text-slate-600">
+              <p className="mt-6 text-md md:text-lg  leading-8 text-slate-600">
                The vision of Corechem Corporation is to become a well-known Titanium Dioxide Supplier, providing quality, reliable services and having excellent customer relations, which will ensure our success in the market.
 We are a supplier committed to sustainable development and excellence. The company strives to maintain the same level of quality in its services, ensuring the successful functioning of the business.
 
               </p>
 
-              <p className="mt-6 text-lg leading-8 text-slate-600">
+              <p className="mt-6 text-md md:text-lg  leading-8 text-slate-600">
                 We are committed to sustainable growth and operational
                 excellence.
               </p>
@@ -205,14 +205,14 @@ We are a supplier committed to sustainable development and excellence. The compa
           </div>
         </section>
 
-        <section className="bg-white py-14">
-          <div className="mx-auto  px-20">
+        <section className="bg-white py-8 md:py-14">
+          <div className="mx-auto px-4  md:px-20">
             <div className="mx-auto max-w-6xl text-center">
               <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
                 Why Choose Us
               </span>
 
-              <h2 className="mt-2 text-4xl font-bold md:text-5xl">
+              <h2 className="mt-2 text-3xl font-bold md:text-5xl">
                 Reliable Titanium Dioxide Supplier for Your Business Needs
               </h2>
 
@@ -225,7 +225,7 @@ We are a supplier committed to sustainable development and excellence. The compa
               {whyChoose.map((item, index) => (
                 <div
                   key={index}
-                  className="rounded-[30px] border border-slate-200 bg-[#fcfcfd] p-8 shadow-sm transition hover:-translate-y-1 hover:border-[#BE8220]/30 hover:shadow-xl"
+                  className="rounded-[30px] border border-slate-200 bg-[#fcfcfd] p-5 md:p-8 shadow-sm transition hover:-translate-y-1 hover:border-[#BE8220]/30 hover:shadow-xl"
                 >
                   <div className="inline-flex rounded-2xl bg-orange-100 p-4 text-[#BE8220]">
                     {item.icon}
@@ -242,19 +242,19 @@ We are a supplier committed to sustainable development and excellence. The compa
 
         <section
           style={{ backgroundImage: "url('/formaboutbg.webp')" }}
-          className="relative overflow-hidden bg-cover bg-center py-18"
+          className="relative overflow-hidden bg-cover bg-center py-8 md:py-18"
         >
           <div className="absolute top-0 left-0 h-[300px] w-[300px] rounded-full bg-orange-200/40 blur-3xl" />
 
           <div className="absolute bottom-0 right-0 h-[300px] w-[300px] rounded-full bg-blue-200/40 blur-3xl" />
 
           <div className="relative mx-auto max-w-5xl px-6">
-            <div className="rounded-[36px] border border-white/70 bg-white/85 p-10 text-center shadow-[0_20px_80px_rgba(15,23,42,0.12)] backdrop-blur-xl md:p-16">
-              <h2 className="text-4xl font-bold leading-tight text-[#1e293b] md:text-5xl">
+            <div className="rounded-[36px] border border-white/70 bg-white/85  text-center shadow-[0_20px_80px_rgba(15,23,42,0.12)] backdrop-blur-xl p-4 md:p-16">
+              <h2 className="text-2xl font-bold leading-tight text-[#1e293b] md:text-5xl">
                 Looking for a Reliable Titanium Dioxide Supplier?
               </h2>
 
-              <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600">
+              <p className="mx-auto mt-6 max-w-3xl text-md leading-8  md:text-md text-slate-600">
                 Corechem Corporation is committed to providing dependable
                 Titanium Dioxide products, reliable supply solutions, and
                 responsive customer support tailored to your business needs.

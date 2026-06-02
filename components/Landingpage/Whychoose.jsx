@@ -50,7 +50,7 @@ const features = [
 
 export default function WhyChooseSection() {
   return (
-    <section className="bg-[#f7f7f7] py-[50px] ">
+    <section className="bg-[#f7f7f7] py-4 md:py-[50px] px-4 ">
       <div className="mx-auto max-w-[1320px] ">
         <div className="grid items-start gap-[45px] lg:grid-cols-[1fr_520px]">
           {/* LEFT SIDE */}
@@ -61,13 +61,13 @@ export default function WhyChooseSection() {
             </span>
 
             {/* MAIN TITLE */}
-            <h2 className="mt-[10px] max-w-[760px] text-[#16171b] text-[34px] leading-[46px]  sm:leading-[54px] font-[700] tracking-[-1.5px]">
+            <h2 className="mt-[10px] max-w-[760px] text-[#16171b] text-[34px] leading-[40px] md:leading-[46px]  sm:leading-[54px] font-[700] tracking-[-1.5px]">
               Why Choose Corechem Corporation as a Trusted Titanium Dioxide
               Supplier?
             </h2>
 
             {/* FEATURES */}
-            <div className="mt-[38px] grid gap-[18px]">
+            <div className="mt-[30px] md:mt-[38px] grid gap-[18px]">
               {features.map((item, index) => {
                 const Icon = item.icon;
 
@@ -103,7 +103,7 @@ export default function WhyChooseSection() {
           <div className="sticky top-[50px]">
             <div className="relative overflow-hidden rounded-[10px]">
               {/* IMAGE */}
-              <div className="relative h-[720px] w-full">
+              <div className="relative h-[500px] md:h-[720px] w-full">
                 <Image
                   src="/finalwhychoose.jpeg"
                   alt="Corechem Corporation"
@@ -118,7 +118,7 @@ export default function WhyChooseSection() {
               {/* EXPERIENCE CARD */}
               <div className="absolute bottom-[25px] left-[25px] rounded-[8px] bg-white px-[24px] py-[20px] shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
                 <h4 className="text-[#BE8220] text-[38px] leading-none font-[700]">
-                  15+
+                  20+
                 </h4>
 
                 <p className="mt-[8px] text-[#16171b] text-[14px] leading-[24px] font-[500]">

@@ -17,7 +17,7 @@ const stats = [
   {
     id: 2,
     icon: Factory,
-    number: "15+",
+    number: "20+",
     title: "Years of Experience",
   },
   {
@@ -36,7 +36,7 @@ const stats = [
 
 export default function StatsSection() {
   return (
-    <section className="w-full mt-10 bg-[#f5f5f5] border-y border-[#e5e5e5] overflow-hidden">
+    <section className="w-full  bg-[#f5f5f5] border-y border-[#e5e5e5] overflow-hidden">
       <div className=" mx-auto">
         
         <div className="grid grid-cols-2 lg:grid-cols-4">
