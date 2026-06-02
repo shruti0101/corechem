@@ -141,7 +141,7 @@ export default function ContactPage() {
       </section>
 
       {/* FORM SECTION */}
-      <section className="relative py-24">
+      <section className="relative py-12 md:py-24">
         {/* BG */}
         <div className="absolute inset-0 bg-gradient-to-b from-white via-orange-50/50 to-blue-50/50" />
 
@@ -310,7 +310,7 @@ export default function ContactPage() {
       </section>
 
       {/* MAP */}
-      <section className="px-6 pb-24">
+      <section className="px-6 pb-12 md:pb-24">
         <div className="mx-auto max-w-7xl overflow-hidden rounded-[36px] border border-white shadow-[0_20px_80px_rgba(15,23,42,0.10)]">
 <iframe
   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3498.998521230482!2d77.10934619999999!3d28.7195902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d01f0efe2cef3%3A0x9440478f2a43dad6!2sCorechem%20Corporation!5e0!3m2!1sen!2sin!4v1780309132298!5m2!1sen!2sin"
