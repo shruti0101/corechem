@@ -205,9 +205,9 @@ export default function Navbar() {
           </button>
         </div>
 
-        <div className="flex flex-col p-6">
+        <div onClick={() => setMobileMenu(false)} className="flex flex-col p-6">
 
-          <Link href="/" className="py-3 font-medium">
+          <Link  href="/" className="py-3 font-medium">
             Home
           </Link>
 
@@ -215,8 +215,8 @@ export default function Navbar() {
             About Us
           </Link>
 
-          <Link href="/industries" className="py-3 font-medium">
-            Industries
+          <Link href="/products" className="py-3 font-medium">
+            Products
           </Link>
 
           <Link href="/our-blogs" className="py-3 font-medium">

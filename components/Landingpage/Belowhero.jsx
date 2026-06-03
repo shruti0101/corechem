@@ -137,6 +137,9 @@ export default function TitaniumSection() {
                 768: {
                   slidesPerView: 2,
                 },
+                1024:{
+                  slidesPerView:3
+                }
          
               }}
               className="!overflow-visible"
@@ -257,9 +260,9 @@ export default function TitaniumSection() {
 
 
       {/* Button */}
-      <div className=" hidden lg:block lg:flex xl:hidden  mt-3 justify-center items-center">      <button
+      <div className=" ;lg:hidden flex xl:hidden  mt-3 justify-center items-center">      <button
         type="submit"
-        className="group h-[60px] min-w-[420px] rounded-2xl bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
+        className="group h-[60px] min-w-[220px] lg:min-w-[320px] rounded-2xl bg-gradient-to-r from-[#c8921c] to-[#b88216] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
       >
         Request Quote →
       </button>

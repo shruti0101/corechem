@@ -21,10 +21,12 @@ import { Autoplay, Pagination } from "swiper/modules";
 /* SWIPER CSS */
 import "swiper/css";
 import "swiper/css/pagination";
+import Link from "next/link";
 
 const services = [
   {
     title: "Titanium Dioxide",
+    href:"/categories/titanium-dioxide",
     desc: "High-quality titanium dioxide for superior whiteness, brightness, and opacity in industrial applications.",
     image: "/cat4.jpg",
     icon: FlaskConical,
@@ -32,6 +34,7 @@ const services = [
 
   {
     title: "Titanium Dioxide Rutile",
+    href:"/categories/titanium-dioxide-rutile",
     desc: "Premium rutile grade titanium dioxide offering excellent UV resistance and durability for coatings and plastics.",
     image: "/cat5.avif",
     icon: ShieldCheck,
@@ -39,6 +42,7 @@ const services = [
 
   {
     title: "Color Pigment",
+    href:"/categories/color-pigment",
     desc: "Vibrant and long-lasting color pigments ideal for paints, plastics, rubber, and industrial formulations.",
     image: "/cat1.jpg",
     icon: Palette,
@@ -46,6 +50,7 @@ const services = [
 
   {
     title: "Pigment Powder",
+    href:"/categories/pigment-powder",
     desc: "Fine-quality pigment powders with excellent dispersion, consistency, and rich color performance.",
     image: "/cat6.webp",
     icon: PackageSearch,
@@ -53,27 +58,29 @@ const services = [
 
   {
     title: "Lithopone",
+    href:"/categories/lithopone",
     desc: "Reliable lithopone chemical compound used for coatings, inks, plastics, and whitening applications.",
     image: "/cat7.jpg",
     icon: Droplets,
   },
 
-  {
-    title: "Caustic Soda",
-    desc: "Industrial-grade caustic soda widely used in chemical processing, textiles, paper, and cleaning solutions.",
-    image: "/cat8.webp",
-    icon: Beaker,
-  },
+  // {
+  //   title: "Caustic Soda",
+  //   desc: "Industrial-grade caustic soda widely used in chemical processing, textiles, paper, and cleaning solutions.",
+  //   image: "/cat8.webp",
+  //   icon: Beaker,
+  // },
 
-  {
-    title: "Calcium Carbonate",
-    desc: "High-purity calcium carbonate powder for plastics, paints, rubber, paper, and construction industries.",
-    image: "/cat9.jpg",
-    icon: Atom,
-  },
+  // {
+  //   title: "Calcium Carbonate",
+  //   desc: "High-purity calcium carbonate powder for plastics, paints, rubber, paper, and construction industries.",
+  //   image: "/cat9.jpg",
+  //   icon: Atom,
+  // },
 
   {
     title: "Optical Brighter",
+    href:"/categories/optical-brightening",
     desc: "Advanced optical brighteners that enhance brightness and whiteness in textiles, plastics, and detergents.",
     image: "/cat2.jpg",
     icon: Sparkles,
@@ -81,6 +88,7 @@ const services = [
 
   {
     title: "Carbon",
+    href:"/categories/carbon-black",
     desc: "Premium carbon materials designed for industrial manufacturing, pigmentation, and chemical applications.",
     image: "/cat3.jpg",
     icon: Circle,
@@ -172,7 +180,7 @@ export default function IndustrialServicesSection() {
               return (
                 <SwiperSlide key={index}>
                   
-                  <div className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 h-[600px] hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
+                  <Link href={service.href} className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 h-[600px] hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
                     
                     {/* TOP GLOW */}
                     <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#BE8220] transition-all duration-700 group-hover:w-full" />
@@ -215,7 +223,7 @@ export default function IndustrialServicesSection() {
 
                     {/* BORDER */}
                     <div className="absolute inset-0 border border-white/5 group-hover:border-[#BE8220]/70 transition-all duration-500" />
-                  </div>
+                  </Link>
                 </SwiperSlide>
               );
             })}

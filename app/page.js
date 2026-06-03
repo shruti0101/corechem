@@ -39,7 +39,7 @@ export default function Home() {
      <Clientele></Clientele>
       <Dedicated></Dedicated>
 <Application></Application>
-    <Parallex></Parallex>
+    {/* <Parallex></Parallex> */}
       <Process></Process>
       <Whychoose />
 

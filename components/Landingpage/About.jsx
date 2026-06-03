@@ -10,7 +10,7 @@ export default function AboutUsSection() {
     <Reveal>
 
 
-   <section className="relative w-full pb-5 pt-4 md:pt-9  bg-white overflow-hidden">
+   <section className="relative w-full pb-5 pt-4 xl:mt-4 xl:pt-9  bg-white overflow-hidden">
   <div className="w-full mx-auto px-4 md:px-7 ">
     
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-14  items-center">
@@ -19,7 +19,7 @@ export default function AboutUsSection() {
       <div className="relative w-full">
         
         {/* MAIN IMAGE */}
-        <div className="relative w-full h-[370px]  lg:h-[720px]  xl:h-[720px] overflow-hidden rounded-[6px]">
+        <div className="relative w-full h-[370px]  lg:h-[720px]  xl:h-[620px] overflow-hidden rounded-[6px]">
           <Image
             src="/bannerimg.webp"
             alt="About"
@@ -118,34 +118,39 @@ export default function AboutUsSection() {
             </div>
 
             {/* BUTTON */}
-            <button className="group relative mt-8 h-[65px] w-[220px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03]">
-              
-              <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
+            <div className="flex justify-center lg:hidden xl:flex items-center">
+  <button className="group hidden lg:flex relative mt-8 h-[65px] w-[320px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
+    
+    <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
 
-              <Link href={"/products"} className="relative z-10 flex items-center justify-center gap-3 h-full">
-                Explore Now
+    <Link
+      href="/products"
+      className="relative z-10 flex items-center justify-center gap-3 w-full h-full text-center"
+    >
+      <span>Explore Now</span>
 
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  strokeWidth="2.5"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  className="transition-transform duration-300 group-hover:translate-x-[6px]hidden md:block"
-                >
-                  <path d="M5 12h14" />
-                  <path d="m12 5 7 7-7 7" />
-                </svg>
-              </Link>
-            </button>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="hidden md:block transition-transform duration-300 group-hover:translate-x-[6px]"
+      >
+        <path d="M5 12h14" />
+        <path d="m12 5 7 7-7 7" />
+      </svg>
+    </Link>
+  </button>
+</div>
           </div>
 
           {/* EXPERIENCE BOX */}
-          <div className="w-full hidden md:flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  md:flex-col items-center justify-center px-6">
+          <div className="w-full hidden xl:flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  md:flex-col items-center justify-center px-6">
             
             <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
               20+
@@ -161,7 +166,7 @@ export default function AboutUsSection() {
       </div>
 
       {/* ================= RIGHT CONTENT ================= */}
-      <div className="relative z-10">
+      <div className="relative z-10 lg:pt-4">
         
         {/* SMALL TITLE */}
         <div className="flex items-center gap-2">
@@ -180,7 +185,7 @@ export default function AboutUsSection() {
         </h2>
 
         {/* DESCRIPTION */}
-        <p className="mt-2 text-[15px] sm:text-[18px]  md:leading-[33px] text-black text-justify">
+        <p className="mt-2 text-[15px] sm:text-[18px] lg:leading-[28px] xl:leading-[33px] text-black text-justify">
           At Corechem Corporation, we specialize in supplying high-quality
           Titanium Dioxide products to businesses across multiple industries.
           As a leading Titanium Dioxide Supplier, our mission is to provide
@@ -195,10 +200,13 @@ export default function AboutUsSection() {
           tailored solutions that meet specific production requirements.
           <br />
           <br />
+          <span className="lg:hidden xl:block">
           Our extensive supply network and quality assurance processes allow
           us to serve customers efficiently with timely deliveries and
           dependable support.
+          </span>
         </p>
+      
 
         {/* CHECKLIST */}
         <div className="mt-5 grid grid-cols-1 sm:grid-cols-2 gap-y-5 gap-x-8">
@@ -224,7 +232,46 @@ export default function AboutUsSection() {
             </div>
           ))}
         </div>
-        <div className="w-full md:hidden mt-5 flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  flex-col items-center justify-center px-6">
+          <div className="w-full hidden mt-5 lg:flex xl:hidden   h-[70px] bg-[#f3f3f5]  flex-col items-center justify-center px-6">
+            
+            <h4 className="text-[#BE8220] whitespace-nowrap text-[25px] leading-none font-[800]">
+              20+ Years of Working  Experience 
+            </h4>
+
+            
+
+           
+          </div>
+          <div className="flex justify-center items-center">
+  <button className="group hidden lg:flex xl:hidden relative mt-8 h-[65px] w-[320px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
+    
+    <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
+
+    <Link
+      href="/products"
+      className="relative z-10 flex items-center justify-center gap-3 w-full h-full text-center"
+    >
+      <span>Explore Now</span>
+
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="hidden md:block transition-transform duration-300 group-hover:translate-x-[6px]"
+      >
+        <path d="M5 12h14" />
+        <path d="m12 5 7 7-7 7" />
+      </svg>
+    </Link>
+  </button>
+</div>
+        <div className="w-[80%] mx-auto lg:hidden mt-5 flex  h-[160px] bg-[#f3f3f5]  flex-col items-center justify-center px-6">
             
             <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
               20+

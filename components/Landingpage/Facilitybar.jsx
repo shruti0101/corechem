@@ -8,6 +8,11 @@ import {
   Headphones,
 } from "lucide-react";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Autoplay } from "swiper/modules";
+
+import "swiper/css";
+
 const features = [
   {
     id: 1,
@@ -43,42 +48,79 @@ const features = [
 
 export default function FeatureStrip() {
   return (
-    <section className="w-full rounded-md  mx-auto bg-[#02224b]  overflow-hidden ">
-      <div className=" mx-auto">
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5">
+    <section className="w-full overflow-hidden rounded-md bg-[#02224b]">
+      {/* MOBILE SLIDER */}
+      <div className="block lg:hidden">
+        <Swiper
+          modules={[Autoplay]}
+          slidesPerView={1}
+          loop={true}
+          autoplay={{
+            delay: 1500,
+            disableOnInteraction: false,
+          }}
+          className="w-full"
+        >
+          {features.map((item) => {
+            const Icon = item.icon;
+
+            return (
+              <SwiperSlide key={item.id}>
+                <div className="flex flex-col items-center justify-center gap-4 px-6 py-8 text-center min-h-[160px]">
+                  <Icon
+                    strokeWidth={1.8}
+                    className="h-[48px] w-[48px] text-[#d79a19]"
+                  />
+
+                  <div>
+                    <h3 className="text-[20px] font-[700] leading-[24px] text-white">
+                      {item.title}
+                    </h3>
+
+                    <p className="mt-2 whitespace-pre-line text-[14px] leading-[24px] font-[400] text-white/75">
+                      {item.desc}
+                    </p>
+                  </div>
+                </div>
+              </SwiperSlide>
+            );
+          })}
+        </Swiper>
+      </div>
+
+      {/* DESKTOP GRID */}
+      <div className="hidden lg:block">
+        <div className="grid grid-cols-5">
           {features.map((item, index) => {
             const Icon = item.icon;
 
             return (
-             <div
-  key={item.id}
-  className={`relative flex flex-col md:flex-row md:justify-items-center md:justify-center items-center gap-5 px-4 py-3 md:py-7 min-h-[118px]
-  ${
-    index !== features.length - 1
-      ? "lg:border-r border-white/10"
-      : ""
-  }`}
->
-  {/* ICON */}
-  <div className="shrink-0 flex justify-center md:block">
-    <Icon
-      strokeWidth={1.8}
-      className="w-[48px] h-[48px] text-[#d79a19]"
-    />
-  </div>
+              <div
+                key={item.id}
+                className={`relative flex flex-col xl:flex-row items-center justify-center gap-5 px-4 py-7 min-h-[118px]
+                ${
+                  index !== features.length - 1
+                    ? "border-r border-white/10"
+                    : ""
+                }`}
+              >
+                <div className="shrink-0">
+                  <Icon
+                    strokeWidth={1.8}
+                    className="h-[48px] w-[48px] text-[#d79a19]"
+                  />
+                </div>
 
-  {/* CONTENT */}
-  <div className="text-center md:text-left">
-    <h3 className="text-white text-[20px] leading-[24px] font-[700]">
-      {item.title}
-    </h3>
+                <div className="text-center xl:text-left">
+                  <h3 className="text-[20px] font-[700] leading-[24px] text-white">
+                    {item.title}
+                  </h3>
 
-    <p className="mt-2 text-white/75 text-[14px] leading-[24px] whitespace-pre-line font-[400]">
-      {item.desc}
-    </p>
-  </div>
-</div>
+                  <p className="mt-2 whitespace-pre-line text-[14px] leading-[24px] font-[400] text-white/75">
+                    {item.desc}
+                  </p>
+                </div>
+              </div>
             );
           })}
         </div>

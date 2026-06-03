@@ -54,9 +54,9 @@ export default function HighQualityCTA() {
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="relative flex items-center justify-center md:justify-start gap-2 bg-white text-black px-6 py-3 sm:py-4 rounded-xl font-medium overflow-hidden w-full md:w-auto"
+                  className="relative flex items-center justify-center md:justify-start gap-2 lg:gap-1 xl:gap-2 bg-white text-black px-6 py-3 sm:py-4 rounded-xl font-medium overflow-hidden w-full md:w-auto"
                 >
-                  <span className="relative z-10">Explore Our Range</span>
+                  <span className="relative z-10 whitespace-nowrap">Explore Our Range</span>
                   <ArrowRight size={18} />
 
                   {/* Shine Effect */}

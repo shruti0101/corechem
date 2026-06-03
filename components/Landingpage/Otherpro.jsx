@@ -117,7 +117,7 @@ export default function ProductShowcaseSection() {
 
           {/* MAIN TITLE */}
           <h2 className="mt-[10px] md:mt-[20px] text-[#1d1d1d] text-[38px] md:text-[46px] md:leading-[72px] font-[700] tracking-[-2px]">
-            Titanium Dioxide solutions
+            Titanium Dioxide Solutions
           </h2>
 
           {/* DESC */}

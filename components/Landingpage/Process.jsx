@@ -51,17 +51,17 @@ const industries = [
     icon: Sparkles,
   },
 
-  {
-    title: "Textile Industry",
-    desc: "We support textile manufacturers with Titanium Dioxide solutions used in textile processing and fiber applications.",
-    icon: Shirt,
-  },
+  // {
+  //   title: "Textile Industry",
+  //   desc: "We support textile manufacturers with Titanium Dioxide solutions used in textile processing and fiber applications.",
+  //   icon: Shirt,
+  // },
 
-  {
-    title: "Construction Materials Industry",
-    desc: "Our Titanium Dioxide products are used in construction materials and related industrial applications requiring durability and color stability.",
-    icon: Building2,
-  },
+  // {
+  //   title: "Construction Materials Industry",
+  //   desc: "Our Titanium Dioxide products are used in construction materials and related industrial applications requiring durability and color stability.",
+  //   icon: Building2,
+  // },
 
   
 ];
