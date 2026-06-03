@@ -180,7 +180,7 @@ export default function IndustrialServicesSection() {
               return (
                 <SwiperSlide key={index}>
                   
-                  <Link href={service.href} className="group relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 h-[600px] hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
+                  <Link href={service.href} className="group  relative overflow-hidden rounded-[8px] bg-[#0d0d0d] transition-all duration-500 hover:-translate-y-3 h-[600px] hover:shadow-[0_25px_60px_rgba(0,0,0,0.45)]">
                     
                     {/* TOP GLOW */}
                     <div className="absolute left-0 top-0 z-10 h-[3px] w-0 bg-[#BE8220] transition-all duration-700 group-hover:w-full" />
@@ -216,7 +216,7 @@ export default function IndustrialServicesSection() {
                       </h3>
 
                       {/* DESCRIPTION */}
-                      <p className="mt-[15px] sm:mt-[18px] text-white/80 text-[15px] sm:text-[16px] leading-[28px] sm:leading-[31px] font-[400]">
+                      <p className="mt-[15px] sm:mt-[18px] pb-2 text-white/80 text-[15px] sm:text-[16px] leading-[28px] sm:leading-[31px] font-[400]">
                         {service.desc}
                       </p>
                     </div>

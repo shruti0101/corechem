@@ -86,6 +86,9 @@ export default function Navbar() {
             />
           </Link>
 
+          <div><button onClick={() => setIsOpen(true)} className="bg-[#c8921c] md:hidden px-2 py-3 text-white rounded-xl">Get Quote</button></div>
+
+
           {/* DESKTOP MENU */}
           <nav className="hidden xl:flex items-center gap-10">
 

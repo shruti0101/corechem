@@ -131,7 +131,7 @@ export default function ContactForm({setIsOpen,isOpen}) {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed z-[99999] inset-0 flex items-center justify-center bg-black/40">
+    <div className="fixed z-[99999] inset-0 flex items-center  px-4 justify-center bg-black/40">
       <div
         className="relative rounded-3xl shadow-2xl p-10 max-w-sm md:max-w-2xl bg-[#062347] text-white bg-cover bg-center"
         style={{ backgroundImage: "url(/bag/try2.webp)" }}

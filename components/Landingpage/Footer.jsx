@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -10,11 +10,9 @@ import {
   MapPin,
   ArrowUpRight,
   FlaskConical,
-  Facebook,
-  Instagram,
-  Linkedin,
   ChevronRight,
 } from "lucide-react";
+import Trust from "../trust";
 
 const quickLinks = [
   { name: "About Us", href: "/about" },
@@ -34,6 +32,8 @@ const products = [
 ];
 
 export default function Footer() {
+
+  const [oopen, setoopen] = useState(false);
   return (
     <footer className="relative overflow-hidden bg-[#1C293C] text-white">
       <div className="mx-3 md:px-0">
@@ -195,7 +195,7 @@ export default function Footer() {
   </div>
 
   {/* IMAGE */}
-  <div className="relative mx-auto mt-4 h-[120px] w-full max-w-[320px] overflow-hidden rounded-xl">
+  <div  onClick={() => setoopen(true)} className="relative mx-auto mt-4 h-[120px] w-full max-w-[320px] overflow-hidden rounded-xl">
     <Image
       src="/trustseal.webp"
       alt="Trust Elite Certificate"
@@ -265,6 +265,27 @@ export default function Footer() {
         </div>
       </div>
       </div>
+
+      {oopen &&  <div onClick={() => setoopen(false)} className="fixed inset-0 z-[999999] flex items-center justify-center bg-black/70 p-4">
+    <div className="relative max-w-5xl lg:w-[60%] lg:h-[90%]  overflow-hidden bg-white">
+      
+      <button
+        onClick={() => setoopen(false)}
+        className="absolute top-4 right-4 z-10 h-10 w-10 rounded-full  text-white flex items-center justify-center"
+      >
+        ✕
+      </button>
+
+      <Image
+        src="/trust Elite certificate.webp"
+        alt="Certificate"
+        width={1400}
+        height={900}
+        className="w-full h-full"
+      />
+    </div>
+  </div>}
+      
     </footer>
   );
 }

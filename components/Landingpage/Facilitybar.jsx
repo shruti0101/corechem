@@ -53,7 +53,7 @@ export default function FeatureStrip() {
       <div className="block lg:hidden">
         <Swiper
           modules={[Autoplay]}
-          slidesPerView={1}
+          slidesPerView={2}
           loop={true}
           autoplay={{
             delay: 1500,
@@ -77,7 +77,7 @@ export default function FeatureStrip() {
                       {item.title}
                     </h3>
 
-                    <p className="mt-2 whitespace-pre-line text-[14px] leading-[24px] font-[400] text-white/75">
+                    <p className="mt-2 whitespace-pre-line text-[12px] leading-[24px] font-[400] text-white/90">
                       {item.desc}
                     </p>
                   </div>

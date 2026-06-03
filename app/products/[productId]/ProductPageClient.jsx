@@ -138,7 +138,7 @@ export default function ProductPage({ params }) {
 
             {/* CARD */}
             <div className="relative overflow-hidden rounded-[40px] border border-white/70 bg-white/80 p-6 shadow-[0_20px_80px_rgba(15,23,42,0.10)] backdrop-blur-xl">
-              <div className="relative h-[400px] overflow-hidden rounded-[28px] ">
+              <div className="relative h-[340px] md:h-[400px] overflow-hidden rounded-[28px] ">
                 <Image
                   src={activeImage?.src}
                   alt={activeImage?.alt}
@@ -166,7 +166,7 @@ export default function ProductPage({ params }) {
                         alt={img.alt}
                         width={90}
                         height={90}
-                        className="h-[90px] w-[90px] object-cover"
+                        className="h-[70px] md:h-[90px] w-[90px] object-cover"
                       />
                     </button>
                   ))}
