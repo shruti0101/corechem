@@ -1,6 +1,6 @@
 import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
-import StickyFooter from "@/components/StickyFooter";
+// import StickyFooter from "@/components/StickyFooter";
 import Whatsapp from "@/components/Whatsapp";
 
 import { Poppins } from "next/font/google";
@@ -34,7 +34,7 @@ export default function RootLayout({ children }) {
         <Whatsapp />
 
         <LayoutWrapper>{children}</LayoutWrapper>
-        <StickyFooter></StickyFooter>
+        {/* <StickyFooter></StickyFooter> */}
       </body>
     </html>
   );

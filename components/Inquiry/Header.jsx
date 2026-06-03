@@ -16,8 +16,7 @@ import {
   Menu,
   X,
 } from "lucide-react";
-
-import { categories } from "@/Data";
+import { FaPhoneAlt, FaWhatsapp, FaClipboardList } from "react-icons/fa";
 import ContactForm from "../Popup";
 
 export default function Header() {
@@ -26,7 +25,7 @@ export default function Header() {
   
 
   return (
-    <header className="sticky top-0 z-[999999] w-full bg-white shadow-sm">
+    <header className="sticky top-0 z-[9999] w-full bg-white shadow-sm">
 
       {/* ================= TOP BAR ================= */}
       <div className="hidden lg:flex h-[42px] items-center justify-between bg-[#062347] px-8 xl:px-14">
@@ -57,13 +56,7 @@ export default function Header() {
 
         <div className="flex items-center gap-5 text-white">
 
-          <a href="#">
-            <Facebook className="h-4 w-4 hover:text-[#c8921c]" />
-          </a>
-
-          <a href="#">
-            <Instagram className="h-4 w-4 hover:text-[#c8921c]" />
-          </a>
+          
 
           <button
   onClick={() => setIsOpen(true)}
@@ -91,6 +84,8 @@ export default function Header() {
               className="h-auto w-[200px] sm:w-[220px] lg:w-[340px]"
             />
           </Link>
+                    <div><button onClick={() => setIsOpen(true)} className="bg-[#c8921c] md:hidden px-2 py-3 text-white rounded-xl">Get Quote</button></div>
+
 
           {/* DESKTOP MENU */}
           <nav className="hidden xl:flex items-center gap-10">
@@ -195,37 +190,37 @@ export default function Header() {
           </button>
         </div>
 
-        <div className="flex flex-col p-6">
+        <div onClick={() => setMobileMenu(false)} className="flex flex-col p-6">
 
-          <Link href="/" className="py-3 font-medium">
+          <Link href="#" className="py-3 font-medium">
             Home
           </Link>
 
-          <Link href="/about" className="py-3 font-medium">
+          <Link href="#" className="py-3 font-medium">
             About Us
           </Link>
 
-          <Link href="/industries" className="py-3 font-medium">
+          <Link href="#" className="py-3 font-medium">
             Industries
           </Link>
 
-          <Link href="/our-blogs" className="py-3 font-medium">
+          <Link href="#" className="py-3 font-medium">
             Articles & Resources
           </Link>
 
-          <Link href="/contact" className="py-3 font-medium">
+          <Link href="#" className="py-3 font-medium">
             Contact Us
           </Link>
 
           <div className="mt-6 border-t pt-5">
-<Link href="/products">
+<Link href="#">
             <h4 className="mb-4 font-semibold">
               Our Products
             </h4>
 
 </Link>
 
-            <div className="max-h-[300px] overflow-y-auto">
+            {/* <div className="max-h-[300px] overflow-y-auto">
 
               {categories?.map((category) => (
                 <Link
@@ -236,7 +231,7 @@ export default function Header() {
                   {category.name}
                 </Link>
               ))}
-            </div>
+            </div> */}
           </div>
 
           <a
@@ -248,8 +243,43 @@ export default function Header() {
 
         </div>
       </div>
+      
 
 {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
+<div className="fixed bottom-0 left-0 right-0 z-[9999] block md:hidden">
+      <div className="mx-2 mb-2 overflow-hidden rounded-2xl border border-white/10 bg-[#062347]/95 shadow-[0_-5px_30px_rgba(0,0,0,0.25)] backdrop-blur-md">
+        <div className="grid grid-cols-3">
+          
+          {/* CALL */}
+          <Link
+            href="tel:+919818544039"
+            className="flex flex-col items-center justify-center gap-1 border-r border-white/10 py-3 text-white transition hover:bg-white/10"
+          >
+            <FaPhoneAlt className="text-lg text-[#c8921c]" />
+            <span className="text-xs font-semibold">Call</span>
+          </Link>
+
+          {/* ENQUIRY */}
+          <button
+            onClick={() => setIsOpen(true)} // Your enquiry modal state
+            className="flex flex-col items-center justify-center gap-1 border-r border-white/10 py-3 text-white transition hover:bg-white/10"
+          >
+            <FaClipboardList className="text-lg text-[#c8921c]" />
+            <span className="text-xs font-semibold">Enquiry</span>
+          </button>
+
+          {/* WHATSAPP */}
+          <Link
+            href="https://wa.me/919818544039"
+            target="_blank"
+            className="flex flex-col items-center justify-center gap-1 bg-[#25D366] py-3 text-white"
+          >
+            <FaWhatsapp className="text-xl" />
+            <span className="text-xs font-bold">WhatsApp</span>
+          </Link>
+        </div>
+      </div>
+    </div>
     </header>
   );
 }

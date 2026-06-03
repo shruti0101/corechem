@@ -1,41 +1,40 @@
-// import Footer from '@/components/Inquiry/Footer'
-// import Header from '@/components/Inquiry/Header'
-// import Hero from '@/components/Inquiry/Hero'
-// import AboutUsSection from '@/components/Landingpage/About'
-// import React from 'react'
-// import Facilitybar from "@/components/Landingpage/Facilitybar"
-// import WhyChoose from '@/components/Inquiry/whyChoose'
-// import Products from '@/components/Inquiry/Products'
-
-
-// export default function Inquiry() {
-//   return (
-//     <>
-//     <Header></Header>
-//     <Hero></Hero>
-//     <Facilitybar></Facilitybar>
-//     <WhyChoose></WhyChoose>
-//     <Products></Products>
-//     <AboutUsSection></AboutUsSection>
-
-
-
-
-
-//    <Footer></Footer> 
-//     </>
-//   )
-// }
-
+import Footer from '@/components/Inquiry/Footer'
+import Header from '@/components/Inquiry/Header'
+import Hero from '@/components/Inquiry/Hero'
+import AboutUsSection from '@/components/Landingpage/About'
 import React from 'react'
+import Facilitybar from "@/components/Landingpage/Facilitybar"
+import WhyChoose from '@/components/Inquiry/whyChoose'
+import Products from '@/components/Inquiry/Products'
+import CTAL from '@/components/Inquiry/CTAL'
+import Industry from '@/components/Inquiry/Industry'
+import Contact from '@/components/Inquiry/Contact'
+import BCTA from '@/components/Inquiry/BCTA'
+import Whychoose2 from '@/components/Inquiry/Whychoose2'
 
-const Inquiry = () => {
+
+export default function Inquiry() {
   return (
-    <div>
-      sdf
-    </div>
+    <>  
+    <Header></Header>
+    <Hero></Hero>
+    <Facilitybar></Facilitybar>
+    <Products></Products>
+    <WhyChoose></WhyChoose>
+    {/* <AboutUsSection></AboutUsSection> */}
+    <Whychoose2></Whychoose2>
+
+
+
+<CTAL></CTAL>
+<Industry></Industry>
+<Contact></Contact>
+<BCTA></BCTA>
+
+   <Footer></Footer> 
+    </>
   )
 }
 
-export default Inquiry
+
 

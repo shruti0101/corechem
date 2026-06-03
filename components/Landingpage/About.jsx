@@ -10,7 +10,7 @@ export default function AboutUsSection() {
     <Reveal>
 
 
-   <section className="relative w-full pb-5 pt-4 xl:mt-4 xl:pt-9  bg-white overflow-hidden">
+   <section className=" hidden md:block relative w-full pb-5 pt-4 xl:mt-4 xl:pt-9  bg-white overflow-hidden">
   <div className="w-full mx-auto px-4 md:px-7 ">
     
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-14  items-center">

@@ -3,6 +3,7 @@
 import { usePathname } from "next/navigation";
 import Navbar from "@/components/Landingpage/Navbar";
 import Footer from "@/components/Landingpage/Footer";
+import StickyFooter from "./StickyFooter";
 
 export default function LayoutWrapper({ children }) {
   const pathname = usePathname();
@@ -16,6 +17,7 @@ export default function LayoutWrapper({ children }) {
   return (
     <>
       {!hideLayout && <Navbar />}
+      {!hideLayout && <StickyFooter />}
       {children}
       {!hideLayout && <Footer />}
     </>
