@@ -54,6 +54,8 @@ const Page = () => {
           <p className="text-gray-600 text-center">{product.price}</p>
         )}
       </div>
+
+      
     </Link>
 
     <div className="px-3 pb-3! mt-auto">
