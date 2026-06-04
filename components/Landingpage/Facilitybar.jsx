@@ -48,7 +48,7 @@ const features = [
 
 export default function FeatureStrip() {
   return (
-    <section className="w-full overflow-hidden rounded-md bg-[#02224b]">
+    <section className="w-full overflow-hidden  rounded-md bg-[#02224b]">
       {/* MOBILE SLIDER */}
       <div className="block lg:hidden">
         <Swiper

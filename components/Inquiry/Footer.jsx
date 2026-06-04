@@ -56,7 +56,7 @@ export default function Footer() {
           {/* ABOUT */}
           <div>
             {/* LOGO */}
-            <Link href="/" className="inline-block">
+            <Link href="#home" className="inline-block">
               <Image
                 src="/logo.png"
                 alt="Corechem Corporation"
@@ -103,27 +103,7 @@ export default function Footer() {
           </div>
 
           {/* PRODUCTS */}
-          <div>
-            <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
-              Our Products
-            </h3>
-
-            <div className="mt-[28px] space-y-[16px]">
-              {products.map((product, index) => (
-                <div
-                  key={index}
-                  className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
-                >
-                  <FlaskConical
-                    size={15}
-                    className="mt-[4px] transition-all duration-300 group-hover:rotate-12"
-                  />
-
-                  <span>{product}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+          
 
           {/* CONTACT */}
           <div>

@@ -123,7 +123,7 @@ export default function Industry() {
         {/* WhatsApp CTA */}
        <div className="mt-12 flex justify-center">
   <a
-    href="https://wa.me/919999999999"
+    href="https://wa.me/919818544039"
     target="_blank"
     rel="noopener noreferrer"
     className="group relative inline-flex items-center md:gap-3 overflow-hidden rounded-full bg-gradient-to-r from-green-500 to-green-600 px-6 py-4 text-sm md:px-10 md:py-5 md:text-lg font-semibold text-white shadow-[0_10px_30px_rgba(34,197,94,0.35)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(34,197,94,0.5)]"

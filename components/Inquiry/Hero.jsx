@@ -11,23 +11,12 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useState } from "react";
+import { FaWhatsapp } from "react-icons/fa";
 
 
 
 export default function Hero() {
-  // Desktop banners
-  const desktopBanners = [
-      "/banner2.jpeg",
-      // "/banner1.jpeg",
 
-  
-  ];
-
-  // Mobile banners
-  const mobileBanners = [
-  "/corechem banner2.webp",
-    // "/corechem banner1.webp",
-  ];
 
   const [loading, setLoading] = useState(false);
   
@@ -117,17 +106,17 @@ export default function Hero() {
 <section
   className="relative hidden md:block"
   style={{
-    backgroundImage: "url('/inquiry-banner.webp')",
+    backgroundImage: "url('/banner-(18).webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "550px",
+    height: "557px",
   }}
 >
   <div className="container mx-auto h-full px-4">
-    <div className="flex h-full justify-end items-end">
+    <div className="flex h-full justify-end  items-start">
       
       {/* FORM */}
-      <div className="rounded-3xl w-[30%] bg-white p-5 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+      <div className="rounded-3xl w-[30%] mt-2 bg-white p-4 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             <h3 className="text-center text-3xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>
@@ -214,7 +203,7 @@ export default function Hero() {
   {/* Banner */}
   <div className="relative h-[390px]  w-full">
     <Image
-      src="/mobile--banner.webp"
+      src="/Landing mobile banner.webp"
       alt="Titanium Dioxide"
       fill
       className="object-contain"
@@ -224,6 +213,15 @@ export default function Hero() {
   {/* Form Below Banner */}
   <div className="bg-[#f8f8f8] px-4 py-6">
     <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+      <a
+  href="https://wa.me/919818544039"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="mt-6 absolute top-103 right-15 inline-flex w-[70%] items-center justify-center gap-3 rounded-xl bg-green-600 px-4 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl"
+>
+  <FaWhatsapp className="text-2xl" />
+  <span>Connect With Expert</span>
+</a>
             <h3 className="text-center text-2xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>
