@@ -12,7 +12,6 @@ import {
   FlaskConical,
   ChevronRight,
 } from "lucide-react";
-import Trust from "../trust";
 
 const quickLinks = [
   { name: "About Us", href: "/about" },
