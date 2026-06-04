@@ -109,7 +109,7 @@ export default function Hero() {
     backgroundImage: "url('/banner-(18).webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "557px",
+    height: "577px",
   }}
 >
   <div className="container mx-auto h-full px-4">

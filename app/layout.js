@@ -11,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "dswd",
-  description: "secz",
+  title: "Corechem Corporation",
+  description: "Corechem Corporation",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
