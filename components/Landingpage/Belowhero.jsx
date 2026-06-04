@@ -223,14 +223,6 @@ export default function TitaniumSection() {
         />
       </div>
 
-      {/* Company Name */}
-      <div>
-        <input
-          type="text"
-          placeholder="Company Name"
-          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
-        />
-      </div>
 
       {/* Email */}
       <div>
@@ -246,6 +238,15 @@ export default function TitaniumSection() {
         <input
           type="tel"
           placeholder="Phone Number"
+          className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
+        />
+      </div>
+
+      {/* Requirmenst Name */}
+      <div>
+        <input
+          type="text"
+          placeholder="Your Requirements"
           className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#c8921c] focus:bg-white"
         />
       </div>
