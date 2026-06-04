@@ -50,7 +50,7 @@ export default function CTAL() {
               </div>
 
               {/* BUTTON */}
-              <Link  href="https://wa.me/919818544039">
+              <Link  href="https://wa.link/2fpjmq">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}

@@ -237,7 +237,7 @@ export default function Header() {
             Call Now
           </a>
           <a
-  href="https://wa.me/919818544039"
+  href="https://wa.link/2fpjmq"
   target="_blank"
   rel="noopener noreferrer"
   className="mt-6 inline-flex w-full items-center justify-center gap-3 rounded-xl bg-green-600 px-6 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl"
@@ -275,7 +275,7 @@ export default function Header() {
 
           {/* WHATSAPP */}
           <Link
-            href="https://wa.me/919818544039"
+            href="https://wa.link/2fpjmq"
             target="_blank"
             className="flex flex-col items-center justify-center gap-1 bg-[#25D366] py-3 text-white"
           >

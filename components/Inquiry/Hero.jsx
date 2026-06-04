@@ -214,7 +214,7 @@ export default function Hero() {
   <div className="bg-[#f8f8f8] px-4 py-6">
     <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
       <a
-  href="https://wa.me/919818544039"
+  href="https://wa.link/2fpjmq"
   target="_blank"
   rel="noopener noreferrer"
   className="mt-6 absolute top-103 right-15 inline-flex w-[70%] items-center justify-center gap-3 rounded-xl bg-green-600 px-4 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl"
