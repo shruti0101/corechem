@@ -105,7 +105,7 @@ export default function ContactPage() {
 
             <p className="mt-4 text-lg text-slate-600">+91 9818544039</p>
 
-            <p className="text-lg text-slate-600">+91 8810422935</p>
+            <p className="text-lg text-slate-600">+91 9250056235</p>
           </div>
 
           {/* EMAIL */}
@@ -119,7 +119,9 @@ export default function ContactPage() {
             </h3>
 
             <p className="mt-4 break-all text-lg text-slate-600">
-              corechemcorporation@gmail.com
+              info@corechemcorp.com
+              <br/>
+              sales@corechemcorp.com
             </p>
           </div>
 
@@ -188,7 +190,9 @@ export default function ContactPage() {
                   </h4>
 
                   <p className="text-slate-600">
-                    corechemcorporation@gmail.com
+                    info@corechemcorp.com
+              <br/>
+              sales@corechemcorp.com
                   </p>
                 </div>
               </div>

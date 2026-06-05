@@ -118,12 +118,21 @@ export default function Footer() {
 <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
                   <Mail size={17} />
                 </div>
-                 <a
-                  href="mailto:corechemcorporation@gmail.com"
+                <div>                 <a
+                  href="mailto:info@corechemcorp.com"
                   className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
                 >
-                  corechemcorporation@gmail.com
+                  info@corechemcorp.com
                 </a>
+                <br/>
+                 <a
+                  href="mailto:sales@corechemcorp.com"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  sales@corechemcorp.com
+                </a>
+                </div>
+
               </div>
 
             {/* CTA */}
