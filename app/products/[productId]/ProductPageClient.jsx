@@ -355,7 +355,7 @@ export default function ProductPage({ params }) {
               {/* ACTIONS */}
               <div className="grid grid-cols-2 gap-4 pt-2">
                 <a
-                  href="/CC catalogue 2_compressed.pdff"
+                  href="/CC catalogue 2_compressed.pdf"
                   download
                   className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
                 >

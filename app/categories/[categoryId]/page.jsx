@@ -2,6 +2,7 @@ import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { redirect } from "next/navigation";
 
 export async function generateMetadata({ params }) {
   const { categoryId } = params;
@@ -26,7 +27,7 @@ export default function CategoryPage({ params }) {
 
   if (!category) {
     return (
-      <h2 className="text-center text-red-500 mt-10">Category not found</h2>
+      redirect("/")
     );
   }
 

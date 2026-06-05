@@ -1,20 +1,6 @@
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//      reactStrictMode: true,
-//   images: {
-//     domains: ['cdn.sanity.io'],
-//   },
-// };
-
-// export default nextConfig;
-
-
-
-
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-
   images: {
     unoptimized: true, // Important for Next 15 static images
     remotePatterns: [
@@ -29,6 +15,16 @@ const nextConfig = {
         search: "",
       },
     ],
+  },
+
+  async redirects() {
+    return [
+      {
+        source: '/:slug.html',
+        destination: '/categories/:slug',
+        permanent: true, // SEO 301 redirect
+      },
+    ];
   },
 };
 
