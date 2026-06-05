@@ -3603,7 +3603,7 @@ export const categories = [
       {
         id: "titanium-dioxide-doguide-sr240",
 
-        name: " Titanium Dioxide Rutile",
+        name: " Titanium Dioxide Doguide SR-240",
 
         metaTitle:
           "Doguide SR240 Titanium Dioxide Supplier | Corechem Corporation",
