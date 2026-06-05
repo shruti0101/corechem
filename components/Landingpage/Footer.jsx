@@ -251,14 +251,15 @@ export default function Footer() {
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 
             <p>
-              Website Designed By Promozione Branding Pvt. Ltd. {"  "}
-              <a
-                href="https://promozionebranding.com/"
-                target="_blank"
-                className="text-[#BE8220] hover:underline"
-              >
-                Website Designing Company.
-              </a>
+              Website Designed By 
+                Inquiry Bazaar Pvt. Ltd.  {" "}
+        <a
+          target="_blank"
+          href="https://inquirybazaar.com/"
+          className="text-[#FAAC18] hover:underline"
+        >
+           B2B Marketplace
+        </a>
             </p>
           </div>
         </div>
