@@ -51,7 +51,7 @@ export default function StickyFooter() {
       {open && (
         <>
           <div
-            className="fixed inset-0  z-[60]"
+            className="fixed inset-0  z-40"
             onClick={() => setOpen(false)}
           />
 
@@ -72,7 +72,7 @@ export default function StickyFooter() {
                   <Link
                     key={item.title}
                     href={item.href}
-                    onClick={() => setOpen(false)}
+                     onClick={() => setOpen(false)}
                     className="rounded-xl border border-gray-200  text-center bg-gray-50 px-4 py-4 font-bold text-[#062347] transition hover:border-[#c8921c] hover:bg-[#c8921c]/10"
                   >
                     {item.title}
