@@ -12,7 +12,7 @@ async function getAllBlogs() {
 }
 
 export async function GET() {
-  const baseUrl = ""; 
+  const baseUrl = "https://titaniumdioxidesupplier.in"; 
 
   // Flatten all products
   const allProducts = categories.flatMap((c) => c.products);
