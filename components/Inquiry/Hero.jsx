@@ -104,19 +104,19 @@ export default function Hero() {
       {/* HERO */}
       {/* DESKTOP HERO */}
 <section
-  className="relative hidden md:block"
+  className="relative h-[400px] xl:h-[110vh] w-full hidden md:block"
   style={{
     backgroundImage: "url('/banner-(18).webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    height: "577px",
+    
   }}
 >
   <div className="container mx-auto h-full px-4">
     <div className="flex h-full justify-end  items-start">
       
       {/* FORM */}
-      <div className="rounded-3xl w-[30%] mt-2 bg-white p-4 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+      <div className="rounded-3xl w-[30%] xl:mt-22 mt-2 bg-white p-4 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             <h3 className="text-center text-3xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>

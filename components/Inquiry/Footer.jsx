@@ -161,6 +161,61 @@ export default function Footer() {
               />
             </a>
           </div>
+          <div>
+            <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
+              Contact Information
+            </h3>
+
+            <div className="mt-[28px] space-y-[22px]">
+              {/* ADDRESS */}
+              <div className="flex items-start gap-[14px]">
+                <div className="flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+                  <MapPin size={18} />
+                </div>
+
+                <p className="text-[15px] leading-[28px] text-white">
+                  Office No- 101-E, Crown Heights, Swarn Jayanti Park, Sector 10, Rohini, Delhi, 110085
+                </p>
+              </div>
+
+              {/* PHONE */}
+              <div className="flex items-center gap-[14px]">
+                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+                  <PhoneCall size={17} />
+                </div>
+
+                <a
+                  href="tel:+919818544039"
+                  className="text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  +91 98185 44039
+                </a>
+              </div>
+
+              {/* EMAIL */}
+              <div className="flex items-center gap-[14px]">
+                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+                  <Mail size={17} />
+                </div>
+
+                <a
+                  href="mailto:corechemcorporation@gmail.com"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  corechemcorporation@gmail.com
+                </a>
+              </div>
+            </div>
+
+            {/* CTA */}
+            <a href="https://wa.me/919818544039" className="group mt-[34px] w-fit   flex h-[58px] items-center gap-[12px] rounded-full bg-[#BE8220] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
+              Get Bulk Pricing
+              <ArrowUpRight
+                size={18}
+                className="transition-all duration-300 group-hover:rotate-45"
+              />
+            </a>
+          </div>
         </div>
 
         {/* BOTTOM */}

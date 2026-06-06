@@ -260,6 +260,13 @@ export default function ContactPage() {
         >
           <option value="">Select Product</option>
           <option value="Titanium Dioxide">Titanium Dioxide</option>
+          <option value="Titanium Dioxide Rutile">Titanium Dioxide Rutile</option>
+          <option value="Color Pigment">Color Pigment</option>
+          <option value="Pigment Powder">Pigment Powder</option>
+          <option value="Caustic Soda">Caustic Soda</option>
+          <option value="Calcium Carbonate">Calcium Carbonate</option>
+          <option value="Optical Brighter">Optical Brighter</option>
+          <option value="Carbon">Carbon</option>
           <option value="Industrial Chemicals">Industrial Chemicals</option>
           <option value="Bulk Supply">Bulk Supply Solutions</option>
         </select>

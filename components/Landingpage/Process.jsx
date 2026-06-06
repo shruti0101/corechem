@@ -87,7 +87,7 @@ export default function IndustriesWeServe() {
             </div>
 
             {/* MAIN TITLE */}
-            <h2 className="mt-[14px]  max-w-[1400px]  text-[#16171b]  text-lg md:text-[49px] text-center sm:leading-[78px]  font-[700] ">
+            <h2 className="mt-[14px]  max-w-[1400px]  text-[#16171b]  text-lg md:text-[49px] text-start sm:leading-[78px]  font-[700] ">
               Trusted Titanium Dioxide Supplier
                for Diverse Industries
             </h2>

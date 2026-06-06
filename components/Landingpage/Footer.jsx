@@ -198,7 +198,7 @@ export default function Footer() {
   {/* TOP BADGE */}
   <div className="text-center">
     <span className="inline-block rounded-full text-[20px] px-4 py-2 font-bold uppercase  text-white">
-      Trust Elite
+      Trust Elite Certificate
     </span>
   </div>
 
@@ -215,7 +215,7 @@ export default function Footer() {
 
 
   {/* DESCRIPTION */}
-  <p className="mx-auto mt-3 max-w-2xl text-center text-sm px-5  text-whote md:text-base">
+  <p className="mx-auto mt-3 max-w-2xl  text-sm   text-whote md:text-sm">
     We are proud to present the
     <span className="font-semibold ">
       {" "}Trust Elite Certificate of Excellence{" "}
