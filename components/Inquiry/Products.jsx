@@ -131,7 +131,7 @@ export default function Products() {
                     </button>
 
                     <a
-                      href={`https://wa.me/919818544039?text=I%20am%20interested%20in%20${product.grade}`}
+                      href={"https://wa.link/2fpjmq"}
                       target="_blank"
                       className="flex items-center justify-center gap-2 flex-1 bg-green-600 text-white py-4 rounded-lg text-lg   hover:bg-green-700"
                     >

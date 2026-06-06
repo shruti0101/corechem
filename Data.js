@@ -8,10 +8,10 @@ export const categories = [
     name: "Titanium Dioxide",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Titanium Dioxide Category | TiO₂ Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore high-quality Titanium Dioxide (TiO₂) for paints, coatings, plastics, inks, paper, and industrial applications. Reliable supply with consistent performance.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -21,10 +21,11 @@ export const categories = [
 
         name: "Titanium Dioxide Powder",
 
-        metaTitle: "Titanium Dioxide Powder Supplier | Corechem Corporation",
+        metaTitle:
+          "Titanium Dioxide Powder (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Powder with excellent whiteness, opacity, UV resistance, and durability for masterbatch and plastic processing applications.",
+          "Buy high-quality Titanium Dioxide Powder from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, brightness, and durability.",
 
         overview:
           "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
@@ -138,13 +139,13 @@ export const categories = [
       {
         id: "dupont-titanium-dioxide-r104",
 
-        name: "Dupont Titanium Dioxide R104",
+        name: "DuPont Titanium Dioxide R104",
 
         metaTitle:
-          "Dupont Titanium Dioxide R104 Supplier | Corechem Corporation",
+          "DuPont R104 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Dupont Titanium Dioxide R104 Anatase grade pigment for cosmetic and personal care applications with excellent brightness, smooth texture, and stable formulation performance.",
+          "Buy premium-quality DuPont R104 Titanium Dioxide from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, durability, and dispersion performance.",
         overview:
           "Dupont Titanium Dioxide R104 is a high-quality Anatase grade Titanium Dioxide pigment specially formulated for cosmetic and personal care applications.The product offers excellent brightness, smooth texture, and stable formulation performance for a wide range of cosmetic products.",
 
@@ -275,10 +276,10 @@ export const categories = [
         name: "Silverstar Titanium Dioxide",
 
         metaTitle:
-          "Silverstar Titanium Dioxide Supplier | Corechem Corporation",
+          "DuPont Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Silverstar Titanium Dioxide Anatase grade pigment for paint and coatings applications with excellent brightness, opacity, smooth dispersion, and stable industrial performance.",
+          "Buy premium-quality DuPont Titanium Dioxide from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, weather resistance, and consistent performance.",
         overview:
           "Silverstar Titanium Dioxide is a premium Anatase grade pigment specially developed for paint and coatings applications.The product delivers excellent brightness, opacity, and smooth dispersion for high-quality coating formulations.",
 
@@ -542,10 +543,11 @@ export const categories = [
 
         name: "Kronos Titanium Dioxide",
 
-        metaTitle: "Kronos Titanium Dioxide Supplier | Corechem Corporation",
+        metaTitle:
+          "Kronos Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Kronos Titanium Dioxide Anatase grade pigment for cosmetic and personal care applications with excellent brightness, smooth texture, and stable formulation performance.",
+          "Buy premium-quality Kronos Titanium Dioxide from Corechem Corporation. Ideal for applications requiring excellent whiteness, opacity, durability, and dispersion performance.",
         overview:
           "Kronos Titanium Dioxide is a premium Anatase grade pigment specially developed for cosmetic and personal care applications.The product offers excellent brightness, smooth texture, and stable formulation performance for beauty and skincare products.",
 
@@ -679,7 +681,7 @@ export const categories = [
           "Shank Titanium Dioxide Powder Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Shank Titanium Dioxide Powder Anatase grade pigment for plastics and industrial applications with excellent whiteness, opacity, smooth dispersion, and stable processing performance.",
+          "Buy premium-quality Shank Titanium Dioxide Powder from Corechem Corporation. Ideal for applications requiring superior brightness, opacity, durability, and dispersion.",
 
         overview:
           "Shank Titanium Dioxide Powder is a premium Anatase grade pigment specially developed for plastic industry applications. The product offers excellent whiteness, opacity, and color consistency for a wide range of plastic formulations. ",
@@ -799,10 +801,11 @@ export const categories = [
 
         name: "Anatase Titanium Dioxide",
 
-        metaTitle: "Anatase Titanium Dioxide Supplier | Corechem Corporation",
+        metaTitle:
+          "Anatase Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Anatase Titanium Dioxide by Ambay for industrial applications with excellent brightness, smooth dispersion, eco-friendly properties, and stable industrial performance.",
+          "Buy high-quality Anatase Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring excellent brightness, dispersion, and cost-effective performance.",
 
         overview:
           "Anatase Titanium Dioxide by Ambay is a premium-quality industrial pigment designed for multiple industrial applications. The product offers excellent brightness, smooth dispersion, and reliable performance for industrial processing requirements.",
@@ -933,10 +936,11 @@ export const categories = [
 
         name: "Titanium Dioxide R103",
 
-        metaTitle: "Titanium Dioxide R103 Supplier | Corechem Corporation",
+        metaTitle:
+          "R103 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide R103 by Dupont for inks, paints, plastics, PVC, cosmetics, pharmaceuticals, paper, textile, and industrial applications.",
+          "Buy premium-quality R103 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, durability, and dispersion performance.",
 
         overview:
           "Titanium Dioxide R103 is a premium Rutile grade pigment manufactured by Dupont for multiple industrial applications. The product delivers excellent brightness, opacity, and superior whiteness for high-performance industrial formulations.",
@@ -1068,10 +1072,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R2220",
 
         metaTitle:
-          "Titanium Dioxide Kronos R2220 Supplier | Corechem Corporation",
+          "Kronos R2220 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Kronos R2220 for plastics and industrial applications with excellent whiteness, opacity, UV resistance, and stable processing performance.",
+          "Buy premium-quality Kronos R2220 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, durability, and dispersion performance.",
 
         overview:
           "Titanium Dioxide Kronos R2220 is a premium Rutile grade pigment specially formulated for plastic industry applications. The product delivers excellent whiteness, opacity, and color consistency for high-performance plastic formulations.",
@@ -1193,10 +1197,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R2450",
 
         metaTitle:
-          "Titanium Dioxide Kronos R2450 Supplier | Corechem Corporation",
+          "Kronos R2450 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Kronos R2450 for plastics and industrial applications with excellent whiteness, opacity, UV resistance, and stable processing performance.",
+          "Buy premium-quality Kronos R2450 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, weather resistance, and dispersion.",
 
         overview:
           "Titanium Dioxide Kronos R2450 is a premium Rutile grade pigment specially designed for high-performance plastic industry applications. The product delivers excellent whiteness, opacity, and color consistency for a wide range of plastic formulations.",
@@ -1318,10 +1322,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R2310",
 
         metaTitle:
-          "Titanium Dioxide Kronos R2310 Supplier | Corechem Corporation",
+          "Kronos R2310 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Kronos R2310 for plastics and industrial applications with excellent whiteness, opacity, UV resistance, and stable processing performance.",
+          "Buy high-quality Kronos R2310 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for excellent whiteness, opacity, durability, and dispersion across industrial applications.",
 
         overview:
           "Titanium Dioxide Kronos R2310 is a premium Rutile grade pigment specially developed for plastic industry applications. The product offers excellent whiteness, opacity, and color consistency for high-performance plastic formulations.",
@@ -1443,10 +1447,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R2190",
 
         metaTitle:
-          "Titanium Dioxide Kronos R2190 Supplier | Corechem Corporation",
+          "Kronos R2190 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Titanium Dioxide Kronos R2190 for plastics and industrial applications with excellent whiteness, opacity, UV resistance, and stable processing performance.",
+          "Buy premium-quality Kronos R2190 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for superior whiteness, opacity, dispersion, and long-lasting industrial performance.",
 
         overview:
           "Titanium Dioxide Kronos R2190 is a premium-quality Titanium Dioxide pigment specially developed for plastic industry applications. The product is widely used in plastic manufacturing due to its excellent whiteness, opacity, and stable processing performance.",
@@ -1563,10 +1567,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R2360",
 
         metaTitle:
-          "Titanium Dioxide Kronos R2360 Supplier | Corechem Corporation",
+          "Kronos R2360 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Kronos R2360 for plastic applications with high brightness, opacity, UV resistance, blue tone finish, and superior industrial performance.",
+          "Buy premium-quality Kronos R2360 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring excellent whiteness, opacity, durability, and dispersion performance.",
 
         overview:
           "Titanium Dioxide Kronos R2360 is a premium Rutile grade pigment specially developed for high-performance plastic applications. Manufactured by KRONOS using the advanced Chloride Process, this grade delivers exceptional brightness, opacity, and long-lasting durability.",
@@ -1693,10 +1697,10 @@ export const categories = [
         name: "Titanium Dioxide Kronos R1000",
 
         metaTitle:
-          "Titanium Dioxide Kronos R1000 Supplier | Corechem Corporation",
+          "Kronos R1000 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Anatase Titanium Dioxide Kronos R1000 with ≥99% TiO₂ content, excellent brightness, smooth dispersion, and reliable industrial performance for multiple applications.",
+          "Buy premium-quality Kronos R1000 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, durability, and dispersion performance.",
 
         overview:
           "Titanium Dioxide Kronos R1000 is a high-quality Anatase pigment produced using the advanced Sulfate Process for reliable industrial performance. The product is designed to deliver excellent brightness, whiteness, and smooth dispersion across multiple industrial applications.",
@@ -1843,10 +1847,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – TRONOX CR826",
 
         metaTitle:
-          "Titanium Dioxide TRONOX CR826 Supplier | Corechem Corporation",
+          "TRONOX CR826 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide TRONOX CR826 for paints and plastics with high brightness, opacity, UV resistance, blue tone finish, and superior industrial performance.",
+          "Buy premium-quality TRONOX CR826 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for superior whiteness, opacity, dispersion, and long-lasting industrial performance.",
 
         overview:
           "Titanium Dioxide (TiO₂) – TRONOX CR826 is a premium Rutile grade pigment specially developed for paints and plastic applications. Manufactured using the advanced Chloride Process, this grade delivers superior brightness, opacity, and long-lasting industrial performance.",
@@ -2103,10 +2107,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – TRONOX CR595",
 
         metaTitle:
-          "Titanium Dioxide TRONOX CR595 Supplier | Corechem Corporation",
+          "TRONOX CR595 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide TRONOX CR595 for paints and coatings with high brightness, opacity, UV resistance, ivory tone finish, and superior industrial performance.",
+          "Buy premium-quality TRONOX CR595 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring excellent whiteness, opacity, durability, and dispersion.",
 
         overview:
           "Titanium Dioxide (TiO₂) – TRONOX CR595 is a premium Rutile grade pigment specially developed for paints and coatings applications. Manufactured using the advanced Chloride Process, this grade delivers superior brightness, opacity, and long-lasting durability.",
@@ -2233,10 +2237,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Venator TR92",
 
         metaTitle:
-          "Titanium Dioxide Venator TR92 Supplier | Corechem Corporation",
+          "Venator TR92 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Venator TR92 for paints and inks with high brightness, opacity, UV resistance, ivory tone finish, and superior industrial performance.",
+          "Buy premium-quality Venator TR92 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, dispersion, and long-lasting performance.",
 
         overview:
           "Titanium Dioxide (TiO₂) – Venator TR92 is a premium Rutile grade pigment specially designed for paints and ink applications. Manufactured using the advanced Chloride Process, this grade delivers superior brightness, opacity, and long-lasting industrial performance.",
@@ -2363,10 +2367,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Venator TR42",
 
         metaTitle:
-          "Titanium Dioxide Venator TR42 Supplier | Corechem Corporation",
+          "Venator TR42 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Venator TR42 for plastic applications with high brightness, opacity, UV resistance, ivory tone finish, and superior industrial performance.",
+          "Buy premium-quality Venator TR42 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for superior whiteness, opacity, dispersion, and long-lasting durability.",
 
         overview:
           "Titanium Dioxide (TiO₂) – Venator TR42 is a premium Rutile grade pigment specially formulated for plastic industry applications. Manufactured using the advanced Chloride Process, this grade provides superior brightness, opacity, and long-lasting industrial performance.",
@@ -2493,10 +2497,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Venator TR28",
 
         metaTitle:
-          "Titanium Dioxide Venator TR28 Supplier | Corechem Corporation",
+          "Venator TR28 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Venator TR28 for plastic applications with high brightness, opacity, UV resistance, ivory tone finish, and superior industrial performance.",
+          "Buy premium-quality Venator TR28 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring excellent whiteness, opacity, durability, and dispersion.",
 
         overview:
           "Titanium Dioxide (TiO₂) – Venator TR28 is a premium Rutile grade pigment specially developed for plastic industry applications. Manufactured using the advanced Chloride Process, this grade delivers superior brightness, opacity, and long-lasting product performance.",
@@ -2623,10 +2627,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – TI-Pure R902",
 
         metaTitle:
-          "Titanium Dioxide TI-Pure R902 Supplier | Corechem Corporation",
+          "Ti-Pure R902 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide TI-Pure R902 for paints and coatings with high brightness, opacity, UV resistance, ivory tone finish, and superior industrial performance.",
+          "Buy high-quality Ti-Pure R902 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, dispersion, and long-term performance.",
 
         overview:
           "Titanium Dioxide (TiO₂) – TI-Pure R902 is a premium Rutile grade pigment designed for high-quality paints and coatings applications. Manufactured by TI PURE (DuPont) using the advanced Chloride Process, this grade delivers superior brightness, opacity, and durability.",
@@ -2753,10 +2757,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – TRONOX CR828",
 
         metaTitle:
-          "TRONOX CR828 Titanium Dioxide Supplier | Corechem Corporation",
+          "TRONOX CR828 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide TRONOX CR828 for paints and coatings with high brightness, opacity, blue tone finish, UV resistance, and superior durability.",
+          "Buy premium-quality TRONOX CR828 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for exceptional whiteness, opacity, dispersion, and long-lasting performance.",
 
         overview:
           "TRONOX CR828 is a premium Rutile grade Titanium Dioxide designed for high-performance paints and coatings applications.\nManufactured using advanced Chloride Process, it delivers excellent brightness, opacity, and long-lasting durability.",
@@ -2877,10 +2881,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Jinhai R6618",
 
         metaTitle:
-          "Jinhai R6618 Titanium Dioxide Supplier | Corechem Corporation",
+          "Jinhai R6618 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Jinhai R6618 for paints and coatings with high opacity, 98% CIEL, ivory tone finish, UV resistance, and stable industrial performance.",
+          "Buy premium-quality Jinhai R6618 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, durability, and dispersion.",
 
         overview:
           "Jinhai R6618 is a premium Rutile grade Titanium Dioxide pigment specially formulated for paints and coatings applications. Manufactured using the advanced Sulphate Process, it delivers excellent opacity, brightness, and long-lasting coating performance.",
@@ -3001,10 +3005,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Dawn R2195",
 
         metaTitle:
-          "Dawn R2195 Titanium Dioxide Supplier | Corechem Corporation",
+          "Dawn R2195 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Dawn R2195 for paints and coatings with high opacity, 94.5% CIEL, blue tone finish, UV resistance, and stable industrial performance.",
+          "Buy high-quality Dawn R2195 Titanium Dioxide (TiO₂) from Corechem Corporation. Designed for superior whiteness, durability, opacity, and consistent industrial performance.",
 
         overview:
           "Dawn R2195 is a high-quality Rutile grade Titanium Dioxide pigment specially developed for paints and coatings applications. Manufactured using the Sulphate Process, it delivers excellent opacity, brightness, and long-term durability.",
@@ -3124,10 +3128,11 @@ export const categories = [
 
         name: "Titanium Dioxide (TiO₂) – Kmml-822",
 
-        metaTitle: "Kmml-822 Titanium Dioxide Supplier | Corechem Corporation",
+        metaTitle:
+          "KMML 822 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Kmml-822 for paints and coatings with high opacity, brightness, UV resistance, and stable industrial performance.",
+          "Buy high-quality KMML 822 Titanium Dioxide (TiO₂) from Corechem Corporation. Suitable for diverse industrial applications requiring superior brightness, opacity, and durability.",
 
         overview:
           "Dawn R2195 is a high-quality Rutile grade Titanium Dioxide pigment specially developed for paints and coatings applications. Manufactured using the Sulphate Process, it delivers excellent opacity, brightness, and long-term durability.",
@@ -3244,10 +3249,10 @@ export const categories = [
         name: "Titanium Dioxide (TiO₂) – Doguide SR240",
 
         metaTitle:
-          "Doguide SR240 Titanium Dioxide Supplier | Corechem Corporation",
+          "Doguide SR240 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Doguide SR240 for plastic applications with high opacity, 98% CIEL, blue tone finish, UV resistance, and stable industrial performance.",
+          "Corechem Corporation supplies Doguide SR240 Titanium Dioxide (TiO₂), delivering superior whiteness, opacity, dispersion, and performance for various industrial applications.",
 
         overview:
           "Titanium Dioxide (TiO₂) – Doguide SR240 is a premium-quality Rutile grade pigment specially developed for plastic industry applications. Manufactured using the Sulphate Process, Doguide SR240 delivers excellent brightness, opacity, and long-lasting performance.",
@@ -3358,6 +3363,1008 @@ export const categories = [
           },
         ],
       },
+      //extra
+      {
+  id: "dupont-r103-titanium-dioxide",
+
+  name: "DuPont R-103 Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-103 Titanium Dioxide Supplier | High-Quality TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-103 Titanium Dioxide for coatings, plastics, inks, and industrial applications. High opacity and consistent performance.",
+
+  overview:
+    "DuPont R-103 Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured through the advanced chloride process. Specifically designed for plastic applications, it delivers exceptional brightness, opacity, strong tinting strength, and excellent dispersion for consistent industrial performance. The rutile crystal structure provides enhanced durability, weather resistance, and long-term performance in plastic formulations. DuPont R-103 offers excellent dispersion characteristics, enabling smooth processing and uniform pigment distribution.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "DuPont R-103 Titanium Dioxide is a premium-quality rutile TiO₂ pigment produced through the advanced chloride process for superior performance.",
+        "Specifically engineered for plastic applications, the product delivers outstanding brightness, opacity, and color consistency.",
+        "The product delivers strong tinting strength and a clean undertone, helping manufacturers achieve vibrant and consistent finished products.",
+        "Designed for thermoplastic applications, it ensures reliable processing performance across a wide range of manufacturing environments.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides high-quality DuPont R-103 with dependable supply and competitive pricing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment manufactured using the chloride process.",
+        "High brightness and opacity enhance the appearance and quality of finished plastic products.",
+        "Excellent dispersion properties support smooth processing and uniform pigment distribution.",
+        "Strong tinting strength enables efficient color development and formulation consistency.",
+        "Clean tone provides bright and attractive visual results in plastic applications.",
+        "Reliable thermal stability supports performance during high-temperature processing.",
+        "Suitable for a wide range of thermoplastic formulations requiring premium-quality TiO₂ performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in plastic manufacturing for superior whiteness and opacity.",
+        "Suitable for thermoplastic compounds requiring high-performance Titanium Dioxide pigments.",
+        "Applied in masterbatch production for consistent color development and brightness enhancement.",
+        "Used in PVC applications requiring reliable pigment dispersion and processing stability.",
+        "Suitable for injection molding products demanding excellent surface finish and appearance.",
+        "Applied in plastic packaging materials requiring long-lasting brightness and durability.",
+        "Ideal for industrial plastic formulations requiring premium rutile Titanium Dioxide performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ solutions for industrial applications.",
+        "We provide reliable supply of DuPont R-103 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading Titanium Dioxide Supplier in India, we ensure timely deliveries and dependable logistics support.",
+        "Our stringent quality control processes help maintain stable product performance across every batch.",
+        "We also offer a comprehensive range of Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk supply capabilities and responsive customer support make us a preferred choice for manufacturers.",
+        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-103 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-103",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride",
+    },
+
+   
+
+   
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-103.webp",
+      alt: "DuPont R-103 Titanium Dioxide",
+    },
+  ],
+      },
+      {
+  id: "dupont-r105-titanium-dioxide",
+
+  name: "DuPont R-105 Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-105 Titanium Dioxide Supplier | Premium TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-105 Titanium Dioxide for paints, coatings, plastics, and inks. High whiteness, durability, and strong performance.",
+
+  overview:
+    "DuPont R-105 Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured using the advanced chloride process for superior consistency and performance. Specifically developed for plastic applications, the product offers excellent durability, reliable processing, and long-term performance. The rutile crystal structure provides enhanced opacity, weather resistance, and color retention in demanding environments. DuPont R-105 delivers balanced processing characteristics, enabling smooth incorporation into a wide range of plastic formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The pigment is engineered to provide consistent product quality, helping manufacturers achieve uniform results across production batches.",
+        "Its excellent weatherability makes it suitable for both indoor and outdoor plastic applications.",
+        "The product supports reliable manufacturing performance across a wide range of thermoplastic processing environments.",
+        "Manufacturers prefer DuPont R-105 for applications requiring long-lasting brightness, durability, and color stability.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced through the chloride process.",
+        "Excellent durability and long-term performance in plastic applications.",
+        "Good opacity enhances whiteness, brightness, and product appearance.",
+        "Superior weather resistance supports outdoor exposure and long-lasting color stability.",
+        "Balanced processing properties ensure smooth manufacturing and formulation efficiency.",
+        "Consistent quality helps maintain uniform product performance across production runs.",
+        "Suitable for a broad range of plastic applications requiring dependable TiO₂ performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in plastic manufacturing for enhanced whiteness and opacity.",
+        "Suitable for PVC products requiring durable and weather-resistant pigmentation.",
+        "Applied in injection molding applications requiring consistent color and appearance.",
+        "Used in masterbatch production for reliable dispersion and formulation stability.",
+        "Suitable for plastic packaging materials requiring long-lasting brightness and durability.",
+        "Applied in engineering plastics demanding balanced processing and performance characteristics.",
+        "Ideal for indoor and outdoor plastic products requiring premium rutile Titanium Dioxide.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ solutions for industrial applications.",
+        "We provide reliable supply of DuPont R-105 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading Titanium Dioxide Supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our stringent quality control processes help maintain stable product performance across every batch.",
+        "We are also a trusted Titanium Dioxide Rutile Supplier, Calcium Carbonate Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
+        "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+        "Our commitment to quality, reliability, and long-term business relationships ensures complete customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-105 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-105",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride",
+    },
+
+    {
+      label: "Application",
+      value: "Plastics",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-105-(2).webp",
+      alt: "DuPont R-105 Titanium Dioxide",
+    },
+  ],
+},
+{
+  id: "dupont-r706-titanium-dioxide",
+
+  name: "DuPont R-706 Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-706 Titanium Dioxide Supplier | High-Performance TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-706 Titanium Dioxide for high-performance coatings, plastics, inks, and industrial applications. Excellent weather resistance.",
+
+  overview:
+    "DuPont R-706 Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured using the advanced chloride process. The product is widely used in coatings due to its superior opacity, durability, and long-lasting performance. It delivers a clean, bright white finish that enhances the aesthetic quality of paints and coatings. The rutile crystal structure ensures excellent weather resistance and stability in outdoor applications.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "DuPont R-706 provides high gloss performance, making it ideal for premium coating formulations.",
+        "The pigment offers strong hiding power, helping achieve uniform coverage with lower material usage.",
+        "Its advanced formulation supports consistent coating quality across different industrial applications.",
+        "The product is preferred for demanding coating systems requiring brightness, durability, and long-term performance.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides consistent quality, reliable supply, and competitive pricing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced via the chloride process.",
+        "High opacity ensures excellent coverage and strong hiding power.",
+        "Superior durability supports long-lasting coating performance.",
+        "Excellent weather resistance makes it suitable for outdoor applications.",
+        "High gloss finish enhances surface appearance and product aesthetics.",
+        "Clean and bright white tone improves visual quality of coatings.",
+        "Consistent performance ensures reliable results in industrial formulations.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in architectural paints for bright white and durable finishes.",
+        "Suitable for industrial coatings requiring high opacity and weather resistance.",
+        "Applied in decorative paints for high gloss and aesthetic enhancement.",
+        "Used in protective coatings needing long-term environmental stability.",
+        "Suitable for automotive and equipment coatings requiring premium finish quality.",
+        "Applied in exterior paints exposed to harsh weather conditions.",
+        "Ideal for coating systems requiring strong hiding power and brightness.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial use.",
+        "We provide reliable supply of DuPont R-706 with consistent product quality and competitive pricing.",
+        "As a leading Titanium Dioxide Supplier in India, we ensure timely delivery and strong logistics support.",
+        "Our strict quality control ensures uniform performance across every batch supplied.",
+        "We also supply Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk availability supports large-scale manufacturing requirements.",
+        "Our commitment to quality and reliability ensures long-term customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-706 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-706",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride Process",
+    },
+
+    {
+      label: "Application",
+      value: "Coatings",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-706.webp",
+      alt: "DuPont R-706 Titanium Dioxide",
+    },
+  ],
+},
+{
+  id: "dupont-r101-titanium-dioxide",
+
+  name: "DuPont R-101 Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-101 Titanium Dioxide Supplier | TiO₂ Grade | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-101 Titanium Dioxide for coatings, plastics, inks, and industrial use. Reliable brightness, opacity, and dispersion.",
+
+  overview:
+    "DuPont R-101 Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured using the advanced chloride process. The product is designed for general-purpose applications across multiple industries. It delivers good brightness, helping improve the overall appearance of finished products. The pigment offers strong tinting strength, ensuring effective color development in formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "DuPont R-101 provides reliable performance, making it suitable for consistent industrial usage.",
+        "The rutile structure supports stable processing and dependable results across various applications.",
+        "Its versatile characteristics allow usage across coatings, plastics, masterbatches, and industrial formulations.",
+        "The product is preferred for applications requiring balanced brightness and reliable pigment performance.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures consistent quality, competitive pricing, and timely supply.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced via the chloride process.",
+        "Good brightness enhances product whiteness and visual appeal.",
+        "Strong tinting strength supports effective pigment performance in formulations.",
+        "Reliable processing performance suitable for general-purpose applications.",
+        "Stable rutile structure ensures consistent industrial usability.",
+        "Versatile performance across multiple application areas.",
+        "Consistent quality for dependable batch-to-batch production results.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in general-purpose paint formulations.",
+        "Suitable for plastics requiring balanced brightness and tinting strength.",
+        "Applied in coatings where consistent whiteness is required.",
+        "Used in masterbatch production for reliable color dispersion.",
+        "Suitable for rubber and industrial compound formulations.",
+        "Applied in paper coatings requiring stable whiteness and opacity.",
+        "Ideal for broad industrial applications requiring dependable TiO₂ performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ products.",
+        "We provide reliable supply of DuPont R-101 with consistent quality and competitive pricing.",
+        "As a leading Titanium Dioxide Supplier in India, we ensure timely delivery and strong logistics support.",
+        "Our strict quality assurance processes maintain stable performance across all batches.",
+        "We also supply Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk availability supports industrial-scale manufacturing requirements.",
+        "Our commitment to quality and customer satisfaction ensures long-term business reliability.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-101 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-101",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride Process",
+    },
+
+    {
+      label: "Brightness",
+      value: "Good",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-103.webp",
+      alt: "DuPont R-101 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "dupont-r900-titanium-dioxide",
+
+  name: "DuPont R-900 Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-900 Titanium Dioxide Supplier | High-Quality TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-900 Titanium Dioxide for paints, coatings, plastics, inks, and industrial applications. Excellent whiteness and durability.",
+
+  overview:
+    "DuPont R-900 Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured using the advanced chloride process. The product is specially developed for paper and specialty applications requiring stable optical performance. It delivers good brightness, improving whiteness and overall visual quality in end-use products. The pigment provides strong opacity, helping achieve effective coverage and reduced material usage.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "DuPont R-900 ensures consistent performance, making it suitable for controlled industrial processing environments.",
+        "The rutile crystal structure supports stable dispersion and reliable formulation behavior.",
+        "The product is preferred for applications requiring dependable optical properties and processing stability.",
+        "Its balanced performance helps manufacturers achieve uniform quality across production batches.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures consistent quality, competitive pricing, and reliable supply.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced via the chloride process.",
+        "Good brightness enhances whiteness and visual appearance.",
+        "Strong opacity provides effective coverage in formulations.",
+        "Consistent performance ensures reliable industrial usage.",
+        "Stable dispersion properties support smooth processing.",
+        "Suitable for specialty and paper-based applications.",
+        "Dependable quality for uniform batch-to-batch results.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in paper coating applications for improved whiteness.",
+        "Suitable for specialty paper products requiring stable optical properties.",
+        "Applied in coating systems needing good opacity and brightness.",
+        "Used in industrial formulations requiring consistent pigment performance.",
+        "Suitable for specialty chemical applications requiring TiO₂ stability.",
+        "Applied in manufacturing processes demanding reliable dispersion.",
+        "Ideal for paper and specialty industries requiring premium rutile TiO₂.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering high-quality TiO₂ pigments.",
+        "We provide reliable supply of DuPont R-900 with consistent performance and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and strong logistics support.",
+        "Our strict quality control ensures stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk availability supports large-scale industrial requirements.",
+        "Our commitment to reliability and quality ensures long-term customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-900 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-900",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride Process",
+    },
+
+    {
+      label: "Application",
+      value: "Paper & Specialty Applications",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-900.webp",
+      alt: "DuPont R-900 Titanium Dioxide",
+    },
+  ],
+},
+{
+  id: "dupont-r902-plus-titanium-dioxide",
+
+  name: "DuPont R-902+ Titanium Dioxide",
+
+  metaTitle:
+    "DuPont R-902+ Titanium Dioxide Supplier | Premium TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies DuPont R-902+ Titanium Dioxide for high-end paints, coatings, plastics, and inks. Superior opacity, brightness, and performance.",
+
+  overview:
+    "DuPont R-902+ Titanium Dioxide is a premium-quality rutile TiO₂ pigment manufactured using the advanced chloride process. The product is primarily designed for coating applications requiring balanced optical and mechanical performance. It delivers high gloss, enhancing the visual appeal and finish quality of paint and coating systems. The pigment offers good durability, supporting long-lasting performance in both interior and exterior environments.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "DuPont R-902+ provides excellent dispersion, ensuring smooth processing and uniform pigment distribution.",
+        "The rutile crystal structure ensures stable weather resistance and consistent coating performance.",
+        "The product is engineered to provide dependable results across a wide range of coating formulations.",
+        "Its balanced performance makes it suitable for applications requiring both appearance and durability.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced via the chloride process.",
+        "High gloss finish enhances surface appearance and aesthetic quality.",
+        "Good durability ensures reliable long-term coating performance.",
+        "Excellent dispersion supports smooth processing and formulation stability.",
+        "Balanced performance suitable for both interior and exterior coatings.",
+        "Stable rutile structure ensures consistent weather resistance.",
+        "Reliable batch-to-batch quality for industrial manufacturing consistency.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in architectural coatings for interior and exterior surfaces.",
+        "Suitable for decorative paints requiring high gloss and smooth finish.",
+        "Applied in industrial coatings needing durability and stability.",
+        "Used in protective coatings requiring weather resistance and long service life.",
+        "Suitable for general-purpose paint systems requiring balanced performance.",
+        "Applied in enamel and emulsion paint formulations.",
+        "Ideal for coating applications requiring premium rutile TiO₂ performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments.",
+        "We provide reliable supply of DuPont R-902+ with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality control ensures stable performance across every batch supplied.",
+        "We also supply Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk availability supports large-scale manufacturing requirements.",
+        "Our commitment to quality and reliability ensures long-term customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "DuPont R-902+ Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R-902+",
+    },
+
+    {
+      label: "Brand",
+      value: "DuPont Ti-Pure",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride Process",
+    },
+
+    {
+      label: "Application",
+      value: "Coatings",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dupont R-902+.webp",
+      alt: "DuPont R-902+ Titanium Dioxide",
+    },
+  ],
+},
+{
+  id: "kronos-r2222-titanium-dioxide",
+
+  name: "Kronos R2222 Titanium Dioxide",
+
+  metaTitle:
+    "Kronos R2222 Titanium Dioxide Supplier | TiO₂ R2222 | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Kronos R2222 Titanium Dioxide for paints, coatings, plastics, inks, and industrial applications. High opacity, brightness, and durability.",
+
+  overview:
+    "Kronos R2360 is a premium-quality rutile Titanium Dioxide pigment manufactured using the advanced chloride process. The product is specifically designed for coatings and plastics applications requiring high-performance pigmentation. It delivers high opacity, ensuring excellent coverage and strong hiding power in end-use formulations. Kronos R2222 offers excellent dispersion, enabling smooth processing and uniform pigment distribution.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The pigment provides good weather resistance, making it suitable for both indoor and outdoor applications.",
+        "It produces a bright white finish, enhancing the aesthetic quality of coated and molded products.",
+        "The product is engineered to deliver reliable performance across a wide range of industrial formulations.",
+        "Its balanced properties help manufacturers achieve consistent quality and processing efficiency.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures consistent quality, reliable supply, and competitive pricing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment produced via the chloride process.",
+        "High opacity ensures strong coverage and excellent hiding power.",
+        "Excellent dispersion supports smooth processing and formulation stability.",
+        "Good weather resistance suitable for outdoor durability applications.",
+        "Bright white finish enhances product appearance and visual quality.",
+        "Reliable performance across coatings and plastic applications.",
+        "Consistent batch quality for industrial-scale manufacturing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in coatings for architectural and industrial finishes.",
+        "Suitable for plastic manufacturing requiring high-opacity TiO₂ pigments.",
+        "Applied in masterbatch production for stable dispersion and color consistency.",
+        "Used in PVC and thermoplastic formulations for improved whiteness.",
+        "Suitable for decorative and protective coating systems.",
+        "Applied in injection molding applications requiring consistent finish quality.",
+        "Ideal for industries needing reliable rutile Titanium Dioxide performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ products.",
+        "We provide reliable supply of Kronos R2222 with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and strong logistics support.",
+        "Our strict quality control ensures stable performance across every batch supplied.",
+        "We also supply Calcium Carbonate, Color Pigments, Lime Powder, and Lithopone products.",
+        "Bulk availability supports large-scale industrial manufacturing needs.",
+        "Our commitment to quality and reliability ensures long-term customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "Kronos R2222 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "R2222",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Process",
+      value: "Chloride Process",
+    },
+
+    {
+      label: "Application",
+      value: "Coatings & Plastics",
+    },
+
+    {
+      label: "Opacity",
+      value: "High",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Kronos R2222.webp",
+      alt: "Kronos R2222 Titanium Dioxide",
+    },
+  ],
+},
+{
+  id: "tikon-tr33-titanium-dioxide",
+
+  name: "Tikon TR-33 Titanium Dioxide",
+
+  metaTitle:
+    "Tikon TR-33 Titanium Dioxide Supplier | High-Quality TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Tikon TR-33 Titanium Dioxide for coatings, plastics, inks, and industrial applications. Excellent whiteness and dispersion.",
+
+  overview:
+    "Tikon TR-33 is a rutile-grade Titanium Dioxide (TiO₂) pigment designed for general-purpose applications. It is widely used in coatings and plastics industries for its balanced performance and consistent quality. The product offers good brightness, improving the whiteness and visual appeal of end products. It provides strong opacity, ensuring effective coverage and reduced pigment loading requirements.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Tikon TR-33 delivers stable and consistent performance across different manufacturing processes.",
+        "The rutile crystal structure supports durability and reliable processing in industrial applications.",
+        "The product is suitable for manufacturers seeking dependable performance across a wide range of formulations.",
+        "Its balanced properties make it an economical choice for large-scale industrial production.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures consistent quality supply and competitive pricing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rutile Titanium Dioxide pigment suitable for general-purpose use.",
+        "Good brightness enhances product appearance and whiteness.",
+        "Strong opacity provides effective hiding power in formulations.",
+        "Consistent performance ensures reliable industrial processing.",
+        "Stable rutile structure supports durability and processing efficiency.",
+        "Suitable for both coatings and plastic applications.",
+        "Cost-effective performance for large-scale manufacturing needs.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in general-purpose paint and coating formulations.",
+        "Suitable for plastic manufacturing requiring balanced TiO₂ performance.",
+        "Applied in masterbatch production for consistent color dispersion.",
+        "Used in PVC and thermoplastic applications for improved whiteness.",
+        "Suitable for industrial coatings requiring opacity and brightness.",
+        "Applied in packaging and molded plastic products.",
+        "Ideal for broad industrial applications needing reliable rutile TiO₂.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering high-quality TiO₂ pigments.",
+        "We provide reliable supply of Tikon TR-33 with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and strong logistics support.",
+        "Our strict quality control ensures stable batch-to-batch performance.",
+        "We also supply Calcium Carbonate, Lithopone, Lime Powder, and Color Pigments.",
+        "Bulk availability supports industrial-scale production requirements.",
+        "Our focus on reliability and customer satisfaction ensures long-term partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Product",
+      value: "Tikon TR-33 Titanium Dioxide",
+    },
+
+    {
+      label: "Grade",
+      value: "TR-33",
+    },
+
+    {
+      label: "Crystal Form",
+      value: "Rutile",
+    },
+
+    {
+      label: "Application",
+      value: "Coatings & Plastics",
+    },
+
+    {
+      label: "Brightness",
+      value: "Good",
+    },
+
+    {
+      label: "Opacity",
+      value: "High",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Tikon TR-33.webp",
+      alt: "Tikon TR-33 Titanium Dioxide",
+    },
+  ],
+},
+
     ],
   },
   {
@@ -3366,10 +4373,10 @@ export const categories = [
     name: "Titanium Dioxide Rutile",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Titanium Dioxide Rutile Category | Premium TiO₂ Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore premium Titanium Dioxide Rutile grades for paints, coatings, plastics, inks, and industrial.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -3379,10 +4386,11 @@ export const categories = [
 
         name: "R-248 Titanium Dioxide",
 
-        metaTitle: "R-248 Titanium Dioxide Supplier | Corechem Corporation",
+        metaTitle:
+          "R-248 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium industrial Titanium Dioxide R-248 with high brightness, opacity, eco-friendly formulation, smooth dispersion, and stable performance for industrial applications.",
+          "Buy premium-quality R-248 Titanium Dioxide from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, dispersion, and long-lasting performance.",
 
         overview:
           "R-248 Titanium Dioxide is a premium-quality industrial pigment designed for a wide range of industrial applications. The product offers excellent brightness, opacity, and stable performance for industrial manufacturing processes.",
@@ -3490,10 +4498,11 @@ export const categories = [
 
         name: "Lomon Titanium Dioxide",
 
-        metaTitle: "Lomon Titanium Dioxide Supplier | Corechem Corporation",
+        metaTitle:
+          "Lomon Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium industrial Lomon Titanium Dioxide with high brightness, opacity, fine powder dispersion, and stable performance for diverse industrial manufacturing applications.",
+          "Buy premium-quality Lomon Titanium Dioxide from Corechem Corporation. Ideal for applications requiring excellent whiteness, opacity, durability, and dispersion performance.",
 
         overview:
           "Lomon Titanium Dioxide is a premium-quality industrial pigment designed for multiple industrial manufacturing applications. The product delivers excellent brightness, opacity, and stable performance for industrial processing and formulation requirements.",
@@ -3606,10 +4615,10 @@ export const categories = [
         name: " Titanium Dioxide Doguide SR-240",
 
         metaTitle:
-          "Doguide SR240 Titanium Dioxide Supplier | Corechem Corporation",
+          "Titanium Dioxide (TiO₂) – Doguide SR240 Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile Titanium Dioxide Doguide SR240 for plastics with 98% CIEL, blue tone finish, high opacity, UV resistance, and stable industrial performance.",
+          "Corechem Corporation supplies Doguide SR240 Titanium Dioxide (TiO₂) for plastics, rubber, masterbatch, and PVC applications. Excellent opacity, gloss, dispersion, and durability. -lasting performance in their products.",
 
         overview:
           "Doguide SR240 is a premium-quality Rutile grade Titanium Dioxide pigment specially developed for plastic industry applications. Manufactured using the Sulphate Process, it delivers excellent brightness, opacity, and long-lasting performance.",
@@ -3709,10 +4718,10 @@ export const categories = [
         name: "Titanium Dioxide Anatase",
 
         metaTitle:
-          "Killburn Anatase Titanium Dioxide Supplier | Corechem Corporation",
+          "Titanium Dioxide Anatase (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Anatase Titanium Dioxide Killburn for industrial use with high brightness, opacity, stable formulation performance, and reliable technical grade quality.",
+          "Buy high-quality Titanium Dioxide Anatase from Corechem Corporation. Ideal for applications requiring superior whiteness, brightness, and reliable industrial performance.",
 
         overview:
           "Killburn Titanium Dioxide Anatase is a premium-quality technical grade pigment designed for a wide range of industrial applications. It delivers excellent brightness, opacity, and stable performance in manufacturing and formulation processes.",
@@ -3808,10 +4817,10 @@ export const categories = [
         name: "White Titanium Dioxide Powder",
 
         metaTitle:
-          "White Titanium Dioxide Powder Supplier | Rutile Grade Industrial TiO₂",
+          "White Titanium Dioxide Powder (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium Rutile White Titanium Dioxide Powder for industrial applications with high whiteness, opacity, stable dispersion, and reliable 25 kg bag packaging.",
+          "Buy high-quality White Titanium Dioxide Powder from Corechem Corporation. Ideal for applications requiring superior brightness, opacity, UV resistance, and consistent performance.",
 
         overview:
           "White Titanium Dioxide Powder is a premium Rutile grade pigment designed for a wide range of industrial manufacturing applications. It delivers excellent whiteness, opacity, and stable performance in industrial processing.",
@@ -3906,10 +4915,10 @@ export const categories = [
         name: "Titanium Dioxide Chemical",
 
         metaTitle:
-          "Titanium Dioxide Chemical Supplier | High Purity Anatase 99.99% TiO2",
+          "Titanium Dioxide Chemical (TiO₂) Supplier | Corechem Corporation",
 
         metaDescription:
-          "High purity Anatase Titanium Dioxide Chemical with 99.99% TiO2 content for paints, coatings, plastics, masterbatch, food and pharma applications with stable performance.",
+          "Buy high-quality Titanium Dioxide Chemical from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, brightness, and durability.",
 
         overview:
           "Titanium Dioxide Chemical is a premium Anatase grade pigment designed for a wide range of industrial and commercial applications. It delivers exceptional brightness, opacity, and stable formulation performance across multiple industries.",
@@ -4003,10 +5012,10 @@ export const categories = [
         name: "Titanium Dioxide TiO₂ Powder",
 
         metaTitle:
-          "Titanium Dioxide A101 Anatase Powder Supplier | Corechem Corporation",
+          "Titanium Dioxide TiO₂ Powder Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium A101 Anatase Titanium Dioxide powder for paints, coatings, plastics, masterbatch, food and pharma with excellent whiteness, opacity and stable performance.",
+          "Buy high-quality Titanium Dioxide TiO₂ Powder from Corechem Corporation. Ideal for applications requiring excellent brightness, opacity, UV resistance, and durability.",
 
         overview:
           "Titanium Dioxide TiO₂ Powder is a premium Anatase grade pigment designed for multiple industrial applications. Grade A101 (Anatase General Purpose) ensures reliable performance, consistent quality, and excellent processing stability.",
@@ -4102,10 +5111,10 @@ export const categories = [
     name: "Color Pigment",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Color Pigment Category | Industrial Pigments Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore high-quality color pigments for paints, coatings, plastics, inks, rubber, and industrial applications. Vibrant shades and consistent performance.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -4116,10 +5125,10 @@ export const categories = [
         name: "Orange Colour Pigment",
 
         metaTitle:
-          "Orange Colour Pigment Supplier | Industrial Orange Pigment Powder",
+          "Orange Colour Pigment Supplier | High-Quality Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium Orange Colour Pigment with 99% purity for chemical industry applications. Technical grade orange pigment powder offering excellent dispersion, color consistency, and stable performance.",
+          "Corechem Corporation supplies premium Orange Colour Pigments for paints, coatings, plastics, inks, rubber, and industrial applications. Bright orange shade with strong performance.",
 
         overview:
           "Orange Colour Pigment is a premium-quality industrial pigment specially developed for chemical industry applications. It delivers vibrant orange color, excellent dispersion, and stable formulation performance for industrial processing.",
@@ -4215,10 +5224,10 @@ export const categories = [
         name: "Pigment Colour Powder",
 
         metaTitle:
-          "Pigment Colour Powder Supplier in India | Corechem Corporation",
+          "Pigment Colour Powder Supplier | Industrial Color Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality blue Pigment Colour Powder for industrial applications. Offers excellent dispersion, vibrant color consistency, stable performance, and reliable industrial processing solutions.",
+          "Corechem Corporation supplies high-quality Pigment Colour Powder for paints, coatings, plastics, inks, rubber, and industrial applications. Excellent color strength and consistency.",
 
         overview:
           "Pigment Colour Powder by Corechem Corporation is a premium-quality industrial pigment specially designed for multiple industrial applications. The product delivers vibrant blue color, excellent dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -4340,10 +5349,10 @@ export const categories = [
         name: "Blue Pigment Powder",
 
         metaTitle:
-          "Blue Pigment Powder Supplier in India | Corechem Corporation",
+          "Blue Pigment Powder Supplier | High-Quality Blue Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Blue Pigment Powder with 99% purity for commercial and industrial applications. Offers vibrant color consistency, excellent dispersion, stable performance, and reliable industrial processing.",
+          "Corechem Corporation supplies premium Blue Pigment Powder for paints, coatings, plastics, inks, rubber, and industrial applications. Deep blue shade with excellent stability.",
 
         overview:
           "Blue Pigment Powder is a premium-quality industrial pigment specially developed for commercial and industrial applications. The product delivers vibrant blue color, excellent dispersion, and stable formulation performance for multiple manufacturing processes.",
@@ -4466,10 +5475,10 @@ export const categories = [
         name: "Green Pigment Powder",
 
         metaTitle:
-          "Green Pigment Powder Supplier in India | Corechem Corporation",
+          "Green Pigment Powder Supplier | High-Quality Green Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Green Pigment Powder with 99% purity for chemical industry applications. Offers vibrant color consistency, excellent dispersion, stable performance, and reliable industrial processing.",
+          "Corechem Corporation supplies premium Green Pigment Powder for paints, coatings, plastics, inks, rubber, and industrial applications. Bright green shade with strong durability.",
 
         overview:
           "Green Pigment Powder is a premium-quality industrial pigment specially formulated for chemical industry applications. The product delivers vibrant green color, excellent dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -4592,10 +5601,10 @@ export const categories = [
         name: "Scarlet Chrome Pigment",
 
         metaTitle:
-          "Scarlet Chrome Pigment Supplier in India | Corechem Corporation",
+          "Scarlet Chrome Pigment Supplier | Industrial Red Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Scarlet Chrome Pigment with 100% purity for paints, coatings, plastics, and inks. Offers vibrant scarlet color, excellent dispersion, stable performance, and long-lasting industrial durability.",
+          "Corechem Corporation supplies Scarlet Chrome Pigment for paints, coatings, plastics, inks, and industrial applications. Bright scarlet shade with excellent opacity and durability.",
 
         overview:
           "Scarlet Chrome Pigment is a premium-quality chrome-based pigment specially designed for universal industrial applications. The product delivers vibrant scarlet color, excellent dispersion, and stable formulation performance across multiple industries.",
@@ -4714,10 +5723,10 @@ export const categories = [
         name: "Lake Red 507 Sudarshan",
 
         metaTitle:
-          "Lake Red 507 Sudarshan Pigment Supplier | Corechem Corporation",
+          "Lake Red 507 Sudarshan Pigment Supplier | High-Quality Color Lake | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Lake Red 507 Sudarshan pigment for industrial applications. Vibrant red color, excellent dispersion, stable formulation performance, and reliable industrial quality.",
+          "Corechem Corporation supplies Lake Red 507 Sudarshan pigment for inks, paints, plastics, coatings, and industrial applications. Bright red shade with excellent dispersion and color strength.",
 
         overview:
           "Lake Red 507 Sudarshan is a premium-quality red pigment specially developed for industrial manufacturing applications. The product delivers vibrant red color, excellent dispersion, and stable formulation performance across multiple industrial processes.",
@@ -4836,10 +5845,10 @@ export const categories = [
         name: "Pearl Pigment Powder",
 
         metaTitle:
-          "Pearl Pigment Powder Supplier | Gold Pearl Effect Pigment | Corechem Corporation",
+          "Pearl Pigment Powder Supplier | High-Quality Effect Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Pearl Pigment Powder with attractive gold pearl finish, excellent shine, smooth dispersion, and stable industrial performance for decorative and industrial applications.",
+          "Corechem Corporation supplies premium Pearl Pigment Powder for paints, coatings, plastics, inks, cosmetics, and industrial applications. Brilliant pearlescent effects and excellent durability.",
 
         overview:
           "Pearl Pigment Powder is a premium-quality industrial pigment specially designed for decorative and industrial applications. The product delivers an attractive gold pearl finish, excellent shine, and stable formulation performance for various manufacturing processes.",
@@ -4962,10 +5971,10 @@ export const categories = [
         name: "Yellow Pigment Powder",
 
         metaTitle:
-          "Yellow Pigment Powder Supplier | Industrial Color Pigment | Corechem Corporation",
+          "Yellow Pigment Powder Supplier | High-Quality Color Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Yellow Pigment Powder with 99% purity, vibrant yellow color, eco-friendly formulation, excellent dispersion, and stable industrial performance for chemical industry applications.",
+          "Corechem Corporation supplies premium Yellow Pigment Powder for paints, coatings, plastics, inks, rubber, construction materials, and industrial applications. Excellent color strength and durability.",
 
         overview:
           "Yellow Pigment Powder is a premium-quality industrial pigment specially formulated for chemical industry applications. The product delivers vibrant yellow color, excellent dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -5092,10 +6101,10 @@ export const categories = [
         name: "Red Pigment Powder",
 
         metaTitle:
-          "Red Pigment Powder Supplier | Pigment Red 63:1 | Corechem Corporation",
+          "Red Pigment Powder Supplier | High-Quality Color Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Red Pigment Powder with 99% purity, Pigment Red 63:1 identification, vibrant red color, excellent dispersion, and stable industrial performance for chemical industry applications.",
+          "Corechem Corporation supplies premium Red Pigment Powder for paints, coatings, plastics, inks, rubber, construction materials, and industrial applications. Excellent color strength and durability.",
 
         overview:
           "Red Pigment Powder is a premium-quality industrial pigment specially developed for chemical industry applications. The product delivers vibrant red color, excellent dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -5218,10 +6227,10 @@ export const categories = [
         name: "Ultramarine Blue Pigment Powder",
 
         metaTitle:
-          "Ultramarine Blue Pigment Powder Supplier in India | Corechem Corporation",
+          "Ultramarine Blue Pigment Powder Manufacturer & Supplier | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Ultramarine Blue Pigment Powder detergent grade from Corechem Corporation. Ideal for detergents and industrial applications with excellent dispersion, vibrant color, and stable formulation performance.",
+          "Buy high-quality Ultramarine Blue Pigment Powder from Corechem Corporation. Ideal for applications requiring vibrant blue color, excellent dispersion, and long-lasting performance.",
 
         overview:
           "Ultramarine Blue Pigment Powder is a premium-quality detergent grade pigment specially formulated for industrial and detergent applications. The product delivers vibrant blue coloration, excellent dispersion, and stable formulation performance for manufacturing processes.",
@@ -5333,10 +6342,10 @@ export const categories = [
     name: "Pigment Powder",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Pigment Powder Category | High-Quality Industrial Pigments | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore premium pigment powders for paints, coatings, plastics, inks, and industrial applications. Excellent color strength, dispersion, and durability.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -5347,10 +6356,10 @@ export const categories = [
         name: "Jigar Lake Red",
 
         metaTitle:
-          "Jigar Lake Red Pigment Supplier in India | Corechem Corporation",
+          "Jigar Lake Red Pigment Supplier | High-Quality Red Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Jigar Lake Red pigment from Corechem Corporation. High-quality red pigment powder for industrial applications with excellent dispersion, color consistency, and durable performance.",
+          "Corechem Corporation supplies Jigar Lake Red pigment for inks, paints, coatings, plastics, and industrial applications. Bright red shade with excellent color strength, dispersion, and durability.",
 
         overview:
           "Jigar Lake Red is a premium-quality industrial pigment specially developed for multiple industrial manufacturing applications. The product delivers vibrant red color, excellent dispersion, and stable formulation performance for industrial processing requirements.",
@@ -5468,10 +6477,10 @@ export const categories = [
         name: "Sudarshan 565 Red",
 
         metaTitle:
-          "Sudarshan 565 Red Pigment Supplier in India | Corechem Corporation",
+          "Sudarshan 565 Red Pigment Supplier | High-Quality Red Lake Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Sudarshan 565 Red pigment from Corechem Corporation. High-quality water-based red pigment powder for paint applications with excellent dispersion, color consistency, and durable finish performance.",
+          "Corechem Corporation supplies Sudarshan 565 Red pigment for inks, paints, coatings, plastics, and industrial applications. Bright red shade with strong tinting strength and excellent dispersion.",
 
         overview:
           "Sudarshan 565 Red is a premium-quality red pigment specially developed for paint industry applications. The product delivers vibrant red coloration, excellent dispersion, and stable formulation performance for water-based paint systems.",
@@ -5589,10 +6598,10 @@ export const categories = [
         name: "Sudarshan Green Powder",
 
         metaTitle:
-          "Sudarshan Green Powder Supplier in India | Corechem Corporation",
+          "Sudarshan Green Powder Supplier | High-Quality Green Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Sudarshan Green Powder from Corechem Corporation. Eco-friendly industrial pigment with smooth dispersion, stable formulation performance, customizable supply options, and reliable industrial quality.",
+          "Corechem Corporation supplies Sudarshan Green Powder for paints, coatings, plastics, inks, rubber, and industrial applications. Bright green shade with excellent dispersion, stability, and color strength.",
 
         overview:
           "Sudarshan Green Powder is a premium-quality industrial pigment manufactured by Corechem Corporation for diverse industrial applications. The product offers excellent color consistency, smooth dispersion, and stable formulation performance across multiple manufacturing processes.",
@@ -5723,10 +6732,10 @@ export const categories = [
         name: "Sudarshan Orange Powder",
 
         metaTitle:
-          "Sudarshan Orange Powder Supplier in India | Corechem Corporation",
+          "Sudarshan Orange Powder Supplier | High-Quality Orange Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Sudarshan Orange Powder from Corechem Corporation. Eco-friendly orange pigment with excellent dispersion, customized supply options, and reliable industrial performance for coatings, plastics, and specialty formulations.",
+          "Corechem Corporation supplies Sudarshan Orange Powder for paints, coatings, plastics, inks, rubber, and industrial applications. Bright orange shade with excellent dispersion, stability, and color strength.",
 
         overview:
           "Sudarshan Orange Powder is a premium-quality industrial pigment manufactured by Corechem Corporation for diverse industrial applications.",
@@ -5852,10 +6861,10 @@ export const categories = [
         name: "Pidilite KBLR Violet",
 
         metaTitle:
-          "Pidilite KBLR Violet Pigment Supplier in India | Corechem Corporation",
+          "Pidilite KBLR Violet Pigment Supplier | High-Quality Violet Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Pidilite KBLR Violet pigment from Corechem Corporation. High-quality violet-blue granule pigment with excellent color consistency, stable performance, and reliable industrial applications.",
+          "Corechem Corporation supplies Pidilite KBLR Violet pigment for inks, paints, coatings, plastics, rubber, and industrial applications. Rich violet shade with excellent dispersion and color strength.",
 
         overview:
           "Pidilite KBLR Violet is a premium-quality industrial pigment designed for multiple industrial manufacturing applications.",
@@ -5973,10 +6982,10 @@ export const categories = [
         name: "Yellow 165 Sudarshan",
 
         metaTitle:
-          "Yellow 165 Sudarshan Pigment Supplier in India | Corechem Corporation",
+          "Yellow 165 Sudarshan Pigment Supplier | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Yellow 165 Sudarshan pigment from Corechem Corporation. High-purity industrial pigment with over 99% purity, eco-friendly composition, smooth dispersion, and reliable industrial performance.",
+          "Corechem Corporation supplies Yellow 165 Sudarshan pigment for paints, coatings, plastics, inks, and industrial applications. Bright yellow shade with excellent strength and dispersion.",
 
         overview:
           "Yellow 165 Sudarshan is a premium-quality industrial pigment manufactured by Corechem Corporation for diverse industrial applications.",
@@ -6105,10 +7114,10 @@ export const categories = [
     name: "Lithopone",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Lithopone Category | White Pigment Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore Lithopone pigments for paints, coatings, plastics, rubber, and paper industries. Cost-effective white pigment with good brightness and opacity.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -6118,10 +7127,11 @@ export const categories = [
 
         name: "Lithopone B301",
 
-        metaTitle: "Lithopone B301 Supplier in India | Corechem Corporation",
+        metaTitle:
+          "Lithopone B301 Supplier | High-Quality Pigment White | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Lithopone B301 from Corechem Corporation. High-quality white pigment for plastics, paints, rubber, and coatings with excellent whiteness, smooth dispersion, and cost-effective TiO₂ replacement.",
+          "Corechem Corporation supplies premium Lithopone B301 for paints, coatings, plastics, rubber, paper, and industrial applications. Excellent whiteness, opacity, and cost-effective performance.",
 
         overview:
           "Lithopone B301 is a premium-quality white pigment specially developed for plastics, paints, rubber, and coating applications.",
@@ -6234,10 +7244,11 @@ export const categories = [
 
         name: "Lithopone B311",
 
-        metaTitle: "Lithopone B311 Supplier in India | Corechem Corporation",
+        metaTitle:
+          "Lithopone B311 Supplier | High-Quality White Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium Lithopone B311 from Corechem Corporation. High-quality white pigment for plastics, paints, rubber, and coatings with excellent whiteness, smooth dispersion, and cost-effective TiO₂ replacement.",
+          "Corechem Corporation supplies premium Lithopone B311 for paints, coatings, plastics, rubber, paper, and industrial applications. Good whiteness, opacity, and cost-effective performance.",
 
         overview:
           "Lithopone B311 is a premium-quality white pigment specially formulated for plastics, paints, rubber, and coating applications.",
@@ -6351,10 +7362,10 @@ export const categories = [
         name: "Lithopone Powder",
 
         metaTitle:
-          "Lithopone Powder Supplier in India | Industrial White Pigment | Corechem Corporation",
+          "Lithopone Powder Supplier | High-Quality White Pigment | Corechem Corporation",
 
         metaDescription:
-          "Buy premium-quality Lithopone Powder for paints, plastics, coatings, rubber, and industrial formulations. Excellent whiteness, smooth dispersion, stable processing, and reliable industrial performance.",
+          "Corechem Corporation supplies premium Lithopone Powder for paints, coatings, plastics, rubber, paper, and industrial applications. Good whiteness, opacity, and cost-effective performance.",
 
         overview:
           "Lithopone Powder is a premium-quality white pigment widely used for industrial manufacturing and formulation applications. It offers excellent whiteness, smooth dispersion, and stable processing performance across multiple industries.",
@@ -6467,10 +7478,10 @@ export const categories = [
     name: "Carbon Black",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Carbon Black Category | Industrial Carbon Black Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore premium Carbon Black grades for rubber, plastics, paints, inks, and industrial applications. High reinforcement, deep black color, and durability.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -6481,10 +7492,10 @@ export const categories = [
         name: "Carbon Black Powder",
 
         metaTitle:
-          "Carbon Black Powder Supplier in India | Industrial Carbon Pigment | Corechem Corporation",
+          "Carbon Black Powder Supplier | High-Quality Industrial Carbon Black | Corechem Corporation",
 
         metaDescription:
-          "Buy premium-quality Carbon Black Powder with 99.9% purity for coatings, plastics, rubber, and industrial formulations. Excellent pigmentation, smooth dispersion, and reliable industrial performance.",
+          "Corechem Corporation supplies premium Carbon Black Powder for plastics, rubber, paints, inks, coatings, and industrial applications. High tinting strength, deep black color, and consistent performance.",
 
         overview:
           "Carbon Black Powder is a premium-quality industrial material specially designed for multiple manufacturing and industrial applications. The product offers excellent pigmentation, smooth dispersion, and stable formulation performance across various industrial processes.",
@@ -6604,10 +7615,10 @@ export const categories = [
         name: "N330 Carbon Black",
 
         metaTitle:
-          "N330 Carbon Black Supplier in India | Paint & Coating Grade | Corechem Corporation",
+          "N330 Carbon Black Supplier | High-Quality Industrial Carbon Black | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality N330 Carbon Black for paint and coating applications. Excellent black pigmentation, smooth dispersion, strong tinting strength, and reliable industrial performance.",
+          "Corechem Corporation supplies premium N330 Carbon Black for rubber, tires, plastics, paints, coatings, and industrial applications. Excellent reinforcement, strength, and consistent performance.",
 
         overview:
           "N330 Carbon Black is a premium-quality industrial pigment manufactured by Corechem Corporation for paint and coating applications. The product offers excellent black coloration, smooth dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -6722,10 +7733,10 @@ export const categories = [
         name: "Carbon Black Philips",
 
         metaTitle:
-          "Carbon Black Philips Supplier in India | Paint & Coating Pigment | Corechem Corporation",
+          "Philips Carbon Black Supplier | High-Quality Industrial Carbon Black | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Carbon Black Philips for paints and coatings. Deep black pigmentation, smooth dispersion, excellent tinting strength, and reliable industrial performance.",
+          "Corechem Corporation supplies Philips Carbon Black for rubber, plastics, paints, inks, coatings, and industrial applications. High tint strength, deep black color, and consistent performance.",
 
         overview:
           "Carbon Black Philips is a premium-quality industrial pigment specially developed for paint and coating applications. The product delivers deep black coloration, smooth dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -6845,10 +7856,10 @@ export const categories = [
     name: "Calcite Powder",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Calcite Powder Category | Calcium Carbonate Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore high-quality Calcite Powder for paints, plastics, rubber, paper, and construction applications. High whiteness, fine particle size, and cost efficiency.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -6859,10 +7870,10 @@ export const categories = [
         name: "Super Fine Calcite Powder",
 
         metaTitle:
-          "Super Fine Calcite Powder Supplier in India | Calcium Carbonate for Plastic Industry | Corechem Corporation",
+          "Super Fine Calcite Powder Supplier | High Purity Calcium Carbonate | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Super Fine Calcite Powder with 99% purity for plastic industry applications. Excellent whiteness, smooth dispersion, reliable performance, and cost-effective formulation support.",
+          "Corechem Corporation supplies premium Super Fine Calcite Powder for paints, plastics, rubber, paper, construction, and industrial applications. High whiteness, fine particle size, and consistent quality.",
 
         overview:
           "Super Fine Calcite Powder is a premium-quality calcium carbonate product specially developed for plastic industry applications. The product offers excellent whiteness, smooth particle distribution, and stable formulation performance for industrial manufacturing processes.",
@@ -6995,10 +8006,10 @@ export const categories = [
         name: "Super Calcite Calcium Powder",
 
         metaTitle:
-          "Super Calcite Calcium Powder Supplier in India | PCC for Cattle Feed | Corechem Corporation",
+          "Super Calcite Calcium Powder Supplier | High-Quality Calcium Carbonate | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Super Calcite Calcium Powder (PCC) with 99.50%+ purity for cattle feed applications. Smooth texture, stable formulation, and reliable calcium supplementation.",
+          "Corechem Corporation supplies premium Super Calcite Calcium Powder for paints, plastics, rubber, paper, construction, and industrial applications. High whiteness, fine texture, and consistent performance.",
 
         overview:
           "Super Calcite Calcium Powder is a premium-quality Precipitated Calcium Carbonate (PCC) specially developed for cattle feed applications. With a high purity concentration of 99.50%+, the powder ensures dependable quality and reliable application performance.",
@@ -7126,10 +8137,10 @@ export const categories = [
     name: "Organic Pigments",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Organic Pigments Category | High-Performance Color Pigments | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore organic pigments for inks, paints, coatings, plastics, and industrial applications. Bright colors, high tint strength, and excellent dispersion.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -7140,10 +8151,10 @@ export const categories = [
         name: "Organic Pigment Powder",
 
         metaTitle:
-          "Organic Pigment Powder Supplier in India | Blue Industrial Pigment | Corechem Corporation",
+          "Organic Pigment Powder Supplier | High-Quality Color Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Organic Pigment Powder with vibrant blue color, smooth dispersion, and stable formulation performance. Suitable for coatings, plastics, inks, and industrial applications.",
+          "Corechem Corporation supplies premium Organic Pigment Powder for inks, paints, coatings, plastics, rubber, and industrial applications. Bright colors, excellent dispersion, and consistent performance.",
 
         overview:
           "Organic Pigment Powder is a premium-quality industrial pigment manufactured by Corechem Corporation for diverse industrial applications. The product delivers vibrant blue coloration, excellent dispersion, and stable formulation performance for manufacturing processes.",
@@ -7260,10 +8271,10 @@ export const categories = [
         name: "1475 Scarlet Chrome",
 
         metaTitle:
-          "1475 Scarlet Chrome Supplier in India | Industrial Chrome Pigment | Corechem Corporation",
+          "1475 Scarlet Chrome Pigment Supplier | High-Quality Industrial Pigments | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality 1475 Scarlet Chrome pigment with 100% purity. Vibrant scarlet coloration, excellent dispersion, and stable formulation performance for coatings, plastics, inks, and industrial applications.",
+          "Corechem Corporation supplies 1475 Scarlet Chrome pigment for paints, coatings, plastics, inks, and industrial applications. Bright scarlet shade with excellent opacity, durability, and performance.",
 
         overview:
           "1475 Scarlet Chrome is a premium-quality industrial pigment manufactured by Corechem Corporation for diverse industrial applications. The product delivers vibrant scarlet coloration, excellent dispersion, and stable formulation performance across multiple manufacturing processes.",
@@ -7379,10 +8390,10 @@ export const categories = [
     name: "Optical Brightening",
 
     metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+      "Optical Brighteners Category | Whitening Agents Supplier | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore optical brighteners for plastics, detergents, paper, textiles, and coatings. Enhance whiteness,brightness, and visual appeal.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -7393,10 +8404,10 @@ export const categories = [
         name: "Optical Brightener Powder",
 
         metaTitle:
-          "Optical Brightener Powder Supplier in India | Industrial Brightening Additive | Corechem Corporation",
+          "Optical Brightener Powder Supplier | High-Performance Whitening Agent | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Optical Brightener Powder for brightness enhancement and whitening applications. Excellent dispersion, stable formulation compatibility, and reliable industrial performance.",
+          "Corechem Corporation supplies Optical Brightener Powder for plastics, detergents, paper, textiles, and coatings. Enhances whiteness and brightness effectively.",
 
         overview:
           "Optical Brightener Powder is a premium-quality industrial additive specially developed for brightness enhancement and whitening applications. The product delivers excellent brightening performance, smooth dispersion, and stable formulation compatibility across multiple industries.",
@@ -7514,10 +8525,10 @@ export const categories = [
         name: "PCRP Whitener Powder",
 
         metaTitle:
-          "PCRP Whitener Powder Supplier in India | Detergent Whitener | Corechem Corporation",
+          "PCRP Whitener Powder Supplier | High-Quality Whitening Agent | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality PCRP Whitener Powder for detergent manufacturing. Excellent whitening performance, smooth dispersion, enhanced brightness, and stable formulation compatibility.",
+          "Corechem Corporation supplies PCRP Whitener Powder for plastics, masterbatch, coatings, and industrial applications. Improves whiteness, brightness, and product appearance.",
 
         overview:
           "PCRP Whitener Powder is a premium-quality detergent whitener specially developed by Corechem Corporation for industrial and detergent applications. The product delivers excellent whitening performance, smooth dispersion, and stable formulation compatibility in detergent manufacturing.",
@@ -7640,11 +8651,10 @@ export const categories = [
 
     name: "Other Products",
 
-    metaTitle:
-      "Titanium Dioxide Powder Supplier in India | Corechem Corporation",
+    metaTitle: "Other Chemical Products Category | Corechem Corporation",
 
     metaDescription:
-      "Corechem Corporation supplies premium Rutile Titanium Dioxide Powder for masterbatches, plastics, polymers, PVC products, and industrial applications across India.",
+      "Explore additional industrial chemicals, pigments, and additives including fillers, masterbatches, and specialty products for various industries.",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
@@ -7655,10 +8665,10 @@ export const categories = [
         name: "Rhodamine Basic Dyes",
 
         metaTitle:
-          "Rhodamine Basic Dyes Supplier in India | Industrial Dye Supplier | Corechem Corporation",
+          "Rhodamine Basic Dyes Supplier | Industrial Dye Solutions | Corechem Corporation",
 
         metaDescription:
-          "Buy premium-quality Rhodamine Basic Dyes with 99% purity for chemical industry applications. Excellent color strength, solubility, stable formulation performance, and reliable industrial processing.",
+          "Corechem Corporation supplies Rhodamine Basic Dyes for textiles, paper, inks, and industrial applications. High color strength and excellent solubility.",
 
         overview:
           "Rhodamine Basic Dyes are premium-quality industrial dyes specially developed for chemical industry applications. The product offers vibrant coloration, excellent solubility, and stable formulation performance for industrial processing requirements.",
@@ -7784,10 +8794,10 @@ export const categories = [
         name: "Rhodamine B Dye",
 
         metaTitle:
-          "Rhodamine B Dye Supplier in India | Industrial Dye Supplier | Corechem Corporation",
+          "Rhodamine B Dye Supplier | High-Quality Industrial Dye | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Rhodamine B Dye for industrial applications. Vibrant red coloration, smooth dispersion, stable formulation performance, and dependable industrial processing.",
+          "Corechem Corporation supplies Rhodamine B Dye for textiles, inks, coatings, and industrial applications. Bright pink-red color with strong tinting strength.",
 
         overview:
           "Rhodamine B Dye is a premium-quality industrial dye manufactured by Corechem Corporation for diverse industrial applications. The product delivers vibrant red coloration, excellent dispersion, and stable formulation performance for industrial manufacturing processes.",
@@ -7905,10 +8915,10 @@ export const categories = [
         name: "Three Star Lime Powder",
 
         metaTitle:
-          "Three Star Lime Powder Supplier in India | Industrial Lime Powder | Corechem Corporation",
+          "Three Star Lime Powder Supplier | High-Quality Industrial Lime | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Three Star Lime Powder for industrial applications. Excellent whiteness, smooth texture, technical and bio-tech grade quality, and reliable industrial performance.",
+          "Corechem Corporation supplies Three Star Lime Powder for construction, chemical, steel, and industrial applications. High purity and strong performance.",
 
         overview:
           "Three Star Lime Powder is a premium-quality industrial lime product specially developed for multiple industrial applications. The product offers excellent whiteness, smooth texture, and stable formulation performance across diverse manufacturing processes.",
@@ -8030,10 +9040,10 @@ export const categories = [
         name: "Plastic Recycling Anti Moisture Powder",
 
         metaTitle:
-          "Plastic Recycling Anti Moisture Powder Supplier in India | Industrial Additive | Corechem Corporation",
+          "Plastic Recycling Anti Moisture Powder Supplier | Corechem Corporation ",
 
         metaDescription:
-          "Premium-quality Plastic Recycling Anti Moisture Powder for plastic recycling applications. Excellent moisture absorption, stable formulation performance, and enhanced processing efficiency.",
+          "Corechem Corporation supplies Anti Moisture Powder for plastic recycling industries. Prevents moisture issues and improves processing efficiency and product quality.",
 
         overview:
           "Plastic Recycling Anti Moisture Powder is a premium-quality industrial additive specially developed for plastic recycling applications. Manufactured under the THREE STAR brand, the product helps reduce moisture content and improve processing efficiency during plastic recycling operations.",
@@ -8154,10 +9164,10 @@ export const categories = [
         name: "Barium Sulphate Powder",
 
         metaTitle:
-          "Barium Sulphate Powder Supplier in India | Industrial Chemical Supplier | Corechem Corporation",
+          "Barium Sulphate Powder Supplier | High-Purity Barite | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Barium Sulphate Powder with 99.90% purity for laboratory and industrial applications. Smooth dispersion, chemical stability, and reliable formulation performance.",
+          "Corechem Corporation supplies Barium Sulphate Powder for paints, plastics, rubber, coatings, and drilling applications. High whiteness, purity, and chemical stability.",
 
         overview:
           "Barium Sulphate Powder is a premium-quality industrial chemical specially developed for laboratory and industrial applications. With a high purity level of 99.90%, it delivers dependable quality, excellent chemical stability, and reliable formulation performance.",
@@ -8273,10 +9283,10 @@ export const categories = [
         name: "Aluminium Powder Paste",
 
         metaTitle:
-          "Aluminium Powder Paste Supplier in India | Industrial Coating Material | Corechem Corporation",
+          "Aluminium Powder Paste Supplier | Metallic Pigment | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Aluminium Powder Paste for industrial and decorative coating applications. High gloss finish, anodised formulation, smooth application, and durable performance.",
+          "Corechem Corporation supplies Aluminium Powder Paste for paints, coatings, inks, aerated concrete, and industrial applications. High metallic effect and brightness.",
 
         overview:
           "Aluminium Powder Paste is a premium-quality industrial coating material specially developed for decorative and industrial applications. Designed with a high gloss finish and anodised formulation, it delivers enhanced surface appearance, durability, and reliable coating performance.",
@@ -8409,10 +9419,10 @@ export const categories = [
         name: "Anti Moisture Powder",
 
         metaTitle:
-          "Anti Moisture Powder Supplier in India | Industrial Moisture Control Additive | Corechem Corporation",
+          "Anti Moisture Powder Supplier | Industrial Moisture Control | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Anti Moisture Powder for industrial moisture control applications. Excellent absorption properties, smooth dispersion, stable formulation performance, and reliable processing efficiency.",
+          "Corechem Corporation supplies Anti Moisture Powder for plastics, packaging, chemicals, and industrial applications. Prevents moisture damage and improves product stability.",
 
         overview:
           "Anti Moisture Powder is a premium-quality industrial additive specially developed for moisture control and industrial processing applications. Designed to improve processing efficiency, it helps reduce moisture-related issues while ensuring stable industrial performance.",
@@ -8530,10 +9540,10 @@ export const categories = [
         name: "OB1 Green Optical Brightener",
 
         metaTitle:
-          "OB1 Green Optical Brightener Supplier in India | Industrial Brightening Agent | Corechem Corporation",
+          "OB1 Green Optical Brightener Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality OB1 Green Optical Brightener with 99% purity for chemical industry applications. Excellent whitening performance, smooth dispersion, and reliable industrial processing.",
+          "Corechem Corporation supplies OB1 Green Optical Brightener for plastics, textiles, detergents, and paper industries. Excellent whitening effect and brightness enhancement.",
 
         overview:
           "OB1 Green Optical Brightener is a premium-quality industrial brightening agent specially developed for chemical industry applications. With a purity level of 99%, it delivers excellent whitening performance, enhanced brightness, and dependable formulation stability.",
@@ -8731,9 +9741,9 @@ export const categories = [
         id: "plastic-colour-masterbatch",
         name: "Plastic Colour Masterbatch",
         metaTitle:
-          "Plastic Colour Masterbatch Supplier in India | Injection Molding Masterbatch | Corechem Corporation",
+          "Plastic Colour Masterbatch Supplier | High-Quality Masterbatch | Corechem Corporation",
         metaDescription:
-          "Premium-quality Plastic Colour Masterbatch manufactured using LLDPE material for injection molding applications. Vibrant red color, smooth processing, and excellent dispersion.",
+          "Corechem Corporation supplies premium Plastic Colour Masterbatch for plastics, packaging, injection molding, and industrial applications. Excellent color consistency and dispersion.",
         overview:
           "Plastic Colour Masterbatch is a premium-quality coloring solution specially developed for plastic manufacturing and injection molding applications. Manufactured using high-quality LLDPE material, it provides vibrant red coloration, excellent dispersion, and reliable processing performance.",
         description: [
@@ -8809,10 +9819,10 @@ export const categories = [
         name: "Epsilon N220 Carbon Black Powder",
 
         metaTitle:
-          "Epsilon N220 Carbon Black Powder Supplier in India | Carbon Black Supplier | Corechem Corporation",
+          "Epsilon N220 Carbon Black Powder Supplier | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Epsilon N220 Carbon Black Powder for industrial applications. Excellent black pigmentation, smooth dispersion, strong tinting strength, and stable formulation performance.",
+          "Corechem Corporation supplies Epsilon N220 Carbon Black Powder for rubber, tires, plastics, coatings, and industrial applications. High reinforcement and excellent strength.",
 
         overview:
           "Epsilon N220 Carbon Black Powder offers excellent black pigmentation, smooth dispersion, and stable formulation performance across multiple manufacturing processes. It is widely preferred for applications requiring strong tinting strength, deep black coloration, and durable finish quality.",
@@ -8934,10 +9944,10 @@ export const categories = [
         name: "Calcium Oxide Powder",
 
         metaTitle:
-          "Calcium Oxide Powder Supplier in India | Lime Powder Supplier | Corechem Corporation",
+          "Calcium Oxide Powder Supplier | High-Quality Quicklime | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Calcium Oxide Powder with 90% purity for industrial applications. Reliable chemical stability, smooth processing, and dependable industrial performance.",
+          "Corechem Corporation supplies Calcium Oxide Powder for steel, construction, chemical, and industrial applications. High purity, strong reactivity, and consistent performance.",
 
         overview:
           "Manufactured under the trusted ACI brand, the product offers dependable quality, stable formulation performance, and reliable industrial usability. With a purity level of 90%, Calcium Oxide Powder ensures consistent chemical performance for industrial applications.",
@@ -9053,10 +10063,10 @@ export const categories = [
         name: "Plastic Color Masterbatch",
 
         metaTitle:
-          "Plastic Color Masterbatch Supplier in India | Color Pigment Supplier | Corechem Corporation",
+          "Plastic Color Masterbatch Supplier | High-Quality Masterbatch | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality Plastic Color Masterbatch for injection molding applications. Vibrant red coloration, excellent dispersion, durable color stability, and reliable industrial performance.",
+          "Corechem Corporation supplies Plastic Color Masterbatch for plastics, packaging, injection molding, and industrial applications. Consistent color and excellent dispersion.",
 
         overview:
           "Manufactured using high-grade LLDPE material, the product provides excellent dispersion, vibrant coloration, and stable processing performance. The masterbatch delivers rich red color consistency, helping improve the visual appearance and finish quality of plastic products.",
@@ -9172,10 +10182,10 @@ export const categories = [
         name: "PCRP Brand Swan",
 
         metaTitle:
-          "PCRP Brand Swan Supplier in India | Industrial Raw Material Supplier | Corechem Corporation",
+          "PCRP Brand Swan Supplier | Plastic Whitener Powder | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality PCRP Brand Swan industrial protein-based product for feed and industrial applications. High protein content, stable blending performance, and reliable industrial-grade quality.",
+          "Corechem Corporation supplies PCRP Brand Swan for plastics, masterbatch, coatings, and industrial applications. Improves whiteness, brightness, and product quality.",
 
         overview:
           "The product is developed to deliver high protein content, making it suitable for feed and industrial nutritional blending purposes. It is widely used in applications where protein enrichment and formulation stability are required.",
@@ -9283,10 +10293,10 @@ export const categories = [
         name: "White Dolomite Powder",
 
         metaTitle:
-          "White Dolomite Powder Supplier in India | Calcium Carbonate Supplier | Corechem Corporation",
+          "White Dolomite Powder Supplier | High-Quality Industrial Filler | Corechem Corporation",
 
         metaDescription:
-          "Premium-quality White Dolomite Powder with 99% purity for industrial applications. Suitable for plastics, paints, coatings, rubber, construction materials, and specialty formulations.",
+          "Corechem Corporation supplies White Dolomite Powder for paints, plastics, rubber, construction, and industrial applications. High whiteness and consistent particle size.",
 
         overview:
           "White Dolomite Powder is a premium-quality industrial mineral powder widely used in various manufacturing and processing industries. The product offers excellent whiteness, fine particle structure, and stable formulation performance for industrial applications.",

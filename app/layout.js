@@ -4,6 +4,7 @@ import LayoutWrapper from "@/components/LayoutWrapper";
 import Whatsapp from "@/components/Whatsapp";
 
 import { Poppins } from "next/font/google";
+import Script from "next/script";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -11,8 +12,8 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Corechem Corporation",
-  description: "Corechem Corporation",
+  title: "Titanium Dioxide Supplier | Rutile TiO₂ Supplier | Corechem Corporation",
+  description: "Corechem Corporation is a trusted supplier of Titanium Dioxide, pigments, carbon black, calcite powder, and industrial chemicals. High-quality products with consistent supply and reliable service.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -24,13 +25,70 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+         {/* Google Tag Manager */}
+        <Script id="gtm-script" strategy="beforeInteractive">
+          {`
+            (function(w,d,s,l,i){
+              w[l]=w[l]||[];
+              w[l].push({'gtm.start':
+              new Date().getTime(),event:'gtm.js'});
+              var f=d.getElementsByTagName(s)[0],
+              j=d.createElement(s),
+              dl=l!='dataLayer'?'&l='+l:'';
+              j.async=true;
+              j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+              f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TBH4FLZ5');
+          `}
+        </Script>
+         {/* Meta Pixel Verification */}
+        <Script
+          src="https://www.googletagmanager.com/gtag/js?id=AW-18212761323"
+          strategy="afterInteractive"
+        />
+         <Script id="google-ads" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'AW-18212761323');
+          `}
+        </Script>
+        {/* Microsoft Clarity */}
+        <Script id="microsoft-clarity" strategy="afterInteractive">
+          {`
+            (function(c,l,a,r,i,t,y){
+                c[a]=c[a]||function(){
+                  (c[a].q=c[a].q||[]).push(arguments)
+                };
+                t=l.createElement(r);
+                t.async=1;
+                t.src="https://www.clarity.ms/tag/"+i;
+                y=l.getElementsByTagName(r)[0];
+                y.parentNode.insertBefore(t,y);
+            })(window, document, "clarity", "script", "x2q5cnroj9");
+          `}
+        </Script>
         <link
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
           rel="stylesheet"
         />
+
       </head>
 
       <body className={`${poppins.className} antialiased`}>
+          <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-TBH4FLZ5"
+            height="0"
+            width="0"
+            style={{
+              display: "none",
+              visibility: "hidden",
+            }}
+          />
+        </noscript>
         <Whatsapp />
 
         <LayoutWrapper>{children}</LayoutWrapper>

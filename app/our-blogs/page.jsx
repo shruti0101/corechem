@@ -1,8 +1,8 @@
 import BlogClient from "./BlogClient";
 
 export const metadata = {
-  title: "Blogs – Waste Management Insights & Tips | Sangam Plastic Industries",
-  description: "Read expert articles, news, and practical tips about garbage bags, waste management solutions, recycling best practices, and sustainability from Sangam Plastic Industries.",
+  title: "Titanium Dioxide Articles & Resources | Corechem Corporation",
+  description: "Read the latest insights on Titanium Dioxide, pigments, carbon black, calcite powder, and industrial chemicals. Learn applications, trends, and industry updates.",
 };
 
 export default function AboutUsPage() {
