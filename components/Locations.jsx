@@ -4,6 +4,7 @@ import Link from "next/link";
 
 const Loactions = () => {
     return (
+        <section className="max-w-7xl mx-auto">
         <div className="px-3 overflow-hidden mb-10 md:px-8 lg:px-26 bg-white">
             <h2 className="text-3xl md:text-5xl font-bold md:my-5 mb-8">
                 Our Supply Network
@@ -18,6 +19,7 @@ const Loactions = () => {
                 })}
             </div>
         </div>
+        </section>
     );
 };
 

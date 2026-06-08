@@ -45,7 +45,7 @@ export default function Home() {
 
       <TestimonialSlider></TestimonialSlider>
       <Faq></Faq>
-      {/* <Loactions /> */}
+      <Loactions />
 
       {/* <CityPage /> */}
     </>
