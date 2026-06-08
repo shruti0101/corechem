@@ -105,6 +105,12 @@ export default function Footer() {
                 >
                   +91 98185 44039
                 </a>
+                <a
+                  href="tel:+919250056235"
+                  className="text-[15px]  text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  +91 92500 56235
+                </a>
 
                 
 

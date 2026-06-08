@@ -131,9 +131,15 @@ export default function Footer() {
 
                 <a
                   href="tel:+919818544039"
-                  className="text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="text-[15px] whitespace-nowrap text-white transition-all duration-300 hover:text-[#BE8220]"
                 >
                   +91 98185 44039
+                </a>
+                <a
+                  href="tel:+919250056235"
+                  className="text-[15px] whitespace-nowrap  text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  +91 92500 56235
                 </a>
               </div>
 
@@ -142,13 +148,22 @@ export default function Footer() {
                 <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
                   <Mail size={17} />
                 </div>
-
+                <div>
                 <a
-                  href="mailto:corechemcorporation@gmail.com"
+                  href="mailto:info@corechemcorp.com"
                   className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
                 >
-                  corechemcorporation@gmail.com
+                  info@corechemcorp.com
                 </a>
+                <br/>
+                 <a
+                  href="mailto:sales@corechemcorp.com"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                >
+                  sales@corechemcorp.com
+                </a>
+                </div>
+               
               </div>
             </div>
 

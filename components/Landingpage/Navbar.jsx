@@ -15,6 +15,7 @@ import {
   ShieldCheck,
   Menu,
   X,
+  Download,
 } from "lucide-react";
 
 import { categories } from "@/Data";
@@ -57,7 +58,11 @@ export default function Navbar() {
 
         <div className="flex items-center gap-5 text-white">
 
-          
+          <a href="/CC catalogue 2_compressed.pdf" download className="flex underline items-center text-sm gap-2">
+            
+            <Download className="h-4 w-4 text-[#c8921c]" />
+            Download Brochure
+          </a>
 
           <button
   onClick={() => setIsOpen(true)}
@@ -257,6 +262,11 @@ export default function Navbar() {
             className="mt-6 rounded-lg bg-[#c8921c] py-3 text-center font-semibold text-white"
           >
             Call Now
+          </a>
+          <a href="/CC catalogue 2_compressed.pdf" download className="flex p-4 text-center justify-center underline items-center text-sm gap-2">
+            
+            <Download className="h-4 w-4 text-[#c8921c]" />
+            Download Brochure
           </a>
 
         </div>
