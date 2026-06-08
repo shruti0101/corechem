@@ -138,12 +138,12 @@ export default function IndustriesWeServe() {
                   {/* RIGHT CONTENT */}
                   <div className="flex-1">
                     {/* TITLE */}
-                    <h3 className="text-white text-[28px] leading-[40px] font-[700] tracking-[-1px] transition-all duration-300 group-hover:text-[#BE8220]">
+                    <h3 className="text-white text-[20px]  md:text-[28px] md:leading-[40px] font-[700] tracking-[-1px] transition-all duration-300 group-hover:text-[#BE8220]">
                       {item.title}
                     </h3>
 
                     {/* DESCRIPTION */}
-                    <p className="mt-[15px] text-white text-[17px]  font-[400]">
+                    <p className="mt-[15px] text-white text-[15px] md:text-[17px]  font-[400]">
                       {item.desc}
                     </p>
                   </div>
