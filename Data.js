@@ -6373,6 +6373,1259 @@ export const categories = [
           },
         ],
       },
+
+      {
+  id: "pangang-cr-350-titanium-dioxide",
+
+  name: "Pangang CR-350 Titanium Dioxide",
+
+  metaTitle:
+    "Pangang CR-350 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Pangang CR-350 Titanium Dioxide for paper, coatings, inks, and industrial applications. High brightness, opacity, and consistent quality.",
+
+  overview:
+    "Pangang CR-350 Titanium Dioxide is a premium-quality rutile TiO₂ pigment specifically designed for paper and paper coating applications. Manufactured by Pangang, the product offers exceptional brightness, opacity, and optical performance for high-quality paper production. With a high purity level of 98–99%, CR-350 delivers consistent quality and reliable manufacturing performance. The alumina-coated surface treatment enhances pigment dispersion, retention, and compatibility within paper coating formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Featuring a whiteness level of ≥98%, the pigment helps produce bright, clean, and visually appealing paper products.",
+        "Supplied in fine powder form, it ensures smooth processing and uniform distribution throughout paper manufacturing systems.",
+        "The product is engineered to provide stable optical performance and dependable results across paper coating applications.",
+        "Its advanced surface treatment supports improved coating efficiency and consistent production quality.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality rutile Titanium Dioxide pigment for paper applications.",
+        "High purity of 98–99% ensures dependable industrial performance.",
+        "Whiteness of ≥98% enhances brightness and visual appeal.",
+        "Alumina-coated surface treatment improves dispersion and coating efficiency.",
+        "Excellent opacity provides superior coverage and optical enhancement.",
+        "Fine powder form supports smooth manufacturing and processing.",
+        "Consistent batch-to-batch quality for reliable production results.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in paper manufacturing for enhanced brightness and whiteness.",
+        "Suitable for coated paper applications requiring superior optical properties.",
+        "Applied in specialty paper products demanding high-quality appearance.",
+        "Used in paper coatings for improved opacity and printability.",
+        "Suitable for premium paper grades requiring exceptional brightness.",
+        "Applied in industrial paper formulations requiring stable pigment performance.",
+        "Ideal for paper and specialty coating applications requiring high-performance Titanium Dioxide.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial applications.",
+        "We provide reliable supply of Pangang CR-350 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "CR-350",
+    },
+
+    {
+      label: "Application",
+      value: "Paper",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Purity",
+      value: "98–99%",
+    },
+
+    {
+      label: "Brand",
+      value: "Pangang",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Pangang CR-350.webp",
+      alt: "Pangang CR-350 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "pangang-r-298-titanium-dioxide",
+
+  name: "Pangang R-298 Titanium Dioxide",
+
+  metaTitle:
+    "Pangang R-298 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Pangang R-298 Titanium Dioxide for coatings, plastics, inks, and industrial applications. High whiteness and durability.",
+
+  overview:
+    "Pangang R-298 Titanium Dioxide is a premium-quality rutile TiO₂ pigment specially developed for ink applications requiring exceptional brightness, opacity, and color performance. Manufactured by Pangang, the product delivers consistent quality and reliable processing characteristics for printing ink formulations. The zirconia-coated surface treatment enhances dispersion, durability, and compatibility within various ink systems, while its fine powder form ensures smooth incorporation into ink formulations and efficient production processes.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "With a high purity level of 98–99%, R-298 provides excellent pigment efficiency and dependable industrial performance.",
+        "Featuring a whiteness level of ≥98%, the pigment helps achieve bright, clean shades and superior print quality.",
+        "The product offers strong opacity and color development, making it suitable for demanding printing applications.",
+        "Designed for consistent processing performance, it supports reliable manufacturing results across different ink systems.",
+        "Suitable for both water-based and solvent-based ink formulations requiring high-quality white pigments.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality rutile Titanium Dioxide pigment for ink applications.",
+        "High purity of 98–99% ensures reliable industrial performance.",
+        "Whiteness of ≥98% enhances brightness and print appearance.",
+        "Zirconia-coated surface treatment improves dispersion and formulation stability.",
+        "Excellent opacity provides strong hiding power and color development.",
+        "Fine powder form supports smooth processing and manufacturing efficiency.",
+        "Consistent batch-to-batch quality for dependable production results.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in printing ink formulations.",
+        "Suitable for packaging inks requiring superior brightness and opacity.",
+        "Applied in specialty inks demanding consistent pigment performance.",
+        "Used in industrial printing applications for enhanced color quality.",
+        "Suitable for solvent-based and water-based ink systems.",
+        "Applied in high-performance ink formulations requiring excellent dispersion.",
+        "Ideal for ink manufacturers seeking premium-quality Titanium Dioxide pigments.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial applications.",
+        "We provide reliable supply of Pangang R-298 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "R-298",
+    },
+
+    {
+      label: "Application",
+      value: "Ink",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Purity",
+      value: "98–99%",
+    },
+
+    {
+      label: "Brand",
+      value: "Pangang",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Pangang R-298.webp",
+      alt: "Pangang R-298 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "pangang-cr-340-titanium-dioxide",
+
+  name: "Pangang CR-340 Titanium Dioxide",
+
+  metaTitle:
+    "Pangang CR-340 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Pangang CR-340 Titanium Dioxide for paints, coatings, plastics, inks, and industrial use. Reliable brightness and opacity.",
+
+  overview:
+    "Pangang CR-340 Titanium Dioxide is a high-performance rutile TiO₂ pigment developed for paint and coating applications. Manufactured by Pangang, the product offers excellent brightness, opacity, and dispersion properties for a wide range of coating formulations. Designed to provide superior hiding power, CR-340 helps achieve bright, durable, and aesthetically appealing finishes. The pigment ensures consistent quality and stable processing characteristics, making it suitable for industrial-scale manufacturing.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Its fine powder form supports smooth incorporation into water-based and solvent-based coating systems.",
+        "Pangang CR-340 is widely used in decorative, industrial, and protective coatings requiring reliable pigment performance.",
+        "The product delivers dependable opacity and brightness for high-quality coating formulations.",
+        "Designed for consistent processing performance, it supports stable manufacturing results across various applications.",
+        "Suitable for both interior and exterior coating systems requiring durable whiteness and coverage.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality Titanium Dioxide pigment for paint and coating applications.",
+        "Excellent opacity and hiding power.",
+        "High brightness for improved whiteness and finish quality.",
+        "Good dispersion characteristics for smooth formulation processing.",
+        "Consistent performance across various coating systems.",
+        "Fine powder form for easy incorporation into formulations.",
+        "Reliable batch-to-batch quality for industrial manufacturing.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in architectural and decorative paints.",
+        "Suitable for industrial coatings requiring superior opacity and brightness.",
+        "Applied in protective coatings for enhanced durability and appearance.",
+        "Used in water-based and solvent-based paint formulations.",
+        "Suitable for interior and exterior coating applications.",
+        "Applied in specialty coatings requiring consistent pigment performance.",
+        "Ideal for paint and coating manufacturers seeking dependable Titanium Dioxide quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial applications.",
+        "We provide reliable supply of Pangang CR-340 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Usage/Application",
+      value: "Paint & Coatings",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Cas Number",
+      value: "13463-67-7",
+    },
+
+    {
+      label: "Pack Type",
+      value: "Bag",
+    },
+
+    {
+      label: "Pack Size",
+      value: "25 Kg",
+    },
+
+    {
+      label: "Brand",
+      value: "Pangang",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Pangang CR-340.webp",
+      alt: "Pangang CR-340 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "pangang-r-249-titanium-dioxide",
+
+  name: "Pangang R-249 Titanium Dioxide",
+
+  metaTitle:
+    "Pangang R-249 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Pangang R-249 Titanium Dioxide for industrial applications including coatings, plastics, and inks. Strong performance and consistency.",
+
+  overview:
+    "Pangang R-249 Titanium Dioxide is a premium-quality rutile TiO₂ pigment designed to deliver excellent brightness, opacity, and dispersion performance. Manufactured with advanced surface treatment technology, the product provides reliable processing characteristics and consistent quality across industrial applications. With a TiO₂ content of ≥96%, R-249 offers strong hiding power and enhanced whiteness for high-performance formulations. The pigment features inorganic alumina (Al₂O₃) and organic surface treatments that improve dispersion, durability, and compatibility in various systems.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Its high reducing power and excellent dispersibility make it suitable for demanding coating, plastic, and industrial applications.",
+        "Supplied in fine powder form, it ensures smooth incorporation into manufacturing processes and formulation systems.",
+        "Provides strong hiding power and enhanced whiteness for high-performance formulations.",
+        "Advanced surface treatments improve durability, dispersion, and compatibility.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium rutile Titanium Dioxide pigment.",
+        "TiO₂ content of ≥96% for reliable industrial performance.",
+        "Brightness of ≥94.5% for enhanced whiteness and appearance.",
+        "Excellent dispersibility of 6.0 Hegman.",
+        "High reducing power of 1800 Reynolds Number.",
+        "Alumina (Al₂O₃) inorganic treatment with organic surface treatment.",
+        "Low oil absorption and low volatile matter for improved formulation stability.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Architectural and industrial paints.",
+        "Decorative and protective coatings.",
+        "Plastic compounds and masterbatches.",
+        "PVC products and profiles.",
+        "Rubber and polymer formulations.",
+        "Printing inks and specialty coatings.",
+        "General-purpose industrial applications requiring high-quality rutile TiO₂.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments.",
+        "We provide reliable supply of Pangang R-249 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Bag",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Color",
+      value: "White",
+    },
+
+    {
+      label: "Grade",
+      value: "R249",
+    },
+
+    {
+      label: "CAS Number",
+      value: "13463-67-7",
+    },
+
+    {
+      label: "Chemical Formula",
+      value: "TiO₂",
+    },
+
+    {
+      label: "Molar Mass",
+      value: "79.866 g/mol",
+    },
+
+    {
+      label: "Density",
+      value: "4.23 g/cm³",
+    },
+
+    {
+      label: "Melting Point",
+      value: "1843°C",
+    },
+
+    {
+      label: "Boiling Point",
+      value: "2972°C",
+    },
+
+    {
+      label: "TiO₂ Content",
+      value: "≥96%",
+    },
+
+    {
+      label: "Brightness",
+      value: "≥94.5%",
+    },
+
+    {
+      label: "Reducing Power",
+      value: "1800 Reynolds Number",
+    },
+
+    {
+      label: "Dispersibility",
+      value: "6.00 Hegman",
+    },
+
+    {
+      label: "Oil Absorption",
+      value: "≤17 g/100g",
+    },
+
+    {
+      label: "Volatile at 105°C",
+      value: "≤0.5%",
+    },
+
+    {
+      label: "Inorganic Treatment",
+      value: "Al₂O₃",
+    },
+
+    {
+      label: "Organic Treatment",
+      value: "Yes",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Pangang R-249.webp",
+      alt: "Pangang R-249 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "taihai-thr-218-titanium-dioxide",
+
+  name: "Taihai Group THR-218 Titanium Dioxide",
+
+  metaTitle:
+    "Taihai THR-218 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Taihai THR-218 Titanium Dioxide for paints, coatings, plastics, inks, and industrial applications. High brightness and quality.",
+
+  overview:
+    "Taihai Group THR-218 Titanium Dioxide is a high-quality white rutile TiO₂ pigment designed for a broad range of industrial applications. Manufactured by Taihai Group, the product provides excellent brightness, opacity, and dispersion characteristics. THR-218 is suitable for coatings, printing inks, paper, plastics, leather, and other specialty applications requiring reliable pigment performance. The pigment's high density and controlled moisture content contribute to stable processing and consistent product quality.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Supplied as a fine white powder, it ensures smooth incorporation into various manufacturing formulations.",
+        "Its versatile application profile makes it an ideal choice for industries seeking dependable whiteness, coverage, and durability.",
+        "The product offers reliable processing characteristics and consistent industrial performance.",
+        "Designed to support high-quality finished products across multiple applications.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality Titanium Dioxide pigment.",
+        "Suitable for multiple industrial applications.",
+        "Excellent whiteness and opacity.",
+        "Good dispersion and processing characteristics.",
+        "High density for reliable pigment performance.",
+        "Low moisture content for formulation stability.",
+        "Consistent batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Paint and coating formulations.",
+        "Printing inks.",
+        "Paper and paper coating applications.",
+        "Plastic compounds and masterbatches.",
+        "Leather finishing applications.",
+        "Industrial and specialty chemical formulations.",
+        "General-purpose pigment applications requiring high-quality white coloration.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments.",
+        "We provide reliable supply of Taihai Group THR-218 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Brand",
+      value: "TAIHAI",
+    },
+
+    {
+      label: "Grade",
+      value: "THR-218",
+    },
+
+    {
+      label: "Application",
+      value: "Coating, Printing Ink, Paper, Plastic, Leather, etc.",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Bag",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Physical Form",
+      value: "White Powder",
+    },
+
+    {
+      label: "Density",
+      value: "4.2 g/cm³",
+    },
+
+    {
+      label: "Moisture",
+      value: "< 0.5%",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Taihai group THR-218.webp",
+      alt: "Taihai Group THR-218 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "taihai-thr-6666-titanium-dioxide",
+
+  name: "Taihai Group THR-6666 Titanium Dioxide",
+
+  metaTitle:
+    "Taihai THR-6666 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Taihai THR-6666 Titanium Dioxide for coatings, plastics, inks, and industrial use. Premium brightness and durability.",
+
+  overview:
+    "Taihai Group THR-6666 Titanium Dioxide is a premium-quality rutile TiO₂ pigment developed for plastic applications requiring excellent whiteness, opacity, and processing stability. Manufactured by Taihai Group, the product is specifically designed for polyolefin, PVC, and masterbatch formulations. The pigment provides reliable dispersion and consistent performance, helping manufacturers achieve high-quality finished products. With a controlled pH range of 6.5–7.0 and moisture content below 0.3%, THR-6666 supports stable processing and formulation efficiency.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Supplied as a fine white powder, it ensures smooth incorporation into plastic compounds and masterbatch production.",
+        "The product is suitable for a wide range of thermoplastic applications where brightness, coverage, and consistency are essential.",
+        "Provides dependable dispersion and excellent opacity for plastic formulations.",
+        "Engineered for stable processing and reliable manufacturing performance.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality Titanium Dioxide pigment for plastics.",
+        "Suitable for polyolefin, PVC, and masterbatch applications.",
+        "Excellent whiteness and opacity.",
+        "Controlled pH for stable processing performance.",
+        "Low moisture content (<0.3%) for improved formulation stability.",
+        "Fine white powder for easy dispersion and incorporation.",
+        "Consistent batch-to-batch quality and performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Polyolefin compounds and products.",
+        "PVC pipes, fittings, profiles, and sheets.",
+        "Color and white masterbatch manufacturing.",
+        "Plastic extrusion and injection molding applications.",
+        "Thermoplastic processing industries.",
+        "Packaging and consumer plastic products.",
+        "General-purpose plastic formulations requiring premium TiO₂ performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments.",
+        "We provide reliable supply of Taihai Group THR-6666 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "6666",
+    },
+
+    {
+      label: "Application",
+      value: "Polyolefin, PVC, Masterbatch, etc.",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Brand",
+      value: "TAIHAI",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Bag",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Physical Form",
+      value: "White Powder",
+    },
+
+    {
+      label: "pH Value",
+      value: "6.5–7.0",
+    },
+
+    {
+      label: "Moisture",
+      value: "< 0.3%",
+    },
+
+    {
+      label: "Appearance",
+      value: "White Powder",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Taihai group THR-6666.webp",
+      alt: "Taihai Group THR-6666 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "dawn-r-2295-titanium-dioxide",
+
+  name: "Dawn R-2295 Titanium Dioxide",
+
+  metaTitle:
+    "Dawn R-2295 Titanium Dioxide Supplier | TiO₂ R2295 | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Dawn R-2295 Titanium Dioxide for paints, coatings, plastics, inks, and industrial applications. Excellent opacity and brightness.",
+
+  overview:
+    "Dawn R-2295 Titanium Dioxide is a premium-quality rutile TiO₂ pigment specially developed for textile applications. Manufactured by Dawn, the product delivers excellent whiteness, opacity, and color consistency for textile processing and finishing. With a purity level of 95–97%, R-2295 provides reliable pigment performance and stable manufacturing results. The alumina-coated surface treatment enhances dispersion, durability, and compatibility within textile formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Featuring a whiteness level of ≥96%, the pigment helps achieve bright, clean, and visually appealing textile products.",
+        "Supplied in fine powder form, it ensures smooth incorporation into textile processing systems and specialty formulations.",
+        "Designed for textile applications requiring reliable opacity, color consistency, and processing performance.",
+        "Provides stable manufacturing results and dependable pigment efficiency.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality rutile Titanium Dioxide pigment for textile applications.",
+        "Purity of 95–97% ensures dependable industrial performance.",
+        "Whiteness of ≥96% enhances brightness and appearance.",
+        "Alumina-coated surface treatment improves dispersion and formulation stability.",
+        "Excellent opacity provides strong coverage and color development.",
+        "Fine powder form supports smooth processing and manufacturing efficiency.",
+        "Consistent batch-to-batch quality for reliable production results.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Widely used in textile processing and finishing applications.",
+        "Suitable for textile coatings requiring superior whiteness and opacity.",
+        "Applied in textile printing formulations for enhanced brightness.",
+        "Used in specialty textile products demanding consistent pigment performance.",
+        "Suitable for industrial textile manufacturing processes.",
+        "Applied in fabric treatment applications requiring high-quality white pigments.",
+        "Ideal for textile formulations requiring premium Titanium Dioxide performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial applications.",
+        "We provide reliable supply of Dawn R-2295 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "R-2295",
+    },
+    {
+      label: "Application",
+      value: "Textile",
+    },
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+    {
+      label: "Form",
+      value: "Powder",
+    },
+    {
+      label: "Purity",
+      value: "95–97%",
+    },
+    {
+      label: "Brand",
+      value: "Dawn",
+    },
+    {
+      label: "Whiteness",
+      value: "≥96%",
+    },
+    {
+      label: "Surface Treatment",
+      value: "Alumina Coated",
+    },
+    {
+      label: "Packaging Type",
+      value: "HDPE Bag",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Dawn R-2295.webp",
+      alt: "Dawn R-2295 Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "ttpl-shunk-titanium-dioxide",
+
+  name: "TTPL Shunk Titanium Dioxide",
+
+  metaTitle:
+    "TTPL Shunk Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies TTPL Shunk Titanium Dioxide for coatings, plastics, inks, and industrial applications. Reliable performance and dispersion.",
+
+  overview:
+    "TTPL Shunk Titanium Dioxide is a high-quality TiO₂ pigment developed for paint and coating applications requiring excellent opacity, brightness, and consistent performance. Manufactured by TTPL, the product is designed to deliver reliable results across a wide range of industrial and decorative coating formulations. The pigment provides strong hiding power, helping manufacturers achieve bright, durable, and aesthetically appealing finishes. Its fine powder form ensures smooth dispersion and easy incorporation into water-based and solvent-based coating systems.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "TTPL Shunk offers stable processing characteristics, supporting efficient production and formulation consistency.",
+        "The product is suitable for applications where whiteness, coverage, and long-term coating performance are important.",
+        "Provides strong hiding power for bright, durable, and aesthetically appealing finishes.",
+        "Fine powder form ensures smooth dispersion and easy incorporation into coating systems.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality Titanium Dioxide pigment.",
+        "Excellent opacity and hiding power.",
+        "High brightness and whiteness.",
+        "Good dispersion characteristics.",
+        "Consistent processing performance.",
+        "Suitable for industrial and decorative coatings.",
+        "Reliable batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Architectural paints.",
+        "Industrial coatings.",
+        "Decorative paint formulations.",
+        "Protective coating systems.",
+        "Water-based paint applications.",
+        "Solvent-based coating formulations.",
+        "Specialty coatings requiring high-quality white pigments.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments for industrial applications.",
+        "We provide reliable supply of TTPL Shunk Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Usage/Application",
+      value: "Paint & Coatings",
+    },
+    {
+      label: "Form",
+      value: "Powder",
+    },
+    {
+      label: "CAS Number",
+      value: "13463-67-7",
+    },
+    {
+      label: "Brand",
+      value: "TTPL",
+    },
+    {
+      label: "Model No",
+      value: "Shunk",
+    },
+    {
+      label: "Pack Type",
+      value: "Bag",
+    },
+    {
+      label: "Pack Size",
+      value: "25 Kg",
+    },
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/TTPL Shunk.webp",
+      alt: "TTPL Shunk Titanium Dioxide",
+    },
+  ],
+},
+
+{
+  id: "cosmos-b-101-titanium-dioxide",
+
+  name: "Cosmos B-101 Titanium Dioxide",
+
+  metaTitle:
+    "Cosmos B-101 Titanium Dioxide Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Cosmos B-101 Titanium Dioxide for plastic applications. High brightness, excellent whiteness, good dispersion, and reliable industrial performance.",
+
+  overview:
+    "Cosmos B-101 is a high-quality anatase Titanium Dioxide (TiO₂) pigment developed for plastic applications requiring excellent brightness and color performance. Manufactured under the Cosmos brand, the product delivers superior whiteness, good dispersion, and reliable processing characteristics. With a high CIEL brightness value of 98.50%, B-101 helps achieve bright, clean, and visually appealing plastic products. The pigment features a blue undertone, enhancing the optical appearance and whiteness of finished formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Produced using the anatase process, it offers consistent quality and stable performance across various plastic applications.",
+        "Its fine particle structure supports smooth incorporation into plastic compounds and manufacturing processes.",
+        "The blue undertone enhances optical appearance and improves perceived whiteness in finished products.",
+        "Designed for manufacturers seeking reliable brightness, dispersion, and processing performance.",
+        "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality anatase Titanium Dioxide pigment.",
+        "High CIEL brightness value of 98.50%.",
+        "Blue undertone for enhanced whiteness and visual appeal.",
+        "Good dispersion and processing characteristics.",
+        "Suitable for plastic manufacturing applications.",
+        "Consistent batch-to-batch quality.",
+        "Reliable industrial performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Plastic compounds and formulations.",
+        "Plastic extrusion processes.",
+        "Injection molding applications.",
+        "Consumer plastic products.",
+        "Packaging materials.",
+        "PVC and thermoplastic applications.",
+        "General-purpose plastic manufacturing requiring high-quality white pigments.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality TiO₂ pigments.",
+        "We provide reliable supply of Cosmos B-101 Titanium Dioxide with consistent quality and competitive pricing.",
+        "As a leading supplier in India, we ensure timely delivery and dependable logistics support.",
+        "Our strict quality assurance standards maintain stable product performance across all batches.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Our commitment to quality, reliability, and customer satisfaction ensures long-term business partnerships.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "B101",
+    },
+    {
+      label: "Brand",
+      value: "Cosmos",
+    },
+    {
+      label: "Application",
+      value: "Plastic",
+    },
+    {
+      label: "CIEL",
+      value: "98.50%",
+    },
+    {
+      label: "Tone",
+      value: "Blue",
+    },
+    {
+      label: "Process",
+      value: "Anatase",
+    },
+    {
+      label: "Source",
+      value: "Germany",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Cosmos B-101.webp",
+      alt: "Cosmos B-101 Titanium Dioxide",
+    },
+  ],
+},
+
+
+
     ],
   },
   {
@@ -9856,6 +11109,2186 @@ export const categories = [
           },
         ],
       },
+
+      {
+  id: "phillips-n-220-carbon-black",
+
+  name: "Phillips N-220 Carbon Black",
+
+  metaTitle:
+    "Philips N-220 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips N-220 Carbon Black for rubber, tires, plastics, and industrial applications. High reinforcement and durability.",
+
+  overview:
+    "Phillips N-220 Carbon Black is a high-performance black pigment widely used in paint, plastic, and rubber applications. Manufactured under the Phillips brand, the product delivers excellent jetness, tinting strength, and dispersion characteristics. The N-220 grade is designed to provide superior reinforcement, color consistency, and processing performance across industrial formulations. Supplied in granule form, it offers easy handling, reduced dust generation, and efficient incorporation into manufacturing processes.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product provides deep black coloration and reliable performance for a wide range of industrial applications.",
+        "Its consistent quality helps manufacturers achieve uniform product appearance and dependable processing results.",
+        "Granular form allows easy handling, reduced dust generation, and improved manufacturing efficiency.",
+        "Designed for applications requiring strong tinting strength, reinforcement, and color consistency.",
+        "As a trusted supplier of specialty pigments and industrial chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-220 Carbon Black.",
+        "Excellent blackness and tinting strength.",
+        "Good dispersion and processing characteristics.",
+        "Suitable for paint, plastic, and rubber applications.",
+        "Granular form for easy handling and reduced dust.",
+        "Consistent batch-to-batch quality.",
+        "Reliable industrial performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Plastic compounds and masterbatches.",
+        "Rubber products and rubber compounding.",
+        "PVC formulations.",
+        "Industrial coatings.",
+        "Automotive and engineering rubber components.",
+        "General-purpose black pigmentation applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "Reliable product availability and competitive pricing.",
+        "Consistent quality control across all supplied batches.",
+        "Timely delivery and dependable logistics support.",
+        "Comprehensive portfolio including Titanium Dioxide, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and Carbon Black.",
+        "Bulk supply capabilities for large-scale manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "N-220",
+    },
+    {
+      label: "Brand",
+      value: "Phillips",
+    },
+    {
+      label: "Usage/Application",
+      value: "Paint, Plastic & Rubber",
+    },
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+    {
+      label: "Packaging Type",
+      value: "Bag",
+    },
+    {
+      label: "Form",
+      value: "Granules",
+    },
+    {
+      label: "Color",
+      value: "Black",
+    },
+    {
+      label: "Country of Origin",
+      value: "Made in India",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips N-220.webp",
+      alt: "Phillips N-220 Carbon Black",
+    },
+  ],
+},
+{
+  id: "phillips-n-660-carbon-black",
+
+  name: "Phillips N-660 Carbon Black",
+
+  metaTitle:
+    "Philips N-660 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips N-660 Carbon Black for rubber, plastics, coatings, and industrial use. Balanced performance and strength.",
+
+  overview:
+    "Phillips N-660 Carbon Black is an industrial-grade black pigment widely used in paint, coating, plastic, and rubber applications. Manufactured by Phillips, the product offers reliable color strength, good dispersion properties, and consistent industrial performance. With a purity level of 99%, N-660 delivers dependable pigmentation and formulation stability across various manufacturing processes. The product is designed to provide deep black coloration and uniform appearance in finished products.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Supplied in high-quality packaging, it supports convenient storage, handling, and transportation.",
+        "N-660 Carbon Black is suitable for applications requiring cost-effective reinforcement and pigmentation performance.",
+        "Provides deep black coloration and consistent appearance in finished products.",
+        "Designed for stable processing and reliable industrial performance across various formulations.",
+        "As a trusted supplier of industrial chemicals and pigments, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial-grade Carbon Black pigment.",
+        "High purity of 99%.",
+        "Excellent black color development.",
+        "Good dispersion and processing characteristics.",
+        "Consistent particle distribution for reliable performance.",
+        "Suitable for paint, plastic, and rubber applications.",
+        "Stable batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Protective and specialty coatings.",
+        "Plastic compounds and masterbatches.",
+        "Rubber compounding applications.",
+        "PVC and polymer formulations.",
+        "Industrial manufacturing processes requiring black pigmentation.",
+        "General-purpose coloring and reinforcement applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for diverse industrial applications.",
+        "We provide reliable supply of Phillips N-660 Carbon Black with consistent quality and competitive pricing.",
+        "Our stringent quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support throughout India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure complete customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "Industrial Grade",
+    },
+    {
+      label: "Application",
+      value: "Paint",
+    },
+    {
+      label: "Usage/Application",
+      value: "Industrial",
+    },
+    {
+      label: "Brand",
+      value: "Phillips",
+    },
+    {
+      label: "Packaging Size",
+      value: "25 Kg",
+    },
+    {
+      label: "Pack Type",
+      value: "Paper Bag",
+    },
+    {
+      label: "Packaging Type",
+      value: "HDPE Bag",
+    },
+    {
+      label: "Purity",
+      value: "99%",
+    },
+    {
+      label: "Color",
+      value: "Black",
+    },
+    {
+      label: "Country of Origin",
+      value: "Made in India",
+    },
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips N-660.webp",
+      alt: "Phillips N-660 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "philips-n-330-carbon-black",
+
+  name: "Philips N-330 Carbon Black",
+
+  metaTitle:
+    "Philips N-330 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips N-330 Carbon Black for tires, rubber, plastics, and industrial applications. Excellent reinforcement properties.",
+
+  overview:
+    "Phillips N-330 Carbon Black is a widely used reinforcing carbon black grade designed for paint, plastic, and rubber applications. Manufactured under the Philips brand, the product provides excellent blackness, tinting strength, and processing performance. The N-330 grade is known for its balanced reinforcement properties, making it suitable for a broad range of industrial formulations. Supplied in granule form, it offers improved handling, reduced dust generation, and efficient incorporation into production processes.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "With controlled ash and moisture content, the product delivers consistent quality and reliable manufacturing performance.",
+        "Its deep black coloration enhances the appearance and durability of finished products.",
+        "Designed for industrial applications requiring dependable pigmentation and reinforcement properties.",
+        "The granular form supports easy storage, handling, and processing efficiency.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "High-quality N-330 Carbon Black.",
+        "Excellent blackness and tinting strength.",
+        "Good reinforcement and dispersion characteristics.",
+        "Granular form for easy handling and processing.",
+        "Controlled ash and moisture content.",
+        "Suitable for paint, plastic, and rubber applications.",
+        "Consistent batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Plastic compounds and masterbatches.",
+        "Rubber products and rubber compounding.",
+        "PVC and polymer formulations.",
+        "Industrial coatings.",
+        "Automotive and engineering rubber applications.",
+        "General-purpose black pigmentation applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for diverse industrial applications.",
+        "We provide reliable supply of Phillips N-330 Carbon Black with consistent quality and competitive pricing.",
+        "Our stringent quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support throughout India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "N330",
+    },
+
+    {
+      label: "Brand",
+      value: "Philips",
+    },
+
+    {
+      label: "Application",
+      value: "Paint",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Paper Bag",
+    },
+
+    {
+      label: "Form",
+      value: "Granules",
+    },
+
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Ash Content",
+      value: "6%",
+    },
+
+    {
+      label: "Moisture",
+      value: "5%",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips N-330.webp",
+      alt: "Philips N-330 Carbon Black",
+    },
+  ],
+},
+{
+  id: "philips-n-550-carbon-black",
+
+  name: "Philips N-550 Carbon Black",
+
+  metaTitle:
+    "Philips N-550 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips N-550 Carbon Black for rubber, plastics, and industrial applications. Strong reinforcement and processing performance.",
+
+  overview:
+    "Phillips N-550 Carbon Black is a high-performance rubber-grade carbon black designed for applications requiring a balance of reinforcement, processability, and durability. Manufactured under the Philips brand, the product is widely used in rubber compounds, plastics, inks, and paint formulations. The N-550 grade provides good tensile strength, abrasion resistance, and dimensional stability in rubber products. With a low iodine number of ≤30 mg/g, it offers controlled surface activity and consistent processing characteristics.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product features low ash content and low volatile matter, ensuring reliable quality and formulation stability.",
+        "Supplied in powder form, it disperses efficiently within industrial manufacturing processes.",
+        "Designed for applications requiring strong reinforcement and dependable processing performance.",
+        "Provides consistent quality for a wide range of industrial formulations.",
+        "As a trusted supplier of specialty pigments and industrial chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-550 Carbon Black.",
+        "Rubber-grade material with excellent reinforcement properties.",
+        "Low iodine number (≤30 mg/g) for controlled performance.",
+        "Low ash content (≤0.5%) for improved product consistency.",
+        "Low volatile matter (≤1%) enhances stability.",
+        "Excellent dispersion and processing characteristics.",
+        "Suitable for multiple industrial applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and molded rubber products.",
+        "Industrial and automotive rubber components.",
+        "Plastic compounds and masterbatches.",
+        "Printing inks and specialty inks.",
+        "Paint and coating formulations.",
+        "PVC and polymer applications.",
+        "General-purpose black pigmentation and reinforcement applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Phillips N-550 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support throughout India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "Rubber Grade",
+    },
+
+    {
+      label: "Usage/Application",
+      value: "Rubber",
+    },
+
+    {
+      label: "Application",
+      value: "Plastic, Ink, Rubber, Paint",
+    },
+
+    {
+      label: "Iodine Number",
+      value: "≤30 mg/g",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Ash Content",
+      value: "≤0.5%",
+    },
+
+    {
+      label: "Volatile Matter",
+      value: "≤1%",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 Kg",
+    },
+
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Country of Origin",
+      value: "India",
+    },
+
+    {
+      label: "Brand",
+      value: "Philips",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips N-550.webp",
+      alt: "Philips N-550 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "philips-n-660-carbon-black",
+
+  name: "Philips N-660 Carbon Black",
+
+  metaTitle:
+    "Philips N-660 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips N-660 Carbon Black for rubber, plastics, coatings, and industrial use. Balanced performance and strength.",
+
+  overview:
+    "Phillips N-660 Carbon Black is an industrial-grade carbon black pigment designed for paint, coating, plastic, and rubber applications. Manufactured by Phillips, the product provides excellent color consistency, good dispersion characteristics, and reliable industrial performance. With a purity level of 99%, N-660 offers dependable pigmentation and formulation stability for a variety of manufacturing processes. The pigment delivers deep black coloration and enhanced coverage, making it suitable for industrial coating and coloring applications.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Supplied in industrial packaging, it ensures convenient handling, storage, and transportation.",
+        "N-660 is widely used where cost-effective reinforcement and consistent black pigmentation are required.",
+        "The product offers stable processing performance across diverse industrial formulations.",
+        "Designed to provide reliable color development and formulation consistency.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-660 Carbon Black.",
+        "Industrial-grade pigment for versatile applications.",
+        "High purity of 99%.",
+        "Excellent blackness and color consistency.",
+        "Good dispersion and processing properties.",
+        "Suitable for paint, plastic, and rubber formulations.",
+        "Reliable batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Protective and specialty coatings.",
+        "Plastic compounds and masterbatches.",
+        "Rubber products and rubber compounding.",
+        "PVC and polymer formulations.",
+        "Industrial coloring applications.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Phillips N-660 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Grade",
+      value: "Industrial Grade",
+    },
+
+    {
+      label: "Application",
+      value: "Paint",
+    },
+
+    {
+      label: "Usage/Application",
+      value: "Industrial",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 Kg",
+    },
+
+    {
+      label: "Pack Type",
+      value: "Paper Bag",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "HDPE Bag",
+    },
+
+    {
+      label: "Purity",
+      value: "99%",
+    },
+
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Brand",
+      value: "Phillips",
+    },
+
+    {
+      label: "Country of Origin",
+      value: "Made in India",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips N-660.webp",
+      alt: "Philips N-660 Carbon Black",
+    },
+  ],
+},
+{
+  id: "philips-p-435-carbon-black",
+
+  name: "Philips P-435 Carbon Black",
+
+  metaTitle:
+    "Philips P-435 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips P-435 Carbon Black for inks, coatings, plastics, and industrial applications. High tinting strength and dispersion.",
+
+  overview:
+    "Phillips P-435 Carbon Black is a premium-quality black pigment developed for rubber and plastic applications. Manufactured by Phillips, the product offers excellent color strength, dispersion properties, and processing performance. Produced from high-quality carbon black material, P-435 provides deep black coloration and consistent product appearance. The fine powder form ensures smooth incorporation into rubber compounds and plastic formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is suitable for manufacturers seeking reliable pigmentation and reinforcement characteristics in industrial applications.",
+        "Its consistent quality supports stable processing and uniform finished-product performance.",
+        "Designed to deliver dependable color development and manufacturing efficiency.",
+        "Fine powder form enables smooth incorporation into a variety of formulations.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality P-435 Carbon Black.",
+        "Deep black color and strong pigmentation performance.",
+        "Good dispersion characteristics.",
+        "Suitable for rubber and plastic applications.",
+        "Fine powder form for easy processing.",
+        "Consistent batch-to-batch quality.",
+        "Reliable industrial-grade performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and molded rubber products.",
+        "Plastic compounds and masterbatches.",
+        "PVC processing applications.",
+        "Industrial polymer formulations.",
+        "Engineering plastic products.",
+        "General-purpose black pigmentation systems.",
+        "Industrial manufacturing requiring consistent black coloration.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Phillips P-435 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Brand",
+      value: "Phillips",
+    },
+
+    {
+      label: "Material",
+      value: "Carbon Black",
+    },
+
+    {
+      label: "Grade",
+      value: "P435",
+    },
+
+    {
+      label: "Appearance",
+      value: "Powder",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Usage/Application",
+      value: "Rubber, Plastic",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips P-435.webp",
+      alt: "Philips P-435 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "philips-pp-1201-carbon-black",
+
+  name: "Philips PP-1201 Carbon Black",
+
+  metaTitle:
+    "Philips PP-1201 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Philips PP-1201 Carbon Black for specialty applications in plastics, coatings, and industrial sectors. Stable and high-quality performance.",
+
+  overview:
+    "Phillips PP-1201 Carbon Black is a high-quality black pigment designed for paint, plastic, and rubber applications. Manufactured by Phillips, the product provides excellent color strength, uniform dispersion, and reliable industrial performance. The granular form ensures easy handling, reduced dust generation, and efficient incorporation into manufacturing processes. PP-1201 delivers deep black coloration and consistent appearance across a wide range of industrial formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is suitable for applications requiring stable pigmentation, process efficiency, and dependable product quality.",
+        "Its consistent particle characteristics contribute to uniform color development and manufacturing reliability.",
+        "Granular form supports easy storage, handling, and incorporation into industrial formulations.",
+        "Designed to provide reliable black pigmentation across multiple industrial sectors.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality PP-1201 Carbon Black.",
+        "Deep black color with excellent tinting performance.",
+        "Granular form for easy handling and processing.",
+        "Good dispersion characteristics.",
+        "Suitable for paint, plastic, and rubber applications.",
+        "Consistent batch-to-batch quality.",
+        "Reliable industrial-grade performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Decorative and industrial paints.",
+        "Plastic compounds and masterbatches.",
+        "Rubber products and rubber compounding.",
+        "PVC and polymer formulations.",
+        "Industrial coatings.",
+        "Engineering plastic applications.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Phillips PP-1201 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Form",
+      value: "Granules",
+    },
+
+    {
+      label: "Usage/Application",
+      value: "Paint, Plastic & Rubber",
+    },
+
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Brand",
+      value: "Phillips",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Phillips PP-1201.webp   ",
+      alt: "Philips PP-1201 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "continental-n-220-carbon-black",
+
+  name: "Continental N-220 Carbon Black",
+
+  metaTitle:
+    "Continental N-220 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Continental N-220 Carbon Black for rubber, tires, plastics, and industrial applications. High reinforcement and durability.",
+
+  overview:
+    "Continental N-220 Carbon Black is an industrial-grade carbon black supplied for various manufacturing and processing applications. Known for its high purity of 99%, the product delivers consistent quality and dependable industrial performance. N-220 Carbon Black offers excellent reliability and stable processing characteristics across multiple industrial sectors. The product is widely utilized where high-performance carbon black is required for pigmentation, reinforcement, and specialized industrial applications.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Its controlled quality parameters help ensure uniform product performance and manufacturing consistency.",
+        "Suitable for industrial users seeking reliable raw materials with proven performance characteristics.",
+        "Provides dependable reinforcement and pigmentation performance for industrial formulations.",
+        "Supports stable processing and manufacturing efficiency across various applications.",
+        "As a trusted supplier of industrial chemicals and specialty pigments, Corechem Corporation provides dependable supply, competitive pricing, and quality assurance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "High purity of 99%.",
+        "Excellent industrial-grade performance.",
+        "High reliability and consistent quality.",
+        "Stable processing characteristics.",
+        "Suitable for demanding industrial applications.",
+        "Uniform product quality.",
+        "Reliable supply and availability.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial manufacturing processes.",
+        "Rubber compounding applications.",
+        "Plastic and polymer formulations.",
+        "Pigment and color concentrate production.",
+        "Industrial processing requiring carbon black additives.",
+        "Specialty chemical applications.",
+        "General-purpose industrial use.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Continental N-220 Carbon Black with consistent quality and competitive pricing.",
+        "Strict quality control ensures dependable performance across all supplied batches.",
+        "Timely delivery and efficient logistics support throughout India.",
+        "Comprehensive product portfolio including Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities for large-scale industrial requirements.",
+        "Dedicated customer support and long-term supply solutions.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Business Type",
+      value: "Supplier, Importer",
+    },
+
+    {
+      label: "Application",
+      value: "High Heating, Steaming",
+    },
+
+    {
+      label: "Purity",
+      value: "99%",
+    },
+
+    {
+      label: "Feature",
+      value: "High Combustion Rating, High Fast Flaming, High Reliability",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Continental N-220.webp",
+      alt: "Continental N-220 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "ebsilon-n-220-carbon-black",
+
+  name: "Ebsilon N-220 Carbon Black",
+
+  metaTitle:
+    "Ebsilon N-220 Titanium Dioxide Supplier | High-Quality TiO₂ | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Ebsilon N-220 Titanium Dioxide for paints, coatings, plastics, inks, paper, and industrial applications. High brightness, opacity, and consistent performance.",
+
+  overview:
+    "Ebsilon N-220 is a premium-quality Carbon Black pigment designed for paint and industrial applications. Manufactured from high-quality carbon material, the product delivers excellent blackness, color strength, and processing performance. The N-220 grade is widely used where deep black coloration and consistent pigment quality are required. Supplied in powder form, it offers easy dispersion and smooth incorporation into various formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is suitable for industrial applications requiring reliable pigmentation and stable processing characteristics.",
+        "Ebsilon N-220 is available for supply across India with dependable delivery schedules and bulk-order capabilities.",
+        "Provides excellent blackness and color consistency for demanding industrial formulations.",
+        "Supports smooth processing and efficient incorporation into manufacturing systems.",
+        "As a trusted supplier of industrial chemicals and pigments, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-220 Carbon Black.",
+        "Deep black color and strong tinting performance.",
+        "High-quality carbon material.",
+        "Powder form for easy processing and dispersion.",
+        "Suitable for paint and industrial applications.",
+        "Reliable supply and consistent quality.",
+        "Bulk availability for industrial requirements.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Paint and coating formulations.",
+        "Industrial pigment applications.",
+        "Plastic compounds and masterbatches.",
+        "Rubber processing applications.",
+        "Polymer and specialty chemical formulations.",
+        "General-purpose black pigmentation systems.",
+        "Industrial manufacturing processes.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Ebsilon N-220 Carbon Black with consistent quality and competitive pricing.",
+        "Strict quality control ensures dependable product performance.",
+        "Timely delivery and efficient logistics support across India.",
+        "Comprehensive portfolio including Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities for large-scale industrial manufacturing.",
+        "Dedicated customer support and long-term supply solutions.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Material",
+      value: "Carbon",
+    },
+
+    {
+      label: "Size",
+      value: "As per required",
+    },
+
+    {
+      label: "Application",
+      value: "Paint",
+    },
+
+    {
+      label: "Shape",
+      value: "Powder",
+    },
+
+    {
+      label: "Payment Terms",
+      value: "Cash in Advance (CID)",
+    },
+
+    {
+      label: "Supply Ability",
+      value: "5000 Per Month",
+    },
+
+    {
+      label: "Delivery Time",
+      value: "7 Days",
+    },
+
+    {
+      label: "Main Domestic Market",
+      value: "All India",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Ebsilon N-220 Carbon Black.webp",
+      alt: "Ebsilon N-220 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "continental-n-330-carbon-black",
+
+  name: "Continental N-330 Carbon Black",
+
+  metaTitle:
+    "Continental N-330 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Continental N-330 Carbon Black for rubber, plastics, coatings, and industrial applications. High reinforcement, tinting strength, and stability.",
+
+  overview:
+    "Continental N-330 Carbon Black is a high-performance industrial pigment widely used in paints, plastics, rubber compounds, and specialty applications. The N-330 grade is recognized for its excellent blackness, tinting strength, and reinforcement characteristics. Supplied in fine powder form, the product offers good dispersion and easy incorporation into industrial formulations. It delivers deep black coloration and consistent product appearance across a wide range of manufacturing processes.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is available in customized packaging options to meet specific customer requirements.",
+        "Designed for reliable industrial performance, Continental N-330 provides stable quality and processing efficiency.",
+        "Its fine powder form supports smooth incorporation into a variety of industrial formulations.",
+        "Provides consistent black pigmentation and dependable reinforcement properties.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-330 Carbon Black.",
+        "Deep black color with excellent tinting strength.",
+        "Fine powder form for smooth dispersion.",
+        "Good reinforcement and processing properties.",
+        "Suitable for multiple industrial applications.",
+        "Customized packaging options available.",
+        "Consistent batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Plastic compounds and masterbatches.",
+        "Rubber compounding and molded rubber products.",
+        "PVC and polymer formulations.",
+        "Industrial coatings.",
+        "Specialty chemical applications.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Continental N-330 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Colour",
+      value: "Black",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Packaging",
+      value: "Customized",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Continental N-330 Carbon Black.webp",
+      alt: "Continental N-330 Carbon Black",
+    },
+  ],
+},  
+{
+  id: "continental-n-330-carbon-black",
+
+  name: "Continental N-330 Carbon Black",
+
+  metaTitle:
+    "Continental N-330 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Continental N-330 Carbon Black for rubber, plastics, coatings, and industrial applications. High reinforcement, tinting strength, and stability.",
+
+  overview:
+    "Continental N-330 Carbon Black is a high-performance industrial pigment widely used in paints, plastics, rubber compounds, and specialty applications. The N-330 grade is recognized for its excellent blackness, tinting strength, and reinforcement characteristics. Supplied in fine powder form, the product offers good dispersion and easy incorporation into industrial formulations. It delivers deep black coloration and consistent product appearance across a wide range of manufacturing processes.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is available in customized packaging options to meet specific customer requirements.",
+        "Designed for reliable industrial performance, Continental N-330 provides stable quality and processing efficiency.",
+        "Its fine powder form supports smooth incorporation into a variety of industrial formulations.",
+        "Provides consistent black pigmentation and dependable reinforcement properties.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-330 Carbon Black.",
+        "Deep black color with excellent tinting strength.",
+        "Fine powder form for smooth dispersion.",
+        "Good reinforcement and processing properties.",
+        "Suitable for multiple industrial applications.",
+        "Customized packaging options available.",
+        "Consistent batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Industrial and decorative paints.",
+        "Plastic compounds and masterbatches.",
+        "Rubber compounding and molded rubber products.",
+        "PVC and polymer formulations.",
+        "Industrial coatings.",
+        "Specialty chemical applications.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Continental N-330 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Colour",
+      value: "Black",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Packaging",
+      value: "Customized",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Ebsilon N-220.webp",
+      alt: "Continental N-330 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "continental-n-550-carbon-black",
+
+  name: "Continental N-550 Carbon Black",
+
+  metaTitle:
+    "Continental N-550 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Continental N-550 Carbon Black for rubber compounds, plastics, automotive components, and industrial applications. Balanced reinforcement, durability, and processing performance.",
+
+  overview:
+    "Continental N-550 Carbon Black is a premium-quality reinforcing carbon black grade developed for rubber applications. The N-550 grade provides an excellent balance of reinforcement, processability, and durability in rubber compounds. Supplied in granule form, the product ensures easy handling, reduced dust generation, and efficient mixing during manufacturing. It delivers consistent black coloration and reliable physical properties across industrial rubber formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product is widely used in molded rubber goods, automotive components, and industrial rubber products.",
+        "Its stable quality supports uniform processing and dependable finished-product performance.",
+        "Granular form improves handling efficiency and reduces dust generation during production.",
+        "Provides reliable reinforcement and pigmentation performance for industrial rubber compounds.",
+        "Suitable for applications requiring durability, processability, and consistent black coloration.",
+        "Designed to support efficient mixing and manufacturing performance.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "High-quality N-550 Carbon Black.",
+        "Designed for rubber industry applications.",
+        "Excellent reinforcement properties.",
+        "Good processing and dispersion characteristics.",
+        "Granular form for easy handling and mixing.",
+        "Consistent black coloration.",
+        "Reliable batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and molded rubber products.",
+        "Automotive rubber components.",
+        "Industrial rubber goods.",
+        "Rubber hoses and seals.",
+        "Engineering rubber applications.",
+        "Polymer and elastomer formulations.",
+        "General-purpose reinforcement and pigmentation applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Continental N-550 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Usage/Application",
+      value: "Rubber",
+    },
+
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Pack",
+    },
+
+    {
+      label: "Form",
+      value: "Granules",
+    },
+
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Continental N-550.webp",
+      alt: "Continental N-550 Carbon Black",
+    },
+  ],
+},
+{
+  id: "continental-n-660-carbon-black",
+
+  name: "Continental N-660 Carbon Black",
+
+  metaTitle:
+    "Continental N-660 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Continental N-660 Carbon Black for rubber, plastics, coatings, and industrial applications. High durability and consistent performance.",
+
+  overview:
+    "Continental N-660 Carbon Black is an industrial-grade carbon black pigment widely used in rubber, paint, plastics, and ink applications. The N-660 grade is known for its balanced reinforcement properties, good processability, and consistent black coloration. Manufactured for industrial applications, it provides reliable dispersion and stable performance across a variety of formulations. Supplied in powder form, the product allows easy incorporation into production processes and compound formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "With CAS Number 1333-86-4, it meets common industry requirements for carbon black applications.",
+        "The product is suitable for manufacturers seeking dependable pigmentation and reinforcement performance.",
+        "Provides excellent color consistency and stable processing characteristics.",
+        "Designed for use across a wide range of industrial formulations and manufacturing processes.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-660 Carbon Black.",
+        "Excellent black coloration and tinting performance.",
+        "Good dispersion and processing characteristics.",
+        "Suitable for multiple industrial applications.",
+        "Reliable reinforcement properties.",
+        "Consistent batch-to-batch quality.",
+        "Industrial-grade performance and stability.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and molded rubber products.",
+        "Industrial and decorative paints.",
+        "Plastic compounds and masterbatches.",
+        "Printing inks and specialty inks.",
+        "PVC and polymer formulations.",
+        "Industrial coating applications.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Continental N-660 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Color",
+      value: "Black",
+    },
+
+    {
+      label: "CAS Number",
+      value: "1333-86-4",
+    },
+
+    {
+      label: "Form",
+      value: "Powder",
+    },
+
+    {
+      label: "Grade",
+      value: "N660",
+    },
+
+    {
+      label: "Packaging Type",
+      value: "Loose",
+    },
+
+    {
+      label: "Usage",
+      value: "Rubber, Paint, Plastics, And Inks",
+    },
+
+    {
+      label: "Availability",
+      value: "In Stock",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Continental N-660.webp",
+      alt: "Continental N-660 Carbon Black",
+    },
+  ],
+},
+{
+  id: "ebsilon-n-330-carbon-black",
+
+  name: "Ebsilon N-330 Carbon Black",
+
+  metaTitle:
+    "Ebsilon N-330 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Ebsilon N-330 Carbon Black for rubber, plastics, coatings, and industrial applications. High reinforcement and stability.",
+
+  overview:
+    "Ebsilon N-330 Carbon Black is a high-performance reinforcing carbon black grade widely used in rubber, plastics, coatings, and industrial applications. The N-330 grade offers an excellent balance of reinforcement, processability, abrasion resistance, and tinting strength. Manufactured as a black granular material, it ensures easy handling, low dust generation, and efficient mixing during production. The product delivers consistent physical properties and reliable performance across a variety of industrial formulations.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Its optimized surface area and structure provide enhanced reinforcement characteristics and improved durability in rubber compounds.",
+        "Ebsilon N-330 is suitable for applications requiring strong mechanical properties and deep black coloration.",
+        "The granular form supports easy handling and efficient processing in manufacturing environments.",
+        "Designed to deliver reliable performance across a wide range of industrial formulations.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-330 Carbon Black.",
+        "Excellent reinforcement properties.",
+        "High tinting strength (98–108%).",
+        "Good abrasion resistance and durability.",
+        "Granular form for improved handling.",
+        "Low ash content and controlled moisture loss.",
+        "Consistent batch-to-batch quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and tire manufacturing.",
+        "Automotive rubber components.",
+        "Industrial rubber goods.",
+        "Plastic compounds and masterbatches.",
+        "PVC and polymer formulations.",
+        "Industrial coatings and specialty applications.",
+        "General-purpose black pigmentation and reinforcement systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Ebsilon N-330 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Appearance",
+      value: "Black Granular",
+    },
+
+    {
+      label: "Iodine Absorption",
+      value: "77–87 g/kg",
+    },
+
+    {
+      label: "CATB Absorptive Specific Surface Area",
+      value: "77–87 × 10³ m²/kg",
+    },
+
+    {
+      label: "DBP Absorption",
+      value: "97–107 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Absorptive Specific Surface Area",
+      value: "78–88 × 10³ m²/kg",
+    },
+
+    {
+      label: "Tinting Strength",
+      value: "98–108%",
+    },
+
+    {
+      label: "Compressed Sample DBP Absorption",
+      value: "83–93 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Heat Loss",
+      value: "2.5% Max",
+    },
+
+    {
+      label: "Ash",
+      value: "0.5% Max",
+    },
+
+    {
+      label: "Residue on 45μm Sieve",
+      value: "0.1% Max",
+    },
+
+    {
+      label: "Residue on 500μm Sieve",
+      value: "0.001% Max",
+    },
+
+    {
+      label: "300% Modulus at a Definite Elongation",
+      value: "-2.0 to 0.0 MPa",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Ebsilon N-330.webp",
+      alt: "Ebsilon N-330 Carbon Black",
+    },
+  ],
+},
+{
+  id: "ebsilon-n-550-carbon-black",
+
+  name: "Ebsilon N-550 Carbon Black",
+
+  metaTitle:
+    "Ebsilon N-550 Carbon Black Supplier | High-Performance Carbon Black | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Ebsilon N-550 Carbon Black for rubber, tires, plastics, coatings, and industrial applications. Excellent reinforcement, durability, and processing performance.",
+
+  overview:
+    "Ebsilon N-550 Carbon Black is a medium-reinforcing carbon black grade designed for rubber and industrial applications requiring a balance of processability, reinforcement, and durability. The N-550 grade is widely used in rubber compounds where good tensile strength, flexibility, and processing performance are essential. Manufactured as a black granular material, it offers excellent handling characteristics and reduced dust generation during production. Its controlled surface area and structure contribute to consistent compound properties and reliable manufacturing performance.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "The product provides good dispersion and reinforcement while maintaining efficient processing characteristics.",
+        "Ebsilon N-550 is suitable for a variety of industrial applications requiring dependable black pigmentation and mechanical performance.",
+        "Its granular form improves handling efficiency and minimizes dust generation during manufacturing.",
+        "Designed to deliver stable compound properties and reliable production consistency.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-550 Carbon Black.",
+        "Medium reinforcing carbon black grade.",
+        "Excellent processability and dispersion.",
+        "Good balance of strength and flexibility.",
+        "Granular form for improved handling.",
+        "Low ash content and controlled heat loss.",
+        "Consistent industrial performance.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and molded rubber products.",
+        "Automotive rubber components.",
+        "Industrial rubber goods.",
+        "Hoses, seals, and gaskets.",
+        "Plastic compounds and specialty formulations.",
+        "Polymer processing applications.",
+        "General-purpose reinforcement and pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Ebsilon N-550 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Appearance",
+      value: "Black Granular",
+    },
+
+    {
+      label: "Iodine Absorption",
+      value: "39–74 g/kg",
+    },
+
+    {
+      label: "CATB Absorptive Specific Surface Area",
+      value: "38–46 × 10³ m²/kg",
+    },
+
+    {
+      label: "DBP Absorption",
+      value: "116–126 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Absorptive Specific Surface Area",
+      value: "38–46 × 10³ m²/kg",
+    },
+
+    {
+      label: "Compressed Sample DBP Absorption",
+      value: "83–93 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Heat Loss",
+      value: "1.5% Max",
+    },
+
+    {
+      label: "Ash",
+      value: "0.5% Max",
+    },
+
+    {
+      label: "Residue on 45μm Sieve",
+      value: "0.1% Max",
+    },
+
+    {
+      label: "Residue on 500μm Sieve",
+      value: "0.001% Max",
+    },
+
+    {
+      label: "300% Modulus at a Definite Elongation",
+      value: "-2.0 to 0.0 MPa",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Ebsilon N-550.webp",
+      alt: "Ebsilon N-550 Carbon Black",
+    },
+  ],
+},
+
+{
+  id: "ebsilon-n-660-carbon-black",
+
+  name: "Ebsilon N-660 Carbon Black",
+
+  metaTitle:
+    "Ebsilon N-660 Carbon Black Supplier | Corechem Corporation",
+
+  metaDescription:
+    "Corechem Corporation supplies Ebsilon N-660 Carbon Black for rubber, plastics, coatings, and industrial applications. Strong reinforcement and stability.",
+
+  overview:
+    "Ebsilon N-660 Carbon Black is an industrial-grade carbon black pigment designed for applications requiring reliable performance, consistent quality, and efficient processing. Manufactured for industrial use, the N-660 grade offers a balanced combination of reinforcement, dispersion, and pigmentation properties. The product is supplied in powder form and provides deep black coloration for a variety of industrial formulations. Known for its high reliability and extended shelf life, Ebsilon N-660 supports stable storage and long-term product performance.",
+
+  description: [
+    {
+      type: "h2",
+      text: "Product Overview",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Its consistent particle characteristics help ensure uniform results across manufacturing batches.",
+        "The product is suitable for rubber, plastic, coating, ink, and other industrial applications where carbon black is required.",
+        "Provides reliable pigmentation and reinforcement performance across a broad range of formulations.",
+        "Designed for stable processing, storage, and long-term industrial use.",
+        "As a trusted supplier of industrial pigments and specialty chemicals, Corechem Corporation provides reliable supply, competitive pricing, and consistent product quality.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Key Features",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Premium-quality N-660 Carbon Black.",
+        "Deep black color and strong pigmentation performance.",
+        "High reliability and consistent quality.",
+        "Long shelf life for convenient storage.",
+        "Good dispersion and processing characteristics.",
+        "Suitable for multiple industrial applications.",
+        "Available for bulk industrial supply.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Applications",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Rubber compounds and industrial rubber goods.",
+        "Plastic compounds and masterbatches.",
+        "Paint and coating formulations.",
+        "Printing inks and specialty inks.",
+        "Polymer processing applications.",
+        "Industrial manufacturing processes.",
+        "General-purpose black pigmentation systems.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation supplies premium-quality Carbon Black grades for industrial applications.",
+        "We provide reliable supply of Ebsilon N-660 Carbon Black with consistent quality and competitive pricing.",
+        "Our strict quality control standards ensure dependable product performance.",
+        "We offer timely delivery and efficient logistics support across India.",
+        "Our product portfolio includes Titanium Dioxide, Carbon Black, Calcium Carbonate, Lithopone, Pigments, Optical Brighteners, and specialty chemicals.",
+        "Bulk supply capabilities support large-scale industrial manufacturing requirements.",
+        "Dedicated customer support and long-term supply solutions ensure customer satisfaction.",
+      ],
+    },
+  ],
+
+  specs: [
+    {
+      label: "Appearance",
+      value: "Black Granular",
+    },
+
+    {
+      label: "Iodine Absorption",
+      value: "32–40 g/kg",
+    },
+
+    {
+      label: "CATB Absorptive Specific Surface Area",
+      value: "32–40 × 10³ m²/kg",
+    },
+
+    {
+      label: "DBP Absorption",
+      value: "85–95 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Absorptive Specific Surface Area",
+      value: "30–40 × 10³ m²/kg",
+    },
+
+    {
+      label: "Compressed Sample DBP Absorption",
+      value: "71–79 × 10⁻⁵ m³/kg",
+    },
+
+    {
+      label: "Heat Loss",
+      value: "1.5% Max",
+    },
+
+    {
+      label: "Ash",
+      value: "0.5% Max",
+    },
+
+    {
+      label: "Residue on 45μm Sieve",
+      value: "0.1% Max",
+    },
+
+    {
+      label: "Residue on 500μm Sieve",
+      value: "0.001% Max",
+    },
+
+    {
+      label: "300% Modulus at a Definite Elongation",
+      value: "-3.5 to -1.5 MPa",
+    },
+  ],
+
+  image: [
+    {
+      src: "/prod/extra/Ebsilon N-660.webp",
+      alt: "Ebsilon N-660 Carbon Black",
+    },
+  ],
+},
+
     ],
   },
   {
