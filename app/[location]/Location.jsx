@@ -23,7 +23,7 @@ import WhychooseCity from "@/components/CityPage/WhychooseCity";
 import CTACity from "@/components/CityPage/CTACity";
 import FAQCity from "@/components/CityPage/FAQCity";
 import BelowCTA from "@/components/CityPage/BelowCTA";
-import FeaturesCity from "@/components/CityPage/FeaturesCIty";
+import FeaturesCity from "@/components/CityPage/FeaturesCity";
 import Loactions from "@/components/Locations";
 
 const Location = () => {
