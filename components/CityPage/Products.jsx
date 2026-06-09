@@ -28,7 +28,7 @@ const products = [
   },
   {
     id: "titanium-dioxide-kmml-822",
-    image: "/prod/extra/KMML RC-822+PG.webp",
+    image: "/prod/extra/KMML-RC-822+PG.webp",
     grade: "Titanium Dioxide (TiO₂) - KMML",
     code: "822 + PG",
     desc: "Excellent dispersibility and strong hiding power.",
