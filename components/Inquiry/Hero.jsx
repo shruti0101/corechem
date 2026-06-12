@@ -201,7 +201,7 @@ export default function Hero() {
 {/* MOBILE HERO */}
 <section className="md:hidden">
   {/* Banner */}
-  <div className="relative h-[433px]  w-full">
+  <div className="relative h-[395px]  w-full">
     <Image
       src="/corechem 1.webp"
       alt="Titanium Dioxide"
