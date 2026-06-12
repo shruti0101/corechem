@@ -60,7 +60,7 @@ export default function Header() {
 
           <button
   onClick={() => setIsOpen(true)}
-  className="bg-[#c8921c] px-7 py-[11px] text-[14px] font-semibold text-white hover:bg-[#b88312]"
+  className="bg-[#c8921c] hidden md:block px-7 py-[11px] text-[14px] font-semibold text-white hover:bg-[#b88312]"
 >
   Get Free Quote →
 </button>
@@ -84,7 +84,7 @@ export default function Header() {
               className="h-auto w-[200px] sm:w-[220px] lg:w-[340px]"
             />
           </Link>
-                    <div><a href="tel:+919818544039"  className="bg-[#c8921c] md:hidden px-2 py-3 text-white rounded-xl">Get Free Quote</a></div>
+                    <div><a href="tel:+919818544039"  className="bg-[#c8921c] md:hidden px-2 py-3 text-sm text-white rounded-xl">Get Free Quote</a></div>
 
 
           {/* DESKTOP MENU */}

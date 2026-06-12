@@ -106,17 +106,17 @@ export default function Hero() {
 <section
   className="relative h-[400px] xl:h-[110vh] w-full hidden md:block"
   style={{
-    backgroundImage: "url('/banner-(18).webp')",
+    backgroundImage: "url('/corechem 2.webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     
   }}
 >
   <div className="container mx-auto h-full px-4">
-    <div className="flex h-full justify-end  items-start">
+    <div className="flex ml-60 h-full justify-end  items-start">
       
       {/* FORM */}
-      <div className="rounded-3xl w-[30%] xl:mt-22 mt-2 bg-white p-4 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+      <div className="rounded-3xl w-[30%]  xl:mt-22 mt-12 bg-white p-4 mb-3 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             <h3 className="text-center text-3xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>
@@ -201,9 +201,9 @@ export default function Hero() {
 {/* MOBILE HERO */}
 <section className="md:hidden">
   {/* Banner */}
-  <div className="relative h-[390px]  w-full">
+  <div className="relative h-[433px]  w-full">
     <Image
-      src="/Landing mobile banner.webp"
+      src="/corechem 1.webp"
       alt="Titanium Dioxide"
       fill
       className="object-contain"
@@ -213,15 +213,7 @@ export default function Hero() {
   {/* Form Below Banner */}
   <div className="bg-[#f8f8f8] px-4 py-6">
     <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
-      <a
-  href="https://wa.link/2fpjmq"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="mt-6 absolute top-103 right-15 inline-flex w-[70%] items-center justify-center gap-3 rounded-xl bg-green-600 px-4 py-4 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-green-700 hover:shadow-xl"
->
-  <FaWhatsapp className="text-2xl" />
-  <span>Connect With Expert</span>
-</a>
+    
             <h3 className="text-center text-2xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>
