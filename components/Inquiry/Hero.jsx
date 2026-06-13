@@ -12,6 +12,7 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import { useState } from "react";
 import { FaWhatsapp } from "react-icons/fa";
+import Deals from "./Deals";
 
 export default function Hero() {
   const [loading, setLoading] = useState(false);
@@ -209,86 +210,11 @@ export default function Hero() {
           />
         </div>
 
-        {/* Form Below Banner */}
-        <div className="bg-[#f8f8f8] px-4 py-6">
-          <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
-            <h3 className="text-center text-2xl font-bold text-[#062347]">
-              Request a Free Quote
-            </h3>
+        
 
-            <p className="mt-2 text-center text-gray-500">
-              Fill out the form and our team will contact you shortly.
-            </p>
-
-            <form onSubmit={handleSubmit} className="mt-4 space-y-2">
-              <input
-                type="text"
-                name="name"
-                placeholder="Your Name"
-                value={form.name}
-                onChange={handleChange}
-                required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
-              />
-
-              <input
-                type="tel"
-                name="phone"
-                maxLength={10}
-                placeholder="Phone Number"
-                value={form.phone}
-                onChange={handleChange}
-                required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
-              />
-
-              <input
-                type="email"
-                name="email"
-                placeholder="Email Address"
-                value={form.email}
-                onChange={handleChange}
-                required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
-              />
-
-              <select
-                name="product"
-                value={form.product}
-                onChange={handleChange}
-                required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
-              >
-                <option value="">Select Product</option>
-
-                {products.map((item) => (
-                  <option key={item} value={item}>
-                    {item}
-                  </option>
-                ))}
-              </select>
-
-              <textarea
-                name="message"
-                rows="5"
-                placeholder="Tell us your requirements..."
-                value={form.message}
-                onChange={handleChange}
-                required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
-              />
-
-              <button
-                type="submit"
-                disabled={loading}
-                className="w-full rounded-xl bg-[#c8921c] py-4 font-semibold text-white transition hover:bg-[#b88418]"
-              >
-                {loading ? "Submitting..." : "Get Free Quote"}
-              </button>
-            </form>
-          </div>
-        </div>
+        
       </section>
+      <Deals/>
     </>
   );
 }

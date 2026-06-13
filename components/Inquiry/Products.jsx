@@ -10,7 +10,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ContactForm from "../Popup";
 
-const products = [
+const product = [
   {
     id: "titanium-dioxide-jinhai-r6618",
     image: "/bowl1.webp",
@@ -53,27 +53,108 @@ const products = [
     code: "2195",
     desc: "Premium titanium dioxide with excellent opacity.",
   },
-  {
-    id: "titanium-dioxide-r248",
-    image: "/BOWL7.webp",
-    grade: "Titanium dioxide 248",
-    code: "R-248",
-    desc: "Premium titanium dioxide with excellent opacity.",
-  },
+  // {
+  //   id: "titanium-dioxide-r248",
+  //   image: "/BOWL7.webp",
+  //   grade: "Titanium dioxide 248",
+  //   code: "R-248",
+  //   desc: "Premium titanium dioxide with excellent opacity.",
+  // },
 ];
+ const products = [
+    "Titanium Dioxide",
+    "Titanium Dioxide Rutile",
+    "Color Pigment",
+    "Pigment Powder",
+    "Lithopone",
+    "Caustic Soda",
+    "Calcium Carbonate",
+    "Optical Brightener",
+    "Carbon Black",
+  ];
+
+
 
 export default function Products() {
+
     const [isOpen, setIsOpen] = useState(false);
+      const [loading, setLoading] = useState(false);
+
+    const [form, setForm] = useState({
+        name: "",
+        phone: "",
+        email: "",
+        product: "",
+        message: "",
+      });
+    
+      const handleChange = (e) => {
+        setForm({
+          ...form,
+          [e.target.name]: e.target.value,
+        });
+      };
+    
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+    
+        if (!form.phone || form.phone.length < 10) {
+          toast.error("Please enter a valid phone number");
+          return;
+        }
+    
+        try {
+          setLoading(true);
+    
+          const payload = {
+            platform: "Corechem Corporation",
+            platformEmail: "corechemcorporation@gmail.com",
+            name: form.name,
+            phone: form.phone,
+            email: form.email,
+            product: form.product,
+            message: form.message,
+            place: "Website Landing Page",
+          };
+    
+          const res = await axios.post(
+            "https://brandbnalo.com/api/form/add",
+            payload,
+            {
+              validateStatus: (status) => status >= 200 && status < 500,
+            },
+          );
+    
+          if (res.status >= 200 && res.status < 300) {
+            toast.success("Inquiry Submitted Successfully!");
+    
+            setForm({
+              name: "",
+              phone: "",
+              email: "",
+              product: "",
+              message: "",
+            });
+          } else {
+            toast.error("Failed to submit inquiry");
+          }
+        } catch (error) {
+          console.log(error);
+          toast.error("Server error. Please try again.");
+        } finally {
+          setLoading(false);
+        }
+      };
   return (
-    <section className="pt-7 md:py-14 bg-white">
+    <section className="pt-4 md:pt-14 bg-white">
       <div className="max-w-7xl mx-auto px-4 py-3">
 
         {/* Heading */}
-        <div className="text-center mb-10">
-          <h2 className="text-5xl md:text-4xl font-bold text-gray-900">
+        <div className="text-center mb-5 md:mb-10">
+          <h2 className="text-4xl md:text-4xl font-bold text-gray-900">
             Our Products
           </h2>
-          <p className="text-gray-600 mt-2">
+          <p className="text-gray-600 mt-1">
             Explore our range
           </p>
         </div>
@@ -94,7 +175,7 @@ export default function Products() {
           }}
           loop={true}
         >
-          {products.map((product) => (
+          {product.map((product) => (
             <SwiperSlide key={product.id}>
               <div className="border rounded-xl shadow-sm hover:shadow-lg transition bg-white overflow-hidden">
 
@@ -103,7 +184,7 @@ export default function Products() {
                   <img
                     src={product.image}
                     alt={product.grade}
-                    className="h-full w-full object-cover"
+                    className="h-[250px] w-[270px] scale-130 md:scale-90 md:w-full md:h-full object-cover"
                   />
                 </div>
 
@@ -113,13 +194,13 @@ export default function Products() {
                     {product.grade}
                   </h3>
 
-                  <p className="text-sm text-gray-500 mt-1">
+                  {/* <p className="text-sm text-gray-500 mt-1">
                     Code: {product.code}
                   </p>
 
                   <p className="text-sm text-gray-600 mt-3">
                     {product.desc}
-                  </p>
+                  </p> */}
 
                   {/* Buttons */}
                   <div className="flex gap-3 mt-5">
@@ -145,9 +226,9 @@ export default function Products() {
           ))}
         </Swiper>
       </div>
-      <section className="relative overflow-hidden bg-gradient-to-r from-[#062347] to-[#0a3a6e] py-4 md:py-8">
-  <div className="container mx-auto px-4">
-    <div className="flex flex-col items-center justify-between gap-5 rounded-3xl border border-[#c8921c]/30 bg-white/10 px-8 py-8 backdrop-blur-md md:flex-row">
+      <section className="relative overflow-hidden bg-gradient-to-r from-[#062347] to-[#0a3a6e] py-4 md:py-6">
+  <div className="container mx-auto px-4 py-4 ">
+    <div className="flex flex-col items-center justify-between gap-5 md:py-6 rounded-3xl border border-[#c8921c]/30 bg-white/10 px-8 py-8 backdrop-blur-md md:flex-row">
       
       <div>
         <h2 className="text-2xl font-bold text-white md:text-3xl">
@@ -179,6 +260,86 @@ export default function Products() {
 </Link>
     </div>
   </div>
+
+  {/* Form Below Banner */}
+        <div className="bg-[#f8f8f8] md:hidden px-4 py-4">
+          <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
+            <h3 className="text-center text-xl font-bold text-[#062347]">
+              Request a Free Quote
+            </h3>
+
+            <p className="mt-2 text-center text-sm text-gray-500">
+              Fill out the form and our team will contact you shortly.
+            </p>
+
+            <form onSubmit={handleSubmit} className="mt-2 space-y-1">
+              <input
+                type="text"
+                name="name"
+                placeholder="Your Name"
+                value={form.name}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border p-2.5 outline-none focus:border-[#c8921c]"
+              />
+
+              <input
+                type="tel"
+                name="phone"
+                maxLength={10}
+                placeholder="Phone Number"
+                value={form.phone}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border p-2.5 outline-none focus:border-[#c8921c]"
+              />
+
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                value={form.email}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border p-2.5 outline-none focus:border-[#c8921c]"
+              />
+
+              <select
+                name="product"
+                value={form.product}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border p-2.5 outline-none focus:border-[#c8921c]"
+              >
+                <option value="">Select Product</option>
+
+                {products.map((item) => (
+                  <option key={item} value={item}>
+                    {item}
+                  </option>
+                ))}
+              </select>
+
+              <textarea
+                name="message"
+                rows="3"
+                placeholder="Tell us your requirements..."
+                value={form.message}
+                onChange={handleChange}
+                required
+                className="w-full rounded-xl border p-2.5 outline-none focus:border-[#c8921c]"
+              />
+
+              <button
+                type="submit"
+                disabled={loading}
+                className="w-full rounded-xl bg-[#c8921c] py-3 font-semibold text-white transition hover:bg-[#b88418]"
+              >
+                {loading ? "Submitting..." : "Get Free Quote"}
+              </button>
+            </form>
+          </div>
+        </div>
 </section>
 {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
     </section>

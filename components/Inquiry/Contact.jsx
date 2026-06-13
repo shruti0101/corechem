@@ -141,17 +141,17 @@ export default function Contact() {
 
           {/* FORM */}
           <div className="rounded-3xl bg-white p-8 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
-            <h3 className="text-center text-3xl font-bold text-[#062347]">
+            <h3 className="text-center text-xl md:text-3xl font-bold text-[#062347]">
               Request a Free Quote
             </h3>
 
-            <p className="mt-2 text-center text-gray-500">
+            <p className="mt-2 text-center text-sm md:text-md text-gray-500">
               Fill out the form and our team will contact you shortly.
             </p>
 
             <form
               onSubmit={handleSubmit}
-              className="mt-8 space-y-4"
+              className="mt-4 md:mt-8 space-y-2"
             >
               <input
                 type="text"
@@ -160,7 +160,7 @@ export default function Contact() {
                 value={form.name}
                 onChange={handleChange}
                 required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
+                className="w-full rounded-xl border p-2.5 md:p-4 outline-none focus:border-[#c8921c]"
               />
 
               <input
@@ -171,7 +171,7 @@ export default function Contact() {
                 value={form.phone}
                 onChange={handleChange}
                 required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
+                className="w-full rounded-xl border p-2.5 md:p-4 outline-none focus:border-[#c8921c]"
               />
 
               <input
@@ -181,7 +181,7 @@ export default function Contact() {
                 value={form.email}
                 onChange={handleChange}
                 required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
+                className="w-full rounded-xl border p-2.5 md:p-4 outline-none focus:border-[#c8921c]"
               />
 
               <select
@@ -189,7 +189,7 @@ export default function Contact() {
                 value={form.product}
                 onChange={handleChange}
                 required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
+                className="w-full rounded-xl border p-2.5 md:p-4 outline-none focus:border-[#c8921c]"
               >
                 <option value="">Select Product</option>
 
@@ -202,12 +202,12 @@ export default function Contact() {
 
               <textarea
                 name="message"
-                rows="5"
+                rows="3"
                 placeholder="Tell us your requirements..."
                 value={form.message}
                 onChange={handleChange}
                 required
-                className="w-full rounded-xl border p-4 outline-none focus:border-[#c8921c]"
+                className="w-full rounded-xl border p-2.5 md:p-4 outline-none focus:border-[#c8921c]"
               />
 
               <button

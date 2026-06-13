@@ -82,8 +82,8 @@ export default function WhyChoose() {
   >
     {features.map((item, index) => (
       <SwiperSlide key={index}>
-        <div className="flex flex-col items-center text-center px-6 py-6">
-          <div className="text-5xl mb-4">{item.icon}</div>
+        <div className="flex flex-col items-center text-center px-6 py-3 md:py-6">
+          <div className="text-5xl mb-3 md:mb-4">{item.icon}</div>
 
           <h3 className="text-xl font-bold text-gray-900 mb-2">
             {item.title}

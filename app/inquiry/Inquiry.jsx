@@ -2,7 +2,6 @@ import Footer from '@/components/Inquiry/Footer'
 import Header from '@/components/Inquiry/Header'
 import Hero from '@/components/Inquiry/Hero'
 import React from 'react'
-import Facilitybar from "@/components/Landingpage/Facilitybar"
 import WhyChoose from '@/components/Inquiry/WhyChoose'
 import Products from '@/components/Inquiry/Products'
 import CTAL from '@/components/Inquiry/CTAL'
@@ -10,6 +9,7 @@ import Industry from '@/components/Inquiry/Industry'
 import Contact from '@/components/Inquiry/Contact'
 import BCTA from '@/components/Inquiry/BCTA'
 import Whychoose2 from '@/components/Inquiry/Whychoose2'
+import FeatureStripInquiry from '@/components/Inquiry/FacilitybarInquiry'
 
 
 export default function Inquiry() {
@@ -17,7 +17,7 @@ export default function Inquiry() {
     <>  
     <Header></Header>
     <Hero></Hero>
-    <Facilitybar></Facilitybar>
+    <FeatureStripInquiry></FeatureStripInquiry>
     <Products></Products>
     <WhyChoose></WhyChoose>
     {/* <AboutUsSection></AboutUsSection> */}
