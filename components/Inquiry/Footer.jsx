@@ -79,7 +79,7 @@ export default function Footer() {
           </div>
 
           {/* QUICK LINKS */}
-          {/* <div>
+          <div classname="hidden md:block">
             <h3 className="text-[20px] font-[700] tracking-[-0.5px]">
               Quick Links
             </h3>
@@ -100,7 +100,7 @@ export default function Footer() {
                 </Link>
               ))}
             </div>
-          </div> */}
+          </div>
 
           {/* PRODUCTS */}
           
