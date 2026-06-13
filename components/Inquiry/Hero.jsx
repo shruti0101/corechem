@@ -111,7 +111,7 @@ export default function Hero() {
   <div
     className="
       w-full
-      lg:w-[330px]
+      lg:w-[340px]
       lg:absolute
       lg:right-10
       lg:top-1/2

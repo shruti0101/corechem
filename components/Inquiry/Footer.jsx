@@ -67,7 +67,7 @@ export default function Footer() {
             </Link>
 
             {/* DESC */}
-            <p className="mt-[28px] max-w-[420px] text-[15px] leading-[31px] text-white">
+            <p className="mt-[28px] hidden md:block max-w-[420px] text-[15px] leading-[31px] text-white">
               Corechem Corporation is a trusted Titanium Dioxide Supplier
               delivering premium-quality TiO₂ solutions for paints, coatings,
               plastics, inks, rubber, paper, cosmetics, and industrial

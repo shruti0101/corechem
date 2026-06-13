@@ -40,7 +40,7 @@ export default function CTAL() {
                   Looking for a Reliable Titanium Dioxide Supplier?
                 </h2>
 
-                <p className="text-white text-sm sm:text-base  leading-relaxed">
+                <p className="text-white hidden md:block text-sm sm:text-base  leading-relaxed">
                   Corechem Corporation provides premium-quality Titanium Dioxide
                   solutions for multiple industrial applications with reliable
                   supply, competitive pricing, and consistent product quality.

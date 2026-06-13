@@ -101,7 +101,7 @@ export default function Contact() {
         <div className="grid gap-10 lg:grid-cols-2 items-center">
           
           {/* LEFT CONTENT */}
-          <div className="text-white">
+          <div className="text-white hidden md:block">
             <span className="inline-block rounded-full border border-[#c8921c] px-5 py-2 text-sm font-medium text-[#c8921c]">
               Premium Titanium Dioxide Supplier
             </span>
