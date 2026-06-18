@@ -9,6 +9,7 @@ import { FaArrowRight, FaWhatsapp } from "react-icons/fa";
 import Link from "next/link";
 import { useState } from "react";
 import ContactForm from "../Popup";
+import Category from "./Category";
 
 const product = [
   {
@@ -262,7 +263,7 @@ export default function Products() {
   </div>
 
   {/* Form Below Banner */}
-        <div className="bg-[#f8f8f8] md:hidden px-4 py-4">
+        {/* <div className="bg-[#f8f8f8] md:hidden px-4 py-4">
           <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             <h3 className="text-center text-xl font-bold text-[#062347]">
               Request a Free Quote
@@ -339,7 +340,8 @@ export default function Products() {
               </button>
             </form>
           </div>
-        </div>
+        </div> */}
+        <Category/>
 </section>
 {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
     </section>
