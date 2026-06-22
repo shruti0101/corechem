@@ -178,7 +178,7 @@ export default function Products() {
         >
           {product.map((product) => (
             <SwiperSlide key={product.id}>
-              <div className="border rounded-xl shadow-sm hover:shadow-lg transition bg-white overflow-hidden">
+              <div onClick={() => setIsOpen(true)} className="border rounded-xl shadow-sm hover:shadow-lg transition bg-white overflow-hidden">
 
                 {/* Image */}
                 <div className=" bg-gray-100 flex items-center justify-center">
@@ -214,6 +214,7 @@ export default function Products() {
 
                     <a
                       href={"https://wa.link/2fpjmq"}
+                      onClick={(e)=>{e.stopPropagation()}}
                       target="_blank"
                       className="flex items-center justify-center gap-2 flex-1 bg-green-600 text-white py-4 rounded-lg text-lg   hover:bg-green-700"
                     >

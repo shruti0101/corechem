@@ -1,6 +1,8 @@
-import React from 'react'
+"use cient"
+import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
+import ContactForm from '../Popup';
 
 
 const categories = [
@@ -30,9 +32,12 @@ const categories = [
   },
 ];
 
-function CategoryCard({ category }) {
+function CategoryCard({ category ,setIsOpen}) {
+    // const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
+    <>
+    <div onClick={() => setIsOpen(true)} className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
       <div className="overflow-hidden">
         <img
           src={category.image}
@@ -47,18 +52,24 @@ function CategoryCard({ category }) {
         </h3>
 
         <div>
-        <a  href={"https://wa.link/2fpjmq"} className="mt-3 w-full text-center block bg-[#c8921c] text-white py-2.5 rounded-xl font-medium hover:bg-[#b88418] transition">
+        <a onClick={(e)=>{e.stopPropagation()}}  href={"https://wa.link/2fpjmq"} className="mt-3 w-full text-center block bg-[#c8921c] text-white py-2.5 rounded-xl font-medium hover:bg-[#b88418] transition">
            Enquire Now
         </a>
         </div>
       </div>
     </div>
+       
+
+    </>
   );
 }
 
 
 export default function Category() {
+    const [isOpen, setIsOpen] = useState(false);
+
   return (
+    <>
     <section className="py-4 md:py-8 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
@@ -72,7 +83,7 @@ export default function Category() {
         
          <div className="grid grid-cols-2 md:grid-cols-3 gap-4 lg:hidden">
           {categories.map((category, index) => (
-            <CategoryCard key={index} category={category} />
+            <CategoryCard isOpen={isOpen} setIsOpen={setIsOpen} key={index} category={category} />
           ))}
         </div>
 
@@ -91,12 +102,16 @@ export default function Category() {
           >
             {categories.map((category, index) => (
               <SwiperSlide key={index}>
-                <CategoryCard category={category} />
+                <CategoryCard isOpen={isOpen} setIsOpen={setIsOpen} category={category} />
               </SwiperSlide>
             ))}
           </Swiper> 
         </div> 
  </div>
     </section>
+
+     {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
+
+    </>
   );
 }

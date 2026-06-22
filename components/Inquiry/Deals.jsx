@@ -7,6 +7,8 @@ import "swiper/css";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import Image from "next/image";
+import ContactForm from "../Popup";
+import { useState } from "react";
 
 const categories = [
   {
@@ -91,6 +93,8 @@ const products = [
     
 ];
 
+
+
 function CategoryCard({ category }) {
   return (
     <div className="group bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-2">
@@ -118,7 +122,10 @@ function CategoryCard({ category }) {
 }
 
 export default function Deals() {
+    const [isOpen, setIsOpen] = useState(false);
+
   return (
+    <>
     <section className="py-4 md:py-8 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4">
         {/* Heading */}
@@ -185,7 +192,7 @@ export default function Deals() {
                     >
                       {products.map((item) => (
                         <SwiperSlide key={item.id}>
-                          <div className="h-[280px] md:h-[320px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-2 px-2 hover:shadow-lg transition-all duration-300">
+                          <div onClick={() => setIsOpen(true)} className="h-[280px] md:h-[320px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-2 px-2 hover:shadow-lg transition-all duration-300">
                             
                     <div className="flex flex-row ">
           <div className="flex  justify-center">
@@ -212,7 +219,7 @@ export default function Deals() {
                                 {item.desc}
                               </p>
         
-                              <Link href={`https://wa.link/2fpjmq`} className="mt-5 whitespace-nowrap flex items-center justify-around gap-2 text-green-500 text-[15px] font-[700]">
+                              <Link onClick={(e)=>{e.stopPropagation()}} href={`https://wa.link/2fpjmq`} className="mt-5 whitespace-nowrap flex items-center justify-around gap-2 text-green-500 text-[15px] font-[700]">
                                 Get WhatsApp
                                 <ChevronRight className="w-4 h-4" />
                               </Link>
@@ -229,5 +236,8 @@ export default function Deals() {
                   </div>
       </div>
     </section>
+    {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
+
+    </>
   );
 }
