@@ -24,12 +24,31 @@ const quickLinks = [
 ];
 
 const products = [
-  "Titanium Dioxide",
-  "Titanium Dioxide Rutile",
-  "Titanium Dioxide Anatase",
-  "Color Pigment",
-  "Lithopone",
-  "Optical Brightener",
+  {
+    name: "Titanium Dioxide",
+    href: "/categories/titanium-dioxide",
+  },
+  {
+    name: "Titanium Dioxide Rutile",
+    href: "/categories/titanium-dioxide-rutile",
+  },
+  {
+    name: "Carbon Black",
+    href: "/categories/carbon-black",
+  },
+  
+  {
+    name: "Color Pigment",
+    href: "/categories/color-pigment",
+  },
+  {
+    name: "Lithopone",
+    href: "/categories/lithopone",
+  },
+  {
+    name: "Optical Brightener",
+    href: "/categories/optical-brightening",
+  },
 ];
 
 export default function Footer() {
@@ -186,7 +205,8 @@ export default function Footer() {
 
             <div className="mt-[28px] space-y-[16px]">
               {products.map((product, index) => (
-                <div
+                <Link
+                href={product.href}
                   key={index}
                   className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
                 >
@@ -195,8 +215,8 @@ export default function Footer() {
                     className="mt-[4px] transition-all duration-300 group-hover:rotate-12"
                   />
 
-                  <span>{product}</span>
-                </div>
+                  <span>{product.name}</span>
+                </Link>
               ))}
             </div>
           </div>
