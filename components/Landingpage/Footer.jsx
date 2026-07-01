@@ -51,6 +51,9 @@ const products = [
   },
 ];
 
+import { categories } from "@/Data";
+
+
 export default function Footer() {
 
   const [oopen, setoopen] = useState(false);
@@ -204,9 +207,9 @@ export default function Footer() {
             </h3>
 
             <div className="mt-[28px] space-y-[16px]">
-              {products.map((product, index) => (
+              {categories.map((product, index) => (
                 <Link
-                href={product.href}
+                href={`/categories/${product.id}`}
                   key={index}
                   className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
                 >
