@@ -231,6 +231,12 @@ export default function Navbar() {
             Articles & Resources
           </Link>
 
+          <Link href="/shipping" className="py-3 font-medium">
+            Shipping Policy
+          </Link>
+          <Link href="/return-refund" className="py-3 font-medium">
+            Return & Refund
+          </Link>
           <Link href="/contact" className="py-3 font-medium">
             Contact Us
           </Link>
