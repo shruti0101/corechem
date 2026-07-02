@@ -16,7 +16,7 @@ import {
 const quickLinks = [
   { name: "About Us", href: "/about" },
   { name: "Our Products", href: "/products" },
-  { name: "Industries We Serve", href: "/industries" },
+  { name: "Articles & Resources", href: "/our-blogs" },
   { name: "Return & Refund ", href: "/return-refund" },
   { name: "Shipping", href: "/shipping" },
   { name: "Contact Us", href: "/contact" },
