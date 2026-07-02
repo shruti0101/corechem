@@ -39,11 +39,12 @@ const categories = [
 const products = [
  
     {
-    id: "kronos-titanium-dioxide",
+    id: "titanium-dioxide-kronos-r2310",
         image:"/bowl6.webp",
     grade: "Titanium Dioxide Kronos ",
     code: "R-2310",
     desc: "Premium Industrial Grade Titanium Dioxide.",
+    price:"285"
   },
   {
     id: "titanium-dioxide-kmml-822",
@@ -51,13 +52,15 @@ const products = [
     grade: "Titanium Dioxide (TiO₂) - Kmml",
     code: " 822",
     desc: "Economical Textile Grade Anatase Titanium Dioxide.",
+    price:"280"
   },
   {
     id: "titanium-dioxide-venator-tr92",
         image:"/bowl3.webp",
     grade: "Titanium Dioxide (TiO₂) - Venator ",
-    code: " TR92",
+    code: "TR92",
     desc: "High Weather Resistance Titanium Dioxide.",
+    price:"257"
   },
   
       {
@@ -66,6 +69,7 @@ const products = [
       grade: "Titanium Dioxide Kronos ",
       code: "R-2220",
       desc: "High Quality Industrial Grade Titanium Dioxide.",
+      price:"285"
     },
   {
     id: "titanium-dioxide-dawn-r2195",
@@ -73,21 +77,17 @@ const products = [
     grade: "Titanium Dioxide (TiO₂) - Dawn",
     code: "2195",
     desc: "Premium Excellent Whiteness Titanium Dioxide",
+     price:"290"
   },
 
-    {
-    id: "titanium-dioxide-kronos-r2310",
-        image:"/bowl6.webp",
-    grade: "Titanium Dioxide Kronos ",
-    code: "R-2310",
-    desc: "Premium titanium dioxide with excellent opacity.",
-  },
+   
   
   {
   id: "titanium-dioxide-r248",
       image:"/BOWL7.webp",
   grade: " Titanium dioxide 248",
   code: "R-248",
+  price:"240",
   desc: "Factory Supply High Purity Anatase Titanium Dioxide Powder.",
 },
     
@@ -191,8 +191,8 @@ export default function Deals() {
                       className="!overflow-visible"
                     >
                       {products.map((item) => (
-                        <SwiperSlide key={item.id}>
-                          <div onClick={() => setIsOpen(true)} className="h-[280px] md:h-[320px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-2 px-2 hover:shadow-lg transition-all duration-300">
+                        <SwiperSlide key={item?.id}>
+                          <Link href={`/inquiry/${item?.id}`}  className="h-[280px] md:h-[320px] bg-[#fafafa] border border-[#ececec] rounded-[10px]  py-2 px-2 hover:shadow-lg transition-all duration-300">
                             
                     <div className="flex flex-row ">
           <div className="flex  justify-center">
@@ -214,12 +214,15 @@ export default function Deals() {
                               <h3 className="text-[#10254d] font-bold text-[25px] mt-1">
                                 {item.code}
                               </h3>
+                              <p className="text-lg font-bold text-black mt-3">
+                   <span className="text-lg">&#8377;</span> {item.price} <span className="text-sm">/KG</span>
+                   </p> 
         
                               <p className="mt-3 text-black text-[15px] leading-[24px]">
                                 {item.desc}
                               </p>
         
-                              <Link onClick={(e)=>{e.stopPropagation()}} href={`https://wa.link/2fpjmq`} className="mt-5 whitespace-nowrap flex items-center justify-around gap-2 text-green-500 text-[15px] font-[700]">
+                              <Link  onClick={(e)=>{e.stopPropagation()}} href={`https://wa.link/2fpjmq`} className="mt-5 whitespace-nowrap flex items-center justify-around gap-2 text-green-500 text-[15px] font-[700]">
                                 Get WhatsApp
                                 <ChevronRight className="w-4 h-4" />
                               </Link>
@@ -229,7 +232,7 @@ export default function Deals() {
         
         
                           
-                          </div>
+                          </Link>
                         </SwiperSlide>
                       ))}
                     </Swiper>

@@ -18,13 +18,15 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) – Jihani",
     code: "6628",
     desc: "High brightness and excellent durability ",
+    price:"290"
   },
   {
-    id: "kronos-titanium-dioxide",
+    id: "titanium-dioxide-kronos-r2310",
     image: "/bowl6.webp",
     grade: "Titanium Dioxide Kronos",
     code: "R-2310",
     desc: "Premium titanium dioxide with excellent opacity.",
+    price:"285"
   },
   {
     id: "titanium-dioxide-kmml-822",
@@ -32,6 +34,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Kmml",
     code: "822",
     desc: "Excellent dispersibility and strong hiding power.",
+    price:"280"
   },
   {
     id: "titanium-dioxide-venator-tr92",
@@ -39,6 +42,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Venator",
     code: "TR92",
     desc: "High whiteness and ideal for indoor applications.",
+    price:"257"
   },
   {
     id: "titanium-dioxide-kronos-r2220",
@@ -46,6 +50,7 @@ const product = [
     grade: "Titanium Dioxide Kronos",
     code: "R-2220",
     desc: "Premium titanium dioxide with excellent opacity.",
+    price:"285"
   },
   {
     id: "titanium-dioxide-dawn-r2195",
@@ -53,6 +58,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Dawn",
     code: "2195",
     desc: "Premium titanium dioxide with excellent opacity.",
+    price:"290"
   },
   // {
   //   id: "titanium-dioxide-r248",
@@ -62,17 +68,17 @@ const product = [
   //   desc: "Premium titanium dioxide with excellent opacity.",
   // },
 ];
- const products = [
-    "Titanium Dioxide",
-    "Titanium Dioxide Rutile",
-    "Color Pigment",
-    "Pigment Powder",
-    "Lithopone",
-    "Caustic Soda",
-    "Calcium Carbonate",
-    "Optical Brightener",
-    "Carbon Black",
-  ];
+//  const products = [
+//     "Titanium Dioxide",
+//     "Titanium Dioxide Rutile",
+//     "Color Pigment",
+//     "Pigment Powder",
+//     "Lithopone",
+//     "Caustic Soda",
+//     "Calcium Carbonate",
+//     "Optical Brightener",
+//     "Carbon Black",
+//   ];
 
 
 
@@ -178,7 +184,7 @@ export default function Products() {
         >
           {product.map((product) => (
             <SwiperSlide key={product.id}>
-              <div onClick={() => setIsOpen(true)} className="border rounded-xl shadow-sm hover:shadow-lg transition bg-white overflow-hidden">
+              <Link href={`/inquiry/${product.id}`}  className="  rounded-xl shadow-sm hover:shadow-lg transition bg-white ">
 
                 {/* Image */}
                 <div className=" bg-gray-100 flex items-center justify-center">
@@ -195,13 +201,13 @@ export default function Products() {
                     {product.grade}
                   </h3>
 
-                  {/* <p className="text-sm text-gray-500 mt-1">
+                  {/* {/* <p className="text-sm text-gray-500 mt-1">
                     Code: {product.code}
-                  </p>
-
-                  <p className="text-sm text-gray-600 mt-3">
-                    {product.desc}
                   </p> */}
+
+                   <p className="text-lg font-bold text-black mt-3">
+                   <span className="text-lg">&#8377;</span> {product.price} <span className="text-sm">/KG</span>
+                   </p> 
 
                   {/* Buttons */}
                   <div className="flex gap-3 mt-5">
@@ -212,18 +218,18 @@ export default function Products() {
                       View Details
                     </button>
 
-                    <a
+                    <Link
                       href={"https://wa.link/2fpjmq"}
                       onClick={(e)=>{e.stopPropagation()}}
                       target="_blank"
                       className="flex items-center justify-center gap-2 flex-1 bg-green-600 text-white py-4 rounded-lg text-lg   hover:bg-green-700"
                     >
                       <FaWhatsapp className="text-3xl" /> WhatsApp
-                    </a>
+                    </Link>
                   </div>
                 </div>
 
-              </div>
+              </Link>
             </SwiperSlide>
           ))}
         </Swiper>

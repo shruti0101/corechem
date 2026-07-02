@@ -1070,6 +1070,7 @@ export const categories = [
         id: "titanium-dioxide-kronos-r2220",
 
         name: "Titanium Dioxide Kronos R2220",
+         price:"285",
 
         metaTitle:
           "Kronos R2220 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
@@ -1320,6 +1321,8 @@ export const categories = [
         id: "titanium-dioxide-kronos-r2310",
 
         name: "Titanium Dioxide Kronos R2310",
+
+        price:"285",
 
         metaTitle:
           "Kronos R2310 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
@@ -2235,6 +2238,7 @@ export const categories = [
         id: "titanium-dioxide-venator-tr92",
 
         name: "Titanium Dioxide (TiO₂) – Venator TR92",
+        price:"257",
 
         metaTitle:
           "Venator TR92 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
@@ -2880,6 +2884,8 @@ export const categories = [
 
         name: "Titanium Dioxide (TiO₂) – Jinhai R6618",
 
+        price:"290",
+
         metaTitle:
           "Jinhai R6618 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
@@ -3004,6 +3010,8 @@ export const categories = [
 
         name: "Titanium Dioxide (TiO₂) – Dawn R2195",
 
+        price:"290",
+
         metaTitle:
           "Dawn R2195 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
@@ -3127,6 +3135,8 @@ export const categories = [
         id: "titanium-dioxide-kmml-822",
 
         name: "Titanium Dioxide (TiO₂) – Kmml-822",
+
+         price:"280",
 
         metaTitle:
           "KMML 822 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
