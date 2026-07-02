@@ -5,7 +5,7 @@ import Footer from "@/components/Inquiry/Footer";
 
 // ✅ Dynamic metadata for each product
 export async function generateMetadata({ params }) {
-  const { id } = params;
+  const { id } = await params;
 
   const allProducts = categories.flatMap((c) => c.products);
   const product = allProducts.find((p) => p.id === id);
