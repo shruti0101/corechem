@@ -372,87 +372,102 @@ const [form, setForm] = useState({
 
           {/* FORM */}
           <div className="p-8">
-           <form className="space-y-5">
-                         {/* NAME */}
-                         <div>
-                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                             Full Name
-                           </label>
-           
-                           <input
-                             type="text"
-                             placeholder="Enter your full name"
-                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                           />
-                         </div>
-           
-                         {/* EMAIL */}
-                         <div>
-                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                             Email Address
-                           </label>
-           
-                           <input
-                             type="email"
-                             placeholder="Enter your email"
-                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                           />
-                         </div>
-           
-                         {/* PHONE */}
-                         <div>
-                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                             Phone Number
-                           </label>
-           
-                           <input
-                             type="tel"
-                             placeholder="Enter your phone number"
-                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                           />
-                         </div>
-           
-                         {/* MESSAGE */}
-                         <div>
-                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                             Message
-                           </label>
-           
-                           <textarea
-                             rows={5}
-                             placeholder={`I'm interested in ${product.name}`}
-                             className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                           />
-                         </div>
-           
-                         {/* SUBMIT */}
-                         <button
-                           type="submit"
-                           className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d]"
-                         >
-                           Submit Inquiry
-                         </button>
-           
-                         {/* ACTIONS */}
-                         <div className="grid grid-cols-2 gap-4 pt-2">
-                           <a
-                             href="/CC catalogue 2_compressed.pdf"
-                             download
-                             className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
-                           >
-                             <Download className="h-4 w-4" />
-                             Brochure
-                           </a>
-           
-                           <a
-                             href="tel:+919818544039"
-                             className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
-                           >
-                             <Phone className="h-4 w-4" />
-                             Call Now
-                           </a>
-                         </div>
-                       </form>
+           <form onSubmit={handleSubmit} className="space-y-5">
+  {/* NAME */}
+  <div>
+    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+      Full Name
+    </label>
+
+    <input
+      type="text"
+      name="name"
+      value={form.name}
+      onChange={handleChange}
+      placeholder="Enter your full name"
+      required
+      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+    />
+  </div>
+
+  {/* EMAIL */}
+  <div>
+    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+      Email Address
+    </label>
+
+    <input
+      type="email"
+      name="email"
+      value={form.email}
+      onChange={handleChange}
+      placeholder="Enter your email"
+      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+    />
+  </div>
+
+  {/* PHONE */}
+  <div>
+    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+      Phone Number
+    </label>
+
+    <input
+      type="tel"
+      name="phone"
+      value={form.phone}
+      onChange={handleChange}
+      maxLength={10}
+      required
+      placeholder="Enter your phone number"
+      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+    />
+  </div>
+
+  {/* MESSAGE */}
+  <div>
+    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+      Message
+    </label>
+
+    <textarea
+      rows={5}
+      name="message"
+      value={form.message}
+      onChange={handleChange}
+      className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+    />
+  </div>
+
+  {/* SUBMIT */}
+  <button
+    type="submit"
+    disabled={loading}
+    className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d] disabled:opacity-60 disabled:cursor-not-allowed"
+  >
+    {loading ? "Submitting..." : "Submit Inquiry"}
+  </button>
+
+  {/* ACTIONS */}
+  <div className="grid grid-cols-2 gap-4 pt-2">
+    <a
+      href="/CC catalogue 2_compressed.pdf"
+      download
+      className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
+    >
+      <Download className="h-4 w-4" />
+      Brochure
+    </a>
+
+    <a
+      href="tel:+919818544039"
+      className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
+    >
+      <Phone className="h-4 w-4" />
+      Call Now
+    </a>
+  </div>
+</form>
           </div>
         </div>
       </div>
