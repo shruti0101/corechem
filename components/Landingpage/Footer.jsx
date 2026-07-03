@@ -272,21 +272,10 @@ export default function Footer() {
           </p>
 
           <div className="flex flex-wrap items-center justify-center gap-[18px] text-[14px] text-white lg:justify-end">
-            <Link
-              href="/privacy-policy"
-              className="transition-all duration-300 hover:text-[#BE8220]"
-            >
-              Privacy Policy
-            </Link>
-
+      
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 
-            <Link
-              href="/terms-conditions"
-              className="transition-all duration-300 hover:text-[#BE8220]"
-            >
-              Terms & Conditions
-            </Link>
+        
 
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 

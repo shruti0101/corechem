@@ -21,6 +21,7 @@ const quickLinks = [
   { name: "Our Products", href: "#products" },
   { name: "Industries We Serve", href: "#industries" },
   { name: "Contact Us", href: "#contact" },
+
 ];
 
 const products = [
@@ -99,6 +100,11 @@ export default function Footer() {
                   {link.name}
                 </Link>
               ))}
+
+
+
+
+
             </div>
           </div>
 
@@ -217,25 +223,27 @@ export default function Footer() {
 
           <div className="flex flex-wrap items-center justify-center gap-[18px] text-[14px] text-white lg:justify-end">
             <Link
-              href="/privacy-policy"
+              href="/return-refund"
               className="transition-all duration-300 hover:text-[#BE8220]"
             >
-              Privacy Policy
+             Return & Refund
+
             </Link>
 
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 
             <Link
-              href="/terms-conditions"
+              href="/shipping"
               className="transition-all duration-300 hover:text-[#BE8220]"
             >
-              Terms & Conditions
+              Shipping Policy
+
             </Link>
 
             <span className="h-[4px] w-[4px] rounded-full bg-white/20" />
 
             <p>
-              Website Designed By Promozione Branding Pvt. Ltd. {"  "}
+              Website Designed By 
                 Inquiry Bazaar Pvt. Ltd.  {" "}
         <a
           target="_blank"
