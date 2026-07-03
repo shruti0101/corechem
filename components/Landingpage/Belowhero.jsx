@@ -87,7 +87,7 @@ export default function TitaniumSection() {
     <Reveal>
 
 
-    <section className="w-full bg-white pt-10 overflow-hidden">
+    <section className="w-full bg-white mt-10 overflow-hidden">
       <div className="w-full mx-auto px-8">
         <div className="grid grid-cols-1 md:grid-cols-[250px_1fr] xl:grid-cols-[350px_1fr] gap-2 items-start">
           

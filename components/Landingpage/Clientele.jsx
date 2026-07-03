@@ -8,13 +8,13 @@ import { motion } from "framer-motion"
 
 export default function Client() {
     const clients = [
-        { name: "Dominos Pizza", image: "/client/1.png" },
-        { name: "Manyavar", image: "/client/2.png" },
-        { name: "Samsung", image: "/client/3.png" },
-        { name: "HDFC Bank", image: "/client/4.png" },
-        { name: "ICICI Bank", image: "/client/5.png" },
-        { name: "Bandhan Bank", image: "/client/6.png" },
-        { name: "Union Bank", image: "/client/7.png" },
+        { name: "Dominos Pizza", image: "/client/1.webp" },
+        { name: "Manyavar", image: "/client/2.webp" },
+        { name: "Samsung", image: "/client/3.webp" },
+        { name: "HDFC Bank", image: "/client/4.webp" },
+        { name: "ICICI Bank", image: "/client/5.webp" },
+        { name: "Bandhan Bank", image: "/client/6.webp" },
+        { name: "Union Bank", image: "/client/7.webp" },
   
     ]
 
