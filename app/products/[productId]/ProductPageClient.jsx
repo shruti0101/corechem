@@ -29,6 +29,7 @@ export default function ProductPage({ params }) {
   const { productId } = React.use(params);
 
   const [isFormOpen, setIsFormOpen] = useState(false);
+  console.log("aa")
 
   const allProducts = categories.flatMap((c) => c.products);
 
