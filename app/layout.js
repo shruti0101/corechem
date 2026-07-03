@@ -2,6 +2,7 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 // import StickyFooter from "@/components/StickyFooter";
 import Whatsapp from "@/components/Whatsapp";
+import ToastProvider from "@/components/ToastProvider"
 
 import { Poppins } from "next/font/google";
 import Script from "next/script";
@@ -92,6 +93,7 @@ export default function RootLayout({ children }) {
             }}
           />
         </noscript>
+        <ToastProvider />
         <Whatsapp />
 
         <LayoutWrapper>{children}</LayoutWrapper>

@@ -2,6 +2,9 @@
 
 import React, { useState } from "react";
 
+import axios from "axios";
+import toast from "react-hot-toast";
+
 import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
@@ -34,6 +37,80 @@ export default function InquiryProductPageClient({ params }) {
 
   const [activeImage, setActiveImage] = useState(product?.image?.[0]);
 
+  const [loading, setLoading] = useState(false);
+
+const [form, setForm] = useState({
+  name: "",
+  email: "",
+  phone: "",
+  product: product?.name || "",
+  message: `I'm interested in ${product?.name || ""}`,
+});
+
+  const handleChange = (e) => {
+  const { name, value } = e.target;
+
+  setForm((prev) => ({
+    ...prev,
+    [name]: value,
+  }));
+};
+
+  const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  if (!form.name.trim()) {
+    toast.error("Please enter your name");
+    return;
+  }
+
+  if (!form.phone || form.phone.length < 10) {
+    toast.error("Please enter a valid phone number");
+    return;
+  }
+
+  try {
+    setLoading(true);
+
+    const payload = {
+      platform: "Corechem Corporation",
+      platformEmail: "corechemcorporation@gmail.com",
+      name: form.name,
+      phone: form.phone,
+      email: form.email,
+      product: form.product,
+      message: form.message,
+      place: "Website Landing Page",
+    };
+
+    const res = await axios.post(
+      "https://brandbnalo.com/api/form/add",
+      payload,
+      {
+        validateStatus: (status) => status >= 200 && status < 500,
+      }
+    );
+
+    if (res.status >= 200 && res.status < 300) {
+      toast.success("Inquiry Submitted Successfully!");
+
+      setForm({
+        name: "",
+        email: "",
+        phone: "",
+        product: product?.name || "",
+        message: `I'm interested in ${product?.name || ""}`,
+      });
+    } else {
+      toast.error("Failed to submit inquiry");
+    }
+  } catch (error) {
+    console.log(error);
+    toast.error("Server error. Please try again.");
+  } finally {
+    setLoading(false);
+  }
+};
   if (!product) {
     redirect("/");
   }
@@ -295,87 +372,87 @@ export default function InquiryProductPageClient({ params }) {
 
           {/* FORM */}
           <div className="p-8">
-            <form className="space-y-5">
-              {/* NAME */}
-              <div>
-                <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                  Full Name
-                </label>
-
-                <input
-                  type="text"
-                  placeholder="Enter your full name"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
-              </div>
-
-              {/* EMAIL */}
-              <div>
-                <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                  Email Address
-                </label>
-
-                <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
-              </div>
-
-              {/* PHONE */}
-              <div>
-                <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                  Phone Number
-                </label>
-
-                <input
-                  type="tel"
-                  placeholder="Enter your phone number"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
-              </div>
-
-              {/* MESSAGE */}
-              <div>
-                <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-                  Message
-                </label>
-
-                <textarea
-                  rows={5}
-                  placeholder={`I'm interested in ${product.name}`}
-                  className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
-              </div>
-
-              {/* SUBMIT */}
-              <button
-                type="submit"
-                className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d]"
-              >
-                Submit Inquiry
-              </button>
-
-              {/* ACTIONS */}
-              <div className="grid grid-cols-2 gap-4 pt-2">
-                <a
-                  href="/CC catalogue 2_compressed.pdf"
-                  download
-                  className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
-                >
-                  <Download className="h-4 w-4" />
-                  Brochure
-                </a>
-
-                <a
-                  href="tel:+919818544039"
-                  className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
-                >
-                  <Phone className="h-4 w-4" />
-                  Call Now
-                </a>
-              </div>
-            </form>
+           <form className="space-y-5">
+                         {/* NAME */}
+                         <div>
+                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                             Full Name
+                           </label>
+           
+                           <input
+                             type="text"
+                             placeholder="Enter your full name"
+                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                           />
+                         </div>
+           
+                         {/* EMAIL */}
+                         <div>
+                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                             Email Address
+                           </label>
+           
+                           <input
+                             type="email"
+                             placeholder="Enter your email"
+                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                           />
+                         </div>
+           
+                         {/* PHONE */}
+                         <div>
+                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                             Phone Number
+                           </label>
+           
+                           <input
+                             type="tel"
+                             placeholder="Enter your phone number"
+                             className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                           />
+                         </div>
+           
+                         {/* MESSAGE */}
+                         <div>
+                           <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                             Message
+                           </label>
+           
+                           <textarea
+                             rows={5}
+                             placeholder={`I'm interested in ${product.name}`}
+                             className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                           />
+                         </div>
+           
+                         {/* SUBMIT */}
+                         <button
+                           type="submit"
+                           className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d]"
+                         >
+                           Submit Inquiry
+                         </button>
+           
+                         {/* ACTIONS */}
+                         <div className="grid grid-cols-2 gap-4 pt-2">
+                           <a
+                             href="/CC catalogue 2_compressed.pdf"
+                             download
+                             className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
+                           >
+                             <Download className="h-4 w-4" />
+                             Brochure
+                           </a>
+           
+                           <a
+                             href="tel:+919818544039"
+                             className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
+                           >
+                             <Phone className="h-4 w-4" />
+                             Call Now
+                           </a>
+                         </div>
+                       </form>
           </div>
         </div>
       </div>
@@ -450,6 +527,7 @@ export default function InquiryProductPageClient({ params }) {
                     </Link>
                   ))}
                 </div>
+                 
               </>
             );
           })()}
