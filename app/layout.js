@@ -2,7 +2,7 @@ import "./globals.css";
 import LayoutWrapper from "@/components/LayoutWrapper";
 // import StickyFooter from "@/components/StickyFooter";
 import Whatsapp from "@/components/Whatsapp";
-import ToastProvider from "@/components/ToastProvider"
+import ToastProvider from "@/components/ToastProvider";
 
 import { Poppins } from "next/font/google";
 import Script from "next/script";
@@ -13,8 +13,10 @@ const poppins = Poppins({
 });
 
 export const metadata = {
-  title: "Titanium Dioxide Supplier | Rutile TiO₂ Supplier | Corechem Corporation",
-  description: "Corechem Corporation is a trusted supplier of Titanium Dioxide, pigments, carbon black, calcite powder, and industrial chemicals. High-quality products with consistent supply and reliable service.",
+  title:
+    "Titanium Dioxide Supplier | Rutile TiO₂ Supplier | Corechem Corporation",
+  description:
+    "Corechem Corporation is a trusted supplier of Titanium Dioxide, pigments, carbon black, calcite powder, and industrial chemicals. High-quality products with consistent supply and reliable service.",
   icons: {
     icon: "/favicon.ico",
     shortcut: "/favicon.ico",
@@ -26,13 +28,17 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta
+          name="google-site-verification"
+          content="IucxGfPZSGl_kyppvob4UBS3U41pV-Daq8NKBrMOUno"
+        />
 
- {/* Meta Pixel Verification */}
+        {/* Meta Pixel Verification */}
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=AW-18212761323"
           strategy="afterInteractive"
         />
-         <Script id="google-ads" strategy="afterInteractive">
+        <Script id="google-ads" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
@@ -42,7 +48,7 @@ export default function RootLayout({ children }) {
           `}
         </Script>
 
-         {/* Google Tag Manager */}
+        {/* Google Tag Manager */}
         <Script id="gtm-script" strategy="beforeInteractive">
           {`
             (function(w,d,s,l,i){
@@ -58,7 +64,7 @@ export default function RootLayout({ children }) {
             })(window,document,'script','dataLayer','GTM-TBH4FLZ5');
           `}
         </Script>
-        
+
         {/* Microsoft Clarity */}
         <Script id="microsoft-clarity" strategy="afterInteractive">
           {`
@@ -78,11 +84,10 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
           rel="stylesheet"
         />
-
       </head>
 
       <body className={`${poppins.className} antialiased`}>
-          <noscript>
+        <noscript>
           <iframe
             src="https://www.googletagmanager.com/ns.html?id=GTM-TBH4FLZ5"
             height="0"
