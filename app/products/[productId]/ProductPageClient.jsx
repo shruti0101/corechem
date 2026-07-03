@@ -1,11 +1,13 @@
 "use client";
 
-import React, { useState } from "react";
-
+import React, { useEffect, useState } from "react";
+import axios from "axios";
 import { categories } from "@/Data";
 import Link from "next/link";
 import Image from "next/image";
 import Head from "next/head";
+import toast from "react-hot-toast";
+
 
 // import Enquiry from "@/components/Enquiry";
 
@@ -27,12 +29,88 @@ export default function ProductPage({ params }) {
   const { productId } = React.use(params);
 
   const [isFormOpen, setIsFormOpen] = useState(false);
+ 
 
   const allProducts = categories.flatMap((c) => c.products);
 
   const product = allProducts.find((p) => p.id === productId);
 
   const [activeImage, setActiveImage] = useState(product?.image?.[0]);
+
+   const [loading, setLoading] = useState(false);
+  
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    product: product?.name || "",
+    message: `I'm interested in ${product?.name || ""}`,
+  });
+  
+    const handleChange = (e) => {
+    const { name, value } = e.target;
+  
+    setForm((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
+  
+    const handleSubmit = async (e) => {
+    e.preventDefault();
+  
+    if (!form.name.trim()) {
+      toast.error("Please enter your name");
+      return;
+    }
+  
+    if (!form.phone || form.phone.length < 10) {
+      toast.error("Please enter a valid phone number");
+      return;
+    }
+  
+    try {
+      setLoading(true);
+  
+      const payload = {
+        platform: "Corechem Corporation",
+        platformEmail: "corechemcorporation@gmail.com",
+        name: form.name,
+        phone: form.phone,
+        email: form.email,
+        product: form.product,
+        message: form.message,
+        place: "Website Product Page Page",
+      };
+  
+      const res = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        payload,
+        {
+          validateStatus: (status) => status >= 200 && status < 500,
+        }
+      );
+  
+      if (res.status >= 200 && res.status < 300) {
+        toast.success("Inquiry Submitted Successfully!");
+  
+        setForm({
+          name: "",
+          email: "",
+          phone: "",
+          product: product?.name || "",
+          message: `I'm interested in ${product?.name || ""}`,
+        });
+      } else {
+        toast.error("Failed to submit inquiry");
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error("Server error. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  }
 
   if (!product) {
     redirect("/");
@@ -63,6 +141,17 @@ export default function ProductPage({ params }) {
       desc: "Suitable for coatings, plastics, inks, rubber, paper, and industrial manufacturing.",
     },
   ];
+
+
+  useEffect(() => {
+  if (product) {
+    setForm((prev) => ({
+      ...prev,
+      product: product.name,
+      message: `I'm interested in ${product.name}`,
+    }));
+  }
+}, [product]);
 
   return (
     <>
@@ -291,7 +380,7 @@ export default function ProductPage({ params }) {
 
           {/* FORM */}
           <div className="p-8">
-            <form className="space-y-5">
+            <form onSubmit={handleSubmit} className="space-y-5">
               {/* NAME */}
               <div>
                 <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
@@ -299,10 +388,13 @@ export default function ProductPage({ params }) {
                 </label>
 
                 <input
-                  type="text"
-                  placeholder="Enter your full name"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
+  type="text"
+  name="name"
+  value={form.name}
+  onChange={handleChange}
+  placeholder="Enter your full name"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+/>
               </div>
 
               {/* EMAIL */}
@@ -312,10 +404,13 @@ export default function ProductPage({ params }) {
                 </label>
 
                 <input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
+  type="email"
+  name="email"
+  value={form.email}
+  onChange={handleChange}
+  placeholder="Enter your email"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+/>
               </div>
 
               {/* PHONE */}
@@ -325,10 +420,14 @@ export default function ProductPage({ params }) {
                 </label>
 
                 <input
-                  type="tel"
-                  placeholder="Enter your phone number"
-                  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
+  type="tel"
+  name="phone"
+  value={form.phone}
+  onChange={handleChange}
+  maxLength={10}
+  placeholder="Enter your phone number"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+/>
               </div>
 
               {/* MESSAGE */}
@@ -338,19 +437,22 @@ export default function ProductPage({ params }) {
                 </label>
 
                 <textarea
-                  rows={5}
-                  placeholder={`I'm interested in ${product.name}`}
-                  className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-                />
+  rows={5}
+  name="message"
+  value={form.message}
+  onChange={handleChange}
+  className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+/>
               </div>
 
               {/* SUBMIT */}
               <button
-                type="submit"
-                className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d]"
-              >
-                Submit Inquiry
-              </button>
+  type="submit"
+  disabled={loading}
+  className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d] disabled:opacity-60 disabled:cursor-not-allowed"
+>
+  {loading ? "Submitting..." : "Submit Inquiry"}
+</button>
 
               {/* ACTIONS */}
               <div className="grid grid-cols-2 gap-4 pt-2">
