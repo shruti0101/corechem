@@ -16,7 +16,7 @@ export default function AboutCity({city}) {
             <div className="overflow-hidden  shadow-xl shadow-[#C8921C]">
               {" "}
               <Image
-                src="/about.png"
+                src="/cat6.webp"
                 alt="Corechem Corporation"
                 width={700}
                 height={800}

@@ -44,7 +44,7 @@ const Location = () => {
       <div className="">
   <section
     style={{
-      backgroundImage: "url('/aboutimg.webp')",
+      backgroundImage: "url('/bg-parallax.webp')",
       backgroundSize: "cover",
       backgroundPosition: "50% 40%",
     }}
@@ -111,7 +111,7 @@ const Location = () => {
           <div className="flex justify-center lg:justify-end">
             {" "}
             <Image
-              src="/About us (12).webp"
+              src="/cat2.jpg"
               alt={`Titanium Dioxide Supplier in ${city}`}
               width={600}
               height={750}
