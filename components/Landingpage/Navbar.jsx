@@ -82,7 +82,7 @@ export default function Navbar() {
           {/* LOGO */}
           <Link href="/" className="shrink-0">
             <Image
-              src="/logo.png"
+              src="/logo4.png"
               alt="Logo"
               width={260}
               height={100}
