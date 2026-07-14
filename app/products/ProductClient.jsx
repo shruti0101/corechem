@@ -22,7 +22,7 @@ const Page = () => {
       >
         {/* <div className="absolute inset-0 bg-black opacity-10"></div> */}
         <div className="absolute inset-0 flex items-center justify-center">
-          <h2 className="text-[#C8921C] bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
+          <h2 className="text-[#2B4D9D] bg-white p-2 text-2xl md:text-7xl font-bold z-10">All Products</h2>
         </div>
       </section>
 
@@ -65,7 +65,7 @@ const Page = () => {
         )}%20.%20Please%20share%20the%20price.`}
         target="_blank"
         rel="noopener noreferrer"
-        className="bg-[#c8921c] flex justify-center items-center gap-2 text-white px-3 py-2 rounded-md font-medium hover:bg-[#a87412] transition w-full"
+        className="bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] flex justify-center items-center gap-2 text-white px-3 py-2 rounded-md font-medium hover:bg-[#a87412] transition w-full"
       >
         Get Instant Price
         <IoLogoWhatsapp size={22} />

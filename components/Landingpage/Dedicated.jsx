@@ -29,9 +29,9 @@ export default function TitaniumDioxideSection() {
           <div>
             {/* TOP LABEL */}
             <div className="flex items-center gap-[14px]">
-              <span className="h-[2px] w-[50px] sm:w-[65px] bg-[#BE8220]" />
+              <span className="h-[2px] w-[50px] sm:w-[65px] bg-[#2B4D9D]" />
 
-              <span className="uppercase tracking-[2px] sm:tracking-[3px] text-[11px] sm:text-[13px] font-[700] text-[#BE8220]">
+              <span className="uppercase tracking-[2px] sm:tracking-[3px] text-[11px] sm:text-[13px] font-[700] text-[#2B4D9D]">
                 Titanium Dioxide Supplier
               </span>
             </div>
@@ -46,7 +46,7 @@ export default function TitaniumDioxideSection() {
             {/* DESCRIPTION CARD */}
             <div className="relative mt-[16px] overflow-hidden rounded-[24px] border border-[#e9e9e9] bg-white p-[22px] sm:p-[35px] shadow-[0_25px_80px_rgba(0,0,0,0.05)]">
               {/* ACCENT */}
-              <div className="absolute left-0 top-0 h-full w-[6px] bg-[#BE8220]" />
+              <div className="absolute left-0 top-0 h-full w-[6px] bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]" />
 
               <div className="space-y-[14px]">
                 <p className="text-black text-[16px] leading-[32px] sm:text-[18px] sm:leading-[42px] font-[400]">
@@ -82,7 +82,7 @@ export default function TitaniumDioxideSection() {
             {/* CTA BUTTONS */}
             <div className="mt-[32px] flex flex-col sm:flex-row gap-[16px]">
               {/* PRIMARY BUTTON */}
-              <button className="group relative inline-flex h-[62px] sm:h-[68px] w-full sm:w-auto items-center justify-center overflow-hidden rounded-full bg-[#BE8220] px-[24px] sm:px-[34px] text-white shadow-[0_20px_50px_rgba(255,94,20,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(255,94,20,0.35)]">
+              <button className="group relative inline-flex h-[62px] sm:h-[68px] w-full sm:w-auto items-center justify-center overflow-hidden rounded-full bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-[24px] sm:px-[34px] text-white shadow-[0_20px_50px_rgba(255,94,20,0.25)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_25px_60px_rgba(255,94,20,0.35)]">
                 <a href="https://wa.me/919818544039?text=Hi%20I%20am%20interested%20in%20your%20products" className="relative z-10 flex items-center gap-[14px] text-[14px] sm:text-[16px] font-[700] uppercase tracking-[1px]">
                   Get Bulk Pricing
                   <span className="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-white/20 transition-all duration-300 group-hover:rotate-45">
@@ -90,7 +90,7 @@ export default function TitaniumDioxideSection() {
                   </span>
                 </a>
 
-                <div className="absolute inset-0 translate-y-full bg-[#111827] transition-all duration-500 group-hover:translate-y-0" />
+                <div className="absolute inset-0 translate-y-full bg-[#2B4D9D] transition-all duration-500 group-hover:translate-y-0" />
               </button>
 
               {/* SECONDARY BUTTON */}
@@ -136,7 +136,7 @@ export default function TitaniumDioxideSection() {
               <div>
                 {/* BADGE */}
                 <div className="inline-flex items-center gap-[10px] rounded-full border border-white/10 bg-white/10 px-[16px] py-[10px] backdrop-blur-xl">
-                  <div className="h-[10px] w-[10px] rounded-full bg-[#BE8220]" />
+                  <div className="h-[10px] w-[10px] rounded-full bg-[#fff]" />
 
                   <span className="text-[10px] sm:text-[12px] font-[700] uppercase tracking-[2px] text-white/85">
                     Industrial Chemical Solutions
@@ -162,7 +162,7 @@ export default function TitaniumDioxideSection() {
                   ].map((item, index) => (
                     <div key={index} className="flex items-start gap-[14px]">
                       {/* ICON */}
-                      <div className="mt-[3px] flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full bg-[#BE8220]/20 text-[#BE8220] backdrop-blur-xl">
+                      <div className="mt-[3px] flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-full bg-[#BE8220]/20 text-[#fff] backdrop-blur-xl">
                         <CheckCircle2 size={16} strokeWidth={2.8} />
                       </div>
 
@@ -179,7 +179,7 @@ export default function TitaniumDioxideSection() {
               <div className="mt-[30px] grid grid-cols-2 gap-[14px] sm:gap-[16px]">
                 {/* CARD 1 */}
                 <div className="rounded-[22px] border border-white/10 bg-white/10 p-[18px] sm:p-[22px] backdrop-blur-xl transition-all duration-300 hover:bg-white/15">
-                  <h4 className="text-[#BE8220] text-[34px] sm:text-[40px] leading-none font-[700]">
+                  <h4 className="text-[#fff] text-[34px] sm:text-[40px] leading-none font-[700]">
                     99%
                   </h4>
 
@@ -190,7 +190,7 @@ export default function TitaniumDioxideSection() {
 
                 {/* CARD 2 */}
                 <div className="rounded-[22px] border border-white/10 bg-white/10 p-[18px] sm:p-[22px] backdrop-blur-xl transition-all duration-300 hover:bg-white/15">
-                  <h4 className="text-[#BE8220] text-[34px] sm:text-[40px] leading-none font-[700]">
+                  <h4 className="text-[#fff] text-[34px] sm:text-[40px] leading-none font-[700]">
                     24/7
                   </h4>
 

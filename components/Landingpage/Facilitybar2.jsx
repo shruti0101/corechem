@@ -57,13 +57,13 @@ export default function StatsSection() {
                 <div className="shrink-0">
                   <Icon
                     strokeWidth={2.2}
-                    className="w-[42px] h-[42px] text-[#07224b]"
+                    className="w-[42px] h-[42px] text-[#2B4D9D]"
                   />
                 </div>
 
                 {/* CONTENT */}
                 <div>
-                  <h3 className="text-[#07224b] text-[32px] leading-[30px] font-[800]">
+                  <h3 className=" text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-[32px] leading-[30px] font-[800]">
                     {item.number}
                   </h3>
 

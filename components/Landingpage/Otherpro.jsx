@@ -98,7 +98,7 @@ export default function ProductShowcaseSection() {
       </button>
 
       {/* BOTTOM SCROLL BUTTON */}
-      <button className="absolute hidden md:flex bottom-[42px] right-[28px] z-20  h-[64px] w-[64px] items-center justify-center bg-[#ff0000] text-white transition-all duration-300 hover:scale-105">
+      <button className="absolute hidden md:flex bottom-[42px] right-[28px] z-20  h-[64px] w-[64px] items-center justify-center bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-white transition-all duration-300 hover:scale-105">
         <ArrowUpRight size={26} strokeWidth={2.8} />
       </button>
 
@@ -108,9 +108,9 @@ export default function ProductShowcaseSection() {
         <div className="w-full lg:w-[430px] lg:pt-[18px]">
           {/* SMALL TITLE */}
           <div className="flex items-center gap-[10px]">
-            <span className="text-[#BE8220] text-[24px] leading-none">»</span>
+            <span className="text-[#2B4D9D] text-[24px] leading-none">»</span>
 
-            <span className="uppercase tracking-[1px] text-[15px] font-[500] text-[#BE8220]">
+            <span className="uppercase tracking-[1px] text-[15px] font-[500] text-[#2B4D9D]">
               Our Products
             </span>
           </div>

@@ -95,7 +95,7 @@ export default function ContactPage() {
         <div className="mx-auto grid max-w-7xl gap-8 md:grid-cols-3">
           {/* PHONE */}
           <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#BE8220]">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-100 text-[#4B3089]">
               <Phone className="h-8 w-8" />
             </div>
 
@@ -127,7 +127,7 @@ export default function ContactPage() {
 
           {/* ADDRESS */}
           <div className="rounded-[30px] border border-white bg-white/90 p-8 shadow-[0_15px_50px_rgba(15,23,42,0.08)] backdrop-blur-xl transition hover:-translate-y-1">
-            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-orange-100 text-[#BE8220]">
+            <div className="flex h-16 w-16 items-center justify-center rounded-2xl bg-purple-100 text-[#4B3089]">
               <MapPin className="h-8 w-8" />
             </div>
 
@@ -150,7 +150,7 @@ export default function ContactPage() {
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-2">
           {/* LEFT CONTENT */}
           <div className="flex flex-col justify-center">
-            <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
+            <span className="font-semibold uppercase tracking-wide text-[#2B4D9D]">
               Get In Touch
             </span>
 
@@ -166,7 +166,7 @@ export default function ContactPage() {
 
             <div className="mt-10 space-y-6">
               <div className="flex items-start gap-4">
-                <div className="rounded-xl bg-orange-100 p-3 text-[#BE8220]">
+                <div className="rounded-xl bg-purple-100 p-3 text-[#4B3089]">
                   <Phone className="h-6 w-6" />
                 </div>
 
@@ -295,7 +295,7 @@ export default function ContactPage() {
       <button
         type="submit"
         disabled={loading}
-        className="inline-flex h-12 md:h-14 w-full items-center justify-center gap-2 rounded-xl bg-[#BE8220] px-6 text-sm md:text-base font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
+        className="inline-flex h-12 md:h-14 w-full items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-6 text-sm md:text-base font-semibold text-white shadow-lg transition hover:scale-105"
       >
         {loading ? "Submitting..." : "Submit Inquiry"}
         {!loading && <Send className="h-5 w-5" />}

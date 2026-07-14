@@ -48,7 +48,7 @@ const features = [
 
 export default function FeatureStrip() {
   return (
-    <section className="hidden md:block w-full overflow-hidden  rounded-md bg-[#02224b]">
+    <section className="hidden md:block w-full overflow-hidden  rounded-md bg-[#2B4D9D]">
       {/* MOBILE SLIDER */}
       <div className="block lg:hidden">
         <Swiper
@@ -69,7 +69,7 @@ export default function FeatureStrip() {
                 <div className="flex flex-col items-center justify-center gap-4 px-6 py-8 text-center min-h-[160px]">
                   <Icon
                     strokeWidth={1.8}
-                    className="h-[48px] w-[48px] text-[#d79a19]"
+                    className="h-[48px] w-[48px] text-white"
                   />
 
                   <div>
@@ -107,7 +107,7 @@ export default function FeatureStrip() {
                 <div className="shrink-0">
                   <Icon
                     strokeWidth={1.8}
-                    className="h-[48px] w-[48px] text-[#d79a19]"
+                    className="h-[48px] w-[48px] text-white"
                   />
                 </div>
 

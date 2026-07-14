@@ -68,13 +68,13 @@ export default function AboutPage() {
   <div className="relative mx-auto flex min-h-[500px] max-w-7xl items-center justify-center px-6 py-10">
     
     <div className="max-w-6xl text-center">
-      <span className="inline-flex items-center rounded-full border border-orange-200 bg-white/90 px-5 py-2 text-sm font-semibold text-[#BE8220] shadow-md backdrop-blur-md">
+      <span className="inline-flex items-center rounded-full border border-blue-200 bg-white/90 px-5 py-2 text-sm font-semibold text-[#2B4D9D] shadow-md backdrop-blur-md">
         Trusted Titanium Dioxide Supplier
       </span>
 
       <h2 className="mt-3 text-3xl md:text-5xl font-extrabold leading-tight text-[#1e293b]">
         About{" "}
-        <span className="bg-gradient-to-r from-[#BE8220] to-orange-500 bg-clip-text text-transparent">
+        <span className="bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] bg-clip-text text-transparent">
           Corechem
         </span>{" "}
         Corporation
@@ -99,7 +99,7 @@ export default function AboutPage() {
       <div className="mt-10 flex flex-wrap items-center justify-center gap-4">
         <Link
           href={"https://wa.me/919818544039"}
-          className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#9e880b]"
+          className="group inline-flex items-center gap-2 rounded-xl bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#9e880b]"
         >
           Request a Quote
           <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
@@ -107,7 +107,7 @@ export default function AboutPage() {
 
         <Link
           href="/contact"
-          className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#BE8220] hover:text-[#BE8220]"
+          className="rounded-xl border border-slate-200 bg-white/90 px-7 py-4 font-semibold text-slate-700 shadow-md backdrop-blur-sm transition hover:border-[#4B3089] hover:text-[#4B3089]"
         >
           Contact Our Team
         </Link>
@@ -120,7 +120,7 @@ export default function AboutPage() {
         <section className="mx-auto px-3 py-8  md:px-25 md:py-15">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <div>
-              <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
+              <span className="font-semibold uppercase tracking-wide text-[#2B4D9D]">
                 Who We Are
               </span>
 
@@ -154,7 +154,7 @@ We work hard to establish successful relationships within various industries by 
                       key={index}
                       className="rounded-2xl border border-slate-100 bg-slate-50 p-6"
                     >
-                      <h3 className="text-4xl font-bold text-[#BE8220]">
+                      <h3 className="text-4xl font-bold  text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]">
                         {item[0]}
                       </h3>
 
@@ -173,7 +173,7 @@ We work hard to establish successful relationships within various industries by 
 
         <section className="mx-auto px-4 py-7  md:px-20 md:py-18">
           <div className="grid gap-10 lg:grid-cols-2">
-            <div className="rounded-[30px] border border-orange-100 bg-gradient-to-br from-orange-50 to-white p-10 shadow-sm">
+            <div className="rounded-[30px] border border-purple-200 bg-gradient-to-br from-purple-100 to-white p-10 shadow-sm">
               <h2 className="text-4xl font-bold">Our Mission</h2>
 
               <p className="mt-6 text-md md:text-lg leading-8 text-slate-600">
@@ -208,7 +208,7 @@ We are a supplier committed to sustainable development and excellence. The compa
         <section className="bg-white py-8 md:py-14">
           <div className="mx-auto px-4  md:px-20">
             <div className="mx-auto max-w-6xl text-center">
-              <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
+              <span className="font-semibold uppercase tracking-wide text-[#2B4D9D]">
                 Why Choose Us
               </span>
 
@@ -227,7 +227,7 @@ We are a supplier committed to sustainable development and excellence. The compa
                   key={index}
                   className="rounded-[30px] border border-slate-200 bg-[#fcfcfd] p-5 md:p-8 shadow-sm transition hover:-translate-y-1 hover:border-[#BE8220]/30 hover:shadow-xl"
                 >
-                  <div className="inline-flex rounded-2xl bg-orange-100 p-4 text-[#BE8220]">
+                  <div className="inline-flex rounded-2xl bg-purple-100 p-4 text-[#4B3089]">
                     {item.icon}
                   </div>
 
@@ -263,21 +263,21 @@ We are a supplier committed to sustainable development and excellence. The compa
               <div className="mt-10 flex flex-wrap justify-center gap-4">
                 <Link
                   href="/contact"
-                  className="rounded-xl bg-[#BE8220] px-6 py-4 font-semibold text-white shadow-lg transition hover:bg-[#e55312]"
+                  className="rounded-xl bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-6 py-4 font-semibold text-white shadow-lg transition hover:scale-105"
                 >
                   Request a Quote
                 </Link>
 
                 <Link
                   href="/products"
-                  className="rounded-xl border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-700 shadow-sm transition hover:border-[#BE8220] hover:text-[#BE8220]"
+                  className="rounded-xl border border-slate-200 bg-white px-6 py-4 font-semibold text-slate-700 shadow-sm transition hover:border-[#4B3089] hover:text-[#4B3089]"
                 >
                   Get Product Information
                 </Link>
 
                 <a
                   href="tel:+919818544039"
-                  className="inline-flex items-center gap-2 rounded-xl border border-orange-200 bg-orange-50 px-6 py-4 font-semibold text-[#BE8220] transition hover:bg-orange-100"
+                  className="inline-flex items-center gap-2 rounded-xl border border-purple-200 bg-purple-50 px-6 py-4 font-semibold text-[#4B3089] transition hover:bg-pruple-100"
                 >
                   <Phone className="h-5 w-5" />
                   Speak with Our Experts

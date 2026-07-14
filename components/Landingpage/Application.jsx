@@ -51,7 +51,7 @@ const industries = [
 
 export default function IndustriesSection() {
   return (
-    <section className="relative overflow-hidden bg-[#1c293c] py-10">
+    <section className="relative overflow-hidden bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] py-10">
       {/* Background Decoration */}
       <div className="absolute top-0 left-0 h-96 w-96 rounded-full bg-[#C8921C]/10 blur-3xl" />
       <div className="absolute bottom-0 right-0 h-96 w-96 rounded-full bg-[#C8921C]/10 blur-3xl" />
@@ -59,7 +59,7 @@ export default function IndustriesSection() {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         {/* Header */}
         <div className="mx-auto mb-5 max-w-5xl text-center">
-          <span className="inline-flex items-center rounded-full bg-[#C8921C]/10 px-5 py-2 text-sm font-semibold text-[#C8921C]">
+          <span className="inline-flex items-center rounded-full bg-[#fff] px-5 py-2 text-sm font-semibold text-[#2B4D9D]">
            Applications of Titanium Dioxide
           </span>
 
@@ -85,17 +85,17 @@ export default function IndustriesSection() {
                 className="group relative overflow-hidden rounded-[30px] bg-white p-5 shadow-[0_10px_40px_rgba(0,0,0,0.05)] transition-all duration-500 hover:-translate-y-3 hover:shadow-[0_20px_60px_rgba(200,146,28,0.15)]"
               >
                 {/* Gold Top Border */}
-                <div className="absolute left-0 top-0 h-1 w-0 bg-[#C8921C] transition-all duration-500 group-hover:w-full" />
+                <div className="absolute left-0 top-0 h-1 w-0 bg-[#4B3089] transition-all duration-500 group-hover:w-full" />
 
                 {/* Icon */}
                 <div className="mb-4 flex h-20 w-20 items-center justify-center rounded-3xl bg-[#C8921C]/10">
                   <Icon
                     size={38}
-                    className="text-[#1c293c]"
+                    className="text-[#4B3089]"
                   />
                 </div>
 
-                <h3 className="mb-2 text-3xl font-semibold text-slate-900">
+                <h3 className="mb-2 text-3xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]">
                   {industry.title}
                 </h3>
 
@@ -108,7 +108,7 @@ export default function IndustriesSection() {
 
                 <button className="flex items-center gap-2 font-semibold text-black transition-all duration-300 group-hover:gap-4">
                   Explore Industry
-                  <ArrowRight className="text-[#C8921C]" size={18} />
+                  <ArrowRight className="text-[#4B3089]" size={18} />
                 </button>
 </Link>
 

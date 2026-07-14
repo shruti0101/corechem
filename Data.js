@@ -6252,7 +6252,7 @@ export const categories = [
 
         image: [
           {
-            src: "/prod/extra/KMML RC-822+PG.webp",
+            src: "/prod/extra/KMMLRC822PG.webp",
             alt: "KMML RC-822+PG Titanium Dioxide",
           },
         ],
@@ -12091,7 +12091,7 @@ export const categories = [
 
   image: [
     {
-      src: "/prod/extra/Phillips PP-1201.webp   ",
+      src: "/prod/extra/Phillips PP-1201.webp",
       alt: "Philips PP-1201 Carbon Black",
     },
   ],
@@ -12348,7 +12348,7 @@ export const categories = [
 
   image: [
     {
-      src: "/prod/extra/Ebsilon N-220 Carbon Black.webp",
+      src: "/prod/extra/Ebsilon N-220.webp",
       alt: "Ebsilon N-220 Carbon Black",
     },
   ],
@@ -12464,7 +12464,7 @@ export const categories = [
 
   image: [
     {
-      src: "/prod/extra/Continental N-330 Carbon Black.webp",
+      src: "/prod/extra/Continental N-330.webp",
       alt: "Continental N-330 Carbon Black",
     },
   ],

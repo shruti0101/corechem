@@ -67,7 +67,7 @@ export default function HighQualityCTA() {
                       duration: 2,
                       ease: "linear",
                     }}
-                    className="absolute top-0 left-0 w-1/2 h-full bg-yellow-600/40 skew-x-12"
+                    className="absolute top-0 left-0 w-1/2 h-full bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] skew-x-12"
                   />
                 </motion.button>
               </Link>

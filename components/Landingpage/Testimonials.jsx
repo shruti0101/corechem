@@ -53,7 +53,7 @@ export default function TestimonialSection() {
       <div className="absolute left-[-38px] top-[48px] h-[74px] w-[74px] rounded-full border border-[#d8d8d8]" />
 
       {/* ORANGE DOT */}
-      <div className="absolute left-[0px] top-[75px] h-[5px] w-[5px] rounded-full bg-[#BE8220]" />
+      <div className="absolute left-[0px] top-[75px] h-[5px] w-[5px] rounded-full bg-[#4B3089]" />
 
       {/* CONTAINER */}
       <div className="mx-auto max-w-[1580px] px-5">
@@ -61,7 +61,7 @@ export default function TestimonialSection() {
         <div className="flex flex-col gap-[30px] lg:flex-row lg:items-start lg:justify-between">
           {/* LEFT */}
           <div>
-            <span className="uppercase tracking-[1px] text-[14px] font-[700] text-[#BE8220]">
+            <span className="uppercase tracking-[1px] text-[14px] font-[700] text-[#4B3089]">
               Testimonials
             </span>
 
@@ -78,7 +78,7 @@ export default function TestimonialSection() {
               ←
             </button>
 
-            <button className="testimonial-next flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-[#BE8220] text-white transition-all duration-300 hover:bg-[#16171b]">
+            <button className="testimonial-next flex h-[62px] w-[62px] items-center justify-center border border-[#dddddd] bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-white transition-all duration-300 hover:bg-[#16171b]">
               →
             </button>
           </div>
@@ -142,12 +142,12 @@ export default function TestimonialSection() {
                   {/* FOOTER */}
                   <div className="mt-[20px] md:mt-[28px] flex items-center justify-between">
                     {/* STARS */}
-                    <div className="flex items-center gap-[4px] text-[#BE8220]">
+                    <div className="flex items-center gap-[4px]  text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]">
                       {[1, 2, 3, 4, 5].map((star) => (
                         <Star
                           key={star}
                           size={18}
-                          fill="#BE8220"
+                          fill="#4B3089"
                           strokeWidth={1.5}
                         />
                       ))}

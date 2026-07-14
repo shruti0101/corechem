@@ -30,7 +30,7 @@ export default function Navbar() {
     <header className="sticky top-0 z-[999999] w-full bg-white shadow-sm">
 
       {/* ================= TOP BAR ================= */}
-      <div className="hidden lg:flex h-[42px] items-center justify-between bg-[#062347] px-8 xl:px-14">
+      <div className="hidden lg:flex h-[42px] items-center justify-between bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-8 xl:px-14">
 
         <div className="flex items-center gap-5 text-white text-[13px]">
 
@@ -60,13 +60,13 @@ export default function Navbar() {
 
           <a href="/CC catalogue 2_compressed.pdf" download className="flex underline items-center text-sm gap-2">
             
-            <Download className="h-4 w-4 text-[#c8921c]" />
+            <Download className="h-4 w-4 text-[#F5F6F9]" />
             Download Brochure
           </a>
 
           <button
   onClick={() => setIsOpen(true)}
-  className="bg-[#c8921c] px-7 py-[11px] text-[14px] font-semibold text-white hover:bg-[#b88312]"
+  className="bg-[#F5F6F9] px-7 py-[11px] text-[14px] font-semibold text-[#2B4D9D] "
 >
   Get Free Quote →
 </button>
@@ -91,7 +91,7 @@ export default function Navbar() {
             />
           </Link>
 
-          <div><button onClick={() => setIsOpen(true)} className="bg-[#c8921c] md:hidden px-2 py-3 text-white rounded-xl">Get Quote</button></div>
+          <div><button onClick={() => setIsOpen(true)} className="bg-[#2B4D9D] md:hidden px-2 py-3 text-white rounded-xl">Get Quote</button></div>
 
 
           {/* DESKTOP MENU */}
@@ -99,14 +99,14 @@ export default function Navbar() {
 
             <Link
               href="/"
-              className="font-semibold text-[17px] hover:text-[#c8921c]"
+              className="font-semibold text-[17px] hover:text-[#2B4D9D]"
             >
               Home
             </Link>
 
             <Link
               href="/about"
-              className="font-semibold text-[17px] hover:text-[#c8921c]"
+              className="font-semibold text-[17px] hover:text-[#2B4D9D]"
             >
               About Us
             </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
 <Link href="/products">
 
 
-              <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#c8921c]">
+              <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#2B4D9D]">
                 Our Products
                 <ChevronDown className="h-4 w-4 transition duration-300 group-hover:rotate-180" />
               </button>
@@ -131,7 +131,7 @@ export default function Navbar() {
                     <Link
                       key={category.id}
                       href={`/categories/${category.id}`}
-                      className="block border-b border-slate-100 py-3 text-[16px] font-medium text-slate-800 transition hover:translate-x-2 hover:text-[#c8921c]"
+                      className="block border-b border-slate-100 py-3 text-[16px] font-medium text-slate-800 transition hover:translate-x-2 hover:text-[#2B4D9D]"
                     >
                       {category.name}
                     </Link>
@@ -143,14 +143,14 @@ export default function Navbar() {
 
             <Link
               href="/our-blogs"
-              className="font-semibold text-[17px] hover:text-[#c8921c]"
+              className="font-semibold text-[17px] hover:text-[#2B4D9D]"
             >
               Articles & Resources
             </Link>
 
             <Link
               href="/contact"
-              className="font-semibold text-[17px] hover:text-[#c8921c]"
+              className="font-semibold text-[17px] hover:text-[#2B4D9D]"
             >
               Contact Us
             </Link>
@@ -160,7 +160,7 @@ export default function Navbar() {
           {/* PHONE */}
           <div className="hidden lg:ml-90 xl:ml-0 lg:flex items-center gap-3">
 
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#c8921c]">
+            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-[#2B4D9D]">
               <Phone className="h-5 w-5 text-white" />
             </div>
 

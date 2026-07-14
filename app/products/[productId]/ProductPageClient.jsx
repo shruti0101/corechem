@@ -186,7 +186,7 @@ export default function ProductPage({ params }) {
         <div className="relative  grid w-full gap-10 px-4 py-8 md:px-8 lg:py-10 xl:py-18 lg:grid-cols-3 lg:items-center ">
           {/* LEFT */}
           <div>
-            <span className="inline-flex rounded-full border border-orange-200 bg-white px-5 py-2 text-sm font-semibold text-[#BE8220] shadow-sm">
+            <span className="inline-flex rounded-full border border-blue-200 bg-white px-5 py-2 text-sm font-semibold text-[#2B4D9D] shadow-sm">
               Trusted Titanium Dioxide Supplier
             </span>
 
@@ -203,7 +203,7 @@ export default function ProductPage({ params }) {
               <a
               href="tel:+919818544039"
                 // onClick={() => setIsFormOpen(true)}
-                className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e5b712] capitalize"
+                className="group inline-flex items-center gap-2 rounded-xl bg-[#2B4D9D] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-scale-105 capitalize"
               >
                get instant price
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
@@ -267,7 +267,7 @@ export default function ProductPage({ params }) {
              <div className="lg:sticky lg:top-24 lg:h-fit">
             <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
               {/* TOP */}
-              <div className="bg-[#BE8220] p-3 lg:p-4 xl:px-8 xl:py-8 text-white">
+              <div className="bg-[#2B4D9D] p-3 lg:p-4 xl:px-8 xl:py-8 text-white">
                 <h3 className="text-xl lg:text-2xl xl:text-3xl font-bold">Technical Specifications</h3>
 
                 <p className="mt-3 text-white/90">
@@ -308,7 +308,7 @@ export default function ProductPage({ params }) {
   <div className="relative mx-auto grid w-full gap-12 px-4 md:px-18 lg:px-20 lg:grid-cols-[1fr_420px] items-start">
     {/* DESCRIPTION */}
     <div className="relative">
-      <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
+      <span className="font-semibold uppercase tracking-wide text-[#2B4D9D]">
         Product Overview
       </span>
 
@@ -344,7 +344,7 @@ export default function ProductPage({ params }) {
                 <ul key={i} className="space-y-5">
                   {block.items.map((item, j) => (
                     <li key={j} className="flex items-start gap-4">
-                      <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-[#BE8220]" />
+                      <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-[#2B4D9D]" />
 
                       <span
                         dangerouslySetInnerHTML={{
@@ -367,7 +367,7 @@ export default function ProductPage({ params }) {
       <div className="sticky top-24">
         <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
           {/* HEADER */}
-          <div className="bg-gradient-to-r from-[#BE8220] to-[#d89a31] px-8 py-8 text-white">
+          <div className="bg-[#2B4D9D] px-8 py-8 text-white">
             <h3 className="text-3xl font-bold capitalize">
               Get a Free Quote
             </h3>
@@ -393,7 +393,7 @@ export default function ProductPage({ params }) {
   value={form.name}
   onChange={handleChange}
   placeholder="Enter your full name"
-  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#2B4D9D] focus:bg-white"
 />
               </div>
 
@@ -409,7 +409,7 @@ export default function ProductPage({ params }) {
   value={form.email}
   onChange={handleChange}
   placeholder="Enter your email"
-  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#2B4D9D] focus:bg-white"
 />
               </div>
 
@@ -426,7 +426,7 @@ export default function ProductPage({ params }) {
   onChange={handleChange}
   maxLength={10}
   placeholder="Enter your phone number"
-  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+  className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#2B4D9D] focus:bg-white"
 />
               </div>
 
@@ -441,7 +441,7 @@ export default function ProductPage({ params }) {
   name="message"
   value={form.message}
   onChange={handleChange}
-  className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+  className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#2B4D9D] focus:bg-white"
 />
               </div>
 
@@ -449,7 +449,7 @@ export default function ProductPage({ params }) {
               <button
   type="submit"
   disabled={loading}
-  className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d] disabled:opacity-60 disabled:cursor-not-allowed"
+  className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#2B4D9D] font-semibold text-white shadow-lg transition hover:bg-[#2B4D9D] disabled:opacity-60 disabled:cursor-not-allowed"
 >
   {loading ? "Submitting..." : "Submit Inquiry"}
 </button>
@@ -459,7 +459,7 @@ export default function ProductPage({ params }) {
                 <a
                   href="/CC catalogue 2_compressed.pdf"
                   download
-                  className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
+                  className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#4B3089] hover:text-[#4B3089]"
                 >
                   <Download className="h-4 w-4" />
                   Brochure
@@ -467,7 +467,7 @@ export default function ProductPage({ params }) {
 
                 <a
                   href="tel:+919818544039"
-                  className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
+                  className="flex items-center justify-center gap-2 rounded-2xl border border-blue-200 bg-blue-50 px-4 py-3 text-sm font-semibold text-[#2B4D9D] transition hover:bg-blue-100"
                 >
                   <Phone className="h-4 w-4" />
                   Call Now

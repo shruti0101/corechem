@@ -79,9 +79,9 @@ export default function IndustriesWeServe() {
           <div>
             {/* SMALL TITLE */}
             <div className="flex items-center gap-[12px]">
-              <span className="text-[#BE8220] text-[22px] leading-none">»</span>
+              <span className="text-[#2B4D9D] text-[22px] leading-none">»</span>
 
-              <span className="uppercase tracking-[2px] text-[14px] text-center font-[700] text-[#BE8220]">
+              <span className="uppercase tracking-[2px] text-[14px] text-center font-[700] text-[#2B4D9D]">
                 Industries We Serve
               </span>
             </div>
@@ -105,7 +105,7 @@ export default function IndustriesWeServe() {
             return (
               <div
                 key={index}
-                className="group relative overflow-hidden rounded-[6px] bg-[#1C293C] p-[15px] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(0,0,0,0.18)]"
+                className="group relative overflow-hidden rounded-[6px] bg-[#2B4D9D]  p-[15px] transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_30px_70px_rgba(0,0,0,0.18)]"
               >
                 {/* BACKGROUND TEXTURE */}
                 <div className="absolute inset-0 opacity-[0.04]">
@@ -127,18 +127,18 @@ export default function IndustriesWeServe() {
                   {/* LEFT ICON */}
                   <div className="flex flex-col items-center">
                     {/* ICON BOX */}
-                    <div className="flex h-[60px] w-[60px] items-center justify-center rounded-[6px] bg-white/10 text-[#BE8220] backdrop-blur-xl transition-all duration-300 group-hover:bg-[#BE8220] group-hover:text-white group-hover:rotate-[360deg]">
+                    <div className="flex h-[60px] w-[60px] items-center justify-center rounded-[6px] bg-white/10 text-white backdrop-blur-xl transition-all duration-300 group-hover:bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]group-hover:text-white group-hover:rotate-[360deg]">
                       <Icon size={38} strokeWidth={1.8} />
                     </div>
 
                     {/* VERTICAL LINE */}
-                    <div className="mt-[22px] h-[110px] w-[1px] bg-white/50 group-hover:bg-[#BE8220]" />
+                    <div className="mt-[22px] h-[110px] w-[1px] bg-white/50 group-hover:bg-[#fff]" />
                   </div>
 
                   {/* RIGHT CONTENT */}
                   <div className="flex-1">
                     {/* TITLE */}
-                    <h3 className="text-white text-[20px]  md:text-[28px] md:leading-[40px] font-[700] tracking-[-1px] transition-all duration-300 group-hover:text-[#BE8220]">
+                    <h3 className="text-white text-[20px]  md:text-[28px] md:leading-[40px] font-[700] tracking-[-1px] transition-all duration-300 ">
                       {item.title}
                     </h3>
 

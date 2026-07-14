@@ -30,7 +30,7 @@ export default function AboutUsSection() {
           />
 
           {/* BLACK CARD */}
-          <div className="absolute bottom-0 left-0 w-[92%] sm:w-[80%] bg-[#1C293C] px-5 sm:px-7 py-5 sm:py-7 flex items-center justify-between">
+          <div className="absolute bottom-0 left-0 w-[92%] sm:w-[80%] bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-5 sm:px-7 py-5 sm:py-7 flex items-center justify-between">
             
             <div className="flex items-center gap-4 sm:gap-6">
               
@@ -51,7 +51,7 @@ export default function AboutUsSection() {
             </div>
 
             {/* ORANGE STRIP */}
-            <div className="absolute top-0 right-0 w-[10px] h-full bg-[#BE8220]" />
+            <div className="absolute top-0 right-0 w-[10px] h-full bg-[#4B3089]" />
           </div>
 
           
@@ -63,7 +63,7 @@ export default function AboutUsSection() {
             
             {/* PHONE */}
             <div className="flex items-center gap-4">
-              <div className="w-[46px] h-[46px] rounded-full bg-[#BE8220] flex items-center justify-center shrink-0">
+              <div className="w-[46px] h-[46px] rounded-full bg-[#2B4D9D] flex items-center justify-center shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -83,7 +83,7 @@ export default function AboutUsSection() {
 
               <a
                 href="tel:+919818544039"
-                className="text-[18px] sm:text-[20px] font-[700] text-[#1f2d3d] hover:text-[#BE8220] transition"
+                className="text-[18px] sm:text-[20px] font-[700] text-[#1f2d3d] hover:text-[#2B4D9D] transition"
               >
                 +91 9818544039
               </a>
@@ -91,7 +91,7 @@ export default function AboutUsSection() {
 
             {/* EMAIL */}
             <div className="flex items-center gap-4 mt-2">
-              <div className="w-[46px] h-[46px] rounded-full bg-[#BE8220] flex items-center justify-center shrink-0">
+              <div className="w-[46px] h-[46px] rounded-full bg-[#2B4D9D] flex items-center justify-center shrink-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="18"
@@ -111,7 +111,7 @@ export default function AboutUsSection() {
 
               <a
                 href="mailto:corechemcorporation@gmail.com"
-                className="text-[15px] sm:text-[18px] font-[700] text-[#1f2d3d] hover:text-[#BE8220] transition break-all"
+                className="text-[15px] sm:text-[18px] font-[700] text-[#1f2d3d] hover:text-[#2B4D9D] transition break-all"
               >
                 corechemcorporation@gmail.com
               </a>
@@ -119,9 +119,9 @@ export default function AboutUsSection() {
 
             {/* BUTTON */}
             <div className="flex justify-center lg:hidden xl:flex items-center">
-  <button className="group hidden lg:flex relative mt-8 h-[65px] w-[320px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
+  <button className="group hidden lg:flex relative mt-8 h-[65px] w-[320px] overflow-hidden bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
     
-    <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
+    <span className="absolute inset-0 bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
 
     <Link
       href="/products"
@@ -152,7 +152,7 @@ export default function AboutUsSection() {
           {/* EXPERIENCE BOX */}
           <div className="w-full hidden xl:flex sm:w-[270px] h-[220px] bg-[#f3f3f5]  md:flex-col items-center justify-center px-6">
             
-            <h4 className="text-[#BE8220] text-[55px] leading-none font-[800]">
+            <h4 className="text-[#4B3089] text-[55px] leading-none font-[800]">
               20+
             </h4>
 
@@ -170,7 +170,7 @@ export default function AboutUsSection() {
         
         {/* SMALL TITLE */}
         <div className="flex items-center gap-2">
-          <span className="text-[#BE8220] text-[26px] leading-none">
+          <span className="text-[#4B3089] text-[26px] leading-none">
             /
           </span>
 
@@ -218,7 +218,7 @@ export default function AboutUsSection() {
           ].map((item, index) => (
             <div key={index} className="flex items-start gap-4">
               
-              <div className="min-w-[22px] h-[22px] rounded-full bg-[#BE8220] flex items-center justify-center mt-[3px]">
+              <div className="min-w-[22px] h-[22px] rounded-full bg-[#2B4D9D] flex items-center justify-center mt-[3px]">
                 <Check
                   size={12}
                   className="text-white"

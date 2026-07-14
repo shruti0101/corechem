@@ -108,7 +108,7 @@ export default function Footer() {
             <div className="mt-[28px] space-y-[16px]">
               {/* ADDRESS */}
               <div className="flex items-start gap-[14px]">
-                <div className="flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+                <div className="flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full bg-[#fff]/80 text-[#4B3089]">
                   <MapPin size={18} />
                 </div>
 
@@ -119,19 +119,19 @@ export default function Footer() {
 
               {/* PHONE */}
               <div className="flex items-center gap-[14px]">
-                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+                <div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#fff]/80 text-[#4B3089]">
                   <PhoneCall size={17} />
                 </div>
 
                 <a
                   href="tel:+919818544039"
-                  className="text-[15px]  text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="text-[15px]  text-white transition-all duration-300 hover:text-[#2B4D9D]"
                 >
                   +91 98185 44039
                 </a>
                 <a
                   href="tel:+919250056235"
-                  className="text-[15px]  text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="text-[15px]  text-white transition-all duration-300 hover:text-[#2B4D9D]"
                 >
                   +91 92500 56235
                 </a>
@@ -145,19 +145,19 @@ export default function Footer() {
             </div>
             <div className="mt-2 flex items-center gap-[14px]">
                 
-<div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#BE8220]/10 text-[#BE8220]">
+<div className="flex h-[42px] w-[42px] items-center justify-center rounded-full bg-[#fff]/80 text-[#4B3089]">
                   <Mail size={17} />
                 </div>
                 <div>                 <a
                   href="mailto:info@corechemcorp.com"
-                  className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#2B4D9D]"
                 >
                   info@corechemcorp.com
                 </a>
                 <br/>
                  <a
                   href="mailto:sales@corechemcorp.com"
-                  className="text-[17px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="text-[17px] text-white transition-all duration-300 hover:text-[#2B4D9D]"
                 >
                   sales@corechemcorp.com
                 </a>
@@ -166,7 +166,7 @@ export default function Footer() {
               </div>
 
             {/* CTA */}
-            <a href="https://wa.me/919818544039" className="group mt-[24px] w-fit   flex h-[58px] items-center gap-[12px] rounded-full bg-[#BE8220] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
+            <a href="https://wa.me/919818544039" className="group mt-[24px] w-fit   flex h-[58px] items-center gap-[12px] rounded-full bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-[26px] text-[14px] font-[700] uppercase tracking-[1px] text-white transition-all duration-300 hover:bg-white hover:text-[#111827]">
               Get Bulk Pricing
               <ArrowUpRight
                 size={18}
@@ -187,11 +187,11 @@ export default function Footer() {
                 <Link
                   key={index}
                   href={link.href}
-                  className="group flex items-center gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="group flex items-center gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]"
                 >
                   <ChevronRight
                     size={16}
-                    className="transition-all duration-300 group-hover:translate-x-[3px]"
+                    className="transition-all text-white duration-300 group-hover:translate-x-[3px]"
                   />
 
                   {link.name}
@@ -211,11 +211,11 @@ export default function Footer() {
                 <Link
                 href={`/categories/${product.id}`}
                   key={index}
-                  className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-[#BE8220]"
+                  className="group flex items-start gap-[10px] text-[15px] text-white transition-all duration-300 hover:text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]"
                 >
                   <FlaskConical
                     size={15}
-                    className="mt-[4px] transition-all duration-300 group-hover:rotate-12"
+                    className="mt-[4px] transition-all duration-300 text-white group-hover:rotate-12"
                   />
 
                   <span>{product.name}</span>
@@ -285,7 +285,7 @@ export default function Footer() {
         <a
           target="_blank"
           href="https://inquirybazaar.com/"
-          className="text-[#FAAC18] hover:underline"
+          className="text-[#2B4D9D] hover:underline"
         >
            B2B Marketplace
         </a>

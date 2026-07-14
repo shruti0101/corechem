@@ -56,7 +56,7 @@ export default function WhyChooseSection() {
           {/* LEFT SIDE */}
           <div>
             {/* SMALL TITLE */}
-            <span className="text-[13px] font-[700] uppercase tracking-[1.5px] text-[#BE8220]">
+            <span className="text-[13px] font-[700] uppercase tracking-[1.5px] text-[#4B3089]">
               Why Choose Us
             </span>
 
@@ -77,7 +77,7 @@ export default function WhyChooseSection() {
                     className="group flex gap-[18px] rounded-[8px] border border-[#e8e8e8] bg-white p-[22px] transition-all duration-300 hover:border-[#BE8220]/30 hover:shadow-[0_12px_35px_rgba(0,0,0,0.05)]"
                   >
                     {/* ICON */}
-                    <div className="flex h-[62px] w-[62px] min-w-[62px] items-center justify-center rounded-[8px] bg-[#BE8220]">
+                    <div className="flex h-[62px] w-[62px] min-w-[62px] items-center justify-center rounded-[8px] bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]">
                       <Icon size={28} strokeWidth={2} className="text-white" />
                     </div>
 
@@ -117,7 +117,7 @@ export default function WhyChooseSection() {
 
               {/* EXPERIENCE CARD */}
               <div className="absolute bottom-[25px] left-[25px] rounded-[8px] bg-white px-[24px] py-[20px] shadow-[0_20px_50px_rgba(0,0,0,0.12)]">
-                <h4 className="text-[#BE8220] text-[38px] leading-none font-[700]">
+                <h4 className=" text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-[38px] leading-none font-[700]">
                   20+
                 </h4>
 

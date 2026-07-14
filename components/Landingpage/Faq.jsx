@@ -72,7 +72,7 @@ export default function FAQSection() {
         {/* TOP HEADER */}
         <div className="text-center">
           {/* SMALL TITLE */}
-          <span className="inline-block text-[13px] font-[700] uppercase tracking-[1.8px] text-[#BE8220]">
+          <span className="inline-block text-[13px] font-[700] uppercase tracking-[1.8px] text-[#4B3089]">
             Frequently Asked Questions
           </span>
 
@@ -105,7 +105,7 @@ export default function FAQSection() {
                     {/* TEXT */}
                     <h3
                       className={`text-[18px] leading-[30px] font-[600] transition-all duration-300 sm:text-[20px] ${
-                        isActive ? "text-[#BE8220]" : "text-[#16171b]"
+                        isActive ? " text-transparent bg-clip-text bg-gradient-to-r from-[#2B4D9D] to-[#4B3089]" : "text-[#16171b]"
                       }`}
                     >
                       {faq.question}
@@ -115,7 +115,7 @@ export default function FAQSection() {
                     <div
                       className={`flex h-[42px] w-[42px] min-w-[42px] items-center justify-center rounded-full transition-all duration-300 ${
                         isActive
-                          ? "bg-[#BE8220] text-white"
+                          ? "bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-white"
                           : "bg-[#f4f4f4] text-[#16171b]"
                       }`}
                     >
