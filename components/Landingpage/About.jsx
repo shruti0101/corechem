@@ -234,7 +234,7 @@ export default function AboutUsSection() {
         </div>
           <div className="w-full hidden mt-5 lg:flex xl:hidden   h-[70px] bg-[#f3f3f5]  flex-col items-center justify-center px-6">
             
-            <h4 className="text-[#BE8220] whitespace-nowrap text-[25px] leading-none font-[800]">
+            <h4 className="text-[#4B3089] whitespace-nowrap text-[25px] leading-none font-[800]">
               20+ Years of Working  Experience 
             </h4>
 
@@ -243,9 +243,9 @@ export default function AboutUsSection() {
            
           </div>
           <div className="flex justify-center items-center">
-  <button className="group hidden lg:flex xl:hidden relative mt-8 h-[65px] w-[320px] overflow-hidden bg-[#BE8220] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
+  <button className="group hidden lg:flex xl:hidden relative mt-8 h-[65px] w-[320px] overflow-hidden bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] text-white uppercase tracking-[1.5px] text-[15px] font-[700] transition-all duration-500 hover:scale-[1.03] items-center justify-center">
     
-    <span className="absolute inset-0 bg-[#1f2d3d] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
+    <span className="absolute inset-0 bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] translate-y-full group-hover:translate-y-0 transition-transform duration-500"></span>
 
     <Link
       href="/products"

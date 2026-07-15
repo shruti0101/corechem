@@ -28,7 +28,7 @@ export default function Header() {
     <header className="sticky top-0 z-[9999] w-full bg-white shadow-sm">
 
       {/* ================= TOP BAR ================= */}
-      <div className="hidden lg:flex h-[42px] items-center justify-between bg-[#062347] px-8 xl:px-14">
+      <div className="hidden relative z-50 lg:flex h-[42px] items-center justify-between bg-[#062347] px-8 xl:px-14">
 
         <div className="flex items-center gap-5 text-white text-[13px]">
 

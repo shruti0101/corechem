@@ -265,13 +265,13 @@ export default function Navbar() {
 
           <a
             href="tel:+919818544039"
-            className="mt-6 rounded-lg bg-[#c8921c] py-3 text-center font-semibold text-white"
+            className="mt-6 rounded-lg bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] py-3 text-center font-semibold text-white"
           >
             Call Now
           </a>
           <a href="/CC catalogue 2_compressed.pdf" download className="flex p-4 text-center justify-center underline items-center text-sm gap-2">
             
-            <Download className="h-4 w-4 text-[#c8921c]" />
+            <Download className="h-4 w-4 text-[#2B4D9D]" />
             Download Brochure
           </a>
 
