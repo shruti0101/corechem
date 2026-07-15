@@ -30,13 +30,13 @@ export default function Navbar() {
     <header className="sticky top-0 z-[999999] w-full bg-white shadow-sm">
 
       {/* ================= TOP BAR ================= */}
-      <div className="hidden lg:flex h-[42px] items-center justify-between bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-8 xl:px-14">
+      <div className="hidden relative z-50 lg:flex h-[42px] items-center justify-between bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-8 xl:px-14">
 
         <div className="flex items-center gap-5 text-white text-[13px]">
 
           <div className="flex items-center gap-2">
             <Mail className="h-3 w-3 text-[#c8921c]" />
-            <a href="mailto:corechemcorporation@gmail.com">
+            <a className="cursor-default" href="mailto:corechemcorporation@gmail.com">
               corechemcorporation@gmail.com
             </a>
           </div>
