@@ -13,7 +13,7 @@ import "swiper/css/pagination";
 
 // Move outside component
 const desktopBanners = [
-  "/banner2.webp",
+  "/banner3.webp",
   "/banner1.webp",
 ];
 
