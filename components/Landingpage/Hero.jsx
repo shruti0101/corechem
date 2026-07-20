@@ -12,25 +12,16 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 // Move outside component
-const desktopBanners = [
-  "/banner3.webp",
-  "/banner1.webp",
-];
+const desktopBanners = ["/banner222.webp", "/banner333.webp"];
 
-const mobileBanners = [
-  "/corechem banner2.webp",
-  "/corechem banner1.webp",
-];
+const mobileBanners = ["/corechem banner2.webp", "/corechem banner1.webp"];
 
 function Hero() {
-  const modules = useMemo(
-    () => [Navigation, Pagination, Autoplay],
-    []
-  );
+  const modules = useMemo(() => [Navigation, Pagination, Autoplay], []);
 
   return (
     <section className="w-full bg-[#f7f7f7]">
-      <div className="relative h-[400px] xl:h-[80vh] w-full">
+      <div className="relative h-[400px] lg:h[70vh] xl:h-[80vh] w-full">
         <Swiper
           modules={modules}
           navigation={{
@@ -40,10 +31,10 @@ function Hero() {
           pagination={{
             clickable: true,
           }}
-          autoplay={{
-            delay: 3500,
-            disableOnInteraction: false,
-          }}
+          // autoplay={{
+          //   delay: 3500,
+          //   disableOnInteraction: false,
+          // }}
           loop
           preloadImages={false}
           lazyPreloadPrevNext={1}
@@ -54,7 +45,7 @@ function Hero() {
         >
           {desktopBanners.map((desk, i) => (
             <SwiperSlide key={desk}>
-              <div className="relative h-full w-full">
+              <div className="relative mt-0 h-full w-full">
                 {/* Desktop */}
                 <Image
                   src={desk}
@@ -65,7 +56,7 @@ function Hero() {
                   loading={i === 0 ? "eager" : "lazy"}
                   quality={75}
                   sizes="100vw"
-                  className="hidden md:block object-cover"
+                  className="hidden md:block object-cover "
                 />
 
                 {/* Mobile */}
