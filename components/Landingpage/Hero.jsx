@@ -31,10 +31,10 @@ function Hero() {
           pagination={{
             clickable: true,
           }}
-          // autoplay={{
-          //   delay: 3500,
-          //   disableOnInteraction: false,
-          // }}
+          autoplay={{
+            delay: 3500,
+            disableOnInteraction: false,
+          }}
           loop
           preloadImages={false}
           lazyPreloadPrevNext={1}
