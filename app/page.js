@@ -20,11 +20,14 @@ import Clientele from "@/components/Landingpage/Clientele";
 import Belowhero from "@/components/Landingpage/Belowhero"
 import Facilitybar from "@/components/Landingpage/Facilitybar"
 import Facilitybar2 from "@/components/Landingpage/Facilitybar2"
+import AutoPopupForm from "@/components/AutoPopupForm";
 export default function Home() {
   return (
     <>
       {/* <Popup></Popup> */}
+       <AutoPopupForm />
       <Hero />
+      
       <Facilitybar></Facilitybar>
       <Belowhero></Belowhero>
     

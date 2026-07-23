@@ -10,8 +10,7 @@ import {
 
 import { auth } from "@/lib/firebase";
 
-
-export default function ContactForm({setIsOpen,isOpen}) {
+export default function AutoPopupForm() {
   const [loading, setLoading] = useState(false);
   const [status, setStatus] = useState("");
 
@@ -21,7 +20,7 @@ export default function ContactForm({setIsOpen,isOpen}) {
   const [product, setProduct] = useState("");
   const [message, setMessage] = useState("");
 
-
+const [isOpen, setIsOpen] = useState(false);
 const [otp, setOtp] = useState("");
 const [showOtpBox, setShowOtpBox] = useState(false);
 const [confirmationResult, setConfirmationResult] = useState(null);
@@ -80,41 +79,46 @@ const recaptchaId = "contact-popup-recaptcha";
 
   
 useEffect(() => {
-  const timer = setTimeout(() => setIsOpen(true), 5000);
+  const timer = setTimeout(() => {
+    setIsOpen(true);
+  }, 5000);
 
-  if (typeof window !== "undefined") {
-    const initRecaptcha = async () => {
-      try {
-        if (window.contactPopupRecaptcha) {
-          window.contactPopupRecaptcha.clear();
-        }
+  return () => clearTimeout(timer);
+}, []);
 
-        window.contactPopupRecaptcha = new RecaptchaVerifier(
-          auth,
-          recaptchaId,
-          {
-            size: "invisible",
-          }
-        );
+useEffect(() => {
+  if (!isOpen) return;
 
-        await window.contactPopupRecaptcha.render();
-      } catch (err) {
-        console.log(err);
+  const initRecaptcha = async () => {
+    try {
+      if (window.contactPopupRecaptcha) {
+        window.contactPopupRecaptcha.clear();
       }
-    };
 
-    initRecaptcha();
-  }
+      window.contactPopupRecaptcha = new RecaptchaVerifier(
+        auth,
+        recaptchaId,
+        {
+          size: "invisible",
+        }
+      );
+
+      await window.contactPopupRecaptcha.render();
+    } catch (err) {
+      console.log("Recaptcha Error:", err);
+    }
+  };
+
+  // Wait for the div to be rendered
+  setTimeout(initRecaptcha, 100);
 
   return () => {
-    clearTimeout(timer);
-
     if (window.contactPopupRecaptcha) {
       window.contactPopupRecaptcha.clear();
       window.contactPopupRecaptcha = null;
     }
   };
-}, []);
+}, [isOpen]);
 
 
   // FORM SUBMIT (NO OTP)
@@ -174,7 +178,12 @@ const sendOTP = async () => {
   try {
     setLoading(true);
 
-    const appVerifier = window.contactPopupRecaptcha;
+   const appVerifier = window.contactPopupRecaptcha;
+
+if (!appVerifier) {
+  toast.error("reCAPTCHA not initialized");
+  return;
+}
 
     const result = await signInWithPhoneNumber(
       auth,
@@ -188,7 +197,10 @@ const sendOTP = async () => {
     toast.success("OTP Sent Successfully");
   } catch (err) {
     console.log(err);
-    toast.error(err.message);
+ console.log(err.code);
+console.log(err.message);
+
+toast.error(err.message);
   } finally {
     setLoading(false);
   }
@@ -235,7 +247,7 @@ const verifyOTP = async () => {
   if (!isOpen) return null;
 
   return (
-    <div className="fixed z-[99999] inset-0 flex items-center  px-4 justify-center bg-black/40">
+    <div className="fixed z-[99999999] inset-0 flex items-center  px-4 justify-center bg-black/40">
       <div
         className="relative rounded-3xl shadow-2xl p-10 max-w-sm md:max-w-2xl bg-[#062347] text-white bg-cover bg-center"
         style={{ backgroundImage: "url(/bag/try2.webp)" }}
