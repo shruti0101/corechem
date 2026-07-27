@@ -4133,7 +4133,7 @@ export const categories = [
 
         image: [
           {
-            src: "/prod/extra/Dupont R-902+.webp",
+            src: "/prod/extra/Dupont-R-902.webp",
             alt: "DuPont R-902+ Titanium Dioxide",
           },
         ],
