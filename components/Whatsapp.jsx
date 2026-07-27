@@ -15,7 +15,7 @@ const Whatsapp = () => {
     <>
       
       {!hideLayout && <a
-        href="https://wa.me/919818544039"
+         href={"https://wa.link/2fpjmq"}
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Chat on WhatsApp with corechem corporation"

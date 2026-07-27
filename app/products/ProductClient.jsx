@@ -60,9 +60,7 @@ const Page = () => {
 
     <div className="px-3 pb-3! mt-auto">
       <a
-        href={`https://wa.me/919818544039?text=Hi%20I%20am%20interested%20in%20${encodeURIComponent(
-          product.name
-        )}%20.%20Please%20share%20the%20price.`}
+         href={"https://wa.link/2fpjmq"}
         target="_blank"
         rel="noopener noreferrer"
         className="bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] flex justify-center items-center gap-2 text-white px-3 py-2 rounded-md font-medium hover:bg-[#a87412] transition w-full"
