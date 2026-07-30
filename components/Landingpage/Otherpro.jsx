@@ -11,6 +11,21 @@ import "swiper/css/navigation";
 import Link from "next/link";
 
 const products = [
+
+  {
+    id: "plastic-grade-rutile-titanium-dioxide-fr-761",
+    image:"/prod/fr761home.webp",
+    grade: "Rutile Titanium Dioxide FR-761",
+    code: "761",
+    desc: "High brightness and excellent durability for applications.",
+  },
+  {
+    id: "rutile-titanium-dioxide-fr-767",
+    image:"/prod/Fr-767home.webp",
+    grade: "Rutile Titanium Dioxide FR-767",
+    code: "768",
+    desc: "High brightness and excellent durability for applications.",
+  },
   {
     id: "titanium-dioxide-jinhai-r6618",
     image:"/bowl1.webp",
@@ -70,6 +85,8 @@ const products = [
   code: "R-248",
   desc: "Premium titanium dioxide with excellent opacity.",
 },
+
+
     
 
 ];
@@ -205,7 +222,7 @@ export default function ProductShowcaseSection() {
 
                     {/* DESC */}
                     <p className="mt-[10px] text-[#666] text-[17px] leading-[35px] font-[400]">
-                      {item.desc}
+                      {item.grade}
                     </p>
 
                     {/* BOTTOM */}
