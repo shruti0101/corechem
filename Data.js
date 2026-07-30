@@ -10032,44 +10032,51 @@ id: "anatase",
         ],
       },
 
-      {
+     {
   id: "titanium-dioxide-opati-kilburn",
-  slug: "titanium-dioxide-opati-kilburn",
 
   name: "Titanium Dioxide OpaTi (Kilburn)",
 
   metaTitle:
-    "Titanium Dioxide OpaTi (Kilburn) Supplier | Rutile TiO₂ for Paints & Coatings",
+    "Titanium Dioxide OpaTi (Kilburn) Supplier | Rutile TiO₂ | Corechem Corporation",
 
   metaDescription:
-    "Buy Titanium Dioxide OpaTi (Kilburn), a rutile grade TiO₂ powder ideal for paints, coatings, plastics, inks, and industrial applications. High opacity and excellent performance.",
+    "Corechem Corporation supplies Titanium Dioxide OpaTi (Kilburn), a rutile grade TiO₂ pigment ideal for paints, coatings, plastics, inks, and industrial applications with excellent opacity and performance.",
 
   overview:
-    "Titanium Dioxide OpaTi (Kilburn) is a high-quality rutile grade pigment supplied in powder form, widely used in paints, coatings, plastics, inks, and other industrial applications. It offers excellent opacity, brightness, and consistent performance across multiple industries.",
+    "Titanium Dioxide OpaTi (Kilburn) is a high-performance rutile Titanium Dioxide (TiO₂) pigment designed for paints, coatings, plastics, and industrial applications. Manufactured under the Kilburn brand, this product offers excellent opacity, brightness, and consistent quality. Its stable rutile structure ensures durability and superior performance across demanding industrial formulations, making it a reliable choice for manufacturers seeking high-quality white pigments.",
 
   description: [
     {
       type: "h2",
       text: "Product Overview",
     },
+
     {
-      type: "p",
-      text: "Titanium Dioxide OpaTi (Kilburn) is a rutile polymorph TiO₂ pigment available in powder form and packed in 25 kg PP bags. It is widely used in industrial applications due to its excellent opacity, whiteness, and compatibility with different formulations.",
+      type: "ul",
+      items: [
+        "Manufactured using rutile process technology to ensure high durability and stability.",
+        "Provides excellent opacity and brightness for superior coverage in coatings and plastics.",
+        "Fine powder form supports smooth dispersion in industrial formulations.",
+        "Widely used across multiple industries including paints, plastics, inks, and chemicals.",
+        "Corechem Corporation ensures consistent supply, quality assurance, and competitive pricing.",
+      ],
     },
 
     {
       type: "h2",
       text: "Key Features",
     },
+
     {
       type: "ul",
       items: [
-        "Rutile polymorph ensures high durability and stability.",
-        "Excellent opacity and brightness for superior coverage.",
-        "Fine powder form allows easy dispersion in formulations.",
-        "Suitable for a wide range of industrial applications.",
-        "Consistent quality for paints, coatings, plastics, and inks.",
-        "Good compatibility with various chemical systems.",
+        "High-quality rutile Titanium Dioxide pigment.",
+        "Excellent opacity and whiteness.",
+        "Stable chemical and physical properties.",
+        "Good dispersion in various applications.",
+        "Suitable for coatings, plastics, and industrial uses.",
+        "Consistent batch quality and reliable performance.",
       ],
     },
 
@@ -10077,34 +10084,81 @@ id: "anatase",
       type: "h2",
       text: "Applications",
     },
+
     {
       type: "ul",
       items: [
-        "Paints and coatings",
-        "Plastic and polymer processing",
-        "Ink manufacturing",
-        "Textile industry",
-        "Agricultural formulations",
-        "General chemical industry applications",
+        "Paints and coatings industry.",
+        "Plastic and masterbatch production.",
+        "Ink manufacturing.",
+        "Textile applications.",
+        "Agricultural and chemical formulations.",
+        "General industrial pigment applications.",
+      ],
+    },
+
+    {
+      type: "h2",
+      text: "Why Choose Corechem Corporation",
+    },
+
+    {
+      type: "ul",
+      items: [
+        "Corechem Corporation is a trusted Titanium Dioxide supplier in India.",
+        "We offer consistent quality products with reliable industrial performance.",
+        "Strong supply chain ensures timely delivery and availability.",
+        "Competitive pricing for bulk industrial requirements.",
+        "Strict quality control for stable and dependable output.",
+        "We also supply Calcium Carbonate, Lithopone, Carbon Black, Color Pigments, Optical Brighteners, and Lime Powder.",
+        "Dedicated customer support for long-term business partnerships.",
       ],
     },
   ],
 
   specs: [
-    { label: "Product Name", value: "Titanium Dioxide OpaTi (Kilburn)" },
-    { label: "Polymorph Form", value: "Rutile" },
-    { label: "Form", value: "Powder" },
-    { label: "Color", value: "White" },
-    { label: "Packaging Size", value: "25 kg" },
-    { label: "Packaging Type", value: "PP Bags" },
-    { label: "Usage/Application", value: "Paint & Coatings" },
-    { label: "CAS Number", value: "Not specified" },
+    {
+      label: "Product Name",
+      value: "Titanium Dioxide OpaTi (Kilburn)",
+    },
+    {
+      label: "Brand",
+      value: "Kilburn",
+    },
+    {
+      label: "Polymorph Form",
+      value: "Rutile",
+    },
+    {
+      label: "Application",
+      value: "Paint & Coatings",
+    },
+    {
+      label: "Form",
+      value: "Powder",
+    },
+    {
+      label: "Color",
+      value: "White",
+    },
+    {
+      label: "Packaging Size",
+      value: "25 kg",
+    },
+    {
+      label: "Packaging Type",
+      value: "PP Bags",
+    },
+    {
+      label: "Industries",
+      value: "Chemical, Ink, Plastics, Textile, Agriculture",
+    },
   ],
 
   image: [
     {
       src: "/prod/opati.webp",
-      alt: "Titanium Dioxide OpaTi Kilburn Powder",
+      alt: "Titanium Dioxide OpaTi Kilburn",
     },
   ],
 }
