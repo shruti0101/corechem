@@ -8062,136 +8062,136 @@ export const categories = [
       },
 
       
-      {
-        id: "titanium-dioxide-tipure-r902",
+      // {
+      //   id: "titanium-dioxide-tipure-r902",
 
-        name: "Titanium Dioxide (TiO₂) – TI-Pure R902",
+      //   name: "Titanium Dioxide (TiO₂) – TI-Pure R902",
 
-        metaTitle:
-          "Ti-Pure R902 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
+      //   metaTitle:
+      //     "Ti-Pure R902 Titanium Dioxide (TiO₂) Supplier | Corechem Corporation",
 
-        metaDescription:
-          "Buy high-quality Ti-Pure R902 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, dispersion, and long-term performance.",
+      //   metaDescription:
+      //     "Buy high-quality Ti-Pure R902 Titanium Dioxide (TiO₂) from Corechem Corporation. Ideal for applications requiring superior whiteness, opacity, dispersion, and long-term performance.",
 
-        overview:
-          "Titanium Dioxide (TiO₂) – TI-Pure R902 is a premium Rutile grade pigment designed for high-quality paints and coatings applications. Manufactured by TI PURE (DuPont) using the advanced Chloride Process, this grade delivers superior brightness, opacity, and durability.",
+      //   overview:
+      //     "Titanium Dioxide (TiO₂) – TI-Pure R902 is a premium Rutile grade pigment designed for high-quality paints and coatings applications. Manufactured by TI PURE (DuPont) using the advanced Chloride Process, this grade delivers superior brightness, opacity, and durability.",
 
-        description: [
-          {
-            type: "h2",
-            text: "Product Overview",
-          },
+      //   description: [
+      //     {
+      //       type: "h2",
+      //       text: "Product Overview",
+      //     },
 
-          {
-            type: "ul",
-            items: [
-              "The product features an exceptional CIEL value of 99.6%, ensuring outstanding whiteness and superior color consistency in paint formulations.",
-              "Its ivory tone characteristic provides a smooth, refined, and high-quality finish for decorative and industrial coatings.",
-              "TI-Pure R902 is sourced from the USA and is globally recognized for reliable quality and high-performance industrial applications.",
-              "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures dependable supply, competitive pricing, and consistent product quality.",
-              "The product is ideal for decorative paints, industrial coatings, architectural coatings, and applications requiring excellent UV resistance and weather durability.",
-            ],
-          },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "The product features an exceptional CIEL value of 99.6%, ensuring outstanding whiteness and superior color consistency in paint formulations.",
+      //         "Its ivory tone characteristic provides a smooth, refined, and high-quality finish for decorative and industrial coatings.",
+      //         "TI-Pure R902 is sourced from the USA and is globally recognized for reliable quality and high-performance industrial applications.",
+      //         "As a trusted Titanium Dioxide Supplier in India, Corechem Corporation ensures dependable supply, competitive pricing, and consistent product quality.",
+      //         "The product is ideal for decorative paints, industrial coatings, architectural coatings, and applications requiring excellent UV resistance and weather durability.",
+      //       ],
+      //     },
 
-          {
-            type: "h2",
-            text: "Key Features",
-          },
+      //     {
+      //       type: "h2",
+      //       text: "Key Features",
+      //     },
 
-          {
-            type: "ul",
-            items: [
-              "Premium Rutile grade Titanium Dioxide developed for advanced paints and coatings applications.",
-              "High CIEL value of 99.6% delivers exceptional brightness, whiteness, and visual consistency.",
-              "Ivory tone property enhances coating appearance and provides a smooth and elegant finish.",
-              "Manufactured using the Chloride Process for high purity, stable quality, and superior industrial performance.",
-              "Excellent opacity and hiding power ensure maximum surface coverage and coating efficiency.",
-              "Smooth dispersion and uniform particle distribution support easy formulation and processing.",
-              "Strong UV resistance and weather durability improve long-term coating protection and stability.",
-            ],
-          },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Premium Rutile grade Titanium Dioxide developed for advanced paints and coatings applications.",
+      //         "High CIEL value of 99.6% delivers exceptional brightness, whiteness, and visual consistency.",
+      //         "Ivory tone property enhances coating appearance and provides a smooth and elegant finish.",
+      //         "Manufactured using the Chloride Process for high purity, stable quality, and superior industrial performance.",
+      //         "Excellent opacity and hiding power ensure maximum surface coverage and coating efficiency.",
+      //         "Smooth dispersion and uniform particle distribution support easy formulation and processing.",
+      //         "Strong UV resistance and weather durability improve long-term coating protection and stability.",
+      //       ],
+      //     },
 
-          {
-            type: "h2",
-            text: "Applications",
-          },
+      //     {
+      //       type: "h2",
+      //       text: "Applications",
+      //     },
 
-          {
-            type: "ul",
-            items: [
-              "Widely used in decorative paints for enhanced brightness, opacity, and premium surface finish.",
-              "Suitable for industrial coatings requiring superior durability and long-term weather resistance.",
-              "Used in architectural coatings for excellent whiteness, color retention, and visual appeal.",
-              "Applied in protective coatings to improve UV stability and environmental resistance.",
-              "Suitable for water-based and solvent-based paint systems for smooth dispersion and formulation consistency.",
-              "Used in powder coatings to improve coverage, brightness, and coating durability.",
-              "Ideal for high-performance coating applications requiring excellent hiding power and long-lasting finish quality.",
-            ],
-          },
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Widely used in decorative paints for enhanced brightness, opacity, and premium surface finish.",
+      //         "Suitable for industrial coatings requiring superior durability and long-term weather resistance.",
+      //         "Used in architectural coatings for excellent whiteness, color retention, and visual appeal.",
+      //         "Applied in protective coatings to improve UV stability and environmental resistance.",
+      //         "Suitable for water-based and solvent-based paint systems for smooth dispersion and formulation consistency.",
+      //         "Used in powder coatings to improve coverage, brightness, and coating durability.",
+      //         "Ideal for high-performance coating applications requiring excellent hiding power and long-lasting finish quality.",
+      //       ],
+      //     },
 
-          {
-            type: "h2",
-            text: "Why Choose Corechem Corporation",
-          },
+      //     {
+      //       type: "h2",
+      //       text: "Why Choose Corechem Corporation",
+      //     },
 
-          {
-            type: "ul",
-            items: [
-              "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality industrial chemical solutions.",
-              "We provide reliable supply of TI-Pure R902 with consistent product quality and competitive pricing.",
-              "As a leading Titanium Dioxide Supplier in India, we ensure timely delivery and dependable logistics support.",
-              "Our strict quality assurance standards help maintain stable performance and complete customer satisfaction.",
-              "We are also a trusted Calcium Carbonate Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
-              "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
-              "Our commitment to quality, reliability, and long-term business relationships ensures maximum customer confidence.",
-            ],
-          },
-        ],
+      //     {
+      //       type: "ul",
+      //       items: [
+      //         "Corechem Corporation is a trusted Titanium Dioxide Supplier offering premium-quality industrial chemical solutions.",
+      //         "We provide reliable supply of TI-Pure R902 with consistent product quality and competitive pricing.",
+      //         "As a leading Titanium Dioxide Supplier in India, we ensure timely delivery and dependable logistics support.",
+      //         "Our strict quality assurance standards help maintain stable performance and complete customer satisfaction.",
+      //         "We are also a trusted Calcium Carbonate Supplier, Color Pigment Supplier, Lime Powder Supplier, and Lithopone Supplier.",
+      //         "Bulk supply capabilities and responsive customer support make us a preferred partner for manufacturers and industrial clients.",
+      //         "Our commitment to quality, reliability, and long-term business relationships ensures maximum customer confidence.",
+      //       ],
+      //     },
+      //   ],
 
-        specs: [
-          {
-            label: "Grade",
-            value: "R902",
-          },
+      //   specs: [
+      //     {
+      //       label: "Grade",
+      //       value: "R902",
+      //     },
 
-          {
-            label: "Brand",
-            value: "TI PURE (DUPONT)",
-          },
+      //     {
+      //       label: "Brand",
+      //       value: "TI PURE (DUPONT)",
+      //     },
 
-          {
-            label: "Application",
-            value: "Paints",
-          },
+      //     {
+      //       label: "Application",
+      //       value: "Paints",
+      //     },
 
-          {
-            label: "Ciel",
-            value: "99.6%",
-          },
+      //     {
+      //       label: "Ciel",
+      //       value: "99.6%",
+      //     },
 
-          {
-            label: "Tone",
-            value: "Ivory",
-          },
+      //     {
+      //       label: "Tone",
+      //       value: "Ivory",
+      //     },
 
-          {
-            label: "Process",
-            value: "Chloride",
-          },
+      //     {
+      //       label: "Process",
+      //       value: "Chloride",
+      //     },
 
-          {
-            label: "Source",
-            value: "USA",
-          },
-        ],
+      //     {
+      //       label: "Source",
+      //       value: "USA",
+      //     },
+      //   ],
 
-        image: [
-          {
-            src: "/prod/Titanium Dioxide (TiO₂) – Tipure r902 (2).webp",
-            alt: "Titanium Dioxide TI-Pure R902",
-          },
-        ],
-      },
+      //   image: [
+      //     {
+      //       src: "/prod/Titanium Dioxide (TiO₂) – Tipure r902 (2).webp",
+      //       alt: "Titanium Dioxide TI-Pure R902",
+      //     },
+      //   ],
+      // },
 
        {
         id: "dupont-titanium-dioxide-r104",
