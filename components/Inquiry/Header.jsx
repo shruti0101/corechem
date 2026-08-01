@@ -1,7 +1,7 @@
 
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -22,6 +22,14 @@ import ContactForm from "../Popup";
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
   const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsOpen(true);
+    }, 5000);
+  
+    return () => clearTimeout(timer);
+  }, []);
   
 
   return (

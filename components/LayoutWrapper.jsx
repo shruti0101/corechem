@@ -17,7 +17,8 @@ export default function LayoutWrapper({ children }) {
   return (
     <>
 
-       <AutoPopupForm />
+       {/* <AutoPopupForm /> */}
+      {!hideLayout && <AutoPopupForm />}
       {!hideLayout && <Navbar />}
       {!hideLayout && <StickyFooter />}
       {children}
