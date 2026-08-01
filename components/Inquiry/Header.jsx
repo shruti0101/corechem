@@ -99,14 +99,14 @@ export default function Header() {
           <nav className="hidden xl:flex items-center gap-10">
 
             <Link
-              href="#home"
+              href="/inquiry"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               Home
             </Link>
 
             <Link
-              href="#about"
+              href="/inquiry"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               About Us
@@ -115,7 +115,7 @@ export default function Header() {
             {/* PRODUCTS */}
             <div className="group relative">
 
-<Link href="#products">
+<Link href="/inquiry">
 
 
               <button className="flex items-center gap-2 font-semibold text-[17px] hover:text-[#c8921c]">
@@ -134,7 +134,7 @@ export default function Header() {
             </Link> */}
 
             <Link
-              href="#contact"
+              href="/inquiry"
               className="font-semibold text-[17px] hover:text-[#c8921c]"
             >
               Contact Us
@@ -200,21 +200,21 @@ export default function Header() {
 
         <div onClick={() => setMobileMenu(false)} className="flex flex-col p-6">
 
-          <Link href="#" className="py-3 font-medium">
+          <Link href="/inquiry" className="py-3 font-medium">
             Home
           </Link>
 
-          <Link href="#" className="py-3 font-medium">
+          <Link href="/inquiry" className="py-3 font-medium">
             About Us
           </Link>
 
-          <Link href="#" className="py-3 font-medium">
+          <Link href="/inquiry" className="py-3 font-medium">
             Industries
           </Link>
 
           
 
-          <Link href="#" className="py-3 font-medium">
+          <Link href="/inquiry" className="py-3 font-medium">
             Contact Us
           </Link>
 
