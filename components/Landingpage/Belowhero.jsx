@@ -6,6 +6,12 @@ import { ChevronRight, User, Phone, Mail } from "lucide-react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
+import { useState } from "react";
+import axios from "axios";
+import { toast } from "react-toastify";
+
+// for requirement
+
 import "swiper/css";
 import Reveal from "./Reveal";
 import Link from "next/link";
@@ -72,6 +78,60 @@ const products = [
 ];
 
 export default function TitaniumSection() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+  const [loading, setLoading] = useState(false);
+
+  const submitForm = async () => {
+    try {
+      setLoading(true);
+
+      const formData = {
+        platform: "Corechem Titanium Section Home Page",
+        platformEmail: "corechemcorporation@gmail.com",
+        name,
+        phone,
+        email,
+        product: "Titanium Dioxide",
+        message,
+        place: "N/A",
+      };
+
+      const { data } = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        formData,
+      );
+
+      if (data?.success) {
+        toast.success("Form Submitted Successfully");
+
+        setName("");
+        setPhone("");
+        setEmail("");
+        setMessage("");
+      } else {
+        toast.error("Submission Failed");
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error("Server Error");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!phone || phone.length !== 10) {
+      return toast.error("Enter valid phone number");
+    }
+
+    await submitForm();
+  };
+
   return (
     <>
       <Reveal>
@@ -188,7 +248,8 @@ export default function TitaniumSection() {
             within 24 hours.
           </p>
 
-          <form className="">
+          <form onSubmit={handleSubmit}>
+            {" "}
             {/* Full Name */}
             <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-[1fr_1fr_1fr_1fr_auto]">
               {" "}
@@ -196,6 +257,8 @@ export default function TitaniumSection() {
                 <input
                   type="text"
                   placeholder="Full Name"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#4B3089] focus:bg-white"
                 />
               </div>
@@ -204,6 +267,8 @@ export default function TitaniumSection() {
                 <input
                   type="email"
                   placeholder="Email Address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#4B3089] focus:bg-white"
                 />
               </div>
@@ -212,6 +277,8 @@ export default function TitaniumSection() {
                 <input
                   type="tel"
                   placeholder="Phone Number"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#4B3089] focus:bg-white"
                 />
               </div>
@@ -220,25 +287,22 @@ export default function TitaniumSection() {
                 <input
                   type="text"
                   placeholder="Your Requirements"
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   className="h-[60px] w-full rounded-2xl border  bg-slate-50 px-5 text-[15px] outline-none transition-all duration-300 border-[#4B3089] focus:bg-white"
                 />
               </div>
-              <button
-                type="submit"
-                className="group h-[60px] min-w-[220px] rounded-2xl hidden xl:block bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
-              >
-                Request Quote →
+              <div className="hidden md:flex  justify-center items-center  ">
+              <button className="hidden bg-[#423b90] text-white rounded-2xl px-5 py-3 md:flex  " type="submit" disabled={loading}>
+                {loading ? "Submitting..." : "Request Quote →"}
               </button>
+              </div>
             </div>
-
             {/* Button */}
-            <div className=" ;lg:hidden flex xl:hidden  mt-3 justify-center items-center">
+            <div className=" lg:hidden flex xl:hidden  mt-3 justify-center items-center">
               {" "}
-              <button
-                type="submit"
-                className="group h-[60px] min-w-[220px] lg:min-w-[320px] rounded-2xl bg-gradient-to-r from-[#2B4D9D] to-[#4B3089] px-8 font-semibold text-white shadow-lg transition-all duration-300 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(200,146,28,0.35)]"
-              >
-                Request Quote →
+              <button className="bg-[#423b90] rounded-2xl  text-white px-5 py-3" type="submit" disabled={loading}>
+                {loading ? "Submitting..." : "Request Quote →"}
               </button>
             </div>
           </form>
