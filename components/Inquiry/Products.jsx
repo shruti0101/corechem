@@ -10,6 +10,7 @@ import Link from "next/link";
 import { useState } from "react";
 import ContactForm from "../Popup";
 import Category from "./Category";
+import Image from "next/image";
 
 const product = [
   {
@@ -18,7 +19,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) – Jihani",
     code: "6628",
     desc: "High brightness and excellent durability ",
-    price:"290"
+    price: "290",
   },
   {
     id: "titanium-dioxide-kronos-r2310",
@@ -26,7 +27,7 @@ const product = [
     grade: "Titanium Dioxide Kronos",
     code: "R-2310",
     desc: "Premium titanium dioxide with excellent opacity.",
-    price:"285"
+    price: "285",
   },
   {
     id: "titanium-dioxide-kmml-822",
@@ -34,7 +35,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Kmml",
     code: "822",
     desc: "Excellent dispersibility and strong hiding power.",
-    price:"280"
+    price: "280",
   },
   {
     id: "titanium-dioxide-venator-tr92",
@@ -42,7 +43,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Venator",
     code: "TR92",
     desc: "High whiteness and ideal for indoor applications.",
-    price:"257"
+    price: "257",
   },
   {
     id: "titanium-dioxide-kronos-r2220",
@@ -50,7 +51,7 @@ const product = [
     grade: "Titanium Dioxide Kronos",
     code: "R-2220",
     desc: "Premium titanium dioxide with excellent opacity.",
-    price:"285"
+    price: "285",
   },
   {
     id: "titanium-dioxide-dawn-r2195",
@@ -58,7 +59,7 @@ const product = [
     grade: "Titanium Dioxide (TiO₂) - Dawn",
     code: "2195",
     desc: "Premium titanium dioxide with excellent opacity.",
-    price:"290"
+    price: "290",
   },
   // {
   //   id: "titanium-dioxide-r248",
@@ -80,90 +81,84 @@ const product = [
 //     "Carbon Black",
 //   ];
 
-
-
 export default function Products() {
+  const [isOpen, setIsOpen] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-    const [isOpen, setIsOpen] = useState(false);
-      const [loading, setLoading] = useState(false);
+  const [form, setForm] = useState({
+    name: "",
+    phone: "",
+    email: "",
+    product: "",
+    message: "",
+  });
 
-    const [form, setForm] = useState({
-        name: "",
-        phone: "",
-        email: "",
-        product: "",
-        message: "",
-      });
-    
-      const handleChange = (e) => {
+  const handleChange = (e) => {
+    setForm({
+      ...form,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    if (!form.phone || form.phone.length < 10) {
+      toast.error("Please enter a valid phone number");
+      return;
+    }
+
+    try {
+      setLoading(true);
+
+      const payload = {
+        platform: "Corechem Corporation",
+        platformEmail: "corechemcorporation@gmail.com",
+        name: form.name,
+        phone: form.phone,
+        email: form.email,
+        product: form.product,
+        message: form.message,
+        place: "Website Landing Page",
+      };
+
+      const res = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        payload,
+        {
+          validateStatus: (status) => status >= 200 && status < 500,
+        },
+      );
+
+      if (res.status >= 200 && res.status < 300) {
+        toast.success("Inquiry Submitted Successfully!");
+
         setForm({
-          ...form,
-          [e.target.name]: e.target.value,
+          name: "",
+          phone: "",
+          email: "",
+          product: "",
+          message: "",
         });
-      };
-    
-      const handleSubmit = async (e) => {
-        e.preventDefault();
-    
-        if (!form.phone || form.phone.length < 10) {
-          toast.error("Please enter a valid phone number");
-          return;
-        }
-    
-        try {
-          setLoading(true);
-    
-          const payload = {
-            platform: "Corechem Corporation",
-            platformEmail: "corechemcorporation@gmail.com",
-            name: form.name,
-            phone: form.phone,
-            email: form.email,
-            product: form.product,
-            message: form.message,
-            place: "Website Landing Page",
-          };
-    
-          const res = await axios.post(
-            "https://brandbnalo.com/api/form/add",
-            payload,
-            {
-              validateStatus: (status) => status >= 200 && status < 500,
-            },
-          );
-    
-          if (res.status >= 200 && res.status < 300) {
-            toast.success("Inquiry Submitted Successfully!");
-    
-            setForm({
-              name: "",
-              phone: "",
-              email: "",
-              product: "",
-              message: "",
-            });
-          } else {
-            toast.error("Failed to submit inquiry");
-          }
-        } catch (error) {
-          console.log(error);
-          toast.error("Server error. Please try again.");
-        } finally {
-          setLoading(false);
-        }
-      };
+      } else {
+        toast.error("Failed to submit inquiry");
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error("Server error. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <section className="pt-4 md:pt-14 bg-white">
       <div className="max-w-7xl mx-auto px-4 py-3">
-
         {/* Heading */}
         <div className="text-center mb-5 md:mb-10">
           <h2 className="text-4xl md:text-4xl font-bold text-gray-900">
             Our Products
           </h2>
-          <p className="text-gray-600 mt-1">
-            Explore our range
-          </p>
+          <p className="text-gray-600 mt-1">Explore our range</p>
         </div>
 
         {/* Slider */}
@@ -184,11 +179,15 @@ export default function Products() {
         >
           {product.map((product) => (
             <SwiperSlide key={product.id}>
-              <Link href={`/inquiry/${product.id}`}  className="  rounded-xl shadow-sm hover:shadow-lg transition bg-white ">
-
+              <Link
+                href={`/inquiry/${product.id}`}
+                className="  rounded-xl shadow-sm hover:shadow-lg transition bg-white "
+              >
                 {/* Image */}
                 <div className=" bg-gray-100 flex items-center justify-center">
-                  <img
+                  <Image
+                    height={100}
+                    width={100}
                     src={product.image}
                     alt={product.grade}
                     className="h-[250px] w-[270px] scale-130 md:scale-90 md:w-full md:h-full object-cover"
@@ -205,14 +204,15 @@ export default function Products() {
                     Code: {product.code}
                   </p> */}
 
-                   <p className="text-lg font-bold text-black mt-3">
-                   <span className="text-lg">&#8377;</span> {product.price} <span className="text-sm">/KG</span>
-                   </p> 
+                  <p className="text-lg font-bold text-black mt-3">
+                    <span className="text-lg">&#8377;</span> {product.price}{" "}
+                    <span className="text-sm">/KG</span>
+                  </p>
 
                   {/* Buttons */}
                   <div className="flex gap-3 mt-5">
-                    <button onClick={() => setIsOpen(true)}
-                      
+                    <button
+                      onClick={() => setIsOpen(true)}
                       className="flex-1 text-center bg-black text-white py-2 rounded-lg text-lg hover:bg-gray-800"
                     >
                       View Details
@@ -220,7 +220,9 @@ export default function Products() {
 
                     <Link
                       href={"https://wa.link/2fpjmq"}
-                      onClick={(e)=>{e.stopPropagation()}}
+                      onClick={(e) => {
+                        e.stopPropagation();
+                      }}
                       target="_blank"
                       className="flex items-center justify-center gap-2 flex-1 bg-green-600 text-white py-4 rounded-lg text-lg   hover:bg-green-700"
                     >
@@ -228,48 +230,46 @@ export default function Products() {
                     </Link>
                   </div>
                 </div>
-
               </Link>
             </SwiperSlide>
           ))}
         </Swiper>
       </div>
       <section className="relative overflow-hidden bg-gradient-to-r from-[#062347] to-[#0a3a6e] py-4 md:py-6">
-  <div className="container mx-auto px-4 py-4 ">
-    <div className="flex flex-col items-center justify-between gap-5 md:py-6 rounded-3xl border border-[#c8921c]/30 bg-white/10 px-8 py-8 backdrop-blur-md md:flex-row">
-      
-      <div>
-        <h2 className="text-2xl font-bold text-white md:text-3xl">
-          Need a chemical not listed?
-        </h2>
-        <p className="mt-2 text-white/70">
-          Our team can source custom chemicals and specialty products for your requirements.
-        </p>
-      </div>
+        <div className="container mx-auto px-4 py-4 ">
+          <div className="flex flex-col items-center justify-between gap-5 md:py-6 rounded-3xl border border-[#c8921c]/30 bg-white/10 px-8 py-8 backdrop-blur-md md:flex-row">
+            <div>
+              <h2 className="text-2xl font-bold text-white md:text-3xl">
+                Need a chemical not listed?
+              </h2>
+              <p className="mt-2 text-white/70">
+                Our team can source custom chemicals and specialty products for
+                your requirements.
+              </p>
+            </div>
 
-      <Link
-  href="https://wa.link/2fpjmq"
-  target="_blank"
-  className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#c8921c] to-[#e6b53a] px-5 py-3 md:px-8 md:py-4 font-semibold text-white shadow-[0_10px_30px_rgba(200,146,28,0.35)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(200,146,28,0.5)]"
->
-  {/* Shine Effect */}
-  <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-1000 group-hover:translate-x-full" />
+            <Link
+              href="https://wa.link/2fpjmq"
+              target="_blank"
+              className="group relative inline-flex items-center justify-center gap-2 overflow-hidden rounded-full bg-gradient-to-r from-[#c8921c] to-[#e6b53a] px-5 py-3 md:px-8 md:py-4 font-semibold text-white shadow-[0_10px_30px_rgba(200,146,28,0.35)] transition-all duration-500 hover:-translate-y-1 hover:shadow-[0_15px_40px_rgba(200,146,28,0.5)]"
+            >
+              {/* Shine Effect */}
+              <span className="absolute inset-0 -translate-x-full bg-gradient-to-r from-transparent via-white/20 to-transparent transition-transform duration-1000 group-hover:translate-x-full" />
 
-  {/* Pulse Dot */}
-  
+              {/* Pulse Dot */}
 
-  <FaWhatsapp className="relative animate-bounce text-2xl md:text-3xl" />
+              <FaWhatsapp className="relative animate-bounce text-2xl md:text-3xl" />
 
-  <span className="relative text-sm md:text-lg whitespace-nowrap">
-    Chat With Us on WhatsApp
-  </span>
+              <span className="relative text-sm md:text-lg whitespace-nowrap">
+                Chat With Us on WhatsApp
+              </span>
 
-  <FaArrowRight className="relative  text-sm transition-transform duration-300 group-hover:translate-x-1" />
-</Link>
-    </div>
-  </div>
+              <FaArrowRight className="relative  text-sm transition-transform duration-300 group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
 
-  {/* Form Below Banner */}
+        {/* Form Below Banner */}
         {/* <div className="bg-[#f8f8f8] md:hidden px-4 py-4">
           <div className="rounded-3xl bg-white p-5 shadow-[0_20px_60px_rgba(0,0,0,0.3)]">
             <h3 className="text-center text-xl font-bold text-[#062347]">
@@ -348,10 +348,9 @@ export default function Products() {
             </form>
           </div>
         </div> */}
-        <Category/>
-</section>
-{isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
+        <Category />
+      </section>
+      {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
     </section>
-    
   );
 }

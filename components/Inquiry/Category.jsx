@@ -1,9 +1,12 @@
-"use cient"
+"use client"
 import React, { useState } from 'react'
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
-import ContactForm from '../Popup';
-
+import dynamic from 'next/dynamic';
+const ContactForm = dynamic(() => import("../Popup"), {
+  ssr: false,
+  loading: () => null,
+});
 
 const categories = [
   {
