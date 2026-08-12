@@ -9,8 +9,14 @@ const Deals = dynamic(() => import("./Deals"), {
   loading: () => null,
 });
 
+const ContactForm = dynamic(() => import("../Popup"), {
+  ssr: false,
+  loading: () => null,
+});
+
 export default function Hero() {
   const [loading, setLoading] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
 
   const [form, setForm] = useState({
     name: "",
@@ -198,7 +204,7 @@ export default function Hero() {
       </section>
 
       {/* ================= MOBILE HERO ================= */}
-      <section className="relative block md:hidden">
+      <section onClick={()=>{setIsOpen(true)}} className="relative block md:hidden">
         <div className="relative aspect-[16/9] h-[390px] w-full overflow-hidden">
           <Image
             src="/corechem-1.webp"
@@ -214,6 +220,9 @@ export default function Hero() {
 
       {/* Below-fold content */}
       <Deals />
+
+           {isOpen && <ContactForm isOpen={isOpen} setIsOpen={setIsOpen} />}
+
     </>
   );
 }
