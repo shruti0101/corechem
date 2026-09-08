@@ -1,8 +1,8 @@
 import ProductClient from "./ProductClient";
 
 export const metadata = {
-  title: "Our Products – Garbage Bags & Waste Management Solutions | Sangam Plastic Industries",
-  description: "Explore our range of high-quality garbage bags — biodegradable, disposable, biomedical, heavy-duty & eco-friendly waste management solutions from a leading manufacturer.",
+  title: "Titanium Dioxide Products | Rutile, Anatase & Pigments Supplier",
+  description: "Explore premium Titanium Dioxide products including Rutile, Anatase, pigment powders, Lithopone and Carbon Black. Get bulk supply and competitive pricing in India.",
 };
 
 export default function AboutUsPage() {
