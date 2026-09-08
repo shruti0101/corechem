@@ -25,6 +25,8 @@ export default function ContactPage() {
     try {
       const formData = {
         platform: "Corechem Contact Form",
+        supplierToken: "6a1965202b56a9ede272a9ca",
+
         platformEmail: "corechemcorporation@gmail.com",
         name,
         phone,
