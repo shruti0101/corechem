@@ -39,79 +39,79 @@ export default function InquiryProductPageClient({ params }) {
 
   const [loading, setLoading] = useState(false);
 
-const [form, setForm] = useState({
-  name: "",
-  email: "",
-  phone: "",
-  product: product?.name || "",
-  message: `I'm interested in ${product?.name || ""}`,
-});
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    phone: "",
+    product: product?.name || "",
+    message: `I'm interested in ${product?.name || ""}`,
+  });
 
   const handleChange = (e) => {
-  const { name, value } = e.target;
+    const { name, value } = e.target;
 
-  setForm((prev) => ({
-    ...prev,
-    [name]: value,
-  }));
-};
+    setForm((prev) => ({
+      ...prev,
+      [name]: value,
+    }));
+  };
 
   const handleSubmit = async (e) => {
-  e.preventDefault();
+    e.preventDefault();
 
-  if (!form.name.trim()) {
-    toast.error("Please enter your name");
-    return;
-  }
-
-  if (!form.phone || form.phone.length < 10) {
-    toast.error("Please enter a valid phone number");
-    return;
-  }
-
-  try {
-    setLoading(true);
-
-    const payload = {
-      platform: "Corechem Corporation",
-      platformEmail: "corechemcorporation@gmail.com",
-       supplierToken: "6a1965202b56a9ede272a9ca",
-      name: form.name,
-      phone: form.phone,
-      email: form.email,
-      product: form.product,
-      message: form.message,
-      place: "Website Landing Page",
-    };
-
-    const res = await axios.post(
-      "https://brandbnalo.com/api/form/add",
-      payload,
-      {
-        validateStatus: (status) => status >= 200 && status < 500,
-      }
-    );
-
-    if (res.status >= 200 && res.status < 300) {
-      toast.success("Inquiry Submitted Successfully!");
-
-      setForm({
-        name: "",
-        email: "",
-        phone: "",
-        product: product?.name || "",
-        message: `I'm interested in ${product?.name || ""}`,
-      });
-    } else {
-      toast.error("Failed to submit inquiry");
+    if (!form.name.trim()) {
+      toast.error("Please enter your name");
+      return;
     }
-  } catch (error) {
-    console.log(error);
-    toast.error("Server error. Please try again.");
-  } finally {
-    setLoading(false);
-  }
-};
+
+    if (!form.phone || form.phone.length < 10) {
+      toast.error("Please enter a valid phone number");
+      return;
+    }
+
+    try {
+      setLoading(true);
+
+      const payload = {
+        platform: "Corechem Corporation",
+        platformEmail: "corechemcorporation@gmail.com",
+        supplierToken: "6a1965202b56a9ede272a9ca",
+        name: form.name,
+        phone: form.phone,
+        email: form.email,
+        product: form.product,
+        message: form.message,
+        place: "Website Landing Page",
+      };
+
+      const res = await axios.post(
+        "https://brandbnalo.com/api/form/add",
+        payload,
+        {
+          validateStatus: (status) => status >= 200 && status < 500,
+        },
+      );
+
+      if (res.status >= 200 && res.status < 300) {
+        toast.success("Inquiry Submitted Successfully!");
+
+        setForm({
+          name: "",
+          email: "",
+          phone: "",
+          product: product?.name || "",
+          message: `I'm interested in ${product?.name || ""}`,
+        });
+      } else {
+        toast.error("Failed to submit inquiry");
+      }
+    } catch (error) {
+      console.log(error);
+      toast.error("Server error. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
   if (!product) {
     redirect("/");
   }
@@ -162,7 +162,7 @@ const [form, setForm] = useState({
       >
         {/* OVERLAY */}
         <div className="absolute inset-0 bg-white/50" />
-        
+
         {/* GRADIENT */}
         <div className="absolute inset-0 bg-gradient-to-r from-orange-100/70 via-white/40 to-blue-100/70" />
 
@@ -188,17 +188,18 @@ const [form, setForm] = useState({
             </p>
 
             <p className="text-3xl font-bold text-black mt-6">
-                   <span className="text-3xl">&#8377;</span> {product.price} <span className="text-lg mb-2">/KG</span>
-                   </p> 
+              <span className="text-3xl">&#8377;</span> {product.price}{" "}
+              <span className="text-lg mb-2">/KG</span>
+            </p>
 
             {/* BUTTONS */}
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-              href="tel:+919818544039"
+                href="tel:+919818544039"
                 // onClick={() => setIsFormOpen(true)}
                 className="group inline-flex items-center gap-2 rounded-xl bg-[#BE8220] px-7 py-4 font-semibold text-white shadow-xl transition hover:bg-[#e5b712] capitalize"
               >
-               get instant price
+                get instant price
                 <ArrowRight className="h-5 w-5 transition group-hover:translate-x-1" />
               </a>
 
@@ -257,11 +258,13 @@ const [form, setForm] = useState({
             </div>
           </div>
 
-             <div className="lg:sticky lg:top-24 lg:h-fit">
+          <div className="lg:sticky lg:top-24 lg:h-fit">
             <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
               {/* TOP */}
               <div className="bg-[#BE8220] p-3 lg:p-4 xl:px-8 xl:py-8 text-white">
-                <h3 className="text-xl lg:text-2xl xl:text-3xl font-bold">Technical Specifications</h3>
+                <h3 className="text-xl lg:text-2xl xl:text-3xl font-bold">
+                  Technical Specifications
+                </h3>
 
                 <p className="mt-3 text-white/90">
                   Product details and industrial-grade specifications.
@@ -284,197 +287,194 @@ const [form, setForm] = useState({
                 ))}
 
                 {/* CTA */}
-               
               </div>
             </div>
           </div>
-
-
         </div>
       </section>
 
       {/* PRODUCT DETAILS */}
       <section className="relative bg-[#f8fafc] py-8 lg:py-10 xl:py-20">
-  {/* BG */}
-  <div className="absolute inset-0 bg-gradient-to-b from-white to-orange-50/40" />
+        {/* BG */}
+        <div className="absolute inset-0 bg-gradient-to-b from-white to-orange-50/40" />
 
-  <div className="relative mx-auto grid w-full gap-12 px-4 md:px-18 lg:px-20 lg:grid-cols-[1fr_420px] items-start">
-    {/* DESCRIPTION */}
-    <div className="relative">
-      <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
-        Product Overview
-      </span>
+        <div className="relative mx-auto grid w-full gap-12 px-4 md:px-18 lg:px-20 lg:grid-cols-[1fr_420px] items-start">
+          {/* DESCRIPTION */}
+          <div className="relative">
+            <span className="font-semibold uppercase tracking-wide text-[#BE8220]">
+              Product Overview
+            </span>
 
-      <h2 className="mt-4 text-4xl font-extrabold text-[#1e293b] md:text-5xl">
-        Industrial Titanium Dioxide Solutions
-      </h2>
+            <h2 className="mt-4 text-4xl font-extrabold text-[#1e293b] md:text-5xl">
+              Industrial Titanium Dioxide Solutions
+            </h2>
 
-      <div className="mt-10 space-y-6 text-lg leading-8 text-black">
-        {Array.isArray(product.description) ? (
-          product.description.map((block, i) => {
-            if (block.type === "h2")
-              return (
-                <h2
-                  key={i}
-                  className="mt-10 text-3xl font-bold text-[#1e293b]"
-                >
-                  {block.text}
-                </h2>
-              );
+            <div className="mt-10 space-y-6 text-lg leading-8 text-black">
+              {Array.isArray(product.description) ? (
+                product.description.map((block, i) => {
+                  if (block.type === "h2")
+                    return (
+                      <h2
+                        key={i}
+                        className="mt-10 text-3xl font-bold text-[#1e293b]"
+                      >
+                        {block.text}
+                      </h2>
+                    );
 
-            if (block.type === "p")
-              return (
-                <p
-                  key={i}
-                  dangerouslySetInnerHTML={{
-                    __html: block.text,
-                  }}
-                />
-              );
-
-            if (block.type === "ul")
-              return (
-                <ul key={i} className="space-y-5">
-                  {block.items.map((item, j) => (
-                    <li key={j} className="flex items-start gap-4">
-                      <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-[#BE8220]" />
-
-                      <span
+                  if (block.type === "p")
+                    return (
+                      <p
+                        key={i}
                         dangerouslySetInnerHTML={{
-                          __html: item,
+                          __html: block.text,
                         }}
                       />
-                    </li>
-                  ))}
-                </ul>
-              );
-          })
-        ) : (
-          <p>{product.description}</p>
-        )}
-      </div>
-    </div>
+                    );
 
-    {/* STICKY FORM */}
-    <div className="relative">
-      <div className="sticky top-24">
-        <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
-          {/* HEADER */}
-          <div className="bg-gradient-to-r from-[#BE8220] to-[#d89a31] px-8 py-8 text-white">
-            <h3 className="text-3xl font-bold capitalize">
-              Get a Free Quote
-            </h3>
+                  if (block.type === "ul")
+                    return (
+                      <ul key={i} className="space-y-5">
+                        {block.items.map((item, j) => (
+                          <li key={j} className="flex items-start gap-4">
+                            <CheckCircle2 className="mt-1 h-6 w-6 shrink-0 text-[#BE8220]" />
 
-            <p className="mt-3 text-white/90">
-              Get pricing, technical details, and supply information for this
-              Titanium Dioxide product.
-            </p>
+                            <span
+                              dangerouslySetInnerHTML={{
+                                __html: item,
+                              }}
+                            />
+                          </li>
+                        ))}
+                      </ul>
+                    );
+                })
+              ) : (
+                <p>{product.description}</p>
+              )}
+            </div>
           </div>
 
-          {/* FORM */}
-          <div className="p-8">
-           <form onSubmit={handleSubmit} className="space-y-5">
-  {/* NAME */}
-  <div>
-    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-      Full Name
-    </label>
+          {/* STICKY FORM */}
+          <div className="relative">
+            <div className="sticky top-24">
+              <div className="overflow-hidden rounded-[36px] border border-white bg-white shadow-[0_20px_80px_rgba(15,23,42,0.08)]">
+                {/* HEADER */}
+                <div className="bg-gradient-to-r from-[#BE8220] to-[#d89a31] px-8 py-8 text-white">
+                  <h3 className="text-3xl font-bold capitalize">
+                    Get a Free Quote
+                  </h3>
 
-    <input
-      type="text"
-      name="name"
-      value={form.name}
-      onChange={handleChange}
-      placeholder="Enter your full name"
-      required
-      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-    />
-  </div>
+                  <p className="mt-3 text-white/90">
+                    Get pricing, technical details, and supply information for
+                    this Titanium Dioxide product.
+                  </p>
+                </div>
 
-  {/* EMAIL */}
-  <div>
-    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-      Email Address
-    </label>
+                {/* FORM */}
+                <div className="p-8">
+                  <form onSubmit={handleSubmit} className="space-y-5">
+                    {/* NAME */}
+                    <div>
+                      <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                        Full Name
+                      </label>
 
-    <input
-      type="email"
-      name="email"
-      value={form.email}
-      onChange={handleChange}
-      placeholder="Enter your email"
-      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-    />
-  </div>
+                      <input
+                        type="text"
+                        name="name"
+                        value={form.name}
+                        onChange={handleChange}
+                        placeholder="Enter your full name"
+                        required
+                        className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                      />
+                    </div>
 
-  {/* PHONE */}
-  <div>
-    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-      Phone Number
-    </label>
+                    {/* EMAIL */}
+                    <div>
+                      <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                        Email Address
+                      </label>
 
-    <input
-      type="tel"
-      name="phone"
-      value={form.phone}
-      onChange={handleChange}
-      maxLength={10}
-      required
-      placeholder="Enter your phone number"
-      className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-    />
-  </div>
+                      <input
+                        type="email"
+                        name="email"
+                        value={form.email}
+                        onChange={handleChange}
+                        placeholder="Enter your email"
+                        className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                      />
+                    </div>
 
-  {/* MESSAGE */}
-  <div>
-    <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
-      Message
-    </label>
+                    {/* PHONE */}
+                    <div>
+                      <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                        Phone Number
+                      </label>
 
-    <textarea
-      rows={5}
-      name="message"
-      value={form.message}
-      onChange={handleChange}
-      className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
-    />
-  </div>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={form.phone}
+                        onChange={handleChange}
+                        maxLength={10}
+                        required
+                        placeholder="Enter your phone number"
+                        className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                      />
+                    </div>
 
-  {/* SUBMIT */}
-  <button
-    type="submit"
-    disabled={loading}
-    className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d] disabled:opacity-60 disabled:cursor-not-allowed"
-  >
-    {loading ? "Submitting..." : "Submit Inquiry"}
-  </button>
+                    {/* MESSAGE */}
+                    <div>
+                      <label className="mb-2 block text-sm font-semibold text-[#1e293b]">
+                        Message
+                      </label>
 
-  {/* ACTIONS */}
-  <div className="grid grid-cols-2 gap-4 pt-2">
-    <a
-      href="/CC catalogue 2_compressed.pdf"
-      download
-      className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
-    >
-      <Download className="h-4 w-4" />
-      Brochure
-    </a>
+                      <textarea
+                        rows={5}
+                        name="message"
+                        value={form.message}
+                        onChange={handleChange}
+                        className="w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 py-4 text-slate-700 outline-none transition focus:border-[#BE8220] focus:bg-white"
+                      />
+                    </div>
 
-    <a
-      href="tel:+919818544039"
-      className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
-    >
-      <Phone className="h-4 w-4" />
-      Call Now
-    </a>
-  </div>
-</form>
+                    {/* SUBMIT */}
+                    <button
+                      type="submit"
+                      disabled={loading}
+                      className="flex h-14 w-full items-center justify-center rounded-2xl bg-[#BE8220] font-semibold text-white shadow-lg transition hover:bg-[#a36f1d] disabled:opacity-60 disabled:cursor-not-allowed"
+                    >
+                      {loading ? "Submitting..." : "Submit Inquiry"}
+                    </button>
+
+                    {/* ACTIONS */}
+                    <div className="grid grid-cols-2 gap-4 pt-2">
+                      <a
+                        href="/PRODUCT CATALOGUE.pdf"
+                        download
+                        className="flex items-center justify-center gap-2 rounded-2xl border border-slate-200 bg-white px-4 py-3 text-sm font-semibold text-slate-700 transition hover:border-[#BE8220] hover:text-[#BE8220]"
+                      >
+                        <Download className="h-4 w-4" />
+                        Brochure
+                      </a>
+
+                      <a
+                        href="tel:+919818544039"
+                        className="flex items-center justify-center gap-2 rounded-2xl border border-orange-200 bg-orange-50 px-4 py-3 text-sm font-semibold text-[#BE8220] transition hover:bg-orange-100"
+                      >
+                        <Phone className="h-4 w-4" />
+                        Call Now
+                      </a>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</section>
+      </section>
 
       {/*add related prods here  */}
       {/* RELATED PRODUCTS */}
@@ -487,9 +487,9 @@ const [form, setForm] = useState({
             );
 
             const relatedProducts =
-  currentCategory?.products
-    .filter((p) => p.id !== product.id)
-    .slice(0, 6) || [];
+              currentCategory?.products
+                .filter((p) => p.id !== product.id)
+                .slice(0, 6) || [];
 
             if (relatedProducts.length === 0) return null;
 
@@ -543,7 +543,6 @@ const [form, setForm] = useState({
                     </Link>
                   ))}
                 </div>
-                 
               </>
             );
           })()}
