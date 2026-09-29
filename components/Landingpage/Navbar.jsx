@@ -75,7 +75,7 @@ export default function Navbar() {
 
       {/* ================= MAIN NAVBAR ================= */}
       <div className="h-[85px] bg-white">
-        <div className="mx-auto flex h-full max-w-[1700px] items-center justify-between px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto flex h-full max-w-[1700px] items-center justify-between px-2 sm:px-6 lg:px-10">
           {/* LOGO */}
           <Link href="/" className="shrink-0">
             <Image
@@ -84,17 +84,24 @@ export default function Navbar() {
               width={260}
               height={100}
               priority
-              className="h-auto w-[200px] sm:w-[220px] lg:w-[340px]"
+              className="h-auto w-[195px] sm:w-[220px] lg:w-[340px]"
             />
           </Link>
 
-          <div>
+          <div className="gap-2 flex">
             <button
               onClick={() => setIsOpen(true)}
-              className="bg-[#2B4D9D] md:hidden px-2 py-3 text-white rounded-xl"
+              className="bg-[#2B4D9D] md:hidden text-sm px-2 py-3 text-white rounded-xl"
             >
               Get Quote
             </button>
+            <a
+            href="/PRODUCT CATALOGUE.pdf"
+            download
+            className="flex underline bg-[#2B4D9D]  md:hidden px-3 py-2 items-center rounded-xl text-sm gap-2"
+          >
+              <Download className="h-5 w-5 text-[#F5F6F9]" />
+           </a>
           </div>
 
           {/* DESKTOP MENU */}
@@ -170,7 +177,7 @@ export default function Navbar() {
           {/* MOBILE BUTTON */}
           <button
             onClick={() => setMobileMenu(!mobileMenu)}
-            className="xl:hidden"
+            className="xl:hidden "
           >
             {mobileMenu ? <X size={30} /> : <Menu size={30} />}
           </button>
