@@ -421,6 +421,7 @@ export default function ProductPage({ params }) {
                         name="phone"
                         value={form.phone}
                         onChange={handleChange}
+                        pattern="[0-9]{10}"
                         maxLength={10}
                         placeholder="Enter your phone number"
                         className="h-14 w-full rounded-2xl border border-slate-200 bg-[#f8fafc] px-5 text-slate-700 outline-none transition focus:border-[#2B4D9D] focus:bg-white"
