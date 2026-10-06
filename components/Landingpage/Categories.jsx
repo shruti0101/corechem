@@ -41,8 +41,8 @@ const services = [
   },
 
   {
-    title: "Color Pigment",
-    href:"/categories/color-pigment",
+    title: "Color Pigment Supplier",
+    href:"color-pigment-supplier",
     desc: "Vibrant and long-lasting color pigments ideal for paints, plastics, rubber, and industrial formulations.",
     image: "/cat1.jpg",
     icon: Palette,

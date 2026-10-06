@@ -21,8 +21,8 @@ const categories = [
     href: "/categories/titanium-dioxide-rutile",
   },
   {
-    title: "Color Pigment",
-    href: "/categories/color-pigment",
+    title: "Color Pigment Supplier",
+    href: "/categories/color-pigment-supplier",
   },
   {
     title: "Pigment Powder",

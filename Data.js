@@ -10165,15 +10165,15 @@ id: "anatase",
     ]
   },
   {
-    id: "color-pigment",
+    id: "color-pigment-supplier",
 
-    name: "Color Pigment",
+    name: "Color Pigment Supplier",
 
     metaTitle:
-      "Color Pigment Category | Industrial Pigments Supplier | Corechem Corporation",
+      "Color Pigment Supplier | Industrial Pigments Corechem Corporation",
 
     metaDescription:
-      "Explore high-quality color pigments for paints, coatings, plastics, inks, rubber, and industrial applications. Vibrant shades and consistent performance.",
+      "Looking for a reliable color pigment supplier? Explore high-quality pigments for plastics, paints, coatings, textiles industrial applications. Corechem Corporation",
     overview:
       "Titanium Dioxide Powder is a premium Rutile grade pigment specially developed for masterbatch and plastic processing applications. The product offers excellent whiteness, opacity, and color consistency for high-performance industrial formulations. ",
 
